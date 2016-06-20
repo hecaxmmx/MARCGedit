@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup sort="true" name="MARC: Language">
+
+<Tag name="Afar"><Begin>aar</Begin></Tag>
+<Tag name="Abkhaz"><Begin>abk</Begin></Tag>
+<Tag name="Achinese"><Begin>ace</Begin></Tag>
+<Tag name="Acoli"><Begin>ach</Begin></Tag>
+<Tag name="Adangme"><Begin>ada</Begin></Tag>
+<Tag name="Adygei"><Begin>ady</Begin></Tag>
+<Tag name="Afroasiatic (Other)"><Begin>afa</Begin></Tag>
+<Tag name="Afrihili (Artificial language)"><Begin>afh</Begin></Tag>
+<Tag name="Afrikaans"><Begin>afr</Begin></Tag>
+<Tag name="Ainu"><Begin>ain</Begin></Tag>
+<Tag name="Aljamía"><Begin>-ajm</Begin></Tag>
+<Tag name="Akan"><Begin>aka</Begin></Tag>
+<Tag name="Akkadian"><Begin>akk</Begin></Tag>
+<Tag name="Albanian"><Begin>alb</Begin></Tag>
+<Tag name="Aleut"><Begin>ale</Begin></Tag>
+<Tag name="Algonquian (Other)"><Begin>alg</Begin></Tag>
+<Tag name="Altai"><Begin>alt</Begin></Tag>
+<Tag name="Amharic"><Begin>amh</Begin></Tag>
+<Tag name="English, Old (ca. 450-1100)"><Begin>ang</Begin></Tag>
+<Tag name="Angika"><Begin>anp</Begin></Tag>
+<Tag name="Apache languages"><Begin>apa</Begin></Tag>
+<Tag name="Arabic"><Begin>ara</Begin></Tag>
+<Tag name="Aramaic"><Begin>arc</Begin></Tag>
+<Tag name="Aragonese"><Begin>arg</Begin></Tag>
+<Tag name="Armenian"><Begin>arm</Begin></Tag>
+<Tag name="Mapuche"><Begin>arn</Begin></Tag>
+<Tag name="Arapaho"><Begin>arp</Begin></Tag>
+<Tag name="Artificial (Other)"><Begin>art</Begin></Tag>
+<Tag name="Arawak"><Begin>arw</Begin></Tag>
+<Tag name="Assamese"><Begin>asm</Begin></Tag>
+<Tag name="Bable"><Begin>ast</Begin></Tag>
+<Tag name="Athapascan (Other)"><Begin>ath</Begin></Tag>
+<Tag name="Australian languages"><Begin>aus</Begin></Tag>
+<Tag name="Avaric"><Begin>ava</Begin></Tag>
+<Tag name="Avestan"><Begin>ave</Begin></Tag>
+<Tag name="Awadhi"><Begin>awa</Begin></Tag>
+<Tag name="Aymara"><Begin>aym</Begin></Tag>
+<Tag name="Azerbaijani"><Begin>aze</Begin></Tag>
+<Tag name="Banda languages"><Begin>bad</Begin></Tag>
+<Tag name="Bamileke languages"><Begin>bai</Begin></Tag>
+<Tag name="Bashkir"><Begin>bak</Begin></Tag>
+<Tag name="Baluchi"><Begin>bal</Begin></Tag>
+<Tag name="Bambara"><Begin>bam</Begin></Tag>
+<Tag name="Balinese"><Begin>ban</Begin></Tag>
+<Tag name="Basque"><Begin>baq</Begin></Tag>
+<Tag name="Basa"><Begin>bas</Begin></Tag>
+<Tag name="Baltic (Other)"><Begin>bat</Begin></Tag>
+<Tag name="Beja"><Begin>bej</Begin></Tag>
+<Tag name="Belarusian"><Begin>bel</Begin></Tag>
+<Tag name="Bemba"><Begin>bem</Begin></Tag>
+<Tag name="Bengali"><Begin>ben</Begin></Tag>
+<Tag name="Berber (Other)"><Begin>ber</Begin></Tag>
+<Tag name="Bhojpuri"><Begin>bho</Begin></Tag>
+<Tag name="Bihari (Other)"><Begin>bih</Begin></Tag>
+<Tag name="Bikol"><Begin>bik</Begin></Tag>
+<Tag name="Edo"><Begin>bin</Begin></Tag>
+<Tag name="Bislama"><Begin>bis</Begin></Tag>
+<Tag name="Siksika"><Begin>bla</Begin></Tag>
+<Tag name="Bantu (Other)"><Begin>bnt</Begin></Tag>
+<Tag name="Bosnian"><Begin>bos</Begin></Tag>
+<Tag name="Braj"><Begin>bra</Begin></Tag>
+<Tag name="Breton"><Begin>bre</Begin></Tag>
+<Tag name="Batak"><Begin>btk</Begin></Tag>
+<Tag name="Buriat"><Begin>bua</Begin></Tag>
+<Tag name="Bugis"><Begin>bug</Begin></Tag>
+<Tag name="Bulgarian"><Begin>bul</Begin></Tag>
+<Tag name="Burmese"><Begin>bur</Begin></Tag>
+<Tag name="Bilin"><Begin>byn</Begin></Tag>
+<Tag name="Caddo"><Begin>cad</Begin></Tag>
+<Tag name="Central American Indian (Other)"><Begin>cai</Begin></Tag>
+<Tag name="Khmer"><Begin>-cam</Begin></Tag>
+<Tag name="Carib"><Begin>car</Begin></Tag>
+<Tag name="Catalan"><Begin>cat</Begin></Tag>
+<Tag name="Caucasian (Other)"><Begin>cau</Begin></Tag>
+<Tag name="Cebuano"><Begin>ceb</Begin></Tag>
+<Tag name="Celtic (Other)"><Begin>cel</Begin></Tag>
+<Tag name="Chamorro"><Begin>cha</Begin></Tag>
+<Tag name="Chibcha"><Begin>chb</Begin></Tag>
+<Tag name="Chechen"><Begin>che</Begin></Tag>
+<Tag name="Chagatai"><Begin>chg</Begin></Tag>
+<Tag name="Chinese"><Begin>chi</Begin></Tag>
+<Tag name="Chuukese"><Begin>chk</Begin></Tag>
+<Tag name="Mari"><Begin>chm</Begin></Tag>
+<Tag name="Chinook jargon"><Begin>chn</Begin></Tag>
+<Tag name="Choctaw"><Begin>cho</Begin></Tag>
+<Tag name="Chipewyan"><Begin>chp</Begin></Tag>
+<Tag name="Cherokee"><Begin>chr</Begin></Tag>
+<Tag name="Church Slavic"><Begin>chu</Begin></Tag>
+<Tag name="Chuvash"><Begin>chv</Begin></Tag>
+<Tag name="Cheyenne"><Begin>chy</Begin></Tag>
+<Tag name="Chamic languages"><Begin>cmc</Begin></Tag>
+<Tag name="Coptic"><Begin>cop</Begin></Tag>
+<Tag name="Cornish"><Begin>cor</Begin></Tag>
+<Tag name="Corsican"><Begin>cos</Begin></Tag>
+<Tag name="Creoles and Pidgins, English-based (Other)"><Begin>cpe</Begin></Tag>
+<Tag name="Creoles and Pidgins, French-based (Other)"><Begin>cpf</Begin></Tag>
+<Tag name="Creoles and Pidgins, Portuguese-based (Other)"><Begin>cpp</Begin></Tag>
+<Tag name="Cree"><Begin>cre</Begin></Tag>
+<Tag name="Crimean Tatar"><Begin>crh</Begin></Tag>
+<Tag name="Creoles and Pidgins (Other)"><Begin>crp</Begin></Tag>
+<Tag name="Kashubian"><Begin>csb</Begin></Tag>
+<Tag name="Cushitic (Other)"><Begin>cus</Begin></Tag>
+<Tag name="Czech"><Begin>cze</Begin></Tag>
+<Tag name="Dakota"><Begin>dak</Begin></Tag>
+<Tag name="Danish"><Begin>dan</Begin></Tag>
+<Tag name="Dargwa"><Begin>dar</Begin></Tag>
+<Tag name="Dayak"><Begin>day</Begin></Tag>
+<Tag name="Delaware"><Begin>del</Begin></Tag>
+<Tag name="Slavey"><Begin>den</Begin></Tag>
+<Tag name="Dogrib"><Begin>dgr</Begin></Tag>
+<Tag name="Dinka"><Begin>din</Begin></Tag>
+<Tag name="Divehi"><Begin>div</Begin></Tag>
+<Tag name="Dogri"><Begin>doi</Begin></Tag>
+<Tag name="Dravidian (Other)"><Begin>dra</Begin></Tag>
+<Tag name="Lower Sorbian"><Begin>dsb</Begin></Tag>
+<Tag name="Duala"><Begin>dua</Begin></Tag>
+<Tag name="Dutch, Middle (ca. 1050-1350)"><Begin>dum</Begin></Tag>
+<Tag name="Dutch"><Begin>dut</Begin></Tag>
+<Tag name="Dyula"><Begin>dyu</Begin></Tag>
+<Tag name="Dzongkha"><Begin>dzo</Begin></Tag>
+<Tag name="Efik"><Begin>efi</Begin></Tag>
+<Tag name="Egyptian"><Begin>egy</Begin></Tag>
+<Tag name="Ekajuk"><Begin>eka</Begin></Tag>
+<Tag name="Elamite"><Begin>elx</Begin></Tag>
+<Tag name="English"><Begin>eng</Begin></Tag>
+<Tag name="English, Middle (1100-1500)"><Begin>enm</Begin></Tag>
+<Tag name="Esperanto"><Begin>epo</Begin></Tag>
+<Tag name="Eskimo languages"><Begin>-esk</Begin></Tag>
+<Tag name="Esperanto"><Begin>-esp</Begin></Tag>
+<Tag name="Estonian"><Begin>est</Begin></Tag>
+<Tag name="Ethiopic"><Begin>-eth</Begin></Tag>
+<Tag name="Ewe"><Begin>ewe</Begin></Tag>
+<Tag name="Ewondo"><Begin>ewo</Begin></Tag>
+<Tag name="Fang"><Begin>fan</Begin></Tag>
+<Tag name="Faroese"><Begin>fao</Begin></Tag>
+<Tag name="Faroese"><Begin>-far</Begin></Tag>
+<Tag name="Fanti"><Begin>fat</Begin></Tag>
+<Tag name="Fijian"><Begin>fij</Begin></Tag>
+<Tag name="Filipino"><Begin>fil</Begin></Tag>
+<Tag name="Finnish"><Begin>fin</Begin></Tag>
+<Tag name="Finno-Ugrian (Other)"><Begin>fiu</Begin></Tag>
+<Tag name="Fon"><Begin>fon</Begin></Tag>
+<Tag name="French"><Begin>fre</Begin></Tag>
+<Tag name="Frisian"><Begin>-fri</Begin></Tag>
+<Tag name="French, Middle (ca. 1300-1600)"><Begin>frm</Begin></Tag>
+<Tag name="French, Old (ca. 842-1300)"><Begin>fro</Begin></Tag>
+<Tag name="North Frisian"><Begin>frr</Begin></Tag>
+<Tag name="East Frisian"><Begin>frs</Begin></Tag>
+<Tag name="Frisian"><Begin>fry</Begin></Tag>
+<Tag name="Fula"><Begin>ful</Begin></Tag>
+<Tag name="Friulian"><Begin>fur</Begin></Tag>
+<Tag name="Gã"><Begin>gaa</Begin></Tag>
+<Tag name="Scottish Gaelix"><Begin>-gae</Begin></Tag>
+<Tag name="Galician"><Begin>-gag</Begin></Tag>
+<Tag name="Oromo"><Begin>-gal</Begin></Tag>
+<Tag name="Gayo"><Begin>gay</Begin></Tag>
+<Tag name="Gbaya"><Begin>gba</Begin></Tag>
+<Tag name="Germanic (Other)"><Begin>gem</Begin></Tag>
+<Tag name="Georgian"><Begin>geo</Begin></Tag>
+<Tag name="German"><Begin>ger</Begin></Tag>
+<Tag name="Ethiopic"><Begin>gez</Begin></Tag>
+<Tag name="Gilbertese"><Begin>gil</Begin></Tag>
+<Tag name="Scottish Gaelic"><Begin>gla</Begin></Tag>
+<Tag name="Irish"><Begin>gle</Begin></Tag>
+<Tag name="Galician"><Begin>glg</Begin></Tag>
+<Tag name="Manx"><Begin>glv</Begin></Tag>
+<Tag name="German, Middle High (ca. 1050-1500)"><Begin>gmh</Begin></Tag>
+<Tag name="German, Old High (ca. 750-1050)"><Begin>goh</Begin></Tag>
+<Tag name="Gondi"><Begin>gon</Begin></Tag>
+<Tag name="Gorontalo"><Begin>gor</Begin></Tag>
+<Tag name="Gothic"><Begin>got</Begin></Tag>
+<Tag name="Grebo"><Begin>grb</Begin></Tag>
+<Tag name="Greek, Ancient (to 1453)"><Begin>grc</Begin></Tag>
+<Tag name="Greek, Modern (1453-)"><Begin>gre</Begin></Tag>
+<Tag name="Guarani"><Begin>grn</Begin></Tag>
+<Tag name="Swiss German"><Begin>gsw</Begin></Tag>
+<Tag name="Guarani"><Begin>-gua</Begin></Tag>
+<Tag name="Gujarati"><Begin>guj</Begin></Tag>
+<Tag name="Gwich'in"><Begin>gwi</Begin></Tag>
+<Tag name="Haida"><Begin>hai</Begin></Tag>
+<Tag name="Haitian French Creole"><Begin>hat</Begin></Tag>
+<Tag name="Hausa"><Begin>hau</Begin></Tag>
+<Tag name="Hawaiian"><Begin>haw</Begin></Tag>
+<Tag name="Hebrew"><Begin>heb</Begin></Tag>
+<Tag name="Herero"><Begin>her</Begin></Tag>
+<Tag name="Hiligaynon"><Begin>hil</Begin></Tag>
+<Tag name="Western Pahari languages"><Begin>him</Begin></Tag>
+<Tag name="Hindi"><Begin>hin</Begin></Tag>
+<Tag name="Hittite"><Begin>hit</Begin></Tag>
+<Tag name="Hmong"><Begin>hmn</Begin></Tag>
+<Tag name="Hiri Motu"><Begin>hmo</Begin></Tag>
+<Tag name="Croatian"><Begin>hrv</Begin></Tag>
+<Tag name="Upper Sorbian"><Begin>hsb</Begin></Tag>
+<Tag name="Hungarian"><Begin>hun</Begin></Tag>
+<Tag name="Hupa"><Begin>hup</Begin></Tag>
+<Tag name="Iban"><Begin>iba</Begin></Tag>
+<Tag name="Igbo"><Begin>ibo</Begin></Tag>
+<Tag name="Icelandic"><Begin>ice</Begin></Tag>
+<Tag name="Ido"><Begin>ido</Begin></Tag>
+<Tag name="Sichuan Yi"><Begin>iii</Begin></Tag>
+<Tag name="Ijo"><Begin>ijo</Begin></Tag>
+<Tag name="Inuktitut"><Begin>iku</Begin></Tag>
+<Tag name="Interlingue"><Begin>ile</Begin></Tag>
+<Tag name="Iloko"><Begin>ilo</Begin></Tag>
+<Tag name="Interlingua (International Auxiliary Language Association)"><Begin>ina</Begin></Tag>
+<Tag name="Indic (Other)"><Begin>inc</Begin></Tag>
+<Tag name="Indonesian"><Begin>ind</Begin></Tag>
+<Tag name="Indo-European (Other)"><Begin>ine</Begin></Tag>
+<Tag name="Ingush"><Begin>inh</Begin></Tag>
+<Tag name="Interlingua (International Auxiliary Language Association)"><Begin>-int</Begin></Tag>
+<Tag name="Inupiaq"><Begin>ipk</Begin></Tag>
+<Tag name="Iranian (Other)"><Begin>ira</Begin></Tag>
+<Tag name="Irish"><Begin>-iri</Begin></Tag>
+<Tag name="Iroquoian (Other)"><Begin>iro</Begin></Tag>
+<Tag name="Italian"><Begin>ita</Begin></Tag>
+<Tag name="Javanese"><Begin>jav</Begin></Tag>
+<Tag name="Lojban (Artificial language)"><Begin>jbo</Begin></Tag>
+<Tag name="Japanese"><Begin>jpn</Begin></Tag>
+<Tag name="Judeo-Persian"><Begin>jpr</Begin></Tag>
+<Tag name="Judeo-Arabic"><Begin>jrb</Begin></Tag>
+<Tag name="Kara-Kalpak"><Begin>kaa</Begin></Tag>
+<Tag name="Kabyle"><Begin>kab</Begin></Tag>
+<Tag name="Kachin"><Begin>kac</Begin></Tag>
+<Tag name="Kalâtdlisut"><Begin>kal</Begin></Tag>
+<Tag name="Kamba"><Begin>kam</Begin></Tag>
+<Tag name="Kannada"><Begin>kan</Begin></Tag>
+<Tag name="Karen languages"><Begin>kar</Begin></Tag>
+<Tag name="Kashmiri"><Begin>kas</Begin></Tag>
+<Tag name="Kanuri"><Begin>kau</Begin></Tag>
+<Tag name="Kawi"><Begin>kaw</Begin></Tag>
+<Tag name="Kazakh"><Begin>kaz</Begin></Tag>
+<Tag name="Kabardian"><Begin>kbd</Begin></Tag>
+<Tag name="Khasi"><Begin>kha</Begin></Tag>
+<Tag name="Khoisan (Other)"><Begin>khi</Begin></Tag>
+<Tag name="Khmer"><Begin>khm</Begin></Tag>
+<Tag name="Khotanese"><Begin>kho</Begin></Tag>
+<Tag name="Kikuyu"><Begin>kik</Begin></Tag>
+<Tag name="Kinyarwanda"><Begin>kin</Begin></Tag>
+<Tag name="Kyrgyz"><Begin>kir</Begin></Tag>
+<Tag name="Kimbundu"><Begin>kmb</Begin></Tag>
+<Tag name="Konkani"><Begin>kok</Begin></Tag>
+<Tag name="Komi"><Begin>kom</Begin></Tag>
+<Tag name="Kongo"><Begin>kon</Begin></Tag>
+<Tag name="Korean"><Begin>kor</Begin></Tag>
+<Tag name="Kosraean"><Begin>kos</Begin></Tag>
+<Tag name="Kpelle"><Begin>kpe</Begin></Tag>
+<Tag name="Karachay-Balkar"><Begin>krc</Begin></Tag>
+<Tag name="Karelian"><Begin>krl</Begin></Tag>
+<Tag name="Kru (Other)"><Begin>kro</Begin></Tag>
+<Tag name="Kurukh"><Begin>kru</Begin></Tag>
+<Tag name="Kuanyama"><Begin>kua</Begin></Tag>
+<Tag name="Kumyk"><Begin>kum</Begin></Tag>
+<Tag name="Kurdish"><Begin>kur</Begin></Tag>
+<Tag name="Kusaie"><Begin>-kus</Begin></Tag>
+<Tag name="Kootenai"><Begin>kut</Begin></Tag>
+<Tag name="Ladino"><Begin>lad</Begin></Tag>
+<Tag name="Lahndā"><Begin>lah</Begin></Tag>
+<Tag name="Lamba (Zambia and Congo)"><Begin>lam</Begin></Tag>
+<Tag name="Occitan (post 1500)"><Begin>-lan</Begin></Tag>
+<Tag name="Lao"><Begin>lao</Begin></Tag>
+<Tag name="Sami"><Begin>-lap</Begin></Tag>
+<Tag name="Latin"><Begin>lat</Begin></Tag>
+<Tag name="Latvian"><Begin>lav</Begin></Tag>
+<Tag name="Lezgian"><Begin>lez</Begin></Tag>
+<Tag name="Limburgish"><Begin>lim</Begin></Tag>
+<Tag name="Lingala"><Begin>lin</Begin></Tag>
+<Tag name="Lithuanian"><Begin>lit</Begin></Tag>
+<Tag name="Mongo-Nkundu"><Begin>lol</Begin></Tag>
+<Tag name="Lozi"><Begin>loz</Begin></Tag>
+<Tag name="Luxembourgish"><Begin>ltz</Begin></Tag>
+<Tag name="Luba-Lulua"><Begin>lua</Begin></Tag>
+<Tag name="Luba-Katanga"><Begin>lub</Begin></Tag>
+<Tag name="Ganda"><Begin>lug</Begin></Tag>
+<Tag name="Luiseño"><Begin>lui</Begin></Tag>
+<Tag name="Lunda"><Begin>lun</Begin></Tag>
+<Tag name="Luo (Kenya and Tanzania)"><Begin>luo</Begin></Tag>
+<Tag name="Lushai"><Begin>lus</Begin></Tag>
+<Tag name="Macedonian"><Begin>mac</Begin></Tag>
+<Tag name="Madurese"><Begin>mad</Begin></Tag>
+<Tag name="Magahi"><Begin>mag</Begin></Tag>
+<Tag name="Marshallese"><Begin>mah</Begin></Tag>
+<Tag name="Maithili"><Begin>mai</Begin></Tag>
+<Tag name="Makasar"><Begin>mak</Begin></Tag>
+<Tag name="Malayalam"><Begin>mal</Begin></Tag>
+<Tag name="Mandingo"><Begin>man</Begin></Tag>
+<Tag name="Maori"><Begin>mao</Begin></Tag>
+<Tag name="Austronesian (Other)"><Begin>map</Begin></Tag>
+<Tag name="Marathi"><Begin>mar</Begin></Tag>
+<Tag name="Maasai"><Begin>mas</Begin></Tag>
+<Tag name="Manx"><Begin>-max</Begin></Tag>
+<Tag name="Malay"><Begin>may</Begin></Tag>
+<Tag name="Moksha"><Begin>mdf</Begin></Tag>
+<Tag name="Mandar"><Begin>mdr</Begin></Tag>
+<Tag name="Mende"><Begin>men</Begin></Tag>
+<Tag name="Irish, Middle (ca. 1100-1550)"><Begin>mga</Begin></Tag>
+<Tag name="Micmac"><Begin>mic</Begin></Tag>
+<Tag name="Minangkabau"><Begin>min</Begin></Tag>
+<Tag name="Miscellaneous languages"><Begin>mis</Begin></Tag>
+<Tag name="Mon-Khmer (Other)"><Begin>mkh</Begin></Tag>
+<Tag name="Malagasy"><Begin>-mla</Begin></Tag>
+<Tag name="Malagasy"><Begin>mlg</Begin></Tag>
+<Tag name="Maltese"><Begin>mlt</Begin></Tag>
+<Tag name="Manchu"><Begin>mnc</Begin></Tag>
+<Tag name="Manipuri"><Begin>mni</Begin></Tag>
+<Tag name="Manobo languages"><Begin>mno</Begin></Tag>
+<Tag name="Mohawk"><Begin>moh</Begin></Tag>
+<Tag name="Moldavian"><Begin>-mol</Begin></Tag>
+<Tag name="Mongolian"><Begin>mon</Begin></Tag>
+<Tag name="Mooré"><Begin>mos</Begin></Tag>
+<Tag name="Multiple languages"><Begin>mul</Begin></Tag>
+<Tag name="Munda (Other)"><Begin>mun</Begin></Tag>
+<Tag name="Creek"><Begin>mus</Begin></Tag>
+<Tag name="Mirandese"><Begin>mwl</Begin></Tag>
+<Tag name="Marwari"><Begin>mwr</Begin></Tag>
+<Tag name="Mayan languages"><Begin>myn</Begin></Tag>
+<Tag name="Erzya"><Begin>myv</Begin></Tag>
+<Tag name="Nahuatl"><Begin>nah</Begin></Tag>
+<Tag name="North American Indian (Other)"><Begin>nai</Begin></Tag>
+<Tag name="Neapolitan Italian"><Begin>nap</Begin></Tag>
+<Tag name="Nauru"><Begin>nau</Begin></Tag>
+<Tag name="Navajo"><Begin>nav</Begin></Tag>
+<Tag name="Ndebele (South Africa)"><Begin>nbl</Begin></Tag>
+<Tag name="Ndebele (Zimbabwe)"><Begin>nde</Begin></Tag>
+<Tag name="Ndonga"><Begin>ndo</Begin></Tag>
+<Tag name="Low German"><Begin>nds</Begin></Tag>
+<Tag name="Nepali"><Begin>nep</Begin></Tag>
+<Tag name="Newari"><Begin>new</Begin></Tag>
+<Tag name="Nias"><Begin>nia</Begin></Tag>
+<Tag name="Niger-Kordofanian (Other)"><Begin>nic</Begin></Tag>
+<Tag name="Niuean"><Begin>niu</Begin></Tag>
+<Tag name="Norwegian (Nynorsk)"><Begin>nno</Begin></Tag>
+<Tag name="Norwegian (Bokmål)"><Begin>nob</Begin></Tag>
+<Tag name="Nogai"><Begin>nog</Begin></Tag>
+<Tag name="Old Norse"><Begin>non</Begin></Tag>
+<Tag name="Norwegian"><Begin>nor</Begin></Tag>
+<Tag name="N'Ko"><Begin>nqo</Begin></Tag>
+<Tag name="Northern Sotho"><Begin>nso</Begin></Tag>
+<Tag name="Nubian languages"><Begin>nub</Begin></Tag>
+<Tag name="Newari, Old"><Begin>nwc</Begin></Tag>
+<Tag name="Nyanja"><Begin>nya</Begin></Tag>
+<Tag name="Nyamwezi"><Begin>nym</Begin></Tag>
+<Tag name="Nyankole"><Begin>nyn</Begin></Tag>
+<Tag name="Nyoro"><Begin>nyo</Begin></Tag>
+<Tag name="Nzima"><Begin>nzi</Begin></Tag>
+<Tag name="Occitan (post-1500)"><Begin>oci</Begin></Tag>
+<Tag name="Ojibwa"><Begin>oji</Begin></Tag>
+<Tag name="Oriya"><Begin>ori</Begin></Tag>
+<Tag name="Oromo"><Begin>orm</Begin></Tag>
+<Tag name="Osage"><Begin>osa</Begin></Tag>
+<Tag name="Ossetic"><Begin>oss</Begin></Tag>
+<Tag name="Turkish, Ottoman"><Begin>ota</Begin></Tag>
+<Tag name="Otomian languages"><Begin>oto</Begin></Tag>
+<Tag name="Papuan (Other)"><Begin>paa</Begin></Tag>
+<Tag name="Pangasinan"><Begin>pag</Begin></Tag>
+<Tag name="Pahlavi"><Begin>pal</Begin></Tag>
+<Tag name="Pampanga"><Begin>pam</Begin></Tag>
+<Tag name="Panjabi"><Begin>pan</Begin></Tag>
+<Tag name="Papiamento"><Begin>pap</Begin></Tag>
+<Tag name="Palauan"><Begin>pau</Begin></Tag>
+<Tag name="Old Persian (ca. 600-400 B.C.)"><Begin>peo</Begin></Tag>
+<Tag name="Persian"><Begin>per</Begin></Tag>
+<Tag name="Philippine (Other)"><Begin>phi</Begin></Tag>
+<Tag name="Phoenician"><Begin>phn</Begin></Tag>
+<Tag name="Pali"><Begin>pli</Begin></Tag>
+<Tag name="Polish"><Begin>pol</Begin></Tag>
+<Tag name="Pohnpeian"><Begin>pon</Begin></Tag>
+<Tag name="Portuguese"><Begin>por</Begin></Tag>
+<Tag name="Prakrit languages"><Begin>pra</Begin></Tag>
+<Tag name="Provençal (to 1500)"><Begin>pro</Begin></Tag>
+<Tag name="Pushto"><Begin>pus</Begin></Tag>
+<Tag name="Quechua"><Begin>que</Begin></Tag>
+<Tag name="Rajasthani"><Begin>raj</Begin></Tag>
+<Tag name="Rapanui"><Begin>rap</Begin></Tag>
+<Tag name="Rarotongan"><Begin>rar</Begin></Tag>
+<Tag name="Romance (Other)"><Begin>roa</Begin></Tag>
+<Tag name="Raeto-Romance"><Begin>roh</Begin></Tag>
+<Tag name="Romani"><Begin>rom</Begin></Tag>
+<Tag name="Romanian"><Begin>rum</Begin></Tag>
+<Tag name="Rundi"><Begin>run</Begin></Tag>
+<Tag name="Aromanian"><Begin>rup</Begin></Tag>
+<Tag name="Russian"><Begin>rus</Begin></Tag>
+<Tag name="Sandawe"><Begin>sad</Begin></Tag>
+<Tag name="Sango (Ubangi Creole)"><Begin>sag</Begin></Tag>
+<Tag name="Yakut"><Begin>sah</Begin></Tag>
+<Tag name="South American Indian (Other)"><Begin>sai</Begin></Tag>
+<Tag name="Salishan languages"><Begin>sal</Begin></Tag>
+<Tag name="Samaritan Aramaic"><Begin>sam</Begin></Tag>
+<Tag name="Sanskrit"><Begin>san</Begin></Tag>
+<Tag name="Samoan"><Begin>-sao</Begin></Tag>
+<Tag name="Sasak"><Begin>sas</Begin></Tag>
+<Tag name="Santali"><Begin>sat</Begin></Tag>
+<Tag name="Serbian"><Begin>-scc</Begin></Tag>
+<Tag name="Sicilian Italian"><Begin>scn</Begin></Tag>
+<Tag name="Scots"><Begin>sco</Begin></Tag>
+<Tag name="Croatian"><Begin>-scr</Begin></Tag>
+<Tag name="Selkup"><Begin>sel</Begin></Tag>
+<Tag name="Semitic (Other)"><Begin>sem</Begin></Tag>
+<Tag name="Irish, Old (to 1100)"><Begin>sga</Begin></Tag>
+<Tag name="Sign languages"><Begin>sgn</Begin></Tag>
+<Tag name="Shan"><Begin>shn</Begin></Tag>
+<Tag name="Shona"><Begin>-sho</Begin></Tag>
+<Tag name="Sidamo"><Begin>sid</Begin></Tag>
+<Tag name="Sinhalese"><Begin>sin</Begin></Tag>
+<Tag name="Siouan (Other)"><Begin>sio</Begin></Tag>
+<Tag name="Sino-Tibetan (Other)"><Begin>sit</Begin></Tag>
+<Tag name="Slavic (Other)"><Begin>sla</Begin></Tag>
+<Tag name="Slovak"><Begin>slo</Begin></Tag>
+<Tag name="Slovenian"><Begin>slv</Begin></Tag>
+<Tag name="Southern Sami"><Begin>sma</Begin></Tag>
+<Tag name="Northern Sami"><Begin>sme</Begin></Tag>
+<Tag name="Sami"><Begin>smi</Begin></Tag>
+<Tag name="Lule Sami"><Begin>smj</Begin></Tag>
+<Tag name="Inari Sami"><Begin>smn</Begin></Tag>
+<Tag name="Samoan"><Begin>smo</Begin></Tag>
+<Tag name="Skolt Sami"><Begin>sms</Begin></Tag>
+<Tag name="Shona"><Begin>sna</Begin></Tag>
+<Tag name="Sindhi"><Begin>snd</Begin></Tag>
+<Tag name="Sinhalese"><Begin>-snh</Begin></Tag>
+<Tag name="Soninke"><Begin>snk</Begin></Tag>
+<Tag name="Sogdian"><Begin>sog</Begin></Tag>
+<Tag name="Somali"><Begin>som</Begin></Tag>
+<Tag name="Songhai"><Begin>son</Begin></Tag>
+<Tag name="Sotho"><Begin>sot</Begin></Tag>
+<Tag name="Spanish"><Begin>spa</Begin></Tag>
+<Tag name="Sardinian"><Begin>srd</Begin></Tag>
+<Tag name="Sranan"><Begin>srn</Begin></Tag>
+<Tag name="Serbian"><Begin>srp</Begin></Tag>
+<Tag name="Serer"><Begin>srr</Begin></Tag>
+<Tag name="Nilo-Saharan (Other)"><Begin>ssa</Begin></Tag>
+<Tag name="Sotho"><Begin>-sso</Begin></Tag>
+<Tag name="Swazi"><Begin>ssw</Begin></Tag>
+<Tag name="Sukuma"><Begin>suk</Begin></Tag>
+<Tag name="Sundanese"><Begin>sun</Begin></Tag>
+<Tag name="Susu"><Begin>sus</Begin></Tag>
+<Tag name="Sumerian"><Begin>sux</Begin></Tag>
+<Tag name="Swahili"><Begin>swa</Begin></Tag>
+<Tag name="Swedish"><Begin>swe</Begin></Tag>
+<Tag name="Swazi"><Begin>-swz</Begin></Tag>
+<Tag name="Syriac"><Begin>syc</Begin></Tag>
+<Tag name="Syriac, Modern"><Begin>syr</Begin></Tag>
+<Tag name="Tagalog"><Begin>-tag</Begin></Tag>
+<Tag name="Tahitian"><Begin>tah</Begin></Tag>
+<Tag name="Tai (Other)"><Begin>tai</Begin></Tag>
+<Tag name="Tajik"><Begin>-taj</Begin></Tag>
+<Tag name="Tamil"><Begin>tam</Begin></Tag>
+<Tag name="Tatar"><Begin>-tar</Begin></Tag>
+<Tag name="Tatar"><Begin>tat</Begin></Tag>
+<Tag name="Telugu"><Begin>tel</Begin></Tag>
+<Tag name="Temne"><Begin>tem</Begin></Tag>
+<Tag name="Terena"><Begin>ter</Begin></Tag>
+<Tag name="Tetum"><Begin>tet</Begin></Tag>
+<Tag name="Tajik"><Begin>tgk</Begin></Tag>
+<Tag name="Tagalog"><Begin>tgl</Begin></Tag>
+<Tag name="Thai"><Begin>tha</Begin></Tag>
+<Tag name="Tibetan"><Begin>tib</Begin></Tag>
+<Tag name="Tigré"><Begin>tig</Begin></Tag>
+<Tag name="Tigrinya"><Begin>tir</Begin></Tag>
+<Tag name="Tiv"><Begin>tiv</Begin></Tag>
+<Tag name="Tokelauan"><Begin>tkl</Begin></Tag>
+<Tag name="Klingon (Artificial language)"><Begin>tlh</Begin></Tag>
+<Tag name="Tlingit"><Begin>tli</Begin></Tag>
+<Tag name="Tamashek"><Begin>tmh</Begin></Tag>
+<Tag name="Tonga (Nyasa)"><Begin>tog</Begin></Tag>
+<Tag name="Tongan"><Begin>ton</Begin></Tag>
+<Tag name="Tok Pisin"><Begin>tpi</Begin></Tag>
+<Tag name="Truk"><Begin>-tru</Begin></Tag>
+<Tag name="Tsimshian"><Begin>tsi</Begin></Tag>
+<Tag name="Tswana"><Begin>tsn</Begin></Tag>
+<Tag name="Tsonga"><Begin>tso</Begin></Tag>
+<Tag name="Tswana"><Begin>-tsw</Begin></Tag>
+<Tag name="Turkmen"><Begin>tuk</Begin></Tag>
+<Tag name="Tumbuka"><Begin>tum</Begin></Tag>
+<Tag name="Tupi languages"><Begin>tup</Begin></Tag>
+<Tag name="Turkish"><Begin>tur</Begin></Tag>
+<Tag name="Altaic (Other)"><Begin>tut</Begin></Tag>
+<Tag name="Tuvaluan"><Begin>tvl</Begin></Tag>
+<Tag name="Twi"><Begin>twi</Begin></Tag>
+<Tag name="Tuvinian"><Begin>tyv</Begin></Tag>
+<Tag name="Udmurt"><Begin>udm</Begin></Tag>
+<Tag name="Ugaritic"><Begin>uga</Begin></Tag>
+<Tag name="Uighur"><Begin>uig</Begin></Tag>
+<Tag name="Ukrainian"><Begin>ukr</Begin></Tag>
+<Tag name="Umbundu"><Begin>umb</Begin></Tag>
+<Tag name="Undetermined"><Begin>und</Begin></Tag>
+<Tag name="Urdu"><Begin>urd</Begin></Tag>
+<Tag name="Uzbek"><Begin>uzb</Begin></Tag>
+<Tag name="Vai"><Begin>vai</Begin></Tag>
+<Tag name="Venda"><Begin>ven</Begin></Tag>
+<Tag name="Vietnamese"><Begin>vie</Begin></Tag>
+<Tag name="Volapük"><Begin>vol</Begin></Tag>
+<Tag name="Votic"><Begin>vot</Begin></Tag>
+<Tag name="Wakashan languages"><Begin>wak</Begin></Tag>
+<Tag name="Wolayta"><Begin>wal</Begin></Tag>
+<Tag name="Waray"><Begin>war</Begin></Tag>
+<Tag name="Washoe"><Begin>was</Begin></Tag>
+<Tag name="Welsh"><Begin>wel</Begin></Tag>
+<Tag name="Sorbian (Other)"><Begin>wen</Begin></Tag>
+<Tag name="Walloon"><Begin>wln</Begin></Tag>
+<Tag name="Wolof"><Begin>wol</Begin></Tag>
+<Tag name="Oirat"><Begin>xal</Begin></Tag>
+<Tag name="Xhosa"><Begin>xho</Begin></Tag>
+<Tag name="Yao (Africa)"><Begin>yao</Begin></Tag>
+<Tag name="Yapese"><Begin>yap</Begin></Tag>
+<Tag name="Yiddish"><Begin>yid</Begin></Tag>
+<Tag name="Yoruba"><Begin>yor</Begin></Tag>
+<Tag name="Yupik languages"><Begin>ypk</Begin></Tag>
+<Tag name="Zapotec"><Begin>zap</Begin></Tag>
+<Tag name="Blissymbolics"><Begin>zbl</Begin></Tag>
+<Tag name="Zenaga"><Begin>zen</Begin></Tag>
+<Tag name="Zhuang"><Begin>zha</Begin></Tag>
+<Tag name="Zande languages"><Begin>znd</Begin></Tag>
+<Tag name="Zulu"><Begin>zul</Begin></Tag>
+<Tag name="Zuni"><Begin>zun</Begin></Tag>
+<Tag name="No linguistic content"><Begin>zxx</Begin></Tag>
+<Tag name="Zaza"><Begin>zza</Begin></Tag>
+
+</TagGroup>
+
+<TagGroup xml:lang="es" sort="true" name="MARC: Lenguaje">
+
+<Tag name="Afar" xml:lang="es"><Begin>aar</Begin></Tag>
+<Tag name="Abjasia" xml:lang="es"><Begin>abk</Begin></Tag>
+<Tag name="Acehnés" xml:lang="es"><Begin>ace</Begin></Tag>
+<Tag name="Acoli" xml:lang="es"><Begin>ach</Begin></Tag>
+<Tag name="Adangme" xml:lang="es"><Begin>ada</Begin></Tag>
+<Tag name="Adygei, adigué" xml:lang="es"><Begin>ady</Begin></Tag>
+<Tag name="Afroasiática (Otras)" xml:lang="es"><Begin>afa</Begin></Tag>
+<Tag name="Afrihili (lengua artificial)" xml:lang="es"><Begin>afh</Begin></Tag>
+<Tag name="Africaans, afrikáans" xml:lang="es"><Begin>afr</Begin></Tag>
+<Tag name="Ainu" xml:lang="es"><Begin>ain</Begin></Tag>
+<Tag name="Aljamía, alyamía" xml:lang="es"><Begin>-ajm</Begin></Tag>
+<Tag name="Akan, akánico" xml:lang="es"><Begin>aka</Begin></Tag>
+<Tag name="Acadio" xml:lang="es"><Begin>akk</Begin></Tag>
+<Tag name="Albanés" xml:lang="es"><Begin>alb</Begin></Tag>
+<Tag name="Aleutiano" xml:lang="es"><Begin>ale</Begin></Tag>
+<Tag name="Algonquina (Otras)" xml:lang="es"><Begin>alg</Begin></Tag>
+<Tag name="Lenguas altaicas" xml:lang="es"><Begin>alt</Begin></Tag>
+<Tag name="Amárico" xml:lang="es"><Begin>amh</Begin></Tag>
+<Tag name="Inglés antiguo (ca. 450-1100)" xml:lang="es"><Begin>ang</Begin></Tag>
+<Tag name="Angika" xml:lang="es"><Begin>anp</Begin></Tag>
+<Tag name="Lenguas Apache" xml:lang="es"><Begin>apa</Begin></Tag>
+<Tag name="Árabe" xml:lang="es"><Begin>ara</Begin></Tag>
+<Tag name="Arameo" xml:lang="es"><Begin>arc</Begin></Tag>
+<Tag name="Aragonés" xml:lang="es"><Begin>arg</Begin></Tag>
+<Tag name="Armenio" xml:lang="es"><Begin>arm</Begin></Tag>
+<Tag name="Mapuche" xml:lang="es"><Begin>arn</Begin></Tag>
+<Tag name="Arapaho" xml:lang="es"><Begin>arp</Begin></Tag>
+<Tag name="Artificial (Otras)" xml:lang="es"><Begin>art</Begin></Tag>
+<Tag name="Lenguas arahuacas, arawak" xml:lang="es"><Begin>arw</Begin></Tag>
+<Tag name="Asamés" xml:lang="es"><Begin>asm</Begin></Tag>
+<Tag name="Asturiano (asturleonés de Asturias)" xml:lang="es"><Begin>ast</Begin></Tag>
+<Tag name="Lenguas atabascanas, atapascas (Otras)" xml:lang="es"><Begin>ath</Begin></Tag>
+<Tag name="Lenguas australianas" xml:lang="es"><Begin>aus</Begin></Tag>
+<Tag name="Ávaro, avar" xml:lang="es"><Begin>ava</Begin></Tag>
+<Tag name="Avéstico" xml:lang="es"><Begin>ave</Begin></Tag>
+<Tag name="Awadhi" xml:lang="es"><Begin>awa</Begin></Tag>
+<Tag name="Aimara" xml:lang="es"><Begin>aym</Begin></Tag>
+<Tag name="Azerbaiyán" xml:lang="es"><Begin>aze</Begin></Tag>
+<Tag name="Lenguas banda" xml:lang="es"><Begin>bad</Begin></Tag>
+<Tag name="Lenguas bamileké" xml:lang="es"><Begin>bai</Begin></Tag>
+<Tag name="Baskir, bashkir, baškir" xml:lang="es"><Begin>bak</Begin></Tag>
+<Tag name="Baluchi" xml:lang="es"><Begin>bal</Begin></Tag>
+<Tag name="Bambara" xml:lang="es"><Begin>bam</Begin></Tag>
+<Tag name="Bali" xml:lang="es"><Begin>ban</Begin></Tag>
+<Tag name="Vasco" xml:lang="es"><Begin>baq</Begin></Tag>
+<Tag name="Basaa/mbene" xml:lang="es"><Begin>bas</Begin></Tag>
+<Tag name="Báltico (Otras)" xml:lang="es"><Begin>bat</Begin></Tag>
+<Tag name="Beya, bedya" xml:lang="es"><Begin>bej</Begin></Tag>
+<Tag name="Bielorruso" xml:lang="es"><Begin>bel</Begin></Tag>
+<Tag name="Bemba" xml:lang="es"><Begin>bem</Begin></Tag>
+<Tag name="Bengalí" xml:lang="es"><Begin>ben</Begin></Tag>
+<Tag name="Lenguas bereberes (Otras)" xml:lang="es"><Begin>ber</Begin></Tag>
+<Tag name="Bhoyapurí, bhojpurí" xml:lang="es"><Begin>bho</Begin></Tag>
+<Tag name="Lenguas bihari (Otras)" xml:lang="es"><Begin>bih</Begin></Tag>
+<Tag name="Bicolano, bicol" xml:lang="es"><Begin>bik</Begin></Tag>
+<Tag name="Edo" xml:lang="es"><Begin>bin</Begin></Tag>
+<Tag name="Bislama, bislámico, bichelamar" xml:lang="es"><Begin>bis</Begin></Tag>
+<Tag name="Siksiká" xml:lang="es"><Begin>bla</Begin></Tag>
+<Tag name="Bantú (Otras)" xml:lang="es"><Begin>bnt</Begin></Tag>
+<Tag name="Bosnio" xml:lang="es"><Begin>bos</Begin></Tag>
+<Tag name="Vrindavan" xml:lang="es"><Begin>bra</Begin></Tag>
+<Tag name="Bretón" xml:lang="es"><Begin>bre</Begin></Tag>
+<Tag name="Batak" xml:lang="es"><Begin>btk</Begin></Tag>
+<Tag name="Buriato" xml:lang="es"><Begin>bua</Begin></Tag>
+<Tag name="Buginés" xml:lang="es"><Begin>bug</Begin></Tag>
+<Tag name="Búlgaro" xml:lang="es"><Begin>bul</Begin></Tag>
+<Tag name="Birmano" xml:lang="es"><Begin>bur</Begin></Tag>
+<Tag name="Bilin" xml:lang="es"><Begin>byn</Begin></Tag>
+<Tag name="Caddo" xml:lang="es"><Begin>cad</Begin></Tag>
+<Tag name="Lenguas indígenas centroamericanas (Otras)" xml:lang="es"><Begin>cai</Begin></Tag>
+<Tag name="Camboyano, jemer, khmer" xml:lang="es"><Begin>-cam</Begin></Tag>
+<Tag name="Kali'na o Galibi" xml:lang="es"><Begin>car</Begin></Tag>
+<Tag name="Catalán" xml:lang="es"><Begin>cat</Begin></Tag>
+<Tag name="Europeo (Otras)" xml:lang="es"><Begin>cau</Begin></Tag>
+<Tag name="Cebuano" xml:lang="es"><Begin>ceb</Begin></Tag>
+<Tag name="Celtas, célticas (Otras)" xml:lang="es"><Begin>cel</Begin></Tag>
+<Tag name="Chamorro" xml:lang="es"><Begin>cha</Begin></Tag>
+<Tag name="Chibcha" xml:lang="es"><Begin>chb</Begin></Tag>
+<Tag name="Checheno" xml:lang="es"><Begin>che</Begin></Tag>
+<Tag name="Chaghatay" xml:lang="es"><Begin>chg</Begin></Tag>
+<Tag name="Chino" xml:lang="es"><Begin>chi</Begin></Tag>
+<Tag name="Chuukense" xml:lang="es"><Begin>chk</Begin></Tag>
+<Tag name="Mari, cheremis" xml:lang="es"><Begin>chm</Begin></Tag>
+<Tag name="Lenguas chinukanas, chinook" xml:lang="es"><Begin>chn</Begin></Tag>
+<Tag name="Choctaw" xml:lang="es"><Begin>cho</Begin></Tag>
+<Tag name="Chipewyan" xml:lang="es"><Begin>chp</Begin></Tag>
+<Tag name="Cheroqui" xml:lang="es"><Begin>chr</Begin></Tag>
+<Tag name="Eslavo" xml:lang="es"><Begin>chu</Begin></Tag>
+<Tag name="Chuvasio" xml:lang="es"><Begin>chv</Begin></Tag>
+<Tag name="Cheyenne" xml:lang="es"><Begin>chy</Begin></Tag>
+<Tag name="Lenguas chámicas" xml:lang="es"><Begin>cmc</Begin></Tag>
+<Tag name="Copto" xml:lang="es"><Begin>cop</Begin></Tag>
+<Tag name="Córnico, cornuallés" xml:lang="es"><Begin>cor</Begin></Tag>
+<Tag name="Corso" xml:lang="es"><Begin>cos</Begin></Tag>
+<Tag name="Lengua criolla de base inglesa (Otras)" xml:lang="es"><Begin>cpe</Begin></Tag>
+<Tag name="Lengua criolla de base francesa (Otras)" xml:lang="es"><Begin>cpf</Begin></Tag>
+<Tag name="Lengua criolla de base portugués (Otras)" xml:lang="es"><Begin>cpp</Begin></Tag>
+<Tag name="Cree" xml:lang="es"><Begin>cre</Begin></Tag>
+<Tag name="Tártaro de Crimea" xml:lang="es"><Begin>crh</Begin></Tag>
+<Tag name="Lengua criolla, creole (Otras)" xml:lang="es"><Begin>crp</Begin></Tag>
+<Tag name="Kashubian" xml:lang="es"><Begin>csb</Begin></Tag>
+<Tag name="Cusitas (Otras)" xml:lang="es"><Begin>cus</Begin></Tag>
+<Tag name="Checo" xml:lang="es"><Begin>cze</Begin></Tag>
+<Tag name="Dakota (Lengua Siux)" xml:lang="es"><Begin>dak</Begin></Tag>
+<Tag name="Danés" xml:lang="es"><Begin>dan</Begin></Tag>
+<Tag name="Dargwa (Lengua dargine)" xml:lang="es"><Begin>dar</Begin></Tag>
+<Tag name="Dayak" xml:lang="es"><Begin>day</Begin></Tag>
+<Tag name="Delaware" xml:lang="es"><Begin>del</Begin></Tag>
+<Tag name="Slavey" xml:lang="es"><Begin>den</Begin></Tag>
+<Tag name="Tlicho, dogrib" xml:lang="es"><Begin>dgr</Begin></Tag>
+<Tag name="Dinka" xml:lang="es"><Begin>din</Begin></Tag>
+<Tag name="Dhivehi, divehi" xml:lang="es"><Begin>div</Begin></Tag>
+<Tag name="Dogri" xml:lang="es"><Begin>doi</Begin></Tag>
+<Tag name="Lenguas drávidas, dravídicas (Otras)" xml:lang="es"><Begin>dra</Begin></Tag>
+<Tag name="Sorbio inferior" xml:lang="es"><Begin>dsb</Begin></Tag>
+<Tag name="Duala" xml:lang="es"><Begin>dua</Begin></Tag>
+<Tag name="Holandés, Medio (ca. 1350/50)" xml:lang="es"><Begin>dum</Begin></Tag>
+<Tag name="Holandés" xml:lang="es"><Begin>dut</Begin></Tag>
+<Tag name="Diula, dyula" xml:lang="es"><Begin>dyu</Begin></Tag>
+<Tag name="dzongkha, butanés" xml:lang="es"><Begin>dzo</Begin></Tag>
+<Tag name="Efik" xml:lang="es"><Begin>efi</Begin></Tag>
+<Tag name="Egipcio" xml:lang="es"><Begin>egy</Begin></Tag>
+<Tag name="Ekajuk" xml:lang="es"><Begin>eka</Begin></Tag>
+<Tag name="Elamita" xml:lang="es"><Begin>elx</Begin></Tag>
+<Tag name="Inglés" xml:lang="es"><Begin>eng</Begin></Tag>
+<Tag name="Inglés, Medio (1100-1500)" xml:lang="es"><Begin>enm</Begin></Tag>
+<Tag name="Esperanto" xml:lang="es"><Begin>epo</Begin></Tag>
+<Tag name="Lenguas esquimales" xml:lang="es"><Begin>-esk</Begin></Tag>
+<Tag name="Esperanto" xml:lang="es"><Begin>-esp</Begin></Tag>
+<Tag name="Estonio" xml:lang="es"><Begin>est</Begin></Tag>
+<Tag name="Etíope" xml:lang="es"><Begin>-eth</Begin></Tag>
+<Tag name="Ewé" xml:lang="es"><Begin>ewe</Begin></Tag>
+<Tag name="Ewondo" xml:lang="es"><Begin>ewo</Begin></Tag>
+<Tag name="Fang" xml:lang="es"><Begin>fan</Begin></Tag>
+<Tag name="Feroés" xml:lang="es"><Begin>fao</Begin></Tag>
+<Tag name="Feroés" xml:lang="es"><Begin>-far</Begin></Tag>
+<Tag name="Fanti" xml:lang="es"><Begin>fat</Begin></Tag>
+<Tag name="Fiyiano" xml:lang="es"><Begin>fij</Begin></Tag>
+<Tag name="Filipino" xml:lang="es"><Begin>fil</Begin></Tag>
+<Tag name="Finlandés" xml:lang="es"><Begin>fin</Begin></Tag>
+<Tag name="Lenguas ugrofinesas (Otras)" xml:lang="es"><Begin>fiu</Begin></Tag>
+<Tag name="Fon, gun" xml:lang="es"><Begin>fon</Begin></Tag>
+<Tag name="Francés" xml:lang="es"><Begin>fre</Begin></Tag>
+<Tag name="Frisón" xml:lang="es"><Begin>-fri</Begin></Tag>
+<Tag name="Francés medio (ca. 1300 a 1600)" xml:lang="es"><Begin>frm</Begin></Tag>
+<Tag name="Francés antiguo (ca. 842 a 1300)" xml:lang="es"><Begin>fro</Begin></Tag>
+<Tag name="Frisón del Norte" xml:lang="es"><Begin>frr</Begin></Tag>
+<Tag name="Frisón Oriental" xml:lang="es"><Begin>frs</Begin></Tag>
+<Tag name="Frisón" xml:lang="es"><Begin>fry</Begin></Tag>
+<Tag name="Fula" xml:lang="es"><Begin>ful</Begin></Tag>
+<Tag name="Friulano" xml:lang="es"><Begin>fur</Begin></Tag>
+<Tag name="Gã" xml:lang="es"><Begin>gaa</Begin></Tag>
+<Tag name="Gaélico escocés" xml:lang="es"><Begin>-gae</Begin></Tag>
+<Tag name="Gallego" xml:lang="es"><Begin>-gag</Begin></Tag>
+<Tag name="Oromo" xml:lang="es"><Begin>-gal</Begin></Tag>
+<Tag name="Gayo" xml:lang="es"><Begin>gay</Begin></Tag>
+<Tag name="Gbaya" xml:lang="es"><Begin>gba</Begin></Tag>
+<Tag name="Germánicas (Otras)" xml:lang="es"><Begin>gem</Begin></Tag>
+<Tag name="Georgiano" xml:lang="es"><Begin>geo</Begin></Tag>
+<Tag name="Alemán" xml:lang="es"><Begin>ger</Begin></Tag>
+<Tag name="Etíope" xml:lang="es"><Begin>gez</Begin></Tag>
+<Tag name="Gilbertés" xml:lang="es"><Begin>gil</Begin></Tag>
+<Tag name="Gaélico escocés" xml:lang="es"><Begin>gla</Begin></Tag>
+<Tag name="Irlandés" xml:lang="es"><Begin>gle</Begin></Tag>
+<Tag name="Gallego" xml:lang="es"><Begin>glg</Begin></Tag>
+<Tag name="Manés, gaélico manés" xml:lang="es"><Begin>glv</Begin></Tag>
+<Tag name="Alto alemán medio (ca. 1050-1500)" xml:lang="es"><Begin>gmh</Begin></Tag>
+<Tag name="Alto alemán antiguo (ca. 750 hasta 1050)" xml:lang="es"><Begin>goh</Begin></Tag>
+<Tag name="Gondi" xml:lang="es"><Begin>gon</Begin></Tag>
+<Tag name="Gorontalo" xml:lang="es"><Begin>gor</Begin></Tag>
+<Tag name="Gótico" xml:lang="es"><Begin>got</Begin></Tag>
+<Tag name="Grebo" xml:lang="es"><Begin>grb</Begin></Tag>
+<Tag name="Griego antiguo (hasta 1453)" xml:lang="es"><Begin>grc</Begin></Tag>
+<Tag name="Griego moderno (1453-)" xml:lang="es"><Begin>gre</Begin></Tag>
+<Tag name="Guaraní" xml:lang="es"><Begin>grn</Begin></Tag>
+<Tag name="Alemán de Suiza" xml:lang="es"><Begin>gsw</Begin></Tag>
+<Tag name="Guaraní" xml:lang="es"><Begin>-gua</Begin></Tag>
+<Tag name="Guyaratí" xml:lang="es"><Begin>guj</Begin></Tag>
+<Tag name="Gwich'in" xml:lang="es"><Begin>gwi</Begin></Tag>
+<Tag name="Haida" xml:lang="es"><Begin>hai</Begin></Tag>
+<Tag name="Francés criollo haitiano" xml:lang="es"><Begin>hat</Begin></Tag>
+<Tag name="Hausa" xml:lang="es"><Begin>hau</Begin></Tag>
+<Tag name="Hawaiano" xml:lang="es"><Begin>haw</Begin></Tag>
+<Tag name="Hebreo" xml:lang="es"><Begin>heb</Begin></Tag>
+<Tag name="Herero" xml:lang="es"><Begin>her</Begin></Tag>
+<Tag name="Hiligainón" xml:lang="es"><Begin>hil</Begin></Tag>
+<Tag name="Lenguas Pahari Occidental" xml:lang="es"><Begin>him</Begin></Tag>
+<Tag name="Hindi" xml:lang="es"><Begin>hin</Begin></Tag>
+<Tag name="Hitita" xml:lang="es"><Begin>hit</Begin></Tag>
+<Tag name="Miao" xml:lang="es"><Begin>hmn</Begin></Tag>
+<Tag name="Hiri motu" xml:lang="es"><Begin>hmo</Begin></Tag>
+<Tag name="Croata" xml:lang="es"><Begin>hrv</Begin></Tag>
+<Tag name="Alto sorabo" xml:lang="es"><Begin>hsb</Begin></Tag>
+<Tag name="Húngaro" xml:lang="es"><Begin>hun</Begin></Tag>
+<Tag name="Hupa" xml:lang="es"><Begin>hup</Begin></Tag>
+<Tag name="Iban" xml:lang="es"><Begin>iba</Begin></Tag>
+<Tag name="Igbo" xml:lang="es"><Begin>ibo</Begin></Tag>
+<Tag name="Islandés" xml:lang="es"><Begin>ice</Begin></Tag>
+<Tag name="Ido" xml:lang="es"><Begin>ido</Begin></Tag>
+<Tag name="Nuosu (Sichuan Yi)" xml:lang="es"><Begin>iii</Begin></Tag>
+<Tag name="Ijo" xml:lang="es"><Begin>ijo</Begin></Tag>
+<Tag name="Inuit" xml:lang="es"><Begin>iku</Begin></Tag>
+<Tag name="Interlingue, occidental" xml:lang="es"><Begin>ile</Begin></Tag>
+<Tag name="Ilocano" xml:lang="es"><Begin>ilo</Begin></Tag>
+<Tag name="Interlingua (Asociación Internacional de la Lengua Auxiliar)" xml:lang="es"><Begin>ina</Begin></Tag>
+<Tag name="Indic (Otras)" xml:lang="es"><Begin>inc</Begin></Tag>
+<Tag name="Indonesio" xml:lang="es"><Begin>ind</Begin></Tag>
+<Tag name="Indo-Europea (Otras)" xml:lang="es"><Begin>ine</Begin></Tag>
+<Tag name="Ingushetia" xml:lang="es"><Begin>inh</Begin></Tag>
+<Tag name="Interlingua (Asociación Internacional de la Lengua Auxiliar)" xml:lang="es"><Begin>-int</Begin></Tag>
+<Tag name="Inupiak" xml:lang="es"><Begin>ipk</Begin></Tag>
+<Tag name="Irán (Otras)" xml:lang="es"><Begin>ira</Begin></Tag>
+<Tag name="Irlandés" xml:lang="es"><Begin>-iri</Begin></Tag>
+<Tag name="Lenguas iroquesas (Otras)" xml:lang="es"><Begin>iro</Begin></Tag>
+<Tag name="Italiano" xml:lang="es"><Begin>ita</Begin></Tag>
+<Tag name="Javanés" xml:lang="es"><Begin>jav</Begin></Tag>
+<Tag name="Lojban (lengua artificial)" xml:lang="es"><Begin>jbo</Begin></Tag>
+<Tag name="Japonés" xml:lang="es"><Begin>jpn</Begin></Tag>
+<Tag name="Judeo-persa" xml:lang="es"><Begin>jpr</Begin></Tag>
+<Tag name="Judeo-árabe" xml:lang="es"><Begin>jrb</Begin></Tag>
+<Tag name="Karakalpakia" xml:lang="es"><Begin>kaa</Begin></Tag>
+<Tag name="Cabila" xml:lang="es"><Begin>kab</Begin></Tag>
+<Tag name="Kachin" xml:lang="es"><Begin>kac</Begin></Tag>
+<Tag name="Kalâtdlisut" xml:lang="es"><Begin>kal</Begin></Tag>
+<Tag name="Kamba" xml:lang="es"><Begin>kam</Begin></Tag>
+<Tag name="Canarés " xml:lang="es"><Begin>kan</Begin></Tag>
+<Tag name="Lenguas karénicas" xml:lang="es"><Begin>kar</Begin></Tag>
+<Tag name="Cachemir" xml:lang="es"><Begin>kas</Begin></Tag>
+<Tag name="Kanuri" xml:lang="es"><Begin>kau</Begin></Tag>
+<Tag name="Kawi" xml:lang="es"><Begin>kaw</Begin></Tag>
+<Tag name="Kazajo" xml:lang="es"><Begin>kaz</Begin></Tag>
+<Tag name="Cabardiano" xml:lang="es"><Begin>kbd</Begin></Tag>
+<Tag name="Khasi" xml:lang="es"><Begin>kha</Begin></Tag>
+<Tag name="Lenguas joisanas (Otras)" xml:lang="es"><Begin>khi</Begin></Tag>
+<Tag name="Camboyano" xml:lang="es"><Begin>khm</Begin></Tag>
+<Tag name="Khotanese" xml:lang="es"><Begin>kho</Begin></Tag>
+<Tag name="Kikuyu" xml:lang="es"><Begin>kik</Begin></Tag>
+<Tag name="Kiñaruanda" xml:lang="es"><Begin>kin</Begin></Tag>
+<Tag name="kirguís" xml:lang="es"><Begin>kir</Begin></Tag>
+<Tag name="Kimbundu, quimbundo" xml:lang="es"><Begin>kmb</Begin></Tag>
+<Tag name="konkaní" xml:lang="es"><Begin>kok</Begin></Tag>
+<Tag name="Komi" xml:lang="es"><Begin>kom</Begin></Tag>
+<Tag name="Kikongo" xml:lang="es"><Begin>kon</Begin></Tag>
+<Tag name="Coreano" xml:lang="es"><Begin>kor</Begin></Tag>
+<Tag name="Kosraean" xml:lang="es"><Begin>kos</Begin></Tag>
+<Tag name="Kpelle" xml:lang="es"><Begin>kpe</Begin></Tag>
+<Tag name="Karachayo-bálkaro" xml:lang="es"><Begin>krc</Begin></Tag>
+<Tag name="Carelio" xml:lang="es"><Begin>krl</Begin></Tag>
+<Tag name="Kru (Otras)" xml:lang="es"><Begin>kro</Begin></Tag>
+<Tag name="Kurukh" xml:lang="es"><Begin>kru</Begin></Tag>
+<Tag name="Kuanyama" xml:lang="es"><Begin>kua</Begin></Tag>
+<Tag name="Cumuco " xml:lang="es"><Begin>kum</Begin></Tag>
+<Tag name="Kurdo" xml:lang="es"><Begin>kur</Begin></Tag>
+<Tag name="Kusaie" xml:lang="es"><Begin>-kus</Begin></Tag>
+<Tag name="kutenai" xml:lang="es"><Begin>kut</Begin></Tag>
+<Tag name="Judeoespañol " xml:lang="es"><Begin>lad</Begin></Tag>
+<Tag name="Lahnda" xml:lang="es"><Begin>lah</Begin></Tag>
+<Tag name="Lamba (Zambia y Congo)" xml:lang="es"><Begin>lam</Begin></Tag>
+<Tag name="Occitano (post 1500)" xml:lang="es"><Begin>-lan</Begin></Tag>
+<Tag name="Lao" xml:lang="es"><Begin>lao</Begin></Tag>
+<Tag name="Sami" xml:lang="es"><Begin>-lap</Begin></Tag>
+<Tag name="Latín" xml:lang="es"><Begin>lat</Begin></Tag>
+<Tag name="Letón" xml:lang="es"><Begin>lav</Begin></Tag>
+<Tag name="Lezgui" xml:lang="es"><Begin>lez</Begin></Tag>
+<Tag name="Limburgués" xml:lang="es"><Begin>lim</Begin></Tag>
+<Tag name="Lingala" xml:lang="es"><Begin>lin</Begin></Tag>
+<Tag name="Lituano" xml:lang="es"><Begin>lit</Begin></Tag>
+<Tag name="Mongo-Nkundu" xml:lang="es"><Begin>lol</Begin></Tag>
+<Tag name="Lozi" xml:lang="es"><Begin>loz</Begin></Tag>
+<Tag name="Luxemburgués" xml:lang="es"><Begin>ltz</Begin></Tag>
+<Tag name="Chiluba" xml:lang="es"><Begin>lua</Begin></Tag>
+<Tag name="KiLuba" xml:lang="es"><Begin>lub</Begin></Tag>
+<Tag name="Luganda" xml:lang="es"><Begin>lug</Begin></Tag>
+<Tag name="Luiseño" xml:lang="es"><Begin>lui</Begin></Tag>
+<Tag name="Lunda" xml:lang="es"><Begin>lun</Begin></Tag>
+<Tag name="Luo (Kenia y Tanzania)" xml:lang="es"><Begin>luo</Begin></Tag>
+<Tag name="Mizo (Lushai)" xml:lang="es"><Begin>lus</Begin></Tag>
+<Tag name="Macedonio" xml:lang="es"><Begin>mac</Begin></Tag>
+<Tag name="Madurese" xml:lang="es"><Begin>mad</Begin></Tag>
+<Tag name="Magahi" xml:lang="es"><Begin>mag</Begin></Tag>
+<Tag name="Marshalés" xml:lang="es"><Begin>mah</Begin></Tag>
+<Tag name="Maithili" xml:lang="es"><Begin>mai</Begin></Tag>
+<Tag name="Makasar" xml:lang="es"><Begin>mak</Begin></Tag>
+<Tag name="Malayalam" xml:lang="es"><Begin>mal</Begin></Tag>
+<Tag name="Mandingo" xml:lang="es"><Begin>man</Begin></Tag>
+<Tag name="Maorí" xml:lang="es"><Begin>mao</Begin></Tag>
+<Tag name="Lenguas austronesias (Otras)" xml:lang="es"><Begin>map</Begin></Tag>
+<Tag name="Maratí" xml:lang="es"><Begin>mar</Begin></Tag>
+<Tag name="Masái" xml:lang="es"><Begin>mas</Begin></Tag>
+<Tag name="Manés" xml:lang="es"><Begin>-max</Begin></Tag>
+<Tag name="Malayo" xml:lang="es"><Begin>may</Begin></Tag>
+<Tag name="Moksha" xml:lang="es"><Begin>mdf</Begin></Tag>
+<Tag name="Mandar" xml:lang="es"><Begin>mdr</Begin></Tag>
+<Tag name="Mende" xml:lang="es"><Begin>men</Begin></Tag>
+<Tag name="irlandés medio (ca. desde 1100 hasta 1550)" xml:lang="es"><Begin>mga</Begin></Tag>
+<Tag name="Micmac" xml:lang="es"><Begin>mic</Begin></Tag>
+<Tag name="Minangkabau" xml:lang="es"><Begin>min</Begin></Tag>
+<Tag name="Lenguajes misceláneos" xml:lang="es"><Begin>mis</Begin></Tag>
+<Tag name="Lenguas mon-jemer (Otras)" xml:lang="es"><Begin>mkh</Begin></Tag>
+<Tag name="Malgache" xml:lang="es"><Begin>-mla</Begin></Tag>
+<Tag name="Malgache" xml:lang="es"><Begin>mlg</Begin></Tag>
+<Tag name="Maltés" xml:lang="es"><Begin>mlt</Begin></Tag>
+<Tag name="Manchú" xml:lang="es"><Begin>mnc</Begin></Tag>
+<Tag name="Meitei (Manipurí)" xml:lang="es"><Begin>mni</Begin></Tag>
+<Tag name="Lenguas manobo" xml:lang="es"><Begin>mno</Begin></Tag>
+<Tag name="Mohawk" xml:lang="es"><Begin>moh</Begin></Tag>
+<Tag name="Moldavo" xml:lang="es"><Begin>-mol</Begin></Tag>
+<Tag name="Mongol" xml:lang="es"><Begin>mon</Begin></Tag>
+<Tag name="Mossi (Mòoré)" xml:lang="es"><Begin>mos</Begin></Tag>
+<Tag name="Varios lenguajes" xml:lang="es"><Begin>mul</Begin></Tag>
+<Tag name="Lenguas munda (Otras)" xml:lang="es"><Begin>mun</Begin></Tag>
+<Tag name="Maskoki (Creek)" xml:lang="es"><Begin>mus</Begin></Tag>
+<Tag name="Mirandés" xml:lang="es"><Begin>mwl</Begin></Tag>
+<Tag name="Marwari" xml:lang="es"><Begin>mwr</Begin></Tag>
+<Tag name="Lenguas mayas" xml:lang="es"><Begin>myn</Begin></Tag>
+<Tag name="Erzya" xml:lang="es"><Begin>myv</Begin></Tag>
+<Tag name="Náhuatl" xml:lang="es"><Begin>nah</Begin></Tag>
+<Tag name="Lenguas indígenas norteamericanas (Otras)" xml:lang="es"><Begin>nai</Begin></Tag>
+<Tag name="Napolitano italiano" xml:lang="es"><Begin>nap</Begin></Tag>
+<Tag name="Nauruano" xml:lang="es"><Begin>nau</Begin></Tag>
+<Tag name="Navajo" xml:lang="es"><Begin>nav</Begin></Tag>
+<Tag name="Ndebele (Suráfrica)" xml:lang="es"><Begin>nbl</Begin></Tag>
+<Tag name="Ndebele (Zimbabwe)" xml:lang="es"><Begin>nde</Begin></Tag>
+<Tag name="Ndonga" xml:lang="es"><Begin>ndo</Begin></Tag>
+<Tag name="Bajo alemán" xml:lang="es"><Begin>nds</Begin></Tag>
+<Tag name="Nepalí" xml:lang="es"><Begin>nep</Begin></Tag>
+<Tag name="Nepal bhasa (Newari)" xml:lang="es"><Begin>new</Begin></Tag>
+<Tag name="Nias" xml:lang="es"><Begin>nia</Begin></Tag>
+<Tag name="Níger-Kordofanian (Otras)" xml:lang="es"><Begin>nic</Begin></Tag>
+<Tag name="Niuano" xml:lang="es"><Begin>niu</Begin></Tag>
+<Tag name="Noruego (Nynorsk)" xml:lang="es"><Begin>nno</Begin></Tag>
+<Tag name="Noruego (Bokmal)" xml:lang="es"><Begin>nob</Begin></Tag>
+<Tag name="Nogayo (Nogai)" xml:lang="es"><Begin>nog</Begin></Tag>
+<Tag name="Nórdico antiguo" xml:lang="es"><Begin>non</Begin></Tag>
+<Tag name="Noruego" xml:lang="es"><Begin>nor</Begin></Tag>
+<Tag name="N'Ko" xml:lang="es"><Begin>nqo</Begin></Tag>
+<Tag name="Sesotho sa leboa (Sotho del norte)" xml:lang="es"><Begin>nso</Begin></Tag>
+<Tag name="Lenguas nubias" xml:lang="es"><Begin>nub</Begin></Tag>
+<Tag name="Nepal bhasa antiguo" xml:lang="es"><Begin>nwc</Begin></Tag>
+<Tag name="Chichewa" xml:lang="es"><Begin>nya</Begin></Tag>
+<Tag name="Nyamwezi" xml:lang="es"><Begin>nym</Begin></Tag>
+<Tag name="Runyankole (Nyankole)" xml:lang="es"><Begin>nyn</Begin></Tag>
+<Tag name="Nyoro" xml:lang="es"><Begin>nyo</Begin></Tag>
+<Tag name="Nzima" xml:lang="es"><Begin>nzi</Begin></Tag>
+<Tag name="Occitano (post-1500)" xml:lang="es"><Begin>oci</Begin></Tag>
+<Tag name="Ojibwa" xml:lang="es"><Begin>oji</Begin></Tag>
+<Tag name="Oriya" xml:lang="es"><Begin>ori</Begin></Tag>
+<Tag name="Oromo" xml:lang="es"><Begin>orm</Begin></Tag>
+<Tag name="Osage" xml:lang="es"><Begin>osa</Begin></Tag>
+<Tag name="Osetio, osético" xml:lang="es"><Begin>oss</Begin></Tag>
+<Tag name="Turco otomano" xml:lang="es"><Begin>ota</Begin></Tag>
+<Tag name="Lenguas otomíes (otopameanas)" xml:lang="es"><Begin>oto</Begin></Tag>
+<Tag name="Lenguas papúes (Otras)" xml:lang="es"><Begin>paa</Begin></Tag>
+<Tag name="Pangasinense, pangasinán" xml:lang="es"><Begin>pag</Begin></Tag>
+<Tag name="Pahlavi" xml:lang="es"><Begin>pal</Begin></Tag>
+<Tag name="Pampango" xml:lang="es"><Begin>pam</Begin></Tag>
+<Tag name="Panyabí, punjabí" xml:lang="es"><Begin>pan</Begin></Tag>
+<Tag name="Papiamento" xml:lang="es"><Begin>pap</Begin></Tag>
+<Tag name="Palauano" xml:lang="es"><Begin>pau</Begin></Tag>
+<Tag name="Persa antiguo (ca. 600-400 aC)" xml:lang="es"><Begin>peo</Begin></Tag>
+<Tag name="Persa" xml:lang="es"><Begin>per</Begin></Tag>
+<Tag name="Lenguas filipinas (Otras)" xml:lang="es"><Begin>phi</Begin></Tag>
+<Tag name="Fenicio, púnico" xml:lang="es"><Begin>phn</Begin></Tag>
+<Tag name="Pali" xml:lang="es"><Begin>pli</Begin></Tag>
+<Tag name="Polaco" xml:lang="es"><Begin>pol</Begin></Tag>
+<Tag name="Pohnpeiano (ponapeño)" xml:lang="es"><Begin>pon</Begin></Tag>
+<Tag name="Portugués" xml:lang="es"><Begin>por</Begin></Tag>
+<Tag name="Lenguas prácritas" xml:lang="es"><Begin>pra</Begin></Tag>
+<Tag name="Occitano (Provençal hasta 1500)" xml:lang="es"><Begin>pro</Begin></Tag>
+<Tag name="Pastú" xml:lang="es"><Begin>pus</Begin></Tag>
+<Tag name="Quechua" xml:lang="es"><Begin>que</Begin></Tag>
+<Tag name="Rajasthani" xml:lang="es"><Begin>raj</Begin></Tag>
+<Tag name="Rapanu" xml:lang="es"><Begin>rap</Begin></Tag>
+<Tag name="Rarotongan" xml:lang="es"><Begin>rar</Begin></Tag>
+<Tag name="Lenguas romances (Otras)" xml:lang="es"><Begin>roa</Begin></Tag>
+<Tag name="Raeto-Romance" xml:lang="es"><Begin>roh</Begin></Tag>
+<Tag name="Romaní" xml:lang="es"><Begin>rom</Begin></Tag>
+<Tag name="Rumano" xml:lang="es"><Begin>rum</Begin></Tag>
+<Tag name="Kirundi (Rundi)" xml:lang="es"><Begin>run</Begin></Tag>
+<Tag name="Arumano" xml:lang="es"><Begin>rup</Begin></Tag>
+<Tag name="Ruso" xml:lang="es"><Begin>rus</Begin></Tag>
+<Tag name="Sandawe, sandavés" xml:lang="es"><Begin>sad</Begin></Tag>
+<Tag name="Sango (Ubanguiano criollo)" xml:lang="es"><Begin>sag</Begin></Tag>
+<Tag name="Yakuto" xml:lang="es"><Begin>sah</Begin></Tag>
+<Tag name="Lenguas indígenas sudamericanas (Otras)" xml:lang="es"><Begin>sai</Begin></Tag>
+<Tag name="Lenguas salishanas" xml:lang="es"><Begin>sal</Begin></Tag>
+<Tag name="Samaritano (arameo)" xml:lang="es"><Begin>sam</Begin></Tag>
+<Tag name="Sánscrito" xml:lang="es"><Begin>san</Begin></Tag>
+<Tag name="Samoano" xml:lang="es"><Begin>-sao</Begin></Tag>
+<Tag name="Sasak" xml:lang="es"><Begin>sas</Begin></Tag>
+<Tag name="Santali" xml:lang="es"><Begin>sat</Begin></Tag>
+<Tag name="Serbio" xml:lang="es"><Begin>-scc</Begin></Tag>
+<Tag name="Siciliano italiano" xml:lang="es"><Begin>scn</Begin></Tag>
+<Tag name="Escocés" xml:lang="es"><Begin>sco</Begin></Tag>
+<Tag name="Croata" xml:lang="es"><Begin>-scr</Begin></Tag>
+<Tag name="Selkup" xml:lang="es"><Begin>sel</Begin></Tag>
+<Tag name="Lenguas semíticas (Otras)" xml:lang="es"><Begin>sem</Begin></Tag>
+<Tag name="Irlandés antiguo (1100)" xml:lang="es"><Begin>sga</Begin></Tag>
+<Tag name="Lengua de señas" xml:lang="es"><Begin>sgn</Begin></Tag>
+<Tag name="Shan" xml:lang="es"><Begin>shn</Begin></Tag>
+<Tag name="Shona" xml:lang="es"><Begin>-sho</Begin></Tag>
+<Tag name="Sidamo" xml:lang="es"><Begin>sid</Begin></Tag>
+<Tag name="Cingalés" xml:lang="es"><Begin>sin</Begin></Tag>
+<Tag name="Lenguas siux (Otras)" xml:lang="es"><Begin>sio</Begin></Tag>
+<Tag name="Lenguas sino-tibetanas (Otras)" xml:lang="es"><Begin>sit</Begin></Tag>
+<Tag name="Lenguas eslavas (Otras)" xml:lang="es"><Begin>sla</Begin></Tag>
+<Tag name="Eslovaco" xml:lang="es"><Begin>slo</Begin></Tag>
+<Tag name="Esloveno" xml:lang="es"><Begin>slv</Begin></Tag>
+<Tag name="Sami meridional" xml:lang="es"><Begin>sma</Begin></Tag>
+<Tag name="Sami septentrional" xml:lang="es"><Begin>sme</Begin></Tag>
+<Tag name="Sami" xml:lang="es"><Begin>smi</Begin></Tag>
+<Tag name="Sami de Lule" xml:lang="es"><Begin>smj</Begin></Tag>
+<Tag name="Sami Inari" xml:lang="es"><Begin>smn</Begin></Tag>
+<Tag name="Samoano" xml:lang="es"><Begin>smo</Begin></Tag>
+<Tag name="Sami skolt" xml:lang="es"><Begin>sms</Begin></Tag>
+<Tag name="Shona" xml:lang="es"><Begin>sna</Begin></Tag>
+<Tag name="Sindhi" xml:lang="es"><Begin>snd</Begin></Tag>
+<Tag name="Cingalés" xml:lang="es"><Begin>-snh</Begin></Tag>
+<Tag name="Soninké" xml:lang="es"><Begin>snk</Begin></Tag>
+<Tag name="Sogdiano" xml:lang="es"><Begin>sog</Begin></Tag>
+<Tag name="Somalí" xml:lang="es"><Begin>som</Begin></Tag>
+<Tag name="Songhai" xml:lang="es"><Begin>son</Begin></Tag>
+<Tag name="Sotho, sesotho" xml:lang="es"><Begin>sot</Begin></Tag>
+<Tag name="Español" xml:lang="es"><Begin>spa</Begin></Tag>
+<Tag name="Sardo" xml:lang="es"><Begin>srd</Begin></Tag>
+<Tag name="Sranan" xml:lang="es"><Begin>srn</Begin></Tag>
+<Tag name="Serbio" xml:lang="es"><Begin>srp</Begin></Tag>
+<Tag name="Serer" xml:lang="es"><Begin>srr</Begin></Tag>
+<Tag name="Lenguas nilo-saharianas (Otras)" xml:lang="es"><Begin>ssa</Begin></Tag>
+<Tag name="Sotho, sesotho" xml:lang="es"><Begin>-sso</Begin></Tag>
+<Tag name="Suazi, swazi" xml:lang="es"><Begin>ssw</Begin></Tag>
+<Tag name="Sukuma" xml:lang="es"><Begin>suk</Begin></Tag>
+<Tag name="Sudanés" xml:lang="es"><Begin>sun</Begin></Tag>
+<Tag name="Susu" xml:lang="es"><Begin>sus</Begin></Tag>
+<Tag name="Sumerio" xml:lang="es"><Begin>sux</Begin></Tag>
+<Tag name="Suajili" xml:lang="es"><Begin>swa</Begin></Tag>
+<Tag name="Sueco" xml:lang="es"><Begin>swe</Begin></Tag>
+<Tag name="Suazi, swazi" xml:lang="es"><Begin>-swz</Begin></Tag>
+<Tag name="Siríaco" xml:lang="es"><Begin>syc</Begin></Tag>
+<Tag name="Siríaco moderno" xml:lang="es"><Begin>syr</Begin></Tag>
+<Tag name="Tagalo" xml:lang="es"><Begin>-tag</Begin></Tag>
+<Tag name="Tahitiano" xml:lang="es"><Begin>tah</Begin></Tag>
+<Tag name="Lenguas tai (Otras)" xml:lang="es"><Begin>tai</Begin></Tag>
+<Tag name="Tayiko" xml:lang="es"><Begin>-taj</Begin></Tag>
+<Tag name="Tamil" xml:lang="es"><Begin>tam</Begin></Tag>
+<Tag name="Tártaro" xml:lang="es"><Begin>-tar</Begin></Tag>
+<Tag name="Tártaro" xml:lang="es"><Begin>tat</Begin></Tag>
+<Tag name="Telugu" xml:lang="es"><Begin>tel</Begin></Tag>
+<Tag name="Temné" xml:lang="es"><Begin>tem</Begin></Tag>
+<Tag name="Terena" xml:lang="es"><Begin>ter</Begin></Tag>
+<Tag name="Tetun" xml:lang="es"><Begin>tet</Begin></Tag>
+<Tag name="Tayiko" xml:lang="es"><Begin>tgk</Begin></Tag>
+<Tag name="Tagalo" xml:lang="es"><Begin>tgl</Begin></Tag>
+<Tag name="Tailandés" xml:lang="es"><Begin>tha</Begin></Tag>
+<Tag name="Tibetano" xml:lang="es"><Begin>tib</Begin></Tag>
+<Tag name="Tigré" xml:lang="es"><Begin>tig</Begin></Tag>
+<Tag name="Tigriña" xml:lang="es"><Begin>tir</Begin></Tag>
+<Tag name="Tiv" xml:lang="es"><Begin>tiv</Begin></Tag>
+<Tag name="Tokelauano" xml:lang="es"><Begin>tkl</Begin></Tag>
+<Tag name="Klingon (lengua artificial)" xml:lang="es"><Begin>tlh</Begin></Tag>
+<Tag name="Tlingit" xml:lang="es"><Begin>tli</Begin></Tag>
+<Tag name="Tuareg" xml:lang="es"><Begin>tmh</Begin></Tag>
+<Tag name="Chitonga (Nyasa)" xml:lang="es"><Begin>tog</Begin></Tag>
+<Tag name="Tongano" xml:lang="es"><Begin>ton</Begin></Tag>
+<Tag name="Tok pisin" xml:lang="es"><Begin>tpi</Begin></Tag>
+<Tag name="Truk" xml:lang="es"><Begin>-tru</Begin></Tag>
+<Tag name="Tsimshian" xml:lang="es"><Begin>tsi</Begin></Tag>
+<Tag name="Setsuana, tswana" xml:lang="es"><Begin>tsn</Begin></Tag>
+<Tag name="Tsonga" xml:lang="es"><Begin>tso</Begin></Tag>
+<Tag name="Setsuana, tswana" xml:lang="es"><Begin>-tsw</Begin></Tag>
+<Tag name="Turcomano" xml:lang="es"><Begin>tuk</Begin></Tag>
+<Tag name="Tumbuka" xml:lang="es"><Begin>tum</Begin></Tag>
+<Tag name="Lenguas tupíes" xml:lang="es"><Begin>tup</Begin></Tag>
+<Tag name="Turco" xml:lang="es"><Begin>tur</Begin></Tag>
+<Tag name="Lenguas altaicas (Otras)" xml:lang="es"><Begin>tut</Begin></Tag>
+<Tag name="Tuvaluano" xml:lang="es"><Begin>tvl</Begin></Tag>
+<Tag name="Twi" xml:lang="es"><Begin>twi</Begin></Tag>
+<Tag name="Tuvano" xml:lang="es"><Begin>tyv</Begin></Tag>
+<Tag name="Udmurto" xml:lang="es"><Begin>udm</Begin></Tag>
+<Tag name="Ugarítico" xml:lang="es"><Begin>uga</Begin></Tag>
+<Tag name="Uigur" xml:lang="es"><Begin>uig</Begin></Tag>
+<Tag name="Ucranio" xml:lang="es"><Begin>ukr</Begin></Tag>
+<Tag name="Umbundu" xml:lang="es"><Begin>umb</Begin></Tag>
+<Tag name="Indeterminado" xml:lang="es"><Begin>und</Begin></Tag>
+<Tag name="Urdu" xml:lang="es"><Begin>urd</Begin></Tag>
+<Tag name="Uzbeco, uzbeko" xml:lang="es"><Begin>uzb</Begin></Tag>
+<Tag name="Vai" xml:lang="es"><Begin>vai</Begin></Tag>
+<Tag name="Venda" xml:lang="es"><Begin>ven</Begin></Tag>
+<Tag name="Vietnamita" xml:lang="es"><Begin>vie</Begin></Tag>
+<Tag name="Volapük" xml:lang="es"><Begin>vol</Begin></Tag>
+<Tag name="Votic" xml:lang="es"><Begin>vot</Begin></Tag>
+<Tag name="Lenguas wakash" xml:lang="es"><Begin>wak</Begin></Tag>
+<Tag name="Wolayta" xml:lang="es"><Begin>wal</Begin></Tag>
+<Tag name="Waray" xml:lang="es"><Begin>war</Begin></Tag>
+<Tag name="Washoe" xml:lang="es"><Begin>was</Begin></Tag>
+<Tag name="Galés" xml:lang="es"><Begin>wel</Begin></Tag>
+<Tag name="Lenguas sorbias (Otras)" xml:lang="es"><Begin>wen</Begin></Tag>
+<Tag name="Valón" xml:lang="es"><Begin>wln</Begin></Tag>
+<Tag name="Wólof" xml:lang="es"><Begin>wol</Begin></Tag>
+<Tag name="Oirat" xml:lang="es"><Begin>xal</Begin></Tag>
+<Tag name="Xhosa" xml:lang="es"><Begin>xho</Begin></Tag>
+<Tag name="Yao (África)" xml:lang="es"><Begin>yao</Begin></Tag>
+<Tag name="Yapese" xml:lang="es"><Begin>yap</Begin></Tag>
+<Tag name="Yídish" xml:lang="es"><Begin>yid</Begin></Tag>
+<Tag name="Yoruba" xml:lang="es"><Begin>yor</Begin></Tag>
+<Tag name="Lenguas yupik" xml:lang="es"><Begin>ypk</Begin></Tag>
+<Tag name="Zapoteca" xml:lang="es"><Begin>zap</Begin></Tag>
+<Tag name="Símbolos Bliss" xml:lang="es"><Begin>zbl</Begin></Tag>
+<Tag name="Zenaga" xml:lang="es"><Begin>zen</Begin></Tag>
+<Tag name="Chuang" xml:lang="es"><Begin>zha</Begin></Tag>
+<Tag name="Lenguas Zande" xml:lang="es"><Begin>znd</Begin></Tag>
+<Tag name="Zulú" xml:lang="es"><Begin>zul</Begin></Tag>
+<Tag name="Zuñi" xml:lang="es"><Begin>zun</Begin></Tag>
+<Tag name="Sin contenido lingüístico" xml:lang="es"><Begin>zxx</Begin></Tag>
+<Tag name="Zaza, zazaki" xml:lang="es"><Begin>zza</Begin></Tag>
+
+</TagGroup>
+</TagList>

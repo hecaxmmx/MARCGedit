@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup sort="true" name="MARC: Countries">
+
+<Tag name="Albania"><Begin>aa</Begin></Tag>
+<Tag name="Alberta"><Begin>abc</Begin></Tag>
+<Tag name="Ashmore and Cartier Islands*"><Begin>-ac</Begin></Tag>
+<Tag name="Australian Capital Territory"><Begin>aca</Begin></Tag>
+<Tag name="Algeria"><Begin>ae</Begin></Tag>
+<Tag name="Afghanistan"><Begin>af</Begin></Tag>
+<Tag name="Argentina"><Begin>ag</Begin></Tag>
+<Tag name="Anguilla*"><Begin>-ai</Begin></Tag>
+<Tag name="Armenia (Republic)"><Begin>ai</Begin></Tag>
+<Tag name="Armenian S.S.R.*"><Begin>-air</Begin></Tag>
+<Tag name="Azerbaijan"><Begin>aj</Begin></Tag>
+<Tag name="Azerbaijan S.S.R.*"><Begin>-ajr</Begin></Tag>
+<Tag name="Alaska"><Begin>aku</Begin></Tag>
+<Tag name="Alabama"><Begin>alu</Begin></Tag>
+<Tag name="Anguilla"><Begin>am</Begin></Tag>
+<Tag name="Andorra"><Begin>an</Begin></Tag>
+<Tag name="Angola"><Begin>ao</Begin></Tag>
+<Tag name="Antigua and Barbuda"><Begin>aq</Begin></Tag>
+<Tag name="Arkansas"><Begin>aru</Begin></Tag>
+<Tag name="American Samoa"><Begin>as</Begin></Tag>
+<Tag name="Australia"><Begin>at</Begin></Tag>
+<Tag name="Austria"><Begin>au</Begin></Tag>
+<Tag name="Aruba"><Begin>aw</Begin></Tag>
+<Tag name="Antarctica"><Begin>ay</Begin></Tag>
+<Tag name="Arizona"><Begin>azu</Begin></Tag>
+<Tag name="Bahrain"><Begin>ba</Begin></Tag>
+<Tag name="Barbados"><Begin>bb</Begin></Tag>
+<Tag name="British Columbia"><Begin>bcc</Begin></Tag>
+<Tag name="Burundi"><Begin>bd</Begin></Tag>
+<Tag name="Belgium"><Begin>be</Begin></Tag>
+<Tag name="Bahamas"><Begin>bf</Begin></Tag>
+<Tag name="Bangladesh"><Begin>bg</Begin></Tag>
+<Tag name="Belize"><Begin>bh</Begin></Tag>
+<Tag name="British Indian Ocean Territory"><Begin>bi</Begin></Tag>
+<Tag name="Brazil"><Begin>bl</Begin></Tag>
+<Tag name="Bermuda Islands"><Begin>bm</Begin></Tag>
+<Tag name="Bosnia and Hercegovina"><Begin>bn</Begin></Tag>
+<Tag name="Bolivia"><Begin>bo</Begin></Tag>
+<Tag name="Solomon Islands"><Begin>bp</Begin></Tag>
+<Tag name="Burma"><Begin>br</Begin></Tag>
+<Tag name="Botswana"><Begin>bs</Begin></Tag>
+<Tag name="Bhutan"><Begin>bt</Begin></Tag>
+<Tag name="Bulgaria"><Begin>bu</Begin></Tag>
+<Tag name="Bouvet Island"><Begin>bv</Begin></Tag>
+<Tag name="Belarus"><Begin>bw</Begin></Tag>
+<Tag name="Byelorussian S.S.R.*"><Begin>-bwr</Begin></Tag>
+<Tag name="Brunei"><Begin>bx</Begin></Tag>
+<Tag name="Caribbean Netherlands"><Begin>ca</Begin></Tag>
+<Tag name="California"><Begin>cau</Begin></Tag>
+<Tag name="Cambodia"><Begin>cb</Begin></Tag>
+<Tag name="China"><Begin>cc</Begin></Tag>
+<Tag name="Chad"><Begin>cd</Begin></Tag>
+<Tag name="Sri Lanka"><Begin>ce</Begin></Tag>
+<Tag name="Congo (Brazzaville)"><Begin>cf</Begin></Tag>
+<Tag name="Congo (Democratic Republic)"><Begin>cg</Begin></Tag>
+<Tag name="China (Republic : 1949- )"><Begin>ch</Begin></Tag>
+<Tag name="Croatia"><Begin>ci</Begin></Tag>
+<Tag name="Cayman Islands"><Begin>cj</Begin></Tag>
+<Tag name="Colombia"><Begin>ck</Begin></Tag>
+<Tag name="Chile"><Begin>cl</Begin></Tag>
+<Tag name="Cameroon"><Begin>cm</Begin></Tag>
+<Tag name="Canada"><Begin>-cn</Begin></Tag>
+<Tag name="Curaçao"><Begin>co</Begin></Tag>
+<Tag name="Colorado"><Begin>cou</Begin></Tag>
+<Tag name="Canton and Enderbury Islands*"><Begin>-cp</Begin></Tag>
+<Tag name="Comoros"><Begin>cq</Begin></Tag>
+<Tag name="Costa Rica"><Begin>cr</Begin></Tag>
+<Tag name="Czechoslovakia*"><Begin>-cs</Begin></Tag>
+<Tag name="Connecticut"><Begin>ctu</Begin></Tag>
+<Tag name="Cuba"><Begin>cu</Begin></Tag>
+<Tag name="Cape Verde"><Begin>cv</Begin></Tag>
+<Tag name="Cook Islands"><Begin>cw</Begin></Tag>
+<Tag name="Central African Republic"><Begin>cx</Begin></Tag>
+<Tag name="Cyprus"><Begin>cy</Begin></Tag>
+<Tag name="Canal Zone*"><Begin>-cz</Begin></Tag>
+<Tag name="District of Columbia"><Begin>dcu</Begin></Tag>
+<Tag name="Delaware"><Begin>deu</Begin></Tag>
+<Tag name="Denmark"><Begin>dk</Begin></Tag>
+<Tag name="Benin"><Begin>dm</Begin></Tag>
+<Tag name="Dominica"><Begin>dq</Begin></Tag>
+<Tag name="Dominican Republic"><Begin>dr</Begin></Tag>
+<Tag name="Eritrea"><Begin>ea</Begin></Tag>
+<Tag name="Ecuador"><Begin>ec</Begin></Tag>
+<Tag name="Equatorial Guinea"><Begin>eg</Begin></Tag>
+<Tag name="Timor-Leste"><Begin>em</Begin></Tag>
+<Tag name="England"><Begin>enk</Begin></Tag>
+<Tag name="Estonia"><Begin>er</Begin></Tag>
+<Tag name="Estonia*"><Begin>-err</Begin></Tag>
+<Tag name="El Salvador"><Begin>es</Begin></Tag>
+<Tag name="Ethiopia"><Begin>et</Begin></Tag>
+<Tag name="Faroe Islands"><Begin>fa</Begin></Tag>
+<Tag name="French Guiana"><Begin>fg</Begin></Tag>
+<Tag name="Finland"><Begin>fi</Begin></Tag>
+<Tag name="Fiji"><Begin>fj</Begin></Tag>
+<Tag name="Falkland Islands"><Begin>fk</Begin></Tag>
+<Tag name="Florida"><Begin>flu</Begin></Tag>
+<Tag name="Micronesia (Federated States)"><Begin>fm</Begin></Tag>
+<Tag name="French Polynesia"><Begin>fp</Begin></Tag>
+<Tag name="France"><Begin>fr</Begin></Tag>
+<Tag name="Terres australes et antarctiques françaises"><Begin>fs</Begin></Tag>
+<Tag name="Djibouti"><Begin>ft</Begin></Tag>
+<Tag name="Georgia"><Begin>gau</Begin></Tag>
+<Tag name="Kiribati"><Begin>gb</Begin></Tag>
+<Tag name="Grenada"><Begin>gd</Begin></Tag>
+<Tag name="Germany (East)*"><Begin>-ge</Begin></Tag>
+<Tag name="Ghana"><Begin>gh</Begin></Tag>
+<Tag name="Gibraltar"><Begin>gi</Begin></Tag>
+<Tag name="Greenland"><Begin>gl</Begin></Tag>
+<Tag name="Gambia"><Begin>gm</Begin></Tag>
+<Tag name="Gilbert and Ellice Islands*"><Begin>-gn</Begin></Tag>
+<Tag name="Gabon"><Begin>go</Begin></Tag>
+<Tag name="Guadeloupe"><Begin>gp</Begin></Tag>
+<Tag name="Greece"><Begin>gr</Begin></Tag>
+<Tag name="Georgia (Republic)"><Begin>gs</Begin></Tag>
+<Tag name="Georgian S.S.R.*"><Begin>-gsr</Begin></Tag>
+<Tag name="Guatemala"><Begin>gt</Begin></Tag>
+<Tag name="Guam"><Begin>gu</Begin></Tag>
+<Tag name="Guinea"><Begin>gv</Begin></Tag>
+<Tag name="Germany"><Begin>gw</Begin></Tag>
+<Tag name="Guyana"><Begin>gy</Begin></Tag>
+<Tag name="Gaza Strip"><Begin>gz</Begin></Tag>
+<Tag name="Hawaii"><Begin>hiu</Begin></Tag>
+<Tag name="Hong Kong*"><Begin>-hk</Begin></Tag>
+<Tag name="Heard and McDonald Islands"><Begin>hm</Begin></Tag>
+<Tag name="Honduras"><Begin>ho</Begin></Tag>
+<Tag name="Haiti"><Begin>ht</Begin></Tag>
+<Tag name="Hungary"><Begin>hu</Begin></Tag>
+<Tag name="Iowa"><Begin>iau</Begin></Tag>
+<Tag name="Iceland"><Begin>ic</Begin></Tag>
+<Tag name="Idaho"><Begin>idu</Begin></Tag>
+<Tag name="Ireland"><Begin>ie</Begin></Tag>
+<Tag name="India"><Begin>ii</Begin></Tag>
+<Tag name="Illinois"><Begin>ilu</Begin></Tag>
+<Tag name="Indiana"><Begin>inu</Begin></Tag>
+<Tag name="Indonesia"><Begin>io</Begin></Tag>
+<Tag name="Iraq"><Begin>iq</Begin></Tag>
+<Tag name="Iran"><Begin>ir</Begin></Tag>
+<Tag name="Israel"><Begin>is</Begin></Tag>
+<Tag name="Italy"><Begin>it</Begin></Tag>
+<Tag name="Israel-Syria Demilitarized Zones*"><Begin>-iu</Begin></Tag>
+<Tag name="Côte d'Ivoire"><Begin>iv</Begin></Tag>
+<Tag name="Israel-Jordan Demilitarized Zones*"><Begin>-iw</Begin></Tag>
+<Tag name="Iraq-Saudi Arabia Neutral Zone"><Begin>iy</Begin></Tag>
+<Tag name="Japan"><Begin>ja</Begin></Tag>
+<Tag name="Johnston Atoll"><Begin>ji</Begin></Tag>
+<Tag name="Jamaica"><Begin>jm</Begin></Tag>
+<Tag name="Jan Mayen*"><Begin>-jn</Begin></Tag>
+<Tag name="Jordan"><Begin>jo</Begin></Tag>
+<Tag name="Kenya"><Begin>ke</Begin></Tag>
+<Tag name="Kyrgyzstan"><Begin>kg</Begin></Tag>
+<Tag name="Kirghiz S.S.R.*"><Begin>-kgr</Begin></Tag>
+<Tag name="Korea (North)"><Begin>kn</Begin></Tag>
+<Tag name="Korea (South)"><Begin>ko</Begin></Tag>
+<Tag name="Kansas"><Begin>ksu</Begin></Tag>
+<Tag name="Kuwait"><Begin>ku</Begin></Tag>
+<Tag name="Kosovo"><Begin>kv</Begin></Tag>
+<Tag name="Kentucky"><Begin>kyu</Begin></Tag>
+<Tag name="Kazakhstan"><Begin>kz</Begin></Tag>
+<Tag name="Kazakh S.S.R.*"><Begin>-kzr</Begin></Tag>
+<Tag name="Louisiana"><Begin>lau</Begin></Tag>
+<Tag name="Liberia"><Begin>lb</Begin></Tag>
+<Tag name="Lebanon"><Begin>le</Begin></Tag>
+<Tag name="Liechtenstein"><Begin>lh</Begin></Tag>
+<Tag name="Lithuania"><Begin>li</Begin></Tag>
+<Tag name="Lithuania*"><Begin>-lir</Begin></Tag>
+<Tag name="Central and Southern Line Islands*"><Begin>ln</Begin></Tag>
+<Tag name="Lesotho"><Begin>lo</Begin></Tag>
+<Tag name="Laos"><Begin>ls</Begin></Tag>
+<Tag name="Luxembourg"><Begin>lu</Begin></Tag>
+<Tag name="Latvia"><Begin>lv</Begin></Tag>
+<Tag name="Latvia*"><Begin>-lvr</Begin></Tag>
+<Tag name="Libya"><Begin>ly</Begin></Tag>
+<Tag name="Massachusetts"><Begin>mau</Begin></Tag>
+<Tag name="Manitoba"><Begin>mbc</Begin></Tag>
+<Tag name="Monaco"><Begin>mc</Begin></Tag>
+<Tag name="Maryland"><Begin>mdu</Begin></Tag>
+<Tag name="Maine"><Begin>meu</Begin></Tag>
+<Tag name="Mauritius"><Begin>mf</Begin></Tag>
+<Tag name="Madagascar"><Begin>mg</Begin></Tag>
+<Tag name="Macao*"><Begin>-mh</Begin></Tag>
+<Tag name="Michigan"><Begin>miu</Begin></Tag>
+<Tag name="Montserrat"><Begin>mj</Begin></Tag>
+<Tag name="Oman"><Begin>mk</Begin></Tag>
+<Tag name="Mali"><Begin>ml</Begin></Tag>
+<Tag name="Malta"><Begin>mm</Begin></Tag>
+<Tag name="Minnesota"><Begin>mnu</Begin></Tag>
+<Tag name="Montenegro"><Begin>mo</Begin></Tag>
+<Tag name="Missouri"><Begin>mou</Begin></Tag>
+<Tag name="Mongolia"><Begin>mp</Begin></Tag>
+<Tag name="Martinique"><Begin>mq</Begin></Tag>
+<Tag name="Morocco"><Begin>mr</Begin></Tag>
+<Tag name="Mississippi"><Begin>msu</Begin></Tag>
+<Tag name="Montana"><Begin>mtu</Begin></Tag>
+<Tag name="Mauritania"><Begin>mu</Begin></Tag>
+<Tag name="Moldova"><Begin>mv</Begin></Tag>
+<Tag name="Moldavian S.S.R.*"><Begin>-mvr</Begin></Tag>
+<Tag name="Malawi"><Begin>mw</Begin></Tag>
+<Tag name="Mexico"><Begin>mx</Begin></Tag>
+<Tag name="Malaysia"><Begin>my</Begin></Tag>
+<Tag name="Mozambique"><Begin>mz</Begin></Tag>
+<Tag name="Netherlands Antilles*"><Begin>-na</Begin></Tag>
+<Tag name="Nebraska"><Begin>nbu</Begin></Tag>
+<Tag name="North Carolina"><Begin>ncu</Begin></Tag>
+<Tag name="North Dakota"><Begin>ndu</Begin></Tag>
+<Tag name="Netherlands"><Begin>ne</Begin></Tag>
+<Tag name="Newfoundland and Labrador"><Begin>nfc</Begin></Tag>
+<Tag name="Niger"><Begin>ng</Begin></Tag>
+<Tag name="New Hampshire"><Begin>nhu</Begin></Tag>
+<Tag name="Northern Ireland"><Begin>nik</Begin></Tag>
+<Tag name="New Jersey"><Begin>nju</Begin></Tag>
+<Tag name="New Brunswick"><Begin>nkc</Begin></Tag>
+<Tag name="New Caledonia"><Begin>nl</Begin></Tag>
+<Tag name="Northern Mariana Islands*"><Begin>-nm</Begin></Tag>
+<Tag name="New Mexico"><Begin>nmu</Begin></Tag>
+<Tag name="Vanuatu"><Begin>nn</Begin></Tag>
+<Tag name="Norway"><Begin>no</Begin></Tag>
+<Tag name="Nepal"><Begin>np</Begin></Tag>
+<Tag name="Nicaragua"><Begin>nq</Begin></Tag>
+<Tag name="Nigeria"><Begin>nr</Begin></Tag>
+<Tag name="Nova Scotia"><Begin>nsc</Begin></Tag>
+<Tag name="Northwest Territories"><Begin>ntc</Begin></Tag>
+<Tag name="Nauru"><Begin>nu</Begin></Tag>
+<Tag name="Nunavut"><Begin>nuc</Begin></Tag>
+<Tag name="Nevada"><Begin>nvu</Begin></Tag>
+<Tag name="Northern Mariana Islands"><Begin>nw</Begin></Tag>
+<Tag name="Norfolk Island"><Begin>nx</Begin></Tag>
+<Tag name="New York (State)"><Begin>nyu</Begin></Tag>
+<Tag name="New Zealand"><Begin>nz</Begin></Tag>
+<Tag name="Ohio"><Begin>ohu</Begin></Tag>
+<Tag name="Oklahoma"><Begin>oku</Begin></Tag>
+<Tag name="Ontario"><Begin>onc</Begin></Tag>
+<Tag name="Oregon"><Begin>oru</Begin></Tag>
+<Tag name="Mayotte"><Begin>ot</Begin></Tag>
+<Tag name="Pennsylvania"><Begin>pau</Begin></Tag>
+<Tag name="Pitcairn Island"><Begin>pc</Begin></Tag>
+<Tag name="Peru"><Begin>pe</Begin></Tag>
+<Tag name="Paracel Islands"><Begin>pf</Begin></Tag>
+<Tag name="Guinea-Bissau"><Begin>pg</Begin></Tag>
+<Tag name="Philippines"><Begin>ph</Begin></Tag>
+<Tag name="Prince Edward Island"><Begin>pic</Begin></Tag>
+<Tag name="Pakistan"><Begin>pk</Begin></Tag>
+<Tag name="Poland"><Begin>pl</Begin></Tag>
+<Tag name="Panama"><Begin>pn</Begin></Tag>
+<Tag name="Portugal"><Begin>po</Begin></Tag>
+<Tag name="Papua New Guinea"><Begin>pp</Begin></Tag>
+<Tag name="Puerto Rico"><Begin>pr</Begin></Tag>
+<Tag name="Portuguese Timor*"><Begin>-pt</Begin></Tag>
+<Tag name="Palau"><Begin>pw</Begin></Tag>
+<Tag name="Paraguay"><Begin>py</Begin></Tag>
+<Tag name="Qatar"><Begin>qa</Begin></Tag>
+<Tag name="Queensland"><Begin>qea</Begin></Tag>
+<Tag name="Québec (Province)"><Begin>quc</Begin></Tag>
+<Tag name="Serbia"><Begin>rb</Begin></Tag>
+<Tag name="Réunion"><Begin>re</Begin></Tag>
+<Tag name="Zimbabwe"><Begin>rh</Begin></Tag>
+<Tag name="Rhode Island"><Begin>riu</Begin></Tag>
+<Tag name="Romania"><Begin>rm</Begin></Tag>
+<Tag name="Russia (Federation)"><Begin>ru</Begin></Tag>
+<Tag name="Russian S.F.S.R.*"><Begin>-rur</Begin></Tag>
+<Tag name="Rwanda"><Begin>rw</Begin></Tag>
+<Tag name="Ryukyu Islands, Southern*"><Begin>-ry</Begin></Tag>
+<Tag name="South Africa"><Begin>sa</Begin></Tag>
+<Tag name="Svalbard*"><Begin>-sb</Begin></Tag>
+<Tag name="Saint-Barthélemy"><Begin>sc</Begin></Tag>
+<Tag name="South Carolina"><Begin>scu</Begin></Tag>
+<Tag name="South Sudan"><Begin>sd</Begin></Tag>
+<Tag name="South Dakota"><Begin>sdu</Begin></Tag>
+<Tag name="Seychelles"><Begin>se</Begin></Tag>
+<Tag name="Sao Tome and Principe"><Begin>sf</Begin></Tag>
+<Tag name="Senegal"><Begin>sg</Begin></Tag>
+<Tag name="Spanish North Africa"><Begin>sh</Begin></Tag>
+<Tag name="Singapore"><Begin>si</Begin></Tag>
+<Tag name="Sudan"><Begin>sj</Begin></Tag>
+<Tag name="Sikkim*"><Begin>-sk</Begin></Tag>
+<Tag name="Sierra Leone"><Begin>sl</Begin></Tag>
+<Tag name="San Marino"><Begin>sm</Begin></Tag>
+<Tag name="Sint Maarten"><Begin>sn</Begin></Tag>
+<Tag name="Saskatchewan"><Begin>snc</Begin></Tag>
+<Tag name="Somalia"><Begin>so</Begin></Tag>
+<Tag name="Spain"><Begin>sp</Begin></Tag>
+<Tag name="Swaziland"><Begin>sq</Begin></Tag>
+<Tag name="Surinam"><Begin>sr</Begin></Tag>
+<Tag name="Western Sahara"><Begin>ss</Begin></Tag>
+<Tag name="Saint-Martin"><Begin>st</Begin></Tag>
+<Tag name="Scotland"><Begin>stk</Begin></Tag>
+<Tag name="Saudi Arabia"><Begin>su</Begin></Tag>
+<Tag name="Swan Islands*"><Begin>-sv</Begin></Tag>
+<Tag name="Sweden"><Begin>sw</Begin></Tag>
+<Tag name="Namibia"><Begin>sx</Begin></Tag>
+<Tag name="Syria"><Begin>sy</Begin></Tag>
+<Tag name="Switzerland"><Begin>sz</Begin></Tag>
+<Tag name="Tajikistan"><Begin>ta</Begin></Tag>
+<Tag name="Tajik S.S.R.*"><Begin>-tar</Begin></Tag>
+<Tag name="Turks and Caicos Islands"><Begin>tc</Begin></Tag>
+<Tag name="Togo"><Begin>tg</Begin></Tag>
+<Tag name="Thailand"><Begin>th</Begin></Tag>
+<Tag name="Tunisia"><Begin>ti</Begin></Tag>
+<Tag name="Turkmenistan"><Begin>tk</Begin></Tag>
+<Tag name="Turkmen S.S.R.*"><Begin>-tkr</Begin></Tag>
+<Tag name="Tokelau"><Begin>tl</Begin></Tag>
+<Tag name="Tasmania"><Begin>tma</Begin></Tag>
+<Tag name="Tennessee"><Begin>tnu</Begin></Tag>
+<Tag name="Tonga"><Begin>to</Begin></Tag>
+<Tag name="Trinidad and Tobago"><Begin>tr</Begin></Tag>
+<Tag name="United Arab Emirates"><Begin>ts</Begin></Tag>
+<Tag name="Trust Territory of the Pacific Islands*"><Begin>-tt</Begin></Tag>
+<Tag name="Turkey"><Begin>tu</Begin></Tag>
+<Tag name="Tuvalu"><Begin>tv</Begin></Tag>
+<Tag name="Texas"><Begin>txu</Begin></Tag>
+<Tag name="Tanzania"><Begin>tz</Begin></Tag>
+<Tag name="Egypt"><Begin>ua</Begin></Tag>
+<Tag name="United States Misc. Caribbean Islands"><Begin>uc</Begin></Tag>
+<Tag name="Uganda"><Begin>ug</Begin></Tag>
+<Tag name="United Kingdom Misc. Islands*"><Begin>-ui</Begin></Tag>
+<Tag name="United Kingdom Misc. Islands"><Begin>uik</Begin></Tag>
+<Tag name="United Kingdom*"><Begin>-uk</Begin></Tag>
+<Tag name="Ukraine"><Begin>un</Begin></Tag>
+<Tag name="Ukraine*"><Begin>-unr</Begin></Tag>
+<Tag name="United States Misc. Pacific Islands"><Begin>up</Begin></Tag>
+<Tag name="Soviet Union*"><Begin>-ur</Begin></Tag>
+<Tag name="United States*"><Begin>-us</Begin></Tag>
+<Tag name="Utah"><Begin>utu</Begin></Tag>
+<Tag name="Burkina Faso"><Begin>uv</Begin></Tag>
+<Tag name="Uruguay"><Begin>uy</Begin></Tag>
+<Tag name="Uzbekistan"><Begin>uz</Begin></Tag>
+<Tag name="Uzbek S.S.R.*"><Begin>-uzr</Begin></Tag>
+<Tag name="Virginia"><Begin>vau</Begin></Tag>
+<Tag name="British Virgin Islands"><Begin>vb</Begin></Tag>
+<Tag name="Vatican City"><Begin>vc</Begin></Tag>
+<Tag name="Venezuela"><Begin>ve</Begin></Tag>
+<Tag name="Virgin Islands of the United States"><Begin>vi</Begin></Tag>
+<Tag name="Vietnam"><Begin>vm</Begin></Tag>
+<Tag name="Vietnam, North*"><Begin>-vn</Begin></Tag>
+<Tag name="Various places"><Begin>vp</Begin></Tag>
+<Tag name="Victoria"><Begin>vra</Begin></Tag>
+<Tag name="Vietnam, South"><Begin>-vs</Begin></Tag>
+<Tag name="Vermont"><Begin>vtu</Begin></Tag>
+<Tag name="Washington (State)"><Begin>wau</Begin></Tag>
+<Tag name="West Berlin*"><Begin>wb</Begin></Tag>
+<Tag name="Western Australia"><Begin>wea</Begin></Tag>
+<Tag name="Wallis and Futuna"><Begin>wf</Begin></Tag>
+<Tag name="Wisconsin"><Begin>wiu</Begin></Tag>
+<Tag name="West Bank of the Jordan River"><Begin>wj</Begin></Tag>
+<Tag name="Wake Island"><Begin>wk</Begin></Tag>
+<Tag name="Wales"><Begin>wlk</Begin></Tag>
+<Tag name="Samoa"><Begin>ws</Begin></Tag>
+<Tag name="West Virginia"><Begin>wvu</Begin></Tag>
+<Tag name="Wyoming"><Begin>wyu</Begin></Tag>
+<Tag name="Christmas Island (Indian Ocean)"><Begin>xa</Begin></Tag>
+<Tag name="Cocos (Keeling) Islands"><Begin>xb</Begin></Tag>
+<Tag name="Maldives"><Begin>xc</Begin></Tag>
+<Tag name="Saint Kitts-Nevis"><Begin>xd</Begin></Tag>
+<Tag name="Marshall Islands"><Begin>xe</Begin></Tag>
+<Tag name="Midway Islands"><Begin>xf</Begin></Tag>
+<Tag name="Coral Sea Islands Territory"><Begin>xga</Begin></Tag>
+<Tag name="Niue"><Begin>xh</Begin></Tag>
+<Tag name="Saint Kitts-Nevis-Anguilla*"><Begin>-xi</Begin></Tag>
+<Tag name="Saint Helena"><Begin>xj</Begin></Tag>
+<Tag name="Saint Lucia"><Begin>xk</Begin></Tag>
+<Tag name="Saint Pierre and Miquelon"><Begin>xl</Begin></Tag>
+<Tag name="Saint Vincent and the Grenadines"><Begin>xm</Begin></Tag>
+<Tag name="Macedonia"><Begin>xn</Begin></Tag>
+<Tag name="New South Wales"><Begin>xna</Begin></Tag>
+<Tag name="Slovakia"><Begin>xo</Begin></Tag>
+<Tag name="Northern Territory"><Begin>xoa</Begin></Tag>
+<Tag name="Spratly Island"><Begin>xp</Begin></Tag>
+<Tag name="Czech Republic"><Begin>xr</Begin></Tag>
+<Tag name="South Australia"><Begin>xra</Begin></Tag>
+<Tag name="South Georgia and the South Sandwich Islands"><Begin>xs</Begin></Tag>
+<Tag name="Slovenia"><Begin>xv</Begin></Tag>
+<Tag name="No place, unknown, or undetermined"><Begin>xx</Begin></Tag>
+<Tag name="Canada"><Begin>xxc</Begin></Tag>
+<Tag name="United Kingdom"><Begin>xxk</Begin></Tag>
+<Tag name="Soviet Union*"><Begin>-xxr</Begin></Tag>
+<Tag name="United States"><Begin>xxu</Begin></Tag>
+<Tag name="Yemen"><Begin>ye</Begin></Tag>
+<Tag name="Yukon Territory"><Begin>ykc</Begin></Tag>
+<Tag name="Yemen (People's Democratic Republic)*"><Begin>-ys</Begin></Tag>
+<Tag name="Serbia and Montenegro*"><Begin>-yu</Begin></Tag>
+<Tag name="Zambia"><Begin>za</Begin></Tag>
+
+</TagGroup>
+
+<TagGroup xml:lang="es" sort="true" name="MARC: Países">
+<Tag name="Albania" xml:lang="es"><Begin>aa</Begin></Tag>
+<Tag name="Alberta" xml:lang="es"><Begin>abc</Begin></Tag>
+<Tag name="Islas Ashmore y Cartier*" xml:lang="es"><Begin>-ac</Begin></Tag>
+<Tag name="Territorio de la Capital Australiana" xml:lang="es"><Begin>aca</Begin></Tag>
+<Tag name="Argelia" xml:lang="es"><Begin>ae</Begin></Tag>
+<Tag name="Afganistán" xml:lang="es"><Begin>af</Begin></Tag>
+<Tag name="Argentina" xml:lang="es"><Begin>ag</Begin></Tag>
+<Tag name="Anguila*" xml:lang="es"><Begin>-ai</Begin></Tag>
+<Tag name="Armenia (República)" xml:lang="es"><Begin>ai</Begin></Tag>
+<Tag name="RSS de Armenia*" xml:lang="es"><Begin>-air</Begin></Tag>
+<Tag name="Azerbaiyán" xml:lang="es"><Begin>aj</Begin></Tag>
+<Tag name="RSS de Azerbaiyán*" xml:lang="es"><Begin>-ajr</Begin></Tag>
+<Tag name="Alaska" xml:lang="es"><Begin>aku</Begin></Tag>
+<Tag name="Alabama" xml:lang="es"><Begin>alu</Begin></Tag>
+<Tag name="Anguila" xml:lang="es"><Begin>am</Begin></Tag>
+<Tag name="Andorra" xml:lang="es"><Begin>an</Begin></Tag>
+<Tag name="Angola" xml:lang="es"><Begin>ao</Begin></Tag>
+<Tag name="Antigua y Barbuda" xml:lang="es"><Begin>aq</Begin></Tag>
+<Tag name="Arkansas" xml:lang="es"><Begin>aru</Begin></Tag>
+<Tag name="Samoa Americana" xml:lang="es"><Begin>as</Begin></Tag>
+<Tag name="Australia" xml:lang="es"><Begin>at</Begin></Tag>
+<Tag name="Austria" xml:lang="es"><Begin>au</Begin></Tag>
+<Tag name="Aruba" xml:lang="es"><Begin>aw</Begin></Tag>
+<Tag name="Antártida" xml:lang="es"><Begin>ay</Begin></Tag>
+<Tag name="Arizona" xml:lang="es"><Begin>azu</Begin></Tag>
+<Tag name="Bahrein" xml:lang="es"><Begin>ba</Begin></Tag>
+<Tag name="Barbados" xml:lang="es"><Begin>bb</Begin></Tag>
+<Tag name="Colombia Británica" xml:lang="es"><Begin>bcc</Begin></Tag>
+<Tag name="Burundi" xml:lang="es"><Begin>bd</Begin></Tag>
+<Tag name="Bélgica" xml:lang="es"><Begin>be</Begin></Tag>
+<Tag name="Bahamas" xml:lang="es"><Begin>bf</Begin></Tag>
+<Tag name="Bangladesh" xml:lang="es"><Begin>bg</Begin></Tag>
+<Tag name="Belice" xml:lang="es"><Begin>bh</Begin></Tag>
+<Tag name="Territorio Británico del Océano Índico" xml:lang="es"><Begin>bi</Begin></Tag>
+<Tag name="Brasil" xml:lang="es"><Begin>bl</Begin></Tag>
+<Tag name="Islas Bermudas" xml:lang="es"><Begin>bm</Begin></Tag>
+<Tag name="Bosnia y Herzegovina" xml:lang="es"><Begin>bn</Begin></Tag>
+<Tag name="Bolivia" xml:lang="es"><Begin>bo</Begin></Tag>
+<Tag name="Islas Salomón" xml:lang="es"><Begin>pb</Begin></Tag>
+<Tag name="Birmania" xml:lang="es"><Begin>br</Begin></Tag>
+<Tag name="Botswana" xml:lang="es"><Begin>bs</Begin></Tag>
+<Tag name="Bhután" xml:lang="es"><Begin>bt</Begin></Tag>
+<Tag name="Bulgaria" xml:lang="es"><Begin>bu</Begin></Tag>
+<Tag name="Isla Bouvet" xml:lang="es"><Begin>bv</Begin></Tag>
+<Tag name="Bielorrusia" xml:lang="es"><Begin>bw</Begin></Tag>
+<Tag name="RSS de Bielorrusia*" xml:lang="es"><Begin>-bwr</Begin></Tag>
+<Tag name="Brunei" xml:lang="es"><Begin>bx</Begin></Tag>
+<Tag name="Caribe Países Bajos" xml:lang="es"><Begin>ca</Begin></Tag>
+<Tag name="California" xml:lang="es"><Begin>cau</Begin></Tag>
+<Tag name="Camboya" xml:lang="es"><Begin>cb</Begin></Tag>
+<Tag name="China" xml:lang="es"><Begin>cc</Begin></Tag>
+<Tag name="Chad" xml:lang="es"><Begin>cd</Begin></Tag>
+<Tag name="Sri Lanka" xml:lang="es"><Begin>ce</Begin></Tag>
+<Tag name="Congo (Brazzaville)" xml:lang="es"><Begin>cf</Begin></Tag>
+<Tag name="Congo (República Democrática)" xml:lang="es"><Begin>cg</Begin></Tag>
+<Tag name="China (República: 1949-)" xml:lang="es"><Begin>ch</Begin></Tag>
+<Tag name="Croacia" xml:lang="es"><Begin>ci</Begin></Tag>
+<Tag name="Islas Caimán" xml:lang="es"><Begin>cj</Begin></Tag>
+<Tag name="Colombia" xml:lang="es"><Begin>ck</Begin></Tag>
+<Tag name="Chile" xml:lang="es"><Begin>cl</Begin></Tag>
+<Tag name="Camerún" xml:lang="es"><Begin>cm</Begin></Tag>
+<Tag name="Canadá*" xml:lang="es"><Begin>-cn</Begin></Tag>
+<Tag name="Curaçao" xml:lang="es"><Begin>co</Begin></Tag>
+<Tag name="Colorado" xml:lang="es"><Begin>cou</Begin></Tag>
+<Tag name="Cantón e Islas Enderbury*" xml:lang="es"><Begin>-cp</Begin></Tag>
+<Tag name="Comoras" xml:lang="es"><Begin>cq</Begin></Tag>
+<Tag name="Costa Rica" xml:lang="es"><Begin>cr</Begin></Tag>
+<Tag name="Checoslovaquia*" xml:lang="es"><Begin>-cs</Begin></Tag>
+<Tag name="Connecticut" xml:lang="es"><Begin>ctu</Begin></Tag>
+<Tag name="Cuba" xml:lang="es"><Begin>cu</Begin></Tag>
+<Tag name="Cabo Verde" xml:lang="es"><Begin>cv</Begin></Tag>
+<Tag name="Islas Cook" xml:lang="es"><Begin>cw</Begin></Tag>
+<Tag name="República Centroafricana" xml:lang="es"><Begin>cx</Begin></Tag>
+<Tag name="Chipre" xml:lang="es"><Begin>cy</Begin></Tag>
+<Tag name="Zona del Canal*" xml:lang="es"><Begin>-cz</Begin></Tag>
+<Tag name="Distrito de Columbia" xml:lang="es"><Begin>dcu</Begin></Tag>
+<Tag name="Delaware" xml:lang="es"><Begin>deu</Begin></Tag>
+<Tag name="Dinamarca" xml:lang="es"><Begin>dk</Begin></Tag>
+<Tag name="Benin" xml:lang="es"><Begin>dm</Begin></Tag>
+<Tag name="Dominica" xml:lang="es"><Begin>dq</Begin></Tag>
+<Tag name="República Dominicana" xml:lang="es"><Begin>dr</Begin></Tag>
+<Tag name="Eritrea" xml:lang="es"><Begin>ea</Begin></Tag>
+<Tag name="Ecuador" xml:lang="es"><Begin>ec</Begin></Tag>
+<Tag name="Guinea Ecuatorial" xml:lang="es"><Begin>eg</Begin></Tag>
+<Tag name="Timor-Leste/Timor Oriental" xml:lang="es"><Begin>em</Begin></Tag>
+<Tag name="Inglaterra" xml:lang="es"><Begin>enk</Begin></Tag>
+<Tag name="Estonia" xml:lang="es"><Begin>er</Begin></Tag>
+<Tag name="Estonia*" xml:lang="es"><Begin>-err</Begin></Tag>
+<Tag name="El Salvador" xml:lang="es"><Begin>es</Begin></Tag>
+<Tag name="Etiopía" xml:lang="es"><Begin>et</Begin></Tag>
+<Tag name="Islas Faroe" xml:lang="es"><Begin>fa</Begin></Tag>
+<Tag name="Guayana Francesa" xml:lang="es"><Begin>fg</Begin></Tag>
+<Tag name="Finlandia" xml:lang="es"><Begin>fi</Begin></Tag>
+<Tag name="Fiji" xml:lang="es"><Begin>fj</Begin></Tag>
+<Tag name="Islas Malvinas" xml:lang="es"><Begin>fk</Begin></Tag>
+<Tag name="Florida" xml:lang="es"><Begin>flu</Begin></Tag>
+<Tag name="Micronesia (Estados Federados)" xml:lang="es"><Begin>fm</Begin></Tag>
+<Tag name="Polinesia Francesa" xml:lang="es"><Begin>fp</Begin></Tag>
+<Tag name="Francia" xml:lang="es"><Begin>fr</Begin></Tag>
+<Tag name="Tierras Australes y Antárticas Francesas" xml:lang="es"><Begin>fs</Begin></Tag>
+<Tag name="Djibouti" xml:lang="es"><Begin>ft</Begin></Tag>
+<Tag name="Georgia" xml:lang="es"><Begin>gau</Begin></Tag>
+<Tag name="Kiribati" xml:lang="es"><Begin>gb</Begin></Tag>
+<Tag name="Granada" xml:lang="es"><Begin>gd</Begin></Tag>
+<Tag name="Alemania (Este)*" xml:lang="es"><Begin>-ge</Begin></Tag>
+<Tag name="Ghana" xml:lang="es"><Begin>gh</Begin></Tag>
+<Tag name="Gibraltar" xml:lang="es"><Begin>gi</Begin></Tag>
+<Tag name="Groenlandia" xml:lang="es"><Begin>gl</Begin></Tag>
+<Tag name="Gambia" xml:lang="es"><Begin>gm</Begin></Tag>
+<Tag name="Islas Gilbert y Ellice*" xml:lang="es"><Begin>-gn</Begin></Tag>
+<Tag name="Gabón" xml:lang="es"><Begin>go</Begin></Tag>
+<Tag name="Guadalupe" xml:lang="es"><Begin>gp</Begin></Tag>
+<Tag name="Grecia" xml:lang="es"><Begin>gr</Begin></Tag>
+<Tag name="Georgia (República)" xml:lang="es"><Begin>gs</Begin></Tag>
+<Tag name="Georgiana de SSR*" xml:lang="es"><Begin>-gsr</Begin></Tag>
+<Tag name="Guatemala" xml:lang="es"><Begin>gt</Begin></Tag>
+<Tag name="Guam" xml:lang="es"><Begin>gu</Begin></Tag>
+<Tag name="Guinea" xml:lang="es"><Begin>gv</Begin></Tag>
+<Tag name="Alemania" xml:lang="es"><Begin>gw</Begin></Tag>
+<Tag name="Guayana" xml:lang="es"><Begin>gy</Begin></Tag>
+<Tag name="Franja de Gaza" xml:lang="es"><Begin>gz</Begin></Tag>
+<Tag name="Hawai" xml:lang="es"><Begin>hiu</Begin></Tag>
+<Tag name="Hong Kong*" xml:lang="es"><Begin>-hk</Begin></Tag>
+<Tag name="Islas Heard y McDonald" xml:lang="es"><Begin>hm</Begin></Tag>
+<Tag name="Honduras" xml:lang="es"><Begin>ho</Begin></Tag>
+<Tag name="Haití" xml:lang="es"><Begin>ht</Begin></Tag>
+<Tag name="Hungría" xml:lang="es"><Begin>hu</Begin></Tag>
+<Tag name="Iowa" xml:lang="es"><Begin>iau</Begin></Tag>
+<Tag name="Islandia" xml:lang="es"><Begin>ic</Begin></Tag>
+<Tag name="Idaho" xml:lang="es"><Begin>idu</Begin></Tag>
+<Tag name="Irlanda" xml:lang="es"><Begin>ie</Begin></Tag>
+<Tag name="India" xml:lang="es"><Begin>ii</Begin></Tag>
+<Tag name="Illinois" xml:lang="es"><Begin>ilu</Begin></Tag>
+<Tag name="Indiana" xml:lang="es"><Begin>inu</Begin></Tag>
+<Tag name="Indonesia" xml:lang="es"><Begin>io</Begin></Tag>
+<Tag name="Irak" xml:lang="es"><Begin>iq</Begin></Tag>
+<Tag name="Irán" xml:lang="es"><Begin>ir</Begin></Tag>
+<Tag name="Israel" xml:lang="es"><Begin>is</Begin></Tag>
+<Tag name="Italia" xml:lang="es"><Begin>it</Begin></Tag>
+<Tag name="Zonas desmilitarizadas Israel-Siria*" xml:lang="es"><Begin>-iu</Begin></Tag>
+<Tag name="Costa de Marfil" xml:lang="es"><Begin>iv</Begin></Tag>
+<Tag name="Zonas desmilitarizadas entre Israel y Jordania*" xml:lang="es"><Begin>-iw</Begin></Tag>
+<Tag name="Iraq y Arabia Saudita Zona Neutral" xml:lang="es"><Begin>iy</Begin></Tag>
+<Tag name="Japón" xml:lang="es"><Begin>ja</Begin></Tag>
+<Tag name="Johnston Atoll" xml:lang="es"><Begin>ji</Begin></Tag>
+<Tag name="Jamaica" xml:lang="es"><Begin>jm</Begin></Tag>
+<Tag name="Jan Mayen*" xml:lang="es"><Begin>-jn</Begin></Tag>
+<Tag name="Jordania" xml:lang="es"><Begin>jo</Begin></Tag>
+<Tag name="Kenia" xml:lang="es"><Begin>ke</Begin></Tag>
+<Tag name="Kirguistán" xml:lang="es"><Begin>kg</Begin></Tag>
+<Tag name="Kirghiz SSR*" xml:lang="es"><Begin>-kgr</Begin></Tag>
+<Tag name="Corea (del Norte)" xml:lang="es"><Begin>kn</Begin></Tag>
+<Tag name="Corea del Sur)" xml:lang="es"><Begin>ko</Begin></Tag>
+<Tag name="Kansas" xml:lang="es"><Begin>ksu</Begin></Tag>
+<Tag name="Kuwait" xml:lang="es"><Begin>ku</Begin></Tag>
+<Tag name="Kosovo" xml:lang="es"><Begin>kv</Begin></Tag>
+<Tag name="Kentucky" xml:lang="es"><Begin>kyu</Begin></Tag>
+<Tag name="Kazajstán" xml:lang="es"><Begin>kz</Begin></Tag>
+<Tag name="Kazajo SSR*" xml:lang="es"><Begin>-kzr</Begin></Tag>
+<Tag name="Luisiana" xml:lang="es"><Begin>lau</Begin></Tag>
+<Tag name="Liberia" xml:lang="es"><Begin>lb</Begin></Tag>
+<Tag name="Líbano" xml:lang="es"><Begin>le</Begin></Tag>
+<Tag name="Liechtenstein" xml:lang="es"><Begin>lh</Begin></Tag>
+<Tag name="Lituania" xml:lang="es"><Begin>li</Begin></Tag>
+<Tag name="Lituania*" xml:lang="es"><Begin>-lir</Begin></Tag>
+<Tag name="Islas de la Línea Central y Sur" xml:lang="es"><Begin>ln</Begin></Tag>
+<Tag name="Lesoto" xml:lang="es"><Begin>lo</Begin></Tag>
+<Tag name="Laos" xml:lang="es"><Begin>ls</Begin></Tag>
+<Tag name="Luxemburgo" xml:lang="es"><Begin>lu</Begin></Tag>
+<Tag name="Letonia" xml:lang="es"><Begin>lv</Begin></Tag>
+<Tag name="Letonia*" xml:lang="es"><Begin>-lvr</Begin></Tag>
+<Tag name="Libia" xml:lang="es"><Begin>ly</Begin></Tag>
+<Tag name="Massachusetts" xml:lang="es"><Begin>mau</Begin></Tag>
+<Tag name="Manitoba" xml:lang="es"><Begin>mbc</Begin></Tag>
+<Tag name="Mónaco" xml:lang="es"><Begin>mc</Begin></Tag>
+<Tag name="Maryland" xml:lang="es"><Begin>mdu</Begin></Tag>
+<Tag name="Maine" xml:lang="es"><Begin>meu</Begin></Tag>
+<Tag name="Mauricio" xml:lang="es"><Begin>mf</Begin></Tag>
+<Tag name="Madagascar" xml:lang="es"><Begin>mg</Begin></Tag>
+<Tag name="Macao*" xml:lang="es"><Begin>-mh</Begin></Tag>
+<Tag name="Michigan" xml:lang="es"><Begin>miu</Begin></Tag>
+<Tag name="Montserrat" xml:lang="es"><Begin>mj</Begin></Tag>
+<Tag name="Omán" xml:lang="es"><Begin>mk</Begin></Tag>
+<Tag name="Malí" xml:lang="es"><Begin>ml</Begin></Tag>
+<Tag name="Malta" xml:lang="es"><Begin>mm</Begin></Tag>
+<Tag name="Minnesota" xml:lang="es"><Begin>mnu</Begin></Tag>
+<Tag name="Montenegro" xml:lang="es"><Begin>mo</Begin></Tag>
+<Tag name="Misuri" xml:lang="es"><Begin>mou</Begin></Tag>
+<Tag name="Mongolia" xml:lang="es"><Begin>mp</Begin></Tag>
+<Tag name="Martinica" xml:lang="es"><Begin>mq</Begin></Tag>
+<Tag name="Marruecos" xml:lang="es"><Begin>mr</Begin></Tag>
+<Tag name="Misisipí" xml:lang="es"><Begin>msu</Begin></Tag>
+<Tag name="Montana" xml:lang="es"><Begin>mtu</Begin></Tag>
+<Tag name="Mauritania" xml:lang="es"><Begin>mu</Begin></Tag>
+<Tag name="Moldavia" xml:lang="es"><Begin>mv</Begin></Tag>
+<Tag name="RSS de Moldavia*" xml:lang="es"><Begin>-mvr</Begin></Tag>
+<Tag name="Malawi" xml:lang="es"><Begin>mw</Begin></Tag>
+<Tag name="México" xml:lang="es"><Begin>mx</Begin></Tag>
+<Tag name="Malasia" xml:lang="es"><Begin>my</Begin></Tag>
+<Tag name="Mozambique" xml:lang="es"><Begin>mz</Begin></Tag>
+<Tag name="Antillas Holandesas*" xml:lang="es"><Begin>-na</Begin></Tag>
+<Tag name="Nebraska" xml:lang="es"><Begin>nbu</Begin></Tag>
+<Tag name="Carolina del Norte" xml:lang="es"><Begin>ncu</Begin></Tag>
+<Tag name="Dakota del Norte" xml:lang="es"><Begin>ndu</Begin></Tag>
+<Tag name="Países Bajos" xml:lang="es"><Begin>ne</Begin></Tag>
+<Tag name="Terranova y Labrador" xml:lang="es"><Begin>nfc</Begin></Tag>
+<Tag name="Níger" xml:lang="es"><Begin>ng</Begin></Tag>
+<Tag name="Nuevo Hampshire" xml:lang="es"><Begin>nhu</Begin></Tag>
+<Tag name="Irlanda del Norte" xml:lang="es"><Begin>nik</Begin></Tag>
+<Tag name="Nueva Jersey" xml:lang="es"><Begin>nju</Begin></Tag>
+<Tag name="Nuevo Brunswick" xml:lang="es"><Begin>nkc</Begin></Tag>
+<Tag name="Nueva Caledonia" xml:lang="es"><Begin>nl</Begin></Tag>
+<Tag name="Islas Marianas del Norte*" xml:lang="es"><Begin>-nm</Begin></Tag>
+<Tag name="Nuevo Mexico" xml:lang="es"><Begin>nmu</Begin></Tag>
+<Tag name="Vanuatu" xml:lang="es"><Begin>nn</Begin></Tag>
+<Tag name="Noruega" xml:lang="es"><Begin>no</Begin></Tag>
+<Tag name="Nepal" xml:lang="es"><Begin>np</Begin></Tag>
+<Tag name="Nicaragua" xml:lang="es"><Begin>nq</Begin></Tag>
+<Tag name="Nigeria" xml:lang="es"><Begin>nr</Begin></Tag>
+<Tag name="Nueva Escocia" xml:lang="es"><Begin>nsc</Begin></Tag>
+<Tag name="Territorios del Noroeste" xml:lang="es"><Begin>ntc</Begin></Tag>
+<Tag name="Nauru" xml:lang="es"><Begin>nu</Begin></Tag>
+<Tag name="Nunavut" xml:lang="es"><Begin>nuc</Begin></Tag>
+<Tag name="Nevada" xml:lang="es"><Begin>nvu</Begin></Tag>
+<Tag name="Islas Marianas del Norte" xml:lang="es"><Begin>nw</Begin></Tag>
+<Tag name="Isla Norfolk" xml:lang="es"><Begin>nx</Begin></Tag>
+<Tag name="Nueva York (estado)" xml:lang="es"><Begin>nyu</Begin></Tag>
+<Tag name="Nueva Zelanda" xml:lang="es"><Begin>nz</Begin></Tag>
+<Tag name="Ohio" xml:lang="es"><Begin>ohu</Begin></Tag>
+<Tag name="Oklahoma" xml:lang="es"><Begin>oku</Begin></Tag>
+<Tag name="Ontario" xml:lang="es"><Begin>onc</Begin></Tag>
+<Tag name="Oregón" xml:lang="es"><Begin>oru</Begin></Tag>
+<Tag name="Mayotte" xml:lang="es"><Begin>ot</Begin></Tag>
+<Tag name="Pensilvania" xml:lang="es"><Begin>pau</Begin></Tag>
+<Tag name="Islas Pitcairn" xml:lang="es"><Begin>pc</Begin></Tag>
+<Tag name="Perú" xml:lang="es"><Begin>pe</Begin></Tag>
+<Tag name="Islas Paracel" xml:lang="es"><Begin>pf</Begin></Tag>
+<Tag name="Guinea-Bissau" xml:lang="es"><Begin>pg</Begin></Tag>
+<Tag name="Filipinas" xml:lang="es"><Begin>ph</Begin></Tag>
+<Tag name="Isla del Príncipe Eduardo" xml:lang="es"><Begin>pic</Begin></Tag>
+<Tag name="Pakistán" xml:lang="es"><Begin>pk</Begin></Tag>
+<Tag name="Polonia" xml:lang="es"><Begin>pl</Begin></Tag>
+<Tag name="Panamá" xml:lang="es"><Begin>pn</Begin></Tag>
+<Tag name="Portugal" xml:lang="es"><Begin>po</Begin></Tag>
+<Tag name="Papúa Nueva Guinea" xml:lang="es"><Begin>pp</Begin></Tag>
+<Tag name="Puerto Rico" xml:lang="es"><Begin>pr</Begin></Tag>
+<Tag name="Timor portugués/Timor Oriental*" xml:lang="es"><Begin>-pt</Begin></Tag>
+<Tag name="Palau" xml:lang="es"><Begin>pw</Begin></Tag>
+<Tag name="Paraguay" xml:lang="es"><Begin>py</Begin></Tag>
+<Tag name="Katar" xml:lang="es"><Begin>qa</Begin></Tag>
+<Tag name="Queensland" xml:lang="es"><Begin>qea</Begin></Tag>
+<Tag name="Quebec (Provincia)" xml:lang="es"><Begin>quc</Begin></Tag>
+<Tag name="Serbia" xml:lang="es"><Begin>rb</Begin></Tag>
+<Tag name="Réunion (depto. de Francia)" xml:lang="es"><Begin>re</Begin></Tag>
+<Tag name="Zimbabue" xml:lang="es"><Begin>rh</Begin></Tag>
+<Tag name="Rhode Island" xml:lang="es"><Begin>riu</Begin></Tag>
+<Tag name="Rumania" xml:lang="es"><Begin>rm</Begin></Tag>
+<Tag name="Rusia (Federación)" xml:lang="es"><Begin>ru</Begin></Tag>
+<Tag name="SFSR de Rusia (República Socialista Federativa Soviética de Rusia)*" xml:lang="es"><Begin>-rur</Begin></Tag>
+<Tag name="Ruanda" xml:lang="es"><Begin>rw</Begin></Tag>
+<Tag name="Islas Ryukyu, Sur*" xml:lang="es"><Begin>-ry</Begin></Tag>
+<Tag name="Sudáfrica" xml:lang="es"><Begin>sa</Begin></Tag>
+<Tag name="Svalbard*" xml:lang="es"><Begin>-sb</Begin></Tag>
+<Tag name="Saint-Barthélemy" xml:lang="es"><Begin>sc</Begin></Tag>
+<Tag name="Carolina del Sur" xml:lang="es"><Begin>scu</Begin></Tag>
+<Tag name="Sudán del Sur" xml:lang="es"><Begin>sd</Begin></Tag>
+<Tag name="Dakota del Sur" xml:lang="es"><Begin>sdu</Begin></Tag>
+<Tag name="Seychelles" xml:lang="es"><Begin>se</Begin></Tag>
+<Tag name="Santo Tomé y Príncipe" xml:lang="es"><Begin>sf</Begin></Tag>
+<Tag name="Senegal" xml:lang="es"><Begin>sg</Begin></Tag>
+<Tag name="África del Norte Española" xml:lang="es"><Begin>sh</Begin></Tag>
+<Tag name="Singapur" xml:lang="es"><Begin>si</Begin></Tag>
+<Tag name="Sudán" xml:lang="es"><Begin>sj</Begin></Tag>
+<Tag name="Sikkim*" xml:lang="es"><Begin>-sk</Begin></Tag>
+<Tag name="Sierra Leona" xml:lang="es"><Begin>sl</Begin></Tag>
+<Tag name="San Marino" xml:lang="es"><Begin>sm</Begin></Tag>
+<Tag name="Sint Maarten" xml:lang="es"><Begin>sn</Begin></Tag>
+<Tag name="Saskatchewan" xml:lang="es"><Begin>snc</Begin></Tag>
+<Tag name="Somalia" xml:lang="es"><Begin>so</Begin></Tag>
+<Tag name="España" xml:lang="es"><Begin>sp</Begin></Tag>
+<Tag name="Swazilandia" xml:lang="es"><Begin>sq</Begin></Tag>
+<Tag name="Surinam" xml:lang="es"><Begin>sr</Begin></Tag>
+<Tag name="Sahara Occidental" xml:lang="es"><Begin>ss</Begin></Tag>
+<Tag name="San Martín" xml:lang="es"><Begin>st</Begin></Tag>
+<Tag name="Escocia" xml:lang="es"><Begin>stk</Begin></Tag>
+<Tag name="Arabia Saudita" xml:lang="es"><Begin>su</Begin></Tag>
+<Tag name="Islas del Cisne*" xml:lang="es"><Begin>-sv</Begin></Tag>
+<Tag name="Suecia" xml:lang="es"><Begin>sw</Begin></Tag>
+<Tag name="Namibia" xml:lang="es"><Begin>sx</Begin></Tag>
+<Tag name="Siria" xml:lang="es"><Begin>sy</Begin></Tag>
+<Tag name="Suiza" xml:lang="es"><Begin>sz</Begin></Tag>
+<Tag name="Tayikistán" xml:lang="es"><Begin>ta</Begin></Tag>
+<Tag name="Tayiko SSR*" xml:lang="es"><Begin>-tar</Begin></Tag>
+<Tag name="Islas Turcas y Caicos" xml:lang="es"><Begin>tc</Begin></Tag>
+<Tag name="Togo" xml:lang="es"><Begin>tg</Begin></Tag>
+<Tag name="Tailandia" xml:lang="es"><Begin>th</Begin></Tag>
+<Tag name="Túnez" xml:lang="es"><Begin>ti</Begin></Tag>
+<Tag name="Turkmenistán" xml:lang="es"><Begin>tk</Begin></Tag>
+<Tag name="SSR turcomano*" xml:lang="es"><Begin>-tkr</Begin></Tag>
+<Tag name="Tokelau" xml:lang="es"><Begin>tl</Begin></Tag>
+<Tag name="Tasmania" xml:lang="es"><Begin>tma</Begin></Tag>
+<Tag name="Tennesse" xml:lang="es"><Begin>tnu</Begin></Tag>
+<Tag name="Tonga" xml:lang="es"><Begin>to</Begin></Tag>
+<Tag name="Trinidad y Tobago" xml:lang="es"><Begin>tr</Begin></Tag>
+<Tag name="Emiratos Árabes Unidos" xml:lang="es"><Begin>ts</Begin></Tag>
+<Tag name="Territorio en Fideicomiso de las Islas del Pacífico*" xml:lang="es"><Begin>-tt</Begin></Tag>
+<Tag name="Turquía" xml:lang="es"><Begin>tu</Begin></Tag>
+<Tag name="Tuvalu" xml:lang="es"><Begin>tv</Begin></Tag>
+<Tag name="Texas" xml:lang="es"><Begin>txu</Begin></Tag>
+<Tag name="Tanzania" xml:lang="es"><Begin>tz</Begin></Tag>
+<Tag name="Egipto" xml:lang="es"><Begin>ua</Begin></Tag>
+<Tag name="Estados Unidos Misc. Islas del Caribe" xml:lang="es"><Begin>uc</Begin></Tag>
+<Tag name="Uganda" xml:lang="es"><Begin>ug</Begin></Tag>
+<Tag name="Reino Unido Misc. Islas*" xml:lang="es"><Begin>-ui</Begin></Tag>
+<Tag name="Reino Unido Misc. Islas" xml:lang="es"><Begin>uik</Begin></Tag>
+<Tag name="Reino Unido*" xml:lang="es"><Begin>-uk</Begin></Tag>
+<Tag name="Ucrania" xml:lang="es"><Begin>un</Begin></Tag>
+<Tag name="Ucrania*" xml:lang="es"><Begin>-unr</Begin></Tag>
+<Tag name="Estados Unidos Misc. Islas del Pacífico" xml:lang="es"><Begin>up</Begin></Tag>
+<Tag name="Unión Soviética*" xml:lang="es"><Begin>-ur</Begin></Tag>
+<Tag name="Estados Unidos*" xml:lang="es"><Begin>-us</Begin></Tag>
+<Tag name="Utah" xml:lang="es"><Begin>utu</Begin></Tag>
+<Tag name="Burkina Faso" xml:lang="es"><Begin>uv</Begin></Tag>
+<Tag name="Uruguay" xml:lang="es"><Begin>uy</Begin></Tag>
+<Tag name="Uzbekistán" xml:lang="es"><Begin>uz</Begin></Tag>
+<Tag name="RSS de Uzbekistán*" xml:lang="es"><Begin>-uzr</Begin></Tag>
+<Tag name="Virginia" xml:lang="es"><Begin>vau</Begin></Tag>
+<Tag name="Islas Vírgenes Británicas" xml:lang="es"><Begin>vb</Begin></Tag>
+<Tag name="Ciudad del Vaticano" xml:lang="es"><Begin>vc</Begin></Tag>
+<Tag name="Venezuela" xml:lang="es"><Begin>ve</Begin></Tag>
+<Tag name="Islas Vírgenes de los Estados Unidos" xml:lang="es"><Begin>vi</Begin></Tag>
+<Tag name="Vietnam" xml:lang="es"><Begin>vm</Begin></Tag>
+<Tag name="Vietnam del Norte*" xml:lang="es"><Begin>-vn</Begin></Tag>
+<Tag name="Varios lugares" xml:lang="es"><Begin>vp</Begin></Tag>
+<Tag name="Victoria" xml:lang="es"><Begin>vra</Begin></Tag>
+<Tag name="Vietnam del Sur*" xml:lang="es"><Begin>-vs</Begin></Tag>
+<Tag name="Vermont" xml:lang="es"><Begin>vtu</Begin></Tag>
+<Tag name="Washington (estado)" xml:lang="es"><Begin>wau</Begin></Tag>
+<Tag name="Berlín Occidental" xml:lang="es"><Begin>wb</Begin></Tag>
+<Tag name="Australia Occidental" xml:lang="es"><Begin>wea</Begin></Tag>
+<Tag name="Wallis y Futuna" xml:lang="es"><Begin>wf</Begin></Tag>
+<Tag name="Wisconsin" xml:lang="es"><Begin>wiu</Begin></Tag>
+<Tag name="Ribera Occidental del Río Jordán" xml:lang="es"><Begin>wj</Begin></Tag>
+<Tag name="Isla Wake" xml:lang="es"><Begin>wk</Begin></Tag>
+<Tag name="Gales" xml:lang="es"><Begin>wlk</Begin></Tag>
+<Tag name="Samoa" xml:lang="es"><Begin>ws</Begin></Tag>
+<Tag name="Virginia Occidental" xml:lang="es"><Begin>wvu</Begin></Tag>
+<Tag name="Wyoming" xml:lang="es"><Begin>wyu</Begin></Tag>
+<Tag name="Isla de Navidad (Océano Índico)" xml:lang="es"><Begin>xa</Begin></Tag>
+<Tag name="Islas Cocos (Keeling)" xml:lang="es"><Begin>xb</Begin></Tag>
+<Tag name="Maldivas" xml:lang="es"><Begin>xc</Begin></Tag>
+<Tag name="San Cristóbal y Nieves" xml:lang="es"><Begin>xd</Begin></Tag>
+<Tag name="Islas Marshall" xml:lang="es"><Begin>xe</Begin></Tag>
+<Tag name="Islas Midway" xml:lang="es"><Begin>xf</Begin></Tag>
+<Tag name="Honiara, SLB" xml:lang="es"><Begin>xga</Begin></Tag>
+<Tag name="Niue" xml:lang="es"><Begin>xh</Begin></Tag>
+<Tag name="San Cristóbal-Nieves-Anguila*" xml:lang="es"><Begin>-xi</Begin></Tag>
+<Tag name="Santa Helena" xml:lang="es"><Begin>xj</Begin></Tag>
+<Tag name="Santa Lucía" xml:lang="es"><Begin>xk</Begin></Tag>
+<Tag name="San Pedro y Miquelón" xml:lang="es"><Begin>xl</Begin></Tag>
+<Tag name="San Vicente y las Granadinas" xml:lang="es"><Begin>xm</Begin></Tag>
+<Tag name="Macedonia" xml:lang="es"><Begin>xn</Begin></Tag>
+<Tag name="Nueva Gales del Sur" xml:lang="es"><Begin>xna</Begin></Tag>
+<Tag name="Eslovaquia" xml:lang="es"><Begin>xo</Begin></Tag>
+<Tag name="Territorio del Norte" xml:lang="es"><Begin>xoa</Begin></Tag>
+<Tag name="Islas Spratly" xml:lang="es"><Begin>xp</Begin></Tag>
+<Tag name="República Checa" xml:lang="es"><Begin>xr</Begin></Tag>
+<Tag name="Sur de Australia" xml:lang="es"><Begin>xra</Begin></Tag>
+<Tag name="Georgia del Sur y las Islas Sandwich del Sur" xml:lang="es"><Begin>xs</Begin></Tag>
+<Tag name="Eslovenia" xml:lang="es"><Begin>xv</Begin></Tag>
+<Tag name="No hay lugar, desconocido, o indeterminado" xml:lang="es"><Begin>xx</Begin></Tag>
+<Tag name="Canadá" xml:lang="es"><Begin>xxc</Begin></Tag>
+<Tag name="Reino Unido" xml:lang="es"><Begin>xxk</Begin></Tag>
+<Tag name="Unión Soviética*" xml:lang="es"><Begin>-xxr</Begin></Tag>
+<Tag name="Estados Unidos" xml:lang="es"><Begin>xxu</Begin></Tag>
+<Tag name="Yemen" xml:lang="es"><Begin>ye</Begin></Tag>
+<Tag name="Territorio del Yukón" xml:lang="es"><Begin>ykc</Begin></Tag>
+<Tag name="Yemen (República Democrática Popular)*" xml:lang="es"><Begin>-ys</Begin></Tag>
+<Tag name="Serbia y Montenegro*" xml:lang="es"><Begin>-yu</Begin></Tag>
+<Tag name="Zambia" xml:lang="es"><Begin>za</Begin></Tag>
+
+</TagGroup>
+</TagList>

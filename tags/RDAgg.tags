@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Generación">
+
+<Tag name="::RDA 3.10.2 Generación/grabación sonora" xml:lang="es"><Begin>MARC:340$j|500$a</Begin></Tag>
+<Tag name="cinta maestra" xml:lang="es"><Begin>cinta maestra</Begin></Tag>
+<Tag name="cinta maestra de duplicación" xml:lang="es"><Begin>cinta maestra de duplicación</Begin></Tag>
+<Tag name="disco maestro" xml:lang="es"><Begin>disco maestro</Begin></Tag>
+<Tag name="madre" xml:lang="es"><Begin>madre</Begin></Tag>
+<Tag name="estampador" xml:lang="es"><Begin>estampador</Begin></Tag>
+<Tag name="impresión de prueba" xml:lang="es"><Begin>impresión de prueba</Begin></Tag>
+
+<Tag name="::RDA 3.10.3 Generación/recurso digital" xml:lang="es"><Begin>MARC:340$j|500$a</Begin></Tag>
+<Tag name="original" xml:lang="es"><Begin>original</Begin></Tag>
+<Tag name="master" xml:lang="es"><Begin>master</Begin></Tag>
+<Tag name="master derivado" xml:lang="es"><Begin>master derivado</Begin></Tag>
+
+<Tag name="::RDA 3.10.4 Generación/microforma" xml:lang="es"><Begin>MARC:340$j|500$a</Begin></Tag>
+<Tag name="primera generación" xml:lang="es"><Begin>primera generación</Begin></Tag>
+<Tag name="master de impresión" xml:lang="es"><Begin>master de impresión</Begin></Tag>
+<Tag name="copia de servicio" xml:lang="es"><Begin>copia de servicio</Begin></Tag>
+<Tag name="generación mixta" xml:lang="es"><Begin>generación mixta</Begin></Tag>
+
+<Tag name="::RDA 3.10.5 Generación/película cinematográfica" xml:lang="es"><Begin>MARC:340$j|500$a</Begin></Tag>
+<Tag name="original" xml:lang="es"><Begin>original</Begin></Tag>
+<Tag name="master" xml:lang="es"><Begin>master</Begin></Tag>
+<Tag name="duplicado" xml:lang="es"><Begin>duplicado</Begin></Tag>
+<Tag name="impreso de referencia" xml:lang="es"><Begin>impreso de referencia</Begin></Tag>
+<Tag name="copia de revisión" xml:lang="es"><Begin>copia de revisión</Begin></Tag>
+
+<Tag name="::RDA 3.10.6 Genración/videocinta" xml:lang="es"><Begin>MARC:340$j|500$a</Begin></Tag>
+<Tag name="primera generación" xml:lang="es"><Begin>primera generación</Begin></Tag>
+<Tag name="segunda generación, copia maestra" xml:lang="es"><Begin>segunda generación, copia maestra</Begin></Tag>
+<Tag name="segunda generación, copia de exhibición" xml:lang="es"><Begin>segunda generación, copia de exhibición</Begin></Tag>
+
+</TagGroup>
+</TagList>

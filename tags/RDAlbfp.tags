@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Presentación/Formato Libro/Tamaño fuente/Polaridad/Escala de reducción">
+
+<Tag name="::RDA 3.11 Presentación" xml:lang="es"><Begin>MARC:300$b|340$k|500</Begin></Tag>
+<Tag name="=>Imágenes cartográficas" xml:lang="es"><Begin>Imágenes cartográficas</Begin></Tag>
+<Tag name="ambas caras" xml:lang="es"><Begin>ambas caras</Begin></Tag>
+<Tag name="caras opuestas" xml:lang="es"><Begin>caras opuestas</Begin></Tag>
+<Tag name="=>Láminas" xml:lang="es"><Begin>Láminas</Begin></Tag>
+<Tag name="doble cara" xml:lang="es"><Begin>doble cara</Begin></Tag>
+<Tag name="una cara" xml:lang="es"><Begin>una cara</Begin></Tag>
+<Tag name="=>Notación de música táctil" xml:lang="es"><Begin>Notación de música táctil</Begin></Tag>
+<Tag name="barra por barra" xml:lang="es"><Begin>barra por barra</Begin></Tag>
+<Tag name="barra sobre barra" xml:lang="es"><Begin>barra sobre barra</Begin></Tag>
+<Tag name="línea por línea" xml:lang="es"><Begin>línea por línea</Begin></Tag>
+<Tag name="línea sobre línea" xml:lang="es"><Begin>línea sobre línea</Begin></Tag>
+<Tag name="melodía de sistema de cuerdas" xml:lang="es"><Begin>melodía de sistema de cuerdas</Begin></Tag>
+<Tag name="partitura abierta" xml:lang="es"><Begin>partitura abierta</Begin></Tag>
+<Tag name="bosquejo" xml:lang="es"><Begin>bosquejo</Begin></Tag>
+<Tag name="parágrafo" xml:lang="es"><Begin>parágrafo</Begin></Tag>
+<Tag name="sección por sección" xml:lang="es"><Begin>sección por sección</Begin></Tag>
+<Tag name="forma corta de orquestación" xml:lang="es"><Begin>forma corta de orquestación</Begin></Tag>
+<Tag name="línea individual" xml:lang="es"><Begin>línea individual</Begin></Tag>
+<Tag name="partitura vertical" xml:lang="es"><Begin>partitura vertical</Begin></Tag>
+<Tag name="=>Texto Táctil" xml:lang="es"><Begin>Texto Táctil</Begin></Tag>
+<Tag name="doble cara" xml:lang="es"><Begin>doble cara</Begin></Tag>
+<Tag name="una cara" xml:lang="es"><Begin>una cara</Begin></Tag>
+<Tag name="espaciado de doble línea" xml:lang="es"><Begin>espaciado de doble línea</Begin></Tag>
+
+<Tag name="::RDA 3.12 Formato libro" xml:lang="es"><Begin>MARC:300$c|340$m|500</Begin></Tag>
+<Tag name="folio" xml:lang="es"><Begin>folio</Begin></Tag>
+<Tag name="4to" xml:lang="es"><Begin>4to</Begin></Tag>
+<Tag name="8vo" xml:lang="es"><Begin>8vo</Begin></Tag>
+<Tag name="12vo" xml:lang="es"><Begin>12vo</Begin></Tag>
+<Tag name="16vo" xml:lang="es"><Begin>16vo</Begin></Tag>
+<Tag name="24vo" xml:lang="es"><Begin>24vo</Begin></Tag>
+<Tag name="32vo" xml:lang="es"><Begin>32vo</Begin></Tag>
+<Tag name="48vo" xml:lang="es"><Begin>48vo</Begin></Tag>
+<Tag name="64vo" xml:lang="es"><Begin>64vo</Begin></Tag>
+
+<Tag name="::RDA 3.13 Tamaño de la fuente" xml:lang="es"><Begin>MARC:300$a|340$n|500</Begin></Tag>
+<Tag name="impresión gigante" xml:lang="es"><Begin>impresión gigante</Begin></Tag>
+<Tag name="letra grande" xml:lang="es"><Begin>letra grande</Begin></Tag>
+<Tag name="braille jumbo" xml:lang="es"><Begin>braille jumbo</Begin></Tag>
+<Tag name="(# puntos)" xml:lang="es"><Begin>(# puntos)</Begin></Tag>
+
+<Tag name="::RDA 3.14 Polaridad" xml:lang="es"><Begin>MARC:300$b|340$o|500</Begin></Tag>
+<Tag name="positiva" xml:lang="es"><Begin>positiva</Begin></Tag>
+<Tag name="negativa" xml:lang="es"><Begin>negativa</Begin></Tag>
+<Tag name="polaridad mixta" xml:lang="es"><Begin>polaridad mixta</Begin></Tag>
+
+<Tag name="::RDA 3.15 Escala de reducción" xml:lang="es"><Begin>MARC:300$b|340$f|500</Begin></Tag>
+<Tag name="reducción baja" xml:lang="es"><Begin>reducción baja</Begin></Tag>
+<Tag name="reducción normal" xml:lang="es"><Begin>reducción normal</Begin></Tag>
+<Tag name="reducción alta" xml:lang="es"><Begin>reducción alta</Begin></Tag>
+<Tag name="reducción muy alta" xml:lang="es"><Begin>reducción muy alta</Begin></Tag>
+<Tag name="reducción ultra alta" xml:lang="es"><Begin>reducción ultra alta</Begin></Tag>
+
+</TagGroup>
+</TagList>

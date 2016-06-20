@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Método de producción">
+
+<Tag name="::RDA 3.9.1 Método de producción" xml:lang="es"><Begin>MARC:300$b|340$a|500$a</Begin></Tag>
+<Tag name="línea azul" xml:lang="es"><Begin>línea azul</Begin></Tag>
+<Tag name="heliografía" xml:lang="es"><Begin>heliografía</Begin></Tag>
+<Tag name="colotipia" xml:lang="es"><Begin>colotipia</Begin></Tag>
+<Tag name="daguerrotipo" xml:lang="es"><Begin>daguerrotipo</Begin></Tag>
+<Tag name="grabado" xml:lang="es"><Begin>grabado</Begin></Tag>
+<Tag name="grabado al aguafuerte" xml:lang="es"><Begin>grabado al aguafuerte</Begin></Tag>
+<Tag name="litografía" xml:lang="es"><Begin>litografía</Begin></Tag>
+<Tag name="fotocopia" xml:lang="es"><Begin>fotocopia</Begin></Tag>
+<Tag name="fotograbado" xml:lang="es"><Begin>fotograbado</Begin></Tag>
+<Tag name="fotograbado" xml:lang="es"><Begin>fotograbado</Begin></Tag>
+<Tag name="impresión" xml:lang="es"><Begin>impresión</Begin></Tag>
+<Tag name="impresión blanca" xml:lang="es"><Begin>impresión blanca</Begin></Tag>
+<Tag name="grabado en madera" xml:lang="es"><Begin>grabado en madera</Begin></Tag>
+
+<Tag name="::RDA 3.9.2 Método de producción/manuscrito" xml:lang="es"><Begin>MARC:245$k|300$b|340$d</Begin></Tag>
+<Tag name="holografía" xml:lang="es"><Begin>holografía</Begin></Tag>
+<Tag name="manuscrito" xml:lang="es"><Begin>manuscrito</Begin></Tag>
+<Tag name="impresión" xml:lang="es"><Begin>impresión</Begin></Tag>
+<Tag name="mecanografía" xml:lang="es"><Begin>mecanografía</Begin></Tag>
+<Tag name="copia al carbón" xml:lang="es"><Begin>(copia al carbón)</Begin></Tag>
+<Tag name="fotocopia" xml:lang="es"><Begin>(fotocopia)</Begin></Tag>
+<Tag name="transcripción" xml:lang="es"><Begin>(transcripción)</Begin></Tag>
+<Tag name="escrito a mano" xml:lang="es"><Begin>(escrito a mano)</Begin></Tag>
+<Tag name="mecanografiado" xml:lang="es"><Begin>(mecanografiado)</Begin></Tag>
+<Tag name="impresión de transcripción" xml:lang="es"><Begin>(impresión de transcripción)</Begin></Tag>
+
+<Tag name="::RDA 3.9.3 Método de producción/recurso táctil" xml:lang="es"><Begin>MARC:300$b|340$d|500$a</Begin></Tag>
+<Tag name="repujado" xml:lang="es"><Begin>repujado</Begin></Tag>
+<Tag name="punto sólido" xml:lang="es"><Begin>punto sólido</Begin></Tag>
+<Tag name="papel inflado" xml:lang="es"><Begin>papel inflado</Begin></Tag>
+<Tag name="termoforma" xml:lang="es"><Begin>termoforma</Begin></Tag>
+
+</TagGroup>
+</TagList>

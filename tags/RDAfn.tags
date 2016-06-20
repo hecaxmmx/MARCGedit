@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Forma de la notación">
+
+<Tag name="::RDA 7.13.3 Notación musical" xml:lang="es"><Begin>MARC:546$b</Begin></Tag>
+<Tag name="notación con figuras" xml:lang="es"><Begin>notación con figuras</Begin></Tag>
+<Tag name="notación con letras" xml:lang="es"><Begin>notación con letras</Begin></Tag>
+<Tag name="notación mensural" xml:lang="es"><Begin>notación mensural</Begin></Tag>
+<Tag name="notación con neumas" xml:lang="es"><Begin>notación con neumas</Begin></Tag>
+<Tag name="notación numérica" xml:lang="es"><Begin>notación numérica</Begin></Tag>
+<Tag name="solfeo" xml:lang="es"><Begin>solfeo</Begin></Tag>
+<Tag name="notación pautada" xml:lang="es"><Begin>notación pautada</Begin></Tag>
+<Tag name="tablatura" xml:lang="es"><Begin>tablatura</Begin></Tag>
+<Tag name="tónica sol-fa" xml:lang="es"><Begin>tónica sol-fa</Begin></Tag>
+
+<Tag name="::RDA 7.13.4 Notación táctil" xml:lang="es"><Begin>MARC:546$b</Begin></Tag>
+<Tag name="código Braille" xml:lang="es"><Begin>código Braille</Begin></Tag>
+<Tag name="código Braille para computación" xml:lang="es"><Begin>código Braille para computación</Begin></Tag>
+<Tag name="código Braille para matemáticas" xml:lang="es"><Begin>código Braille para matemáticas</Begin></Tag>
+<Tag name="código Moon" xml:lang="es"><Begin>código Moon</Begin></Tag>
+<Tag name="código Braille para música" xml:lang="es"><Begin>código Braille para música</Begin></Tag>
+<Tag name="gráfico táctil" xml:lang="es"><Begin>gráfico táctil</Begin></Tag>
+<Tag name="notación musical táctil" xml:lang="es"><Begin>notación musical táctil</Begin></Tag>
+<Tag name="sin contracción" xml:lang="es"><Begin>(sin contracción)</Begin></Tag>
+<Tag name="grado" xml:lang="es"><Begin>(grado #)</Begin></Tag>
+
+<Tag name="::RDA 7.13.5 Notación de movimientos" xml:lang="es"><Begin>MARC:546$b</Begin></Tag>
+<Tag name="notación de movimientos para danza" xml:lang="es"><Begin>notación de movimientos para danza</Begin></Tag>
+<Tag name="notación Beauchamp-Feuillet" xml:lang="es"><Begin>notación Beauchamp-Feuillet</Begin></Tag>
+<Tag name="notación de movimientos Benesh" xml:lang="es"><Begin>notación de movimientos Benesh</Begin></Tag>
+<Tag name="DanceWriting" xml:lang="es"><Begin>DanceWriting</Begin></Tag>
+<Tag name="notación de movimientos Eshkol-Wachman" xml:lang="es"><Begin>notación de movimientos Eshkol-Wachman</Begin></Tag>
+<Tag name="notación de actuación" xml:lang="es"><Begin>notación de actuación</Begin></Tag>
+<Tag name="Kinetografía Laban" xml:lang="es"><Begin>Kinetografía Laban</Begin></Tag>
+<Tag name="Labanotation" xml:lang="es"><Begin>Labanotation</Begin></Tag>
+<Tag name="notación Stepanov para danza" xml:lang="es"><Begin>notación Stepanov para danza</Begin></Tag>
+</TagGroup>
+</TagList>

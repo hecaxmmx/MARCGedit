@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Extensiones">
+
+<Tag name="::RDA 3.4.1.7.1-5 Subunidades-Computadora/en línea" xml:lang="es"><Begin>MARC:256$a|300$a$f</Begin></Tag>
+<Tag name="1 disco de computadora ()" xml:lang="es"><Begin>1 disco de computadora ()</Begin></Tag>
+<Tag name="1 disco de computadora (# archivos sonoros)" xml:lang="es"><Begin>1 disco de computadora (# archivos sonoros)</Begin></Tag>
+<Tag name="1 disco de computadora (# archivos de datos)" xml:lang="es"><Begin>1 disco de computadora (# archivos de datos)</Begin></Tag>
+<Tag name="1 disco de computadora (# archivo sonoro, # archivos de vídeo)" xml:lang="es"><Begin>1 disco de computadora (# archivo sonoro, # archivos de vídeo)</Begin></Tag>
+<Tag name="1 recurso en línea ()" xml:lang="es"><Begin>1 recurso en línea ()</Begin></Tag>
+<Tag name="1 recurso en línea (# páginas)" xml:lang="es"><Begin>1 recurso en línea (# páginas)</Begin></Tag>
+<Tag name="1 recurso en línea (# partituras)" xml:lang="es"><Begin>1 recurso en línea (# partituras)</Begin></Tag>
+<Tag name="1 recurso en línea (# fotografías)" xml:lang="es"><Begin>1 recurso en línea (# fotografías)</Begin></Tag>
+
+<Tag name="::RDA 3.4.2 Recurso cartográfico" xml:lang="es"><Begin>MARC:300$a$f</Begin></Tag>
+<Tag name="atlas" xml:lang="es"><Begin>atlas</Begin></Tag>
+<Tag name="diagrama" xml:lang="es"><Begin>diagrama</Begin></Tag>
+<Tag name="globo" xml:lang="es"><Begin>globo</Begin></Tag>
+<Tag name="mapas" xml:lang="es"><Begin>mapas</Begin></Tag>
+<Tag name="modelo" xml:lang="es"><Begin>perfil</Begin></Tag>
+<Tag name="imagen de sensor remoto" xml:lang="es"><Begin>imagen de sensor remoto</Begin></Tag>
+<Tag name="sección" xml:lang="es"><Begin>sección</Begin></Tag>
+<Tag name="vista" xml:lang="es"><Begin>vista</Begin></Tag>
+<Tag name="carteles" xml:lang="es"><Begin>carteles</Begin></Tag>
+<Tag name="cartas de juego" xml:lang="es"><Begin>cartas de juego</Begin></Tag>
+
+<Tag name="::RDA 3.4.3 Música notada" xml:lang="es"><Begin>MARC:300$a$f</Begin></Tag>
+<Tag name="partitura" xml:lang="es"><Begin>partitura</Begin></Tag>
+<Tag name="partitura abreviada" xml:lang="es"><Begin>partitura abreviada</Begin></Tag>
+<Tag name="partitura para estudiar" xml:lang="es"><Begin>partitura para estudiar</Begin></Tag>
+<Tag name="parte de piano del director" xml:lang="es"><Begin>parte de piano del director</Begin></Tag>
+<Tag name="parte de violín del director" xml:lang="es"><Begin>parte de violín del director</Begin></Tag>
+<Tag name="partitura vocal" xml:lang="es"><Begin>partitura vocal</Begin></Tag>
+<Tag name="partitura para piano" xml:lang="es"><Begin>partitura para piano</Begin></Tag>
+<Tag name="partitura coral" xml:lang="es"><Begin>partitura coral</Begin></Tag>
+<Tag name="parte" xml:lang="es"><Begin>parte</Begin></Tag>
+<Tag name="libro de coro" xml:lang="es"><Begin>libro de coro</Begin></Tag>
+<Tag name="libro de mesa" xml:lang="es"><Begin>libro de mesa</Begin></Tag>
+
+<Tag name="::RDA 3.4.4 Imágenes fijas" xml:lang="es"><Begin>MARC:300$a$f</Begin></Tag>
+<Tag name="diagrama" xml:lang="es"><Begin>diagrama</Begin></Tag>
+<Tag name="colage" xml:lang="es"><Begin>colage</Begin></Tag>
+<Tag name="dibujo" xml:lang="es"><Begin>dibujo</Begin></Tag>
+<Tag name="tarjeta mnemotécnica" xml:lang="es"><Begin>tarjeta mnemotécnica</Begin></Tag>
+<Tag name="ícono" xml:lang="es"><Begin>ícono</Begin></Tag>
+<Tag name="pintura" xml:lang="es"><Begin>pintura</Begin></Tag>
+<Tag name="fotografía" xml:lang="es"><Begin>fotografía</Begin></Tag>
+<Tag name="imagen" xml:lang="es"><Begin>imagen</Begin></Tag>
+<Tag name="tarjeta postal" xml:lang="es"><Begin>tarjeta postal</Begin></Tag>
+<Tag name="póster" xml:lang="es"><Begin>póster</Begin></Tag>
+<Tag name="impreso" xml:lang="es"><Begin>impreso</Begin></Tag>
+<Tag name="radiografía" xml:lang="es"><Begin>radiografía</Begin></Tag>
+<Tag name="impresión de estudio" xml:lang="es"><Begin>impresión de estudio</Begin></Tag>
+<Tag name="plano técnico" xml:lang="es"><Begin>plano técnico</Begin></Tag>
+<Tag name="diagrama mural" xml:lang="es"><Begin>diagrama mural</Begin></Tag>
+
+<Tag name="::RDA 3.4.5 Textos" xml:lang="es"><Begin>MARC:300$a$f</Begin></Tag>
+<Tag name="aproximadamente # páginas" xml:lang="es"><Begin>aproximadamente # páginas</Begin></Tag>
+<Tag name="columnas" xml:lang="es"><Begin>columnas</Begin></Tag>
+<Tag name="columnas en varias numeraciones" xml:lang="es"><Begin>columnas en varias numeraciones</Begin></Tag>
+<Tag name="estuche" xml:lang="es"><Begin>estuche</Begin></Tag>
+<Tag name="hojas" xml:lang="es"><Begin>hojas</Begin></Tag>
+<Tag name="hojas de láminas" xml:lang="es"><Begin>hojas de láminas</Begin></Tag>
+<Tag name="hojas en varias foliaciones" xml:lang="es"><Begin>hojas en varias foliaciones</Begin></Tag>
+<Tag name="hojas plegadas" xml:lang="es"><Begin>hojas plegadas</Begin></Tag>
+<Tag name="hojas de láminas plegadas" xml:lang="es"><Begin>hojas de láminas plegadas</Begin></Tag>
+<Tag name="páginas" xml:lang="es"><Begin>páginas</Begin></Tag>
+<Tag name="páginas sin numerar" xml:lang="es"><Begin>páginas sin numerar</Begin></Tag>
+<Tag name="páginas de láminas" xml:lang="es"><Begin>páginas de láminas</Begin></Tag>
+<Tag name="páginas en varias paginaciones" xml:lang="es"><Begin>páginas en varias paginaciones</Begin></Tag>
+<Tag name="portafolio" xml:lang="es"><Begin>portafolio</Begin></Tag>
+<Tag name="volúmenes (hojas sueltas)" xml:lang="es"><Begin>volúmenes (hojas sueltas)</Begin></Tag>
+<Tag name="1 volumen (sin paginar)" xml:lang="es"><Begin>1 volumen (sin paginar)</Begin></Tag>
+<Tag name="1 volumen (paginación varía)" xml:lang="es"><Begin>1 volumen (paginación varía)</Begin></Tag>
+
+<Tag name="::RDA 3.4.6 Formato-Tridimensional" xml:lang="es"><Begin>MARC:300$a$f</Begin></Tag>
+<Tag name="moneda" xml:lang="es"><Begin>moneda</Begin></Tag>
+<Tag name="diorama" xml:lang="es"><Begin>diorama</Begin></Tag>
+<Tag name="exhibición" xml:lang="es"><Begin>exhibición</Begin></Tag>
+<Tag name="juego" xml:lang="es"><Begin>juego</Begin></Tag>
+<Tag name="rompecabezas" xml:lang="es"><Begin>rompecabezas</Begin></Tag>
+<Tag name="medalla" xml:lang="es"><Begin>medalla</Begin></Tag>
+<Tag name="maqueta" xml:lang="es"><Begin>maqueta</Begin></Tag>
+<Tag name="modelo" xml:lang="es"><Begin>modelo</Begin></Tag>
+<Tag name="escultura" xml:lang="es"><Begin>escultura</Begin></Tag>
+<Tag name="espécimen" xml:lang="es"><Begin>espécimen</Begin></Tag>
+<Tag name="juguete" xml:lang="es"><Begin>juguete</Begin></Tag>
+<Tag name="(varias partes)" xml:lang="es"><Begin>(varias partes)</Begin></Tag>
+
+</TagGroup>
+</TagList>

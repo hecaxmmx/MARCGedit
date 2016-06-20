@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Títulos colectivos convencionales">
+
+<Tag name="::RDA 6.2.2.10 Título preferido/Compilación de obras de una Persona, Familia o Entidad Corporativa" xml:lang="es"><Begin>⎘MARC Bib:240$a$k</Begin><End> ⎗MARC Aut:100,110,111,130$t$k</End></Tag>
+<Tag name="Obras" xml:lang="es"><Begin>Obras</Begin></Tag>
+<Tag name="Correspondencia" xml:lang="es"><Begin>Correspondencia</Begin></Tag>
+<Tag name="Ensayos" xml:lang="es"><Begin>Ensayos</Begin></Tag>
+<Tag name="Libretos" xml:lang="es"><Begin>Libretos</Begin></Tag>
+<Tag name="Lírica" xml:lang="es"><Begin>Lírica</Begin></Tag>
+<Tag name="Novelas" xml:lang="es"><Begin>Novelas</Begin></Tag>
+<Tag name="Teatro" xml:lang="es"><Begin>Teatro</Begin></Tag>
+<Tag name="Poemas" xml:lang="es"><Begin>Poemas</Begin></Tag>
+<Tag name="Obras en prosa" xml:lang="es"><Begin>Obras en prosa</Begin></Tag>
+<Tag name="Cuentos cortos" xml:lang="es"><Begin>Cuentos cortos</Begin></Tag>
+<Tag name="Discursos" xml:lang="es"><Begin>Discursos</Begin></Tag>
+<Tag name="Selecciones" xml:lang="es"><Begin>Selecciones</Begin></Tag>
+
+</TagGroup>
+</TagList>

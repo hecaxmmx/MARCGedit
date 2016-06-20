@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Frecuencia">
+
+<Tag name="::RDA 2.14 Frecuencia" xml:lang="es"><Begin>MARC:310$a</Begin></Tag>
+
+<Tag name="diario" xml:lang="es"><Begin>diario</Begin></Tag>
+<Tag name="tres veces por semana" xml:lang="es"><Begin>tres veces por semana</Begin></Tag>
+<Tag name="bimensual" xml:lang="es"><Begin>bimensual</Begin></Tag>
+<Tag name="semanal" xml:lang="es"><Begin>semanal</Begin></Tag>
+<Tag name="bisemanal" xml:lang="es"><Begin>bisemanal</Begin></Tag>
+<Tag name="trimensual" xml:lang="es"><Begin>trimensual</Begin></Tag>
+<Tag name="bimestral" xml:lang="es"><Begin>bimestral</Begin></Tag>
+<Tag name="mensual" xml:lang="es"><Begin>mensual</Begin></Tag>
+<Tag name="quincenal" xml:lang="es"><Begin>quincenal</Begin></Tag>
+<Tag name="trimestral" xml:lang="es"><Begin>trimestral</Begin></Tag>
+<Tag name="cuatrimestral" xml:lang="es"><Begin>cuatrimestral</Begin></Tag>
+<Tag name="semestral" xml:lang="es"><Begin>semestral</Begin></Tag>
+<Tag name="anual" xml:lang="es"><Begin>anual</Begin></Tag>
+<Tag name="bienal" xml:lang="es"><Begin>bienal</Begin></Tag>
+<Tag name="trienual" xml:lang="es"><Begin>trienual</Begin></Tag>
+<Tag name="irregular" xml:lang="es"><Begin>irregular</Begin></Tag>
+
+</TagGroup>
+</TagList>

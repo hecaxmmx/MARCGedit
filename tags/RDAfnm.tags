@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Formato de la música notada">
+
+<Tag name="::RDA 7.20 Formato de la música notada" xml:lang="es"><Begin>MARC:500$a</Begin></Tag>
+<Tag name="partitura" xml:lang="es"><Begin>partitura</Begin></Tag>
+<Tag name="partitura abreviada" xml:lang="es"><Begin>partitura abreviada</Begin></Tag>
+<Tag name="partitura para estudiar" xml:lang="es"><Begin>partitura para estudiar</Begin></Tag>
+<Tag name="parte de piano del director" xml:lang="es"><Begin>parte de piano del director</Begin></Tag>
+<Tag name="parte de violín del director" xml:lang="es"><Begin>parte de violín del director</Begin></Tag>
+<Tag name="partitura vocal" xml:lang="es"><Begin>partitura vocal</Begin></Tag>
+<Tag name="partitura para piano" xml:lang="es"><Begin>partitura para piano</Begin></Tag>
+<Tag name="partitura coral" xml:lang="es"><Begin>partitura coral</Begin></Tag>
+<Tag name="parte" xml:lang="es"><Begin>parte</Begin></Tag>
+<Tag name="libro de coro" xml:lang="es"><Begin>libro de coro</Begin></Tag>
+<Tag name="libro de mesa" xml:lang="es"><Begin>libro de mesa</Begin></Tag>
+
+</TagGroup>
+</TagList>

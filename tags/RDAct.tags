@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Tipos de contenido">
+
+<Tag name="::RDA 6.9" xml:lang="es"><Begin>MARC:130,730,830$h|336$a|240$h|243$h|700,800,710,810,711,811$h</Begin></Tag>
+<Tag name="conjunto de datos cartográficos" xml:lang="es"><Begin>conjunto de datos cartográficos</Begin></Tag>
+<Tag name="imagen cartográfica" xml:lang="es"><Begin>imagen cartográfica</Begin></Tag>
+<Tag name="imagen cartográfica en movimiento" xml:lang="es"><Begin>imagen cartográfica en movimiento</Begin></Tag>
+<Tag name="imagen cartográfica táctil" xml:lang="es"><Begin>imagen cartográfica táctil</Begin></Tag>
+<Tag name="forma cartográfica táctil tridimensional" xml:lang="es"><Begin>forma cartográfica táctil tridimensional</Begin></Tag>
+<Tag name="forma cartográfica tridimensional" xml:lang="es"><Begin>forma cartográfica tridimensional</Begin></Tag>
+<Tag name="conjunto de datos para computadora" xml:lang="es"><Begin>conjunto de datos para computadora</Begin></Tag>
+<Tag name="programa para computadora" xml:lang="es"><Begin>programa para computadora</Begin></Tag>
+<Tag name="notación de movimientos" xml:lang="es"><Begin>notación de movimientos</Begin></Tag>
+<Tag name="música notada" xml:lang="es"><Begin>música notada</Begin></Tag>
+<Tag name="música interpretada" xml:lang="es"><Begin>música interpretada</Begin></Tag>
+<Tag name="sonidos" xml:lang="es"><Begin>sonidos</Begin></Tag>
+<Tag name="palabra hablada" xml:lang="es"><Begin>palabra hablada</Begin></Tag>
+<Tag name="imagen fija" xml:lang="es"><Begin>imagen fija</Begin></Tag>
+<Tag name="imagen táctil" xml:lang="es"><Begin>imagen táctil</Begin></Tag>
+<Tag name="movimiento notado táctil" xml:lang="es"><Begin>movimiento notado táctil</Begin></Tag>
+<Tag name="música notada táctil" xml:lang="es"><Begin>música notada táctil</Begin></Tag>
+<Tag name="texto táctil" xml:lang="es"><Begin>texto táctil</Begin></Tag>
+<Tag name="forma tridimensional táctil" xml:lang="es"><Begin>forma tridimensional táctil</Begin></Tag>
+<Tag name="texto" xml:lang="es"><Begin>texto</Begin></Tag>
+<Tag name="forma tridimensional" xml:lang="es"><Begin>forma tridimensional</Begin></Tag>
+<Tag name="imagen móvil tridimensional" xml:lang="es"><Begin>imagen móvil tridimensional</Begin></Tag>
+<Tag name="imagen en movimiento bidimensional" xml:lang="es"><Begin>imagen en movimiento bidimensional</Begin></Tag>
+</TagGroup>
+</TagList>

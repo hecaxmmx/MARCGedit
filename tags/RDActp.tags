@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Tipos de soporte">
+
+<Tag name="::RDA 3.3 Audio" xml:lang="es"><Begin>MARC:300$f|338$a</Begin></Tag>
+<Tag name="audio belt" xml:lang="es"><Begin>audio belt</Begin></Tag>
+<Tag name="cartucho sonoro" xml:lang="es"><Begin>cartucho sonoro</Begin></Tag>
+<Tag name="cilindro sonoro" xml:lang="es"><Begin>cilindro sonoro</Begin></Tag>
+<Tag name="disco sonoro" xml:lang="es"><Begin>disco sonoro</Begin></Tag>
+<Tag name="rollo sonoro" xml:lang="es"><Begin>rollo sonoro</Begin></Tag>
+<Tag name="audio wire reel" xml:lang="es"><Begin>audio wire reel</Begin></Tag>
+<Tag name="audiocasete" xml:lang="es"><Begin>audiocasete</Begin></Tag>
+<Tag name="carrete de cinta sonora" xml:lang="es"><Begin>carrete de cinta sonora</Begin></Tag>
+<Tag name="carrete de banda sonora" xml:lang="es"><Begin>carrete de banda sonora</Begin></Tag>
+
+<Tag name="::RDA 3.3 Computadora" xml:lang="es"><Begin>MARC:300$f|338$a</Begin></Tag>
+<Tag name="tarjeta de computadora" xml:lang="es"><Begin>tarjeta de computadora</Begin></Tag>
+<Tag name="cartucho de chip para computadora" xml:lang="es"><Begin>cartucho de chip para computadora</Begin></Tag>
+<Tag name="disco de computadora" xml:lang="es"><Begin>disco de computadora</Begin></Tag>
+<Tag name="cartucho de discos de computadora" xml:lang="es"><Begin>cartucho de discos de computadora</Begin></Tag>
+<Tag name="cartucho de cinta de computadora" xml:lang="es"><Begin>cartucho de cinta de computadora</Begin></Tag>
+<Tag name="casete de cinta de computadora" xml:lang="es"><Begin>casete de cinta de computadora</Begin></Tag>
+<Tag name="carrete de cinta de computadora" xml:lang="es"><Begin>carrete de cinta de computadora</Begin></Tag>
+<Tag name="recurso en línea" xml:lang="es"><Begin>recurso en línea</Begin></Tag>
+
+<Tag name="::RDA 3.3 Microforma" xml:lang="es"><Begin>MARC:300$f|338$a</Begin></Tag>
+<Tag name="tarjeta de apertura" xml:lang="es"><Begin>tarjeta de apertura</Begin></Tag>
+<Tag name="microficha" xml:lang="es"><Begin>microficha</Begin></Tag>
+<Tag name="casete de microficha" xml:lang="es"><Begin>casete de microficha</Begin></Tag>
+<Tag name="cartucho de microfilme" xml:lang="es"><Begin>cartucho de microfilme</Begin></Tag>
+<Tag name="casete de microfilme" xml:lang="es"><Begin>casete de microfilme</Begin></Tag>
+<Tag name="carrete de microfilme" xml:lang="es"><Begin>carrete de microfilme</Begin></Tag>
+<Tag name="rollo de microfilme" xml:lang="es"><Begin>rollo de microfilme</Begin></Tag>
+<Tag name="tira de microfilme" xml:lang="es"><Begin>tira de microfilme</Begin></Tag>
+<Tag name="Microopaco" xml:lang="es"><Begin>Microopaco</Begin></Tag>
+
+<Tag name="::RDA 3.3 Microscópicos" xml:lang="es"><Begin>MARC:300$f|338$a</Begin></Tag>
+<Tag name="portaobjeto de microscopio" xml:lang="es"><Begin>portaobjeto de microscopio</Begin></Tag>
+
+<Tag name="::RDA 3.3 Imagen proyectada" xml:lang="es"><Begin>MARC:300$f|338$a</Begin></Tag>
+<Tag name="cartucho de película" xml:lang="es"><Begin>cartucho de película</Begin></Tag>
+<Tag name="casete de película" xml:lang="es"><Begin>casete de película</Begin></Tag>
+<Tag name="carrete de película" xml:lang="es"><Begin>carrete de película</Begin></Tag>
+<Tag name="rollo de película" xml:lang="es"><Begin>rollo de película</Begin></Tag>
+<Tag name="filmina" xml:lang="es"><Begin>filmina</Begin></Tag>
+<Tag name="fotobanda" xml:lang="es"><Begin>fotobanda</Begin></Tag>
+<Tag name="cartucho de fotobanda" xml:lang="es"><Begin>cartucho de fotobanda</Begin></Tag>
+<Tag name="transparencia de retroproyector" xml:lang="es"><Begin>transparencia de retroproyector</Begin></Tag>
+<Tag name="diapositiva" xml:lang="es"><Begin>diapositiva</Begin></Tag>
+
+<Tag name="::RDA 3.3 Estereográficos" xml:lang="es"><Begin>MARC:300$f|338$a</Begin></Tag>
+<Tag name="tarjeta estereográfica" xml:lang="es"><Begin>tarjeta estereográfica</Begin></Tag>
+<Tag name="disco estereográfico" xml:lang="es"><Begin>disco estereográfico</Begin></Tag>
+
+<Tag name="::RDA 3.3 Sin mediación" xml:lang="es"><Begin>MARC:300$f|338$a</Begin></Tag>
+<Tag name="tarjeta" xml:lang="es"><Begin>tarjeta</Begin></Tag>
+<Tag name="rotafolio" xml:lang="es"><Begin>rotafolio</Begin></Tag>
+<Tag name="objeto" xml:lang="es"><Begin>objeto</Begin></Tag>
+<Tag name="rollo" xml:lang="es"><Begin>rollo</Begin></Tag>
+<Tag name="hoja" xml:lang="es"><Begin>hoja</Begin></Tag>
+<Tag name="volumen" xml:lang="es"><Begin>volumen</Begin></Tag>
+
+<Tag name="::RDA 3.3 Vídeo" xml:lang="es"><Begin>MARC:300$f|338$a</Begin></Tag>
+<Tag name="cartucho de vídeo" xml:lang="es"><Begin>cartucho de vídeo</Begin></Tag>
+<Tag name="casete de vídeo" xml:lang="es"><Begin>casete de vídeo</Begin></Tag>
+<Tag name="videodisco" xml:lang="es"><Begin>videodisco</Begin></Tag>
+<Tag name="rollo de videocinta" xml:lang="es"><Begin>rollo de videocinta</Begin></Tag>
+
+</TagGroup>
+</TagList>

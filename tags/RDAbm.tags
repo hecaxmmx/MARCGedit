@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Material base/Montura">
+
+<Tag name="::RDA 3.6, 3.8 Material base/Montura" xml:lang="es"><Begin>MARC:300$b|340$a$e|500$a</Begin></Tag>
+<Tag name="cartulina brístol" xml:lang="es"><Begin>cartulina brístol</Begin></Tag>
+<Tag name="lona" xml:lang="es"><Begin>lona</Begin></Tag>
+<Tag name="cartón" xml:lang="es"><Begin>cartón</Begin></Tag>
+<Tag name="cerámica" xml:lang="es"><Begin>cerámica</Begin></Tag>
+<Tag name="vidrio" xml:lang="es"><Begin>vidrio</Begin></Tag>
+<Tag name="tablero" xml:lang="es"><Begin>tablero</Begin></Tag>
+<Tag name="tablero gráfico" xml:lang="es"><Begin>tablero gráfico</Begin></Tag>
+<Tag name="marfil" xml:lang="es"><Begin>marfil</Begin></Tag>
+<Tag name="cuero" xml:lang="es"><Begin>cuero</Begin></Tag>
+<Tag name="metal" xml:lang="es"><Begin>metal</Begin></Tag>
+<Tag name="papel" xml:lang="es"><Begin>papel</Begin></Tag>
+<Tag name="pergamino" xml:lang="es"><Begin>pergamino</Begin></Tag>
+<Tag name="yeso" xml:lang="es"><Begin>yeso</Begin></Tag>
+<Tag name="plástico" xml:lang="es"><Begin>plástico</Begin></Tag>
+<Tag name="porcelana" xml:lang="es"><Begin>porcelana</Begin></Tag>
+<Tag name="laca" xml:lang="es"><Begin>laca</Begin></Tag>
+<Tag name="piel" xml:lang="es"><Begin>piel</Begin></Tag>
+<Tag name="piedra" xml:lang="es"><Begin>piedra</Begin></Tag>
+<Tag name="sintético" xml:lang="es"><Begin>sintético</Begin></Tag>
+<Tag name="textil" xml:lang="es"><Begin>textil</Begin></Tag>
+<Tag name="vitela" xml:lang="es"><Begin>vitela</Begin></Tag>
+<Tag name="vinilo" xml:lang="es"><Begin>vinilo</Begin></Tag>
+<Tag name="cera" xml:lang="es"><Begin>cera</Begin></Tag>
+<Tag name="madera" xml:lang="es"><Begin>madera</Begin></Tag>
+
+<Tag name="::RDA 3.6 Microfilme/microficha/película fotográfica/película para cinematografía" xml:lang="es"><Begin>MARC:300$b|340$a|500</Begin></Tag>
+<Tag name="acetato" xml:lang="es"><Begin>acetato</Begin></Tag>
+<Tag name="diacetato" xml:lang="es"><Begin>diacetato</Begin></Tag>
+<Tag name="nitrato" xml:lang="es"><Begin>nitrato</Begin></Tag>
+<Tag name="poliester" xml:lang="es"><Begin>poliester</Begin></Tag>
+<Tag name="base de seguridad" xml:lang="es"><Begin>base de seguridad</Begin></Tag>
+<Tag name="triacetato" xml:lang="es"><Begin>triacetato</Begin></Tag>
+</TagGroup>
+</TagList>

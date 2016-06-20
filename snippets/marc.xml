@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="marc">
+  <snippet>
+    <description>Bib&gt;Book</description>
+    <text><![CDATA[=LDR  00000nam a2200000 i 4500
+=001  BFMO
+=003  SV-SsUSB
+=005  YYYYMMDDHHMMSS.F
+=008  YYMMDD?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\000\\0\\LNG\\d
+=040  \\\$aSV-SsUSB$bspa$cSV-SsUSB$erda
+=020  \\\$a
+=041  ?\\$a  $h  $b
+=082  04$a  $b  \$2
+=1xx  ?\\$a  \$9
+=240  10$a  $l
+=245  ??$a  $b  $c
+=246  ??$i  $a
+=250  \\\$a
+=264  \1$a   $b  $c
+=300  \\\$apáginas :$bilustraciones ;$ccm
+=336  \\\$atexto$btxt\$2rdacontent
+=337  \\\$asin mediación$bn\$2rdamedia
+=338  \\\$avolumen$bnc\$2rdacarrier
+=490  0\\$a  $v
+=500  \\\$aIncluye índice.
+=504  \\\$aIncluye referencias bibliográficas (páginas N-N) e índice.
+=505  0\\$a
+=650  \7$a  \$2embne\$9
+=700  1\\$a  $t  \$9
+=710  ?\\$a $b  \$9
+=942  \\\\\$2ddc$cBK
+$0]]></text>
+    <tag>record</tag>
+  </snippet>
+  <snippet>
+    <text><![CDATA[=LDR  00000nz  a2200000n  4500]]></text>
+    <tag>ldr</tag>
+    <description>Auth&gt;LDR</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[=008  YYMMDDin\\anznnbabn\\\\\\\\\\\\\\\\\\\\\\a\\ana\\\\\\\\\\d]]></text>
+    <tag>fixed</tag>
+    <description>Auth&gt;008 Term</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[=008  AAMMDDna\acannaabn\\\\\\\\\\\\\\\\\\\\\\a\ana\\\\\\\\\d]]></text>
+    <tag>fixed</tag>
+    <description>Auth&gt;008 Corporate</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[=LDR  00000nam a2200000 i 4500
+=001  BFMO${1:INVENTARIO}
+=003  SV-SsUSB
+=005  YYYYMMDDHHMMSS.F
+=006  m\\\\\\\\fq\\\\a\\\\\\\\\\\\\\\\
+=008  YYMMDDs${2:DAT1}\\\\\\\\es\\a\\\\\\f\\bm\\\\f000\\0\\spa\\d
+=040  \\\$aSV-SsUSB$bspa$cSV-SsUSB$erda
+=043  \\\$ances---
+=094  \\\$a $b
+=100  1\\$a \$9
+=245  1?$a $b $c
+=264  \0$aSan Miguel :$bUES, FMO,$c${2}.
+=300  \\\$ahojas :$bilustraciones ;$c28 cm +$e1 disco de computadora (4 3/4 plg.)
+=336  \\\$atexto$btxt\$2rdacontent
+=336  \\\\\$3material acompañante$aconjunto de datos para computadora$bcod\$2rdacontent
+=337  \\\$asin mediación$bn\$2rdamedia
+=337  \\\\\$3material acompañante$acomputadora$bc\$2rdamedia
+=338  \\\$avolumen$bnc\$2rdacarrier
+=338  \\\\\$3material acompañante$adisco de computadora$bcd\$2rdacarrier
+=502  \\\$b${3:Licenciado/Ingeniero/Arquitecto/Master/Doctor/Doctorado}$cUniversidad de El Salvador, Facultad Multidisciplinaria Oriental$d${2}.
+=504  \\\$aIncluye referencias bibliográficas (hojas N-N).
+=520  \\\$a
+=700  1\\$a
+=700  1\\$a $easesor.
+=856  40$uhttp://opac.fmoues.edu.sv/infolib/tesis/${1}.pdf$yRecurso Electrónico (PDF)
+=856  40$uhttp://ri.ues.edu.sv/id/eprint/NUMERO$yRepositorio Institucional (UES)$qtext/html
+=942  \\\\\$2ddc$cTS
+$0]]></text>
+    <tag>record</tag>
+    <description>Bib&gt;Thesis</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[=LDR  00000nz  a2200000n  4500
+=003  SV-SsUSB
+=005  YYYYMMDDHHMMSS.F
+=008  YYMMDDin\\anznnbabn\\\\\\\\\\\\\\\\\\\\\\a\\ana\\\\\\\\\\d
+=024  7\\$a \$2lcsh
+=083  04$a \$221
+=150  \\\$a
+=260  \\\$i $a
+=360  \\\$i $a
+=450  \\\$a
+=550  \\\$w $a
+=667  \\\$aRegistro para propósitos de validación.
+=670  \\\$aLCSH$b(${1:English term})
+=670  \\\$aRAMEAU$b()
+=680  \\\$i $a
+=750  \0$a${1}
+$0]]></text>
+    <tag>record</tag>
+    <description>Auth&gt;Topical Term</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[Form 008 for Books...
+See http://oclc.org/bibformats/en/fixedfield.html for documentation:
+
+Copy the LDR field for Books if you do not have defined any:
+=LDR  00000nam a2200000Ii 4500
+
+All records options
+Srce(39): ${1:d}
+MRec(38): ${2:#}
+Lang(35-37): ${3:spa}
+Ctry(15-17): ${4:es#}
+DtSt(06): ${5:s}
+Dates(07-14): Date1 ${6:DAT1} Date2 ${7:DAT2}
+--------------------------------------------------------------
+Ills(18-21):Pos 18 ${8:a} | Pos 19 ${9:#} | Pos 20 ${10:#} | Pos 21 ${11:#}
+Audn(22):${12:#}
+Form(23):${13:#}
+Cont(24-27):Pos 24 ${14:#} | Pos 25 ${15:#} | Pos 26 ${16:#} |Pos 27: ${17:#}
+GPub(28): ${18:#}
+--------------------------------------------------------------
+Conf(29): ${19:0}
+Fest(30): ${20:0}
+Indx(31): ${21:0}
+LitF(33): ${22:0}
+Biog(34): ${23:#}
+--------------------------------------------------------------
+
+=008  YYMMDD${5}${6}${7}${4}${8}${9}${10}${11}${12}${13}${14}${15}${16}${17}${18}${19}${20}${21}#${22}${23}${3}${2}${1}
+$0
+]]></text>
+    <tag>fixed</tag>
+    <description>Bib&gt;008 Book</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[Form 008 for Continuing resources...
+See http://oclc.org/bibformats/en/fixedfield.html for documentation:
+
+Copy the LDR field for Continuing resources if you do not have defined any:
+=LDR  00000nas a2200000Ii 4500
+
+--------------------------------------------------------------
+All records options
+Srce(39): ${1:d}
+MRec(38): ${2:#}
+Lang(35-37): ${3:spa}
+Ctry(15-17): ${4:es#}
+DtSt(06): ${5:c}
+Dates(07-14): Date1 ${6:DAT1} Date2 ${7:DAT2}
+--------------------------------------------------------------
+Freq(18): ${8:|}
+Regl(19): ${9:|}
+SrTp(21): ${10:#}
+Orig(22): ${11:#}
+--------------------------------------------------------------
+Form(23): ${12:#}
+EntW(24): ${13:#}
+Cont(25-27): Pos(25) ${14:#} Pos(26) ${15:#} Pos(27) ${16:#}
+GPub(28): ${17:#}
+Conf(29): ${18:0}
+Alph(33): ${19:#}
+S/L(34): ${20:0}
+--------------------------------------------------------------
+
+=008  YYMMDD${5}${6}${7}${4}${8}${9}#${10}${11}${12}${13}${14}${15}${16}${17}${18}###${19}${20}${3}${2}${1}
+$0]]></text>
+    <tag>fixed</tag>
+    <description>Bib&gt;008 Continuing Resources</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[Form 008 for Maps...
+See http://oclc.org/bibformats/en/fixedfield.html for documentation:
+
+Copy the LDR field for Maps if you do not have defined any:
+=LDR  00000nem a2200000Ii 4500
+
+All records options
+Srce(39): ${1:d}
+MRec(38): ${2:#}
+Lang(35-37): ${3:spa}
+Ctry(15-17): ${4:es#}
+DtSt(06): ${5:s}
+Dates(07-14): Date1 ${6:DAT1} Date2 ${7:DAT2}
+--------------------------------------------------------------
+Relf(18-21): Pos18 ${8:#} Pos19 ${9:#} Pos20 ${10:#} Pos21 ${11:#}
+Proj(22-23): ${12:##}
+CrTp(25): ${13:a}
+--------------------------------------------------------------
+GPub(28): ${14:#}
+Form(29): ${15:#}
+Indx(31): ${16:0}
+SpFm(33-34): Pos33 ${17:#} Pos 34 ${18:#}
+--------------------------------------------------------------
+
+=008  YYMMDD${5}${6}${7}${4}${8}${9}${10}${11}${12}#${13}##${14}${15}#${16}#${17}${18}${3}${2}${1}
+$0
+]]></text>
+    <tag>fixed</tag>
+    <description>Bib&gt;008 Maps</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[Form 008 for Computer files...
+See http://oclc.org/bibformats/en/fixedfield.html for documentation:
+
+Copy the LDR field for Computer files if you do not have defined any:
+=LDR  00000nmm a2200000Ii 4500
+
+All records options
+Srce(39): ${1:d}
+MRec(38): ${2:#}
+Lang(35-37): ${3:spa}
+Ctry(15-17): ${4:es#}
+DtSt(06): ${5:s}
+Dates(07-14): Date1 ${6:DAT1} Date2 ${7:DAT2}
+--------------------------------------------------------------
+Audn(22): ${8:#}
+Form(23): ${9:#}
+GPub(28): ${10:#}
+File(26): ${11:u}
+--------------------------------------------------------------
+
+=008  YYMMDD${5}${6}${7}${4}####${8}${9}##${11}#${10}######${3}${2}${1}
+$0
+]]></text>
+    <tag>fixed</tag>
+    <description>Bib&gt;008 Computer files</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[Form 008 for Music...
+See http://oclc.org/bibformats/en/fixedfield.html for documentation:
+
+Copy the LDR field for Music if you do not have defined any:
+For Notated music (Score or SCO)
+=LDR  00000ncm a2200000Ii 4500
+For Manuscript notated music (Score or SCO)
+=LDR  00000ndm a2200000Ii 4500
+For Nonmusical sound recording (Sound Recording or REC)
+=LDR  00000nim a2200000Ii 4500
+For Musical sound recording (Sound Recording or REC)
+=LDR  00000njm a2200000Ii 4500
+
+All records options
+Srce(39): ${1:d}
+MRec(38): ${2:#}
+Lang(35-37): ${3:spa}
+Ctry(15-17): ${4:es#}
+DtSt(06): ${5:s}
+Dates(07-14): Date1 ${6:DAT1} Date2 ${7:DAT2}
+--------------------------------------------------------------
+Comp(18-19): Pos18 ${8:u} Pos18 ${9:u}
+FMus(20): ${10:u} Default value for REC "n" and SCO "u"
+Part(21): ${11:#} Default value for REC "n" and SCO "#"
+Audn(22): ${12:#}
+--------------------------------------------------------------
+Form(23): ${13:#}
+AccM(24-29): Pos24 ${14:#} Pos25 ${15:#} Pos26 ${16:#} Pos27 ${17:#} Pos28 ${18:#} Pos29 ${19:#}
+LTxt(30-31): Pos30 ${20:n} Pos31 ${21:#} Default value for REC "##" and SCO "n#"
+TrAr(33): ${22:#} Default value for REC "n" and SCO "#"
+--------------------------------------------------------------
+
+=008  YYMMDD${5}${6}${7}${4}${8}${9}${10}${11}${12}${13}${14}${15}${16}${17}${18}${19}${20}${21}#${22}#${3}${2}${1}
+$0]]></text>
+    <tag>fixed</tag>
+    <description>Bib&gt;008 Music</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[=LDR  00000nas a2200000Ii 4500
+=001  BFMO
+=003  SV-SsUSB
+=005  YYYYMMDDHHMMSS.F
+=008  YYMMDDcDAT19999CNT??\\?\\\\\\\\\\\\\\0\\\\\\\\0LNG\\d
+=010  \\\$a
+=020  \\\$a
+=040  \\\$aSV-SsUSB$bspa$cSV-SsUSB$erda
+=041  ?\\$a $h $b
+=050  ?\\$a $b
+=090  \\\$a $b
+=049  \\\$a
+=1xx  ?\\$a
+=2xx  ??$a
+=245  ??$a $b $c
+=246  ??$a
+=264  \1$a $b $c
+=300  \\\$a $b $c
+=362  ?\\$a
+=5xx  ?\\$a
+=6xx  ??$a
+=7xx  ??$a
+$0]]></text>
+    <tag>record</tag>
+    <description>Bib&gt;Continuing Resources</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[=LDR  00000nem a2200000Ii 4500
+=001  BFMO
+=003  SV-SsUSB
+=005  YYYYMMDDHHMMSS.F
+=007  $a $b $d $e $f $g $h
+=008  YYMMDD?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\a\\\\\\\\\\0\\\\\\LNG\\d
+=010  \\\$a
+=020  \\\$a
+=034  ?\\$a
+=040  \\\$aSV-SsUSB$bspa$cSV-SsUSB$erda
+=041  ?\\$a
+=052  \\\$a $b
+=090  \\\$a $b
+=049  \\\$a
+=1xx  ?\\$a
+=245  ??$a $b $c
+=246  ??$a
+=255  \\\$a $b $c $d $e
+=264  \1$a $b $c
+=300  \\\$a $b $c
+=490  0\$a $v
+=5xx  ?\\$a
+=6xx  ??$a
+=7xx  ??$a
+$0]]></text>
+    <tag>record</tag>
+    <description>Bib&gt;Maps</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[=LDR  00000njm a2200000Ii 4500
+=001  BFMO
+=003  SV-SsUSB
+=005  YYYYMMDDHHMMSS.F
+=007  $a $b $e $f $g $h $l $n
+=008  YYMMDD?DAT1\\\\\\\\CNT\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\LNG\\d
+=010  \\\$a
+=028  ??$a $b
+=040  \\\$aSV-SsUSB$bspa$cSV-SsUSB$erda
+=041  ?\\$a $d $h $b $e $g
+=049  \\\$a
+=050  ?\\$a $b
+=090  \\\$a $b
+=1xx  ?\\$a
+=240  ??$a $m $n
+=245  ??$a $b $c
+=246  ??$a
+=264  \1$a $b $c
+=300  \\\$a $b $c
+=306  \\\$a
+=490  0\$a $v
+=5xx  ?\\$a
+=6xx  ??$a
+=7xx  ??$a
+$0]]></text>
+    <tag>record</tag>
+    <description>Bib&gt;Sound Recording</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[=LDR  00000ncm a2200000Ii 4500
+=001  BFMO
+=003  SV-SsUSB
+=005  YYYYMMDDHHMMSS.F
+=008  YYMMDD?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\LNG\\d
+=010  \\\$a
+=028  ??$a $b
+=040  \\\$aSV-SsUSB$bspa$cSV-SsUSB$erda
+=041  ?\\$a $d $h $b $e
+=049  \\\$a
+=050  ?\\$a $b
+=090  \\\$a $b
+=1xx  ?\\$a $d
+=240  ??$a $m $n
+=245  ??$a $b $c
+=246  ??$a
+=25x  \\\$a
+=264  \1$a $b $c
+=300  \\\$a $b $c
+=490  0\$a $v
+=5xx  ?\\$a
+=6xx  ??$a
+=7xx  ??$a
+$0]]></text>
+    <tag>record</tag>
+    <description>Bib&gt;Score</description>
+  </snippet>
+</snippets>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Características archivo digital">
+
+<Tag name="::3.19.2 Tipo de archivo" xml:lang="es"><Begin>MARC:256$a|347$a|516$a</Begin></Tag>
+<Tag name="archivo sonoro" xml:lang="es"><Begin>archivo sonoro</Begin></Tag>
+<Tag name="archivo de datos" xml:lang="es"><Begin>archivo de datos</Begin></Tag>
+<Tag name="archivo de imagen" xml:lang="es"><Begin>archivo de imagen</Begin></Tag>
+<Tag name="archivo de programa" xml:lang="es"><Begin>archivo de programa</Begin></Tag>
+<Tag name="archivo de texto" xml:lang="es"><Begin>archivo de texto</Begin></Tag>
+<Tag name="archivo de video" xml:lang="es"><Begin>archivo de video</Begin></Tag>
+
+<Tag name="::3.19.3 Formato de codificación" xml:lang="es"><Begin>MARC:300$b|347$b|352$q|538$a</Begin></Tag>
+<Tag name="=>Codificación de audio" xml:lang="es"><Begin>Codificación de audio</Begin></Tag>
+<Tag name="CD sonoro" xml:lang="es"><Begin>CD sonoro</Begin></Tag>
+<Tag name="DAISY" xml:lang="es"><Begin>DAISY</Begin></Tag>
+<Tag name="DVD sonoro" xml:lang="es"><Begin>DVD sonoro</Begin></Tag>
+<Tag name="MP3" xml:lang="es"><Begin>MP3</Begin></Tag>
+<Tag name="RealAudio" xml:lang="es"><Begin>RealAudio</Begin></Tag>
+<Tag name="SACD" xml:lang="es"><Begin>SACD</Begin></Tag>
+<Tag name="WAV" xml:lang="es"><Begin>WAV</Begin></Tag>
+
+<Tag name="=>Codificación de datos" xml:lang="es"><Begin>Codificación de datos</Begin></Tag>
+<Tag name="Access" xml:lang="es"><Begin>Access</Begin></Tag>
+<Tag name="Excel" xml:lang="es"><Begin>Excel</Begin></Tag>
+<Tag name="Lotus" xml:lang="es"><Begin>Lotus</Begin></Tag>
+<Tag name="XML" xml:lang="es"><Begin>XML</Begin></Tag>
+
+<Tag name="=>Codificación de imágen" xml:lang="es"><Begin>Codificación de imágen</Begin></Tag>
+<Tag name="BMP" xml:lang="es"><Begin>BMP</Begin></Tag>
+<Tag name="GIF" xml:lang="es"><Begin>GIF</Begin></Tag>
+<Tag name="JPEG" xml:lang="es"><Begin>JPEG</Begin></Tag>
+<Tag name="JEPG2000" xml:lang="es"><Begin>JEPG2000</Begin></Tag>
+<Tag name="PNG" xml:lang="es"><Begin>PNG</Begin></Tag>
+<Tag name="TIFF" xml:lang="es"><Begin>TIFF</Begin></Tag>
+
+<Tag name="=>Codificación de datos espaciales" xml:lang="es"><Begin>Codificación de datos espaciales</Begin></Tag>
+<Tag name="ArcInfo" xml:lang="es"><Begin>ArcInfo</Begin></Tag>
+<Tag name="BIL" xml:lang="es"><Begin>BIL</Begin></Tag>
+<Tag name="BSQ" xml:lang="es"><Begin>BSQ</Begin></Tag>
+<Tag name="CAD" xml:lang="es"><Begin>CAD</Begin></Tag>
+<Tag name="DEM" xml:lang="es"><Begin>DEM</Begin></Tag>
+<Tag name="E00" xml:lang="es"><Begin>E00</Begin></Tag>
+<Tag name="MID/MIF" xml:lang="es"><Begin>MID/MIF</Begin></Tag>
+
+<Tag name="=>Codificación de texto" xml:lang="es"><Begin>Codificación de texto</Begin></Tag>
+<Tag name="ASCII" xml:lang="es"><Begin>ASCII</Begin></Tag>
+<Tag name="HTML" xml:lang="es"><Begin>HTML</Begin></Tag>
+<Tag name="Megadots" xml:lang="es"><Begin>Megadots</Begin></Tag>
+<Tag name="MS Word" xml:lang="es"><Begin>MS Word</Begin></Tag>
+<Tag name="PDF" xml:lang="es"><Begin>PDF</Begin></Tag>
+<Tag name="RTF" xml:lang="es"><Begin>RTF</Begin></Tag>
+<Tag name="SGML" xml:lang="es"><Begin>SGML</Begin></Tag>
+<Tag name="Tex" xml:lang="es"><Begin>Tex</Begin></Tag>
+<Tag name="Word Perfect" xml:lang="es"><Begin>Word Perfect</Begin></Tag>
+<Tag name="XHTML" xml:lang="es"><Begin>XHTML</Begin></Tag>
+<Tag name="XML" xml:lang="es"><Begin>XML</Begin></Tag>
+
+<Tag name="=>Codificación de vídeo" xml:lang="es"><Begin>Codificación de vídeo</Begin></Tag>
+<Tag name="Blu-Ray" xml:lang="es"><Begin>Blu-Ray</Begin></Tag>
+<Tag name="DVD vídeo" xml:lang="es"><Begin>DVD vídeo</Begin></Tag>
+<Tag name="HD-DVD" xml:lang="es"><Begin>HD-DVD</Begin></Tag>
+<Tag name="MPEG-4" xml:lang="es"><Begin>MPEG-4</Begin></Tag>
+<Tag name="QuickTime" xml:lang="es"><Begin>QuickTime</Begin></Tag>
+<Tag name="RealVideo" xml:lang="es"><Begin>RealVideo</Begin></Tag>
+<Tag name="SVCD" xml:lang="es"><Begin>SVCD</Begin></Tag>
+<Tag name="VCD" xml:lang="es"><Begin>VCD</Begin></Tag>
+<Tag name="Windows media" xml:lang="es"><Begin>Windows media</Begin></Tag>
+
+<Tag name="::RDA 3.19.4 Tamaño del archivo" xml:lang="es"><Begin>MARC:300$a|347$c</Begin></Tag>
+<Tag name="kilobytes" xml:lang="es"><Begin>kB</Begin></Tag>
+<Tag name="megabytes" xml:lang="es"><Begin>MB</Begin></Tag>
+<Tag name="gigabytes" xml:lang="es"><Begin>GB</Begin></Tag>
+
+<Tag name="::RDA 3.19.5 Resolución" xml:lang="es"><Begin>MARC:347$d|538$a</Begin></Tag>
+<Tag name="pixeles" xml:lang="es"><Begin>pixeles</Begin></Tag>
+<Tag name="megapixeles" xml:lang="es"><Begin>megapixeles</Begin></Tag>
+
+<Tag name="::RDA 3.19.6 Codificación regional" xml:lang="es"><Begin>MARC:347$e|538$a</Begin></Tag>
+<Tag name="región" xml:lang="es"><Begin>región</Begin></Tag>
+<Tag name="todas las regiones" xml:lang="es"><Begin>todas las regiones</Begin></Tag>
+
+<Tag name="::RDA 3.19.7 Velocidad de transmision" xml:lang="es"><Begin>MARC:347$b|538$a</Begin></Tag>
+<Tag name="kilobytes por segundo" xml:lang="es"><Begin>kbps</Begin></Tag>
+<Tag name="Megabytes por segundo" xml:lang="es"><Begin>Mbps</Begin></Tag>
+<Tag name="Megabits por segundo" xml:lang="es"><Begin>Mbit/s</Begin></Tag>
+
+<Tag name="::RDA 3.19.8 Representación digital contenido cartográfico" xml:lang="es"><Begin>MARC:352</Begin></Tag>
+<Tag name="=>Tipo de datos" xml:lang="es"><Begin>MARC:352$a</Begin></Tag>
+<Tag name="raster" xml:lang="es"><Begin>raster</Begin></Tag>
+<Tag name="vector" xml:lang="es"><Begin>vector</Begin></Tag>
+<Tag name="punto" xml:lang="es"><Begin>punto</Begin></Tag>
+
+<Tag name="=>Tipo de objeto" xml:lang="es"><Begin>MARC:352$b</Begin></Tag>
+<Tag name="punto" xml:lang="es"><Begin>punto</Begin></Tag>
+<Tag name="línea" xml:lang="es"><Begin>línea</Begin></Tag>
+<Tag name="polygon" xml:lang="es"><Begin>polygon</Begin></Tag>
+<Tag name="pixel" xml:lang="es"><Begin>pixel</Begin></Tag>
+
+</TagGroup>
+</TagList>

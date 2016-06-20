@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Contenido con accesibilidad ampliada">
+
+<Tag name="::RDA 7.15 Contenido ilustrativo" xml:lang="es"><Begin>MARC:300$b|500$a</Begin></Tag>
+<Tag name="ilustraciones" xml:lang="es"><Begin>ilustraciones</Begin></Tag>
+<Tag name="diagramas" xml:lang="es"><Begin>diagramas</Begin></Tag>
+<Tag name="escudos de armas" xml:lang="es"><Begin>escudos de armas</Begin></Tag>
+<Tag name="facsímiles" xml:lang="es"><Begin>facsímiles</Begin></Tag>
+<Tag name="formularios" xml:lang="es"><Begin>formularios</Begin></Tag>
+<Tag name="cuadros genealógicos" xml:lang="es"><Begin>cuadros genealógicos</Begin></Tag>
+<Tag name="gráficos" xml:lang="es"><Begin>gráficos</Begin></Tag>
+<Tag name="iluminaciones" xml:lang="es"><Begin>iluminaciones</Begin></Tag>
+<Tag name="mapas" xml:lang="es"><Begin>mapas</Begin></Tag>
+<Tag name="música" xml:lang="es"><Begin>música</Begin></Tag>
+<Tag name="fotografías" xml:lang="es"><Begin>fotografías</Begin></Tag>
+<Tag name="planos" xml:lang="es"><Begin>planos</Begin></Tag>
+<Tag name="retratos" xml:lang="es"><Begin>retratos</Begin></Tag>
+
+<Tag name="::RDA 7.16 Contenido complementario" xml:lang="es"><Begin>MARC:500$a|504$a</Begin></Tag>
+<Tag name="Incluye índice" xml:lang="es"><Begin>Incluye índice</Begin></Tag>
+<Tag name="Incluye referencias bibliográficas (páginas #)" xml:lang="es"><Begin>Incluye referencias bibliográficas (páginas #)</Begin></Tag>
+<Tag name="Bibliografía: páginas #" xml:lang="es"><Begin>Bibliografía: páginas #</Begin></Tag>
+
+<Tag name="::RDA 7.17 Contenido a color" xml:lang="es"><Begin>MARC:300$b|500$a</Begin></Tag>
+<Tag name="monocromo" xml:lang="es"><Begin>monocromo</Begin></Tag>
+<Tag name="policromo" xml:lang="es"><Begin>policromo</Begin></Tag>
+<Tag name="a color" xml:lang="es"><Begin>a color</Begin></Tag>
+<Tag name="algunas a color" xml:lang="es"><Begin>algunas a color</Begin></Tag>
+<Tag name="principalmente a color" xml:lang="es"><Begin>principalmente a color</Begin></Tag>
+
+<Tag name="=>Color de una imagen fija/movimiento/forma tridimensional" xml:lang="es"><Begin>RDA 7.17.2-4</Begin></Tag>
+<Tag name="blanco y negro" xml:lang="es"><Begin>blanco y negro</Begin></Tag>
+<Tag name="escala de grises" xml:lang="es"><Begin>escala de grises</Begin></Tag>
+<Tag name="teñidos" xml:lang="es"><Begin>(teñidos)</Begin></Tag>
+<Tag name="atonados" xml:lang="es"><Begin>(atonados)</Begin></Tag>
+<Tag name="teñidos y atonados" xml:lang="es"><Begin>(teñidos y atonados)</Begin></Tag>
+<Tag name="sepia" xml:lang="es"><Begin>sepia</Begin></Tag>
+
+<Tag name="::RDA 7.18 Contenido sonoro" xml:lang="es"><Begin>MARC:300$b</Begin></Tag>
+<Tag name="sonido" xml:lang="es"><Begin>sonido</Begin></Tag>
+<Tag name="muda" xml:lang="es"><Begin>muda</Begin></Tag>
+
+</TagGroup>
+</TagList>

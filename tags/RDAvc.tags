@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Características de vídeo">
+
+<Tag name="::RDA 3.18.1.4 Detalles" xml:lang="es"><Begin>MARC:undef</Begin></Tag>
+<Tag name="Resolución" xml:lang="es"><Begin>Resolución:</Begin></Tag>
+<Tag name="Estándar" xml:lang="es"><Begin>Estándar:</Begin></Tag>
+
+<Tag name="::RDA 3.18.2 Formato vídeo" xml:lang="es"><Begin>MARC:300$b|346$a|538$a</Begin></Tag>
+<Tag name="Beta" xml:lang="es"><Begin>Beta</Begin></Tag>
+<Tag name="Betacam" xml:lang="es"><Begin>Betacam</Begin></Tag>
+<Tag name="Betacam SP" xml:lang="es"><Begin>Betacam SP</Begin></Tag>
+<Tag name="CED" xml:lang="es"><Begin>CED</Begin></Tag>
+<Tag name="D-2" xml:lang="es"><Begin>D-2</Begin></Tag>
+<Tag name="EIAJ" xml:lang="es"><Begin>EIAJ</Begin></Tag>
+<Tag name="8 mm" xml:lang="es"><Begin>8 mm</Begin></Tag>
+<Tag name="8 mm Hi" xml:lang="es"><Begin>8 mm Hi</Begin></Tag>
+<Tag name="Laser óptico" xml:lang="es"><Begin>Laser óptico</Begin></Tag>
+<Tag name="m-II" xml:lang="es"><Begin>m-II</Begin></Tag>
+<Tag name="Cuadruplex" xml:lang="es"><Begin>Cuadruplex</Begin></Tag>
+<Tag name="Super-VHS" xml:lang="es"><Begin>Super-VHS</Begin></Tag>
+<Tag name="Tipo C" xml:lang="es"><Begin>Tipo C</Begin></Tag>
+<Tag name="U-matic" xml:lang="es"><Begin>U-matic</Begin></Tag>
+<Tag name="VHS" xml:lang="es"><Begin>VHS</Begin></Tag>
+
+<Tag name="::RDA 3.18.3 Norma transición" xml:lang="es"><Begin>MARC:300$b|346$b|538$a</Begin></Tag>
+<Tag name="HDVT" xml:lang="es"><Begin>HDVT</Begin></Tag>
+<Tag name="NTSC" xml:lang="es"><Begin>NTSC</Begin></Tag>
+<Tag name="PAL" xml:lang="es"><Begin>PAL</Begin></Tag>
+<Tag name="secam" xml:lang="es"><Begin>secam</Begin></Tag>
+</TagGroup>
+</TagList>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+<TagGroup xml:lang="es" sort="false" name="RDA: Producción, publicación, etc">
+
+<Tag name="::RDA 2.7-2.11 RDA: Producción, publicación, etc" xml:lang="es"><Begin>MARC:264</Begin></Tag>
+<Tag name="Lugar de producción no identificado" xml:lang="es"><Begin>Lugar de producción no identificado</Begin></Tag>
+<Tag name="productor no identifcado" xml:lang="es"><Begin>productor no identifcado</Begin></Tag>
+<Tag name="fecha de producción no identificada" xml:lang="es"><Begin>fecha de producción no identificada</Begin></Tag>
+<Tag name="Lugar de publicación no identificado" xml:lang="es"><Begin>Lugar de publicación no identificado</Begin></Tag>
+<Tag name="editor no identificado" xml:lang="es"><Begin>editor no identificado</Begin></Tag>
+<Tag name="fecha de publicación no identificada" xml:lang="es"><Begin>fecha de publicación no identificada</Begin></Tag>
+<Tag name="Lugar de distribución no identificado" xml:lang="es"><Begin>Lugar de distribución no identificado</Begin></Tag>
+<Tag name="distribuidor no identificado" xml:lang="es"><Begin>distribuidor no identificado</Begin></Tag>
+<Tag name="fecha de distribución no identificada" xml:lang="es"><Begin>fecha de distribución no identificada</Begin></Tag>
+<Tag name="Lugar de fabricación no identificado" xml:lang="es"><Begin>Lugar de fabricación no identificado</Begin></Tag>
+<Tag name="fabricante no identificado" xml:lang="es"><Begin>fabricante no identificado</Begin></Tag>
+<Tag name="fecha of fabricación no identificada" xml:lang="es"><Begin>fecha of fabricación no identificada</Begin></Tag>
+<Tag name="Uno de dos años" xml:lang="es"><Begin>[1971 o 1972]</Begin></Tag>
+<Tag name="Rango probable" xml:lang="es"><Begin>[entre 1846 y 1853?]</Begin></Tag>
+<Tag name="Fecha anterior/reciente" xml:lang="es"><Begin>[no después de 1942]</Begin></Tag>
+<Tag name="Fecha anterior/reciente" xml:lang="es"><Begin>[no antes de 1942]</Begin></Tag>
+<Tag name="Derechos de autor" xml:lang="es"><Begin>©</Begin></Tag>
+<Tag name="Fonograma" xml:lang="es"><Begin>℗</Begin></Tag>
+</TagGroup>
+</TagList>

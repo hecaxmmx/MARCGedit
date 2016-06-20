@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Tipos de medio">
+<Tag name="::RDA 3.2 Tipos de medio" xml:lang="es"><Begin>MARC:337$a</Begin></Tag>
+<Tag name="audio" xml:lang="es"><Begin>audio</Begin></Tag>
+<Tag name="computadora" xml:lang="es"><Begin>computadora</Begin></Tag>
+<Tag name="microformas" xml:lang="es"><Begin>microformas</Begin></Tag>
+<Tag name="microscópicos" xml:lang="es"><Begin>microscópicos</Begin></Tag>
+<Tag name="proyectados" xml:lang="es"><Begin>proyectados</Begin></Tag>
+<Tag name="estereográficos" xml:lang="es"><Begin>estereográficos</Begin></Tag>
+<Tag name="sin mediación" xml:lang="es"><Begin>sin mediación</Begin></Tag>
+<Tag name="video" xml:lang="es"><Begin>video</Begin></Tag>
+</TagGroup>
+</TagList>

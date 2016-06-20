@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Materiales aplicados">
+
+<Tag name="::RDA 3.7 Materiales aplicados" xml:lang="es"><Begin>MARC:300$b|340$c|500</Begin></Tag>
+<Tag name="pintura acrílica" xml:lang="es"><Begin>pintura acrílica</Begin></Tag>
+<Tag name="tiza" xml:lang="es"><Begin>tiza</Begin></Tag>
+<Tag name="carbón vegetal" xml:lang="es"><Begin>carbón vegetal</Begin></Tag>
+<Tag name="crayola" xml:lang="es"><Begin>crayola</Begin></Tag>
+<Tag name="tintura" xml:lang="es"><Begin>tintura</Begin></Tag>
+<Tag name="acuarela opaca" xml:lang="es"><Begin>acuarela opaca</Begin></Tag>
+<Tag name="grafito" xml:lang="es"><Begin>grafito</Begin></Tag>
+<Tag name="tinta" xml:lang="es"><Begin>tinta</Begin></Tag>
+<Tag name="óleo" xml:lang="es"><Begin>óleo</Begin></Tag>
+<Tag name="pastel" xml:lang="es"><Begin>pastel</Begin></Tag>
+<Tag name="yeso" xml:lang="es"><Begin>yeso</Begin></Tag>
+<Tag name="témpera" xml:lang="es"><Begin>témpera</Begin></Tag>
+<Tag name="pintura de agua" xml:lang="es"><Begin>pintura de agua</Begin></Tag>
+
+<Tag name="::RDA 3.7.2 Emulsión en microfilme y microficha" xml:lang="es"><Begin>MARC:300$b|340$c|500</Begin></Tag>
+<Tag name="diazo" xml:lang="es"><Begin>diazo</Begin></Tag>
+<Tag name="mezclado" xml:lang="es"><Begin>mezclado</Begin></Tag>
+<Tag name="haluro de plata" xml:lang="es"><Begin>haluro de plata</Begin></Tag>
+<Tag name="vesicular" xml:lang="es"><Begin>vesicular</Begin></Tag>
+
+</TagGroup>
+</TagList>
+
+

@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ This file is part of GtkSourceView and MARCGedit
+
+ Author: Hector Castro <hector.hecaxmmx@gmail.com>
+ Copyright (C) 2015 Hector Castro <hector.hecaxmmx@gmail.com>
+
+ GtkSourceView is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+
+ GtkSourceView is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+-->
+<language id="marc" _name="MARC" version="2.0" _section="Others">
+    <metadata>
+      <property name="globs">*.mrk</property>
+      <property name="mimetypes">text/mrk;text/dat</property>
+    </metadata>
+
+    <styles>
+        <style id="comment"            _name="Comment"             map-to="def:comment"/>
+        <style id="error"              _name="Error"               map-to="def:error"/>
+        <style id="record-first-field" _name="Keyword"             map-to="def:keyword"/>
+        <style id="organization"       _name="Orgazination Code"   map-to="def:type"/>
+        <style id="escaped-character"  _name="Escaped Character"   map-to="def:special-char"/>
+        <style id="fields"             _name="MARC fields"         map-to="def:decimal"/>
+        <style id="subfields"          _name="MARC subfields"      map-to="def:base-n-integer"/>
+        <style id="fxl"    _name="Fixed length fields" map-to="def:preprocessor"/>
+    </styles>
+
+    <definitions>
+
+    <!-- Local notes 590 -->
+    <context id="local-notes" style-ref="comment" end-at-line-end="true" class="comment" class-disabled="no-spell-check">
+        <start>\=590\s\s\\\\\$a</start>
+        <include>
+            <context ref="def:in-line-comment"/>
+        </include>
+    </context>
+
+    <!-- URL webs -->
+    <context id="uris" style-ref="comment" class="comment" class-disabled="no-spell-check">
+        <start>(http|https|ftp)://</start>
+        <end>(\w+(?=\$[a-z0-9])|(?=$)|(?=\t)|(?=\s))</end>
+        <include>
+            <context ref="def:in-comment"/>
+        </include>
+    </context>
+
+    <!-- MARC tags -->
+    <context id="marc-tags" style-ref="fields">
+        <match extended="true">
+        ^\=[0-9]{3,3}
+        </match>
+    </context>
+
+    <!-- MARC subfields -->
+    <context id="marc-subfields" style-ref="subfields">
+        <match extended="true">
+        \$[a-z0-9]
+        </match>
+    </context>
+
+    <!-- Local code for organization-->
+    <context id="organization-code-source" style-ref="organization">
+        <match extended="true">
+        (SV-SsUSB(?=\$[a-z0-9])|SV-SsUSB(?=$)|SV-SsUSB(?=\t)|SV-SsUSB(?=\s))
+        </match>
+    </context>
+
+    <!-- MARC Maker-Breaker scape characters -->
+    <context id="escape-marc-maker-braker" style-ref="escaped-character">
+        <prefix>(\{)</prefix>
+        <suffix>(\})</suffix>
+        <keyword>0</keyword>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>02</keyword>
+        <keyword>03</keyword>
+        <keyword>04</keyword>
+        <keyword>05</keyword>
+        <keyword>06</keyword>
+        <keyword>07</keyword>
+        <keyword>08</keyword>
+        <keyword>09</keyword>
+        <keyword>0A</keyword>
+        <keyword>0B</keyword>
+        <keyword>0C</keyword>
+        <keyword>0D</keyword>
+        <keyword>0E</keyword>
+        <keyword>0F</keyword>
+        <keyword>1</keyword>
+        <keyword>10</keyword>
+        <keyword>11</keyword>
+        <keyword>12</keyword>
+        <keyword>13</keyword>
+        <keyword>14</keyword>
+        <keyword>15</keyword>
+        <keyword>16</keyword>
+        <keyword>17</keyword>
+        <keyword>18</keyword>
+        <keyword>19</keyword>
+        <keyword>1A</keyword>
+        <keyword>1B</keyword>
+        <keyword>1C</keyword>
+        <keyword>1D</keyword>
+        <keyword>1E</keyword>
+        <keyword>1F</keyword>
+        <keyword>2</keyword>
+        <keyword>20</keyword>
+        <keyword>21</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>24</keyword>
+        <keyword>25</keyword>
+        <keyword>26</keyword>
+        <keyword>27</keyword>
+        <keyword>28</keyword>
+        <keyword>29</keyword>
+        <keyword>2A</keyword>
+        <keyword>2B</keyword>
+        <keyword>2C</keyword>
+        <keyword>2D</keyword>
+        <keyword>2E</keyword>
+        <keyword>2F</keyword>
+        <keyword>3</keyword>
+        <keyword>30</keyword>
+        <keyword>31</keyword>
+        <keyword>32</keyword>
+        <keyword>33</keyword>
+        <keyword>34</keyword>
+        <keyword>35</keyword>
+        <keyword>36</keyword>
+        <keyword>37</keyword>
+        <keyword>38</keyword>
+        <keyword>39</keyword>
+        <keyword>3A</keyword>
+        <keyword>3B</keyword>
+        <keyword>3C</keyword>
+        <keyword>3D</keyword>
+        <keyword>3E</keyword>
+        <keyword>3F</keyword>
+        <keyword>4</keyword>
+        <keyword>40</keyword>
+        <keyword>41</keyword>
+        <keyword>42</keyword>
+        <keyword>43</keyword>
+        <keyword>44</keyword>
+        <keyword>45</keyword>
+        <keyword>46</keyword>
+        <keyword>47</keyword>
+        <keyword>48</keyword>
+        <keyword>49</keyword>
+        <keyword>4A</keyword>
+        <keyword>4B</keyword>
+        <keyword>4C</keyword>
+        <keyword>4D</keyword>
+        <keyword>4E</keyword>
+        <keyword>4F</keyword>
+        <keyword>5</keyword>
+        <keyword>50</keyword>
+        <keyword>51</keyword>
+        <keyword>52</keyword>
+        <keyword>53</keyword>
+        <keyword>54</keyword>
+        <keyword>55</keyword>
+        <keyword>56</keyword>
+        <keyword>57</keyword>
+        <keyword>58</keyword>
+        <keyword>59</keyword>
+        <keyword>5A</keyword>
+        <keyword>5B</keyword>
+        <keyword>5C</keyword>
+        <keyword>5D</keyword>
+        <keyword>5E</keyword>
+        <keyword>5F</keyword>
+        <keyword>6</keyword>
+        <keyword>60</keyword>
+        <keyword>61</keyword>
+        <keyword>62</keyword>
+        <keyword>63</keyword>
+        <keyword>64</keyword>
+        <keyword>65</keyword>
+        <keyword>66</keyword>
+        <keyword>67</keyword>
+        <keyword>68</keyword>
+        <keyword>69</keyword>
+        <keyword>6A</keyword>
+        <keyword>6B</keyword>
+        <keyword>6C</keyword>
+        <keyword>6D</keyword>
+        <keyword>6E</keyword>
+        <keyword>6F</keyword>
+        <keyword>7</keyword>
+        <keyword>70</keyword>
+        <keyword>71</keyword>
+        <keyword>72</keyword>
+        <keyword>73</keyword>
+        <keyword>74</keyword>
+        <keyword>75</keyword>
+        <keyword>76</keyword>
+        <keyword>77</keyword>
+        <keyword>78</keyword>
+        <keyword>79</keyword>
+        <keyword>7A</keyword>
+        <keyword>7B</keyword>
+        <keyword>7C</keyword>
+        <keyword>7D</keyword>
+        <keyword>7E</keyword>
+        <keyword>7F</keyword>
+        <keyword>8</keyword>
+        <keyword>80</keyword>
+        <keyword>81</keyword>
+        <keyword>82</keyword>
+        <keyword>83</keyword>
+        <keyword>84</keyword>
+        <keyword>85</keyword>
+        <keyword>86</keyword>
+        <keyword>87</keyword>
+        <keyword>88</keyword>
+        <keyword>89</keyword>
+        <keyword>8A</keyword>
+        <keyword>8B</keyword>
+        <keyword>8C</keyword>
+        <keyword>8D</keyword>
+        <keyword>8E</keyword>
+        <keyword>8F</keyword>
+        <keyword>9</keyword>
+        <keyword>90</keyword>
+        <keyword>91</keyword>
+        <keyword>92</keyword>
+        <keyword>93</keyword>
+        <keyword>94</keyword>
+        <keyword>95</keyword>
+        <keyword>96</keyword>
+        <keyword>97</keyword>
+        <keyword>98</keyword>
+        <keyword>99</keyword>
+        <keyword>9A</keyword>
+        <keyword>9B</keyword>
+        <keyword>9C</keyword>
+        <keyword>9D</keyword>
+        <keyword>9E</keyword>
+        <keyword>9F</keyword>
+        <keyword>A</keyword>
+        <keyword>a</keyword>
+        <keyword>A0</keyword>
+        <keyword>A1</keyword>
+        <keyword>A2</keyword>
+        <keyword>A3</keyword>
+        <keyword>A4</keyword>
+        <keyword>A5</keyword>
+        <keyword>A6</keyword>
+        <keyword>A7</keyword>
+        <keyword>A8</keyword>
+        <keyword>A9</keyword>
+        <keyword>AA</keyword>
+        <keyword>Aacute</keyword>
+        <keyword>aacute</keyword>
+        <keyword>AB</keyword>
+        <keyword>Abreve</keyword>
+        <keyword>abreve</keyword>
+        <keyword>AC</keyword>
+        <keyword>Acirc</keyword>
+        <keyword>acirc</keyword>
+        <keyword>acute</keyword>
+        <keyword>AD</keyword>
+        <keyword>AE</keyword>
+        <keyword>AElig</keyword>
+        <keyword>aelig</keyword>
+        <keyword>AF</keyword>
+        <keyword>agr</keyword>
+        <keyword>Agrave</keyword>
+        <keyword>agrave</keyword>
+        <keyword>alif</keyword>
+        <keyword>amp</keyword>
+        <keyword>Aogon</keyword>
+        <keyword>aogon</keyword>
+        <keyword>apos</keyword>
+        <keyword>arab</keyword>
+        <keyword>Aring</keyword>
+        <keyword>aring</keyword>
+        <keyword>ast</keyword>
+        <keyword>asuper</keyword>
+        <keyword>Atilde</keyword>
+        <keyword>atilde</keyword>
+        <keyword>Auml</keyword>
+        <keyword>auml</keyword>
+        <keyword>ayn</keyword>
+        <keyword>B</keyword>
+        <keyword>b</keyword>
+        <keyword>B0</keyword>
+        <keyword>B1</keyword>
+        <keyword>B2</keyword>
+        <keyword>B3</keyword>
+        <keyword>B4</keyword>
+        <keyword>B5</keyword>
+        <keyword>B6</keyword>
+        <keyword>B7</keyword>
+        <keyword>B8</keyword>
+        <keyword>B9</keyword>
+        <keyword>BA</keyword>
+        <keyword>BB</keyword>
+        <keyword>BC</keyword>
+        <keyword>BD</keyword>
+        <keyword>BE</keyword>
+        <keyword>BF</keyword>
+        <keyword>bgr</keyword>
+        <keyword>breve</keyword>
+        <keyword>breveb</keyword>
+        <keyword>brvbar</keyword>
+        <keyword>bsol</keyword>
+        <keyword>bull</keyword>
+        <keyword>C</keyword>
+        <keyword>c</keyword>
+        <keyword>C0</keyword>
+        <keyword>C1</keyword>
+        <keyword>C2</keyword>
+        <keyword>C3</keyword>
+        <keyword>C4</keyword>
+        <keyword>C5</keyword>
+        <keyword>C6</keyword>
+        <keyword>C7</keyword>
+        <keyword>C8</keyword>
+        <keyword>C9</keyword>
+        <keyword>CA</keyword>
+        <keyword>Cacute</keyword>
+        <keyword>cacute</keyword>
+        <keyword>candra</keyword>
+        <keyword>caron</keyword>
+        <keyword>CB</keyword>
+        <keyword>CC</keyword>
+        <keyword>Ccaron</keyword>
+        <keyword>ccaron</keyword>
+        <keyword>Ccedil</keyword>
+        <keyword>ccedil</keyword>
+        <keyword>CD</keyword>
+        <keyword>CE</keyword>
+        <keyword>cedil</keyword>
+        <keyword>cent</keyword>
+        <keyword>CF</keyword>
+        <keyword>circ</keyword>
+        <keyword>circb</keyword>
+        <keyword>cjk</keyword>
+        <keyword>colon</keyword>
+        <keyword>comma</keyword>
+        <keyword>commaa</keyword>
+        <keyword>commab</keyword>
+        <keyword>commat</keyword>
+        <keyword>copy</keyword>
+        <keyword>curren</keyword>
+        <keyword>cyril</keyword>
+        <keyword>D</keyword>
+        <keyword>d</keyword>
+        <keyword>D0</keyword>
+        <keyword>D1</keyword>
+        <keyword>D2</keyword>
+        <keyword>D3</keyword>
+        <keyword>D4</keyword>
+        <keyword>D5</keyword>
+        <keyword>D6</keyword>
+        <keyword>D7</keyword>
+        <keyword>D8</keyword>
+        <keyword>D9</keyword>
+        <keyword>DA</keyword>
+        <keyword>Dagger</keyword>
+        <keyword>dagger</keyword>
+        <keyword>DB</keyword>
+        <keyword>dblac</keyword>
+        <keyword>dbldotb</keyword>
+        <keyword>dblunder</keyword>
+        <keyword>DC</keyword>
+        <keyword>Dcaron</keyword>
+        <keyword>dcaron</keyword>
+        <keyword>DD</keyword>
+        <keyword>DE</keyword>
+        <keyword>deg</keyword>
+        <keyword>DF</keyword>
+        <keyword>diaer</keyword>
+        <keyword>divide</keyword>
+        <keyword>dollar</keyword>
+        <keyword>dot</keyword>
+        <keyword>dotb</keyword>
+        <keyword>Dstrok</keyword>
+        <keyword>dstrok</keyword>
+        <keyword>E</keyword>
+        <keyword>e</keyword>
+        <keyword>E0</keyword>
+        <keyword>E1</keyword>
+        <keyword>E2</keyword>
+        <keyword>E3</keyword>
+        <keyword>E4</keyword>
+        <keyword>E5</keyword>
+        <keyword>E6</keyword>
+        <keyword>E7</keyword>
+        <keyword>E8</keyword>
+        <keyword>E9</keyword>
+        <keyword>EA</keyword>
+        <keyword>ea</keyword>
+        <keyword>Eacute</keyword>
+        <keyword>eacute</keyword>
+        <keyword>EB</keyword>
+        <keyword>EC</keyword>
+        <keyword>Ecaron</keyword>
+        <keyword>ecaron</keyword>
+        <keyword>Ecirc</keyword>
+        <keyword>ecirc</keyword>
+        <keyword>ED</keyword>
+        <keyword>EE</keyword>
+        <keyword>EF</keyword>
+        <keyword>Egrave</keyword>
+        <keyword>egrave</keyword>
+        <keyword>Ehookr</keyword>
+        <keyword>ehookr</keyword>
+        <keyword>Eogon</keyword>
+        <keyword>eogon</keyword>
+        <keyword>equals</keyword>
+        <keyword>esc</keyword>
+        <keyword>Eth</keyword>
+        <keyword>eth</keyword>
+        <keyword>Euml</keyword>
+        <keyword>euml</keyword>
+        <keyword>excl</keyword>
+        <keyword>F</keyword>
+        <keyword>f</keyword>
+        <keyword>F0</keyword>
+        <keyword>F1</keyword>
+        <keyword>F2</keyword>
+        <keyword>F3</keyword>
+        <keyword>F4</keyword>
+        <keyword>F5</keyword>
+        <keyword>F6</keyword>
+        <keyword>F7</keyword>
+        <keyword>F8</keyword>
+        <keyword>F9</keyword>
+        <keyword>FA</keyword>
+        <keyword>FB</keyword>
+        <keyword>FC</keyword>
+        <keyword>FD</keyword>
+        <keyword>FE</keyword>
+        <keyword>FF</keyword>
+        <keyword>flat</keyword>
+        <keyword>fnof</keyword>
+        <keyword>frac12</keyword>
+        <keyword>frac14</keyword>
+        <keyword>frac34</keyword>
+        <keyword>G</keyword>
+        <keyword>g</keyword>
+        <keyword>ggr</keyword>
+        <keyword>grave</keyword>
+        <keyword>greek</keyword>
+        <keyword>gs</keyword>
+        <keyword>gt</keyword>
+        <keyword>H</keyword>
+        <keyword>h</keyword>
+        <keyword>hardsign</keyword>
+        <keyword>hebrew</keyword>
+        <keyword>hellip</keyword>
+        <keyword>hooka</keyword>
+        <keyword>hookl</keyword>
+        <keyword>hookr</keyword>
+        <keyword>hyphen</keyword>
+        <keyword>I</keyword>
+        <keyword>i</keyword>
+        <keyword>Iacute</keyword>
+        <keyword>iacute</keyword>
+        <keyword>Icaron</keyword>
+        <keyword>icaron</keyword>
+        <keyword>Icirc</keyword>
+        <keyword>icirc</keyword>
+        <keyword>Idot</keyword>
+        <keyword>iexcl</keyword>
+        <keyword>Igrave</keyword>
+        <keyword>igrave</keyword>
+        <keyword>IJlig</keyword>
+        <keyword>ijlig</keyword>
+        <keyword>inodot</keyword>
+        <keyword>iquest</keyword>
+        <keyword>Iuml</keyword>
+        <keyword>iuml</keyword>
+        <keyword>J</keyword>
+        <keyword>j</keyword>
+        <keyword>joiner</keyword>
+        <keyword>K</keyword>
+        <keyword>k</keyword>
+        <keyword>L</keyword>
+        <keyword>l</keyword>
+        <keyword>Lacute</keyword>
+        <keyword>lacute</keyword>
+        <keyword>laquo</keyword>
+        <keyword>latin</keyword>
+        <keyword>lcub</keyword>
+        <keyword>ldbltil</keyword>
+        <keyword>ldquo</keyword>
+        <keyword>ldquofh</keyword>
+        <keyword>ldquor</keyword>
+        <keyword>llig</keyword>
+        <keyword>lpar</keyword>
+        <keyword>lsqb</keyword>
+        <keyword>lsquo</keyword>
+        <keyword>lsquor</keyword>
+        <keyword>Lstrok</keyword>
+        <keyword>lstrok</keyword>
+        <keyword>lt</keyword>
+        <keyword>M</keyword>
+        <keyword>m</keyword>
+        <keyword>macr</keyword>
+        <keyword>mdash</keyword>
+        <keyword>middot</keyword>
+        <keyword>mllhring</keyword>
+        <keyword>mlPrime</keyword>
+        <keyword>mlprime</keyword>
+        <keyword>mlrhring</keyword>
+        <keyword>N</keyword>
+        <keyword>n</keyword>
+        <keyword>Nacute</keyword>
+        <keyword>nacute</keyword>
+        <keyword>Ncaron</keyword>
+        <keyword>ncaron</keyword>
+        <keyword>ndash</keyword>
+        <keyword>nonjoin</keyword>
+        <keyword>Ntilde</keyword>
+        <keyword>ntilde</keyword>
+        <keyword>num</keyword>
+        <keyword>O</keyword>
+        <keyword>o</keyword>
+        <keyword>Oacute</keyword>
+        <keyword>oacute</keyword>
+        <keyword>Ocirc</keyword>
+        <keyword>ocirc</keyword>
+        <keyword>Odblac</keyword>
+        <keyword>odblac</keyword>
+        <keyword>OElig</keyword>
+        <keyword>oelig</keyword>
+        <keyword>ogon</keyword>
+        <keyword>Ograve</keyword>
+        <keyword>ograve</keyword>
+        <keyword>Ohorn</keyword>
+        <keyword>ohorn</keyword>
+        <keyword>ordf</keyword>
+        <keyword>ordm</keyword>
+        <keyword>Ostrok</keyword>
+        <keyword>ostrok</keyword>
+        <keyword>osuper</keyword>
+        <keyword>Otilde</keyword>
+        <keyword>otilde</keyword>
+        <keyword>Ouml</keyword>
+        <keyword>ouml</keyword>
+        <keyword>P</keyword>
+        <keyword>p</keyword>
+        <keyword>para</keyword>
+        <keyword>percnt</keyword>
+        <keyword>period</keyword>
+        <keyword>phono</keyword>
+        <keyword>pipe</keyword>
+        <keyword>plus</keyword>
+        <keyword>plusmn</keyword>
+        <keyword>pound</keyword>
+        <keyword>Q</keyword>
+        <keyword>q</keyword>
+        <keyword>quest</keyword>
+        <keyword>quot</keyword>
+        <keyword>R</keyword>
+        <keyword>r</keyword>
+        <keyword>Racute</keyword>
+        <keyword>racute</keyword>
+        <keyword>raquo</keyword>
+        <keyword>Rcaron</keyword>
+        <keyword>rcaron</keyword>
+        <keyword>rcedil</keyword>
+        <keyword>rcommaa</keyword>
+        <keyword>rcub</keyword>
+        <keyword>rdbltil</keyword>
+        <keyword>rdquo</keyword>
+        <keyword>rdquofh</keyword>
+        <keyword>rdquor</keyword>
+        <keyword>reg</keyword>
+        <keyword>ring</keyword>
+        <keyword>ringb</keyword>
+        <keyword>rlig</keyword>
+        <keyword>rpar</keyword>
+        <keyword>rs</keyword>
+        <keyword>rsqb</keyword>
+        <keyword>rsquo</keyword>
+        <keyword>rsquor</keyword>
+        <keyword>S</keyword>
+        <keyword>s</keyword>
+        <keyword>Sacute</keyword>
+        <keyword>sacute</keyword>
+        <keyword>Scommab</keyword>
+        <keyword>scommab</keyword>
+        <keyword>scriptl</keyword>
+        <keyword>sect</keyword>
+        <keyword>semi</keyword>
+        <keyword>sharp</keyword>
+        <keyword>shy</keyword>
+        <keyword>softsign</keyword>
+        <keyword>sol</keyword>
+        <keyword>space</keyword>
+        <keyword>spcirc</keyword>
+        <keyword>spgrave</keyword>
+        <keyword>sptilde</keyword>
+        <keyword>spundscr</keyword>
+        <keyword>squf</keyword>
+        <keyword>sub</keyword>
+        <keyword>sup1</keyword>
+        <keyword>sup2</keyword>
+        <keyword>sup3</keyword>
+        <keyword>super</keyword>
+        <keyword>szlig</keyword>
+        <keyword>T</keyword>
+        <keyword>t</keyword>
+        <keyword>Tcaron</keyword>
+        <keyword>tcaron</keyword>
+        <keyword>Tcommab</keyword>
+        <keyword>tcommab</keyword>
+        <keyword>THORN</keyword>
+        <keyword>thorn</keyword>
+        <keyword>tilde</keyword>
+        <keyword>times</keyword>
+        <keyword>trade</keyword>
+        <keyword>U</keyword>
+        <keyword>u</keyword>
+        <keyword>Uacute</keyword>
+        <keyword>uacute</keyword>
+        <keyword>Ucirc</keyword>
+        <keyword>ucirc</keyword>
+        <keyword>Udblac</keyword>
+        <keyword>udblac</keyword>
+        <keyword>Ugrave</keyword>
+        <keyword>ugrave</keyword>
+        <keyword>Uhorn</keyword>
+        <keyword>uhorn</keyword>
+        <keyword>uml</keyword>
+        <keyword>under</keyword>
+        <keyword>Uring</keyword>
+        <keyword>uring</keyword>
+        <keyword>us</keyword>
+        <keyword>Uuml</keyword>
+        <keyword>uuml</keyword>
+        <keyword>V</keyword>
+        <keyword>v</keyword>
+        <keyword>verbar</keyword>
+        <keyword>vlineb</keyword>
+        <keyword>W</keyword>
+        <keyword>w</keyword>
+        <keyword>X</keyword>
+        <keyword>x</keyword>
+        <keyword>Y</keyword>
+        <keyword>y</keyword>
+        <keyword>Yacute</keyword>
+        <keyword>yacute</keyword>
+        <keyword>yen</keyword>
+        <keyword>Z</keyword>
+        <keyword>z</keyword>
+        <keyword>Zacute</keyword>
+        <keyword>zacute</keyword>
+        <keyword>Zdot</keyword>
+        <keyword>zdot</keyword>
+        <keyword>Acy</keyword>
+        <keyword>acy</keyword>
+        <keyword>Bcy</keyword>
+        <keyword>bcy</keyword>
+        <keyword>CHcy</keyword>
+        <keyword>chcy</keyword>
+        <keyword>Dcy</keyword>
+        <keyword>dcy</keyword>
+        <keyword>DJEcy</keyword>
+        <keyword>djecy</keyword>
+        <keyword>DZEcy</keyword>
+        <keyword>dzecy</keyword>
+        <keyword>DZHEcy</keyword>
+        <keyword>dzhecy</keyword>
+        <keyword>Ecy</keyword>
+        <keyword>ecy</keyword>
+        <keyword>Fcy</keyword>
+        <keyword>fcy</keyword>
+        <keyword>Gcy</keyword>
+        <keyword>gcy</keyword>
+        <keyword>GEcy</keyword>
+        <keyword>gecy</keyword>
+        <keyword>GHcy</keyword>
+        <keyword>ghcy</keyword>
+        <keyword>GJEcy</keyword>
+        <keyword>gjecy</keyword>
+        <keyword>HARDcy</keyword>
+        <keyword>hardcy</keyword>
+        <keyword>Hcy</keyword>
+        <keyword>hcy</keyword>
+        <keyword>Icy</keyword>
+        <keyword>icy</keyword>
+        <keyword>IEcy</keyword>
+        <keyword>iecy</keyword>
+        <keyword>IOcy</keyword>
+        <keyword>iocy</keyword>
+        <keyword>Iumlcy</keyword>
+        <keyword>iumlcy</keyword>
+        <keyword>IYcy</keyword>
+        <keyword>iycy</keyword>
+        <keyword>Jcy</keyword>
+        <keyword>jcy</keyword>
+        <keyword>JEcy</keyword>
+        <keyword>jecy</keyword>
+        <keyword>JIcy</keyword>
+        <keyword>jicy</keyword>
+        <keyword>Kcy</keyword>
+        <keyword>kcy</keyword>
+        <keyword>KHcy</keyword>
+        <keyword>khcy</keyword>
+        <keyword>KJEcy</keyword>
+        <keyword>kjecy</keyword>
+        <keyword>Lcy</keyword>
+        <keyword>lcy</keyword>
+        <keyword>LJEcy</keyword>
+        <keyword>ljecy</keyword>
+        <keyword>Mcy</keyword>
+        <keyword>mcy</keyword>
+        <keyword>Ncy</keyword>
+        <keyword>ncy</keyword>
+        <keyword>NJEcy</keyword>
+        <keyword>njecy</keyword>
+        <keyword>No</keyword>
+        <keyword>Ocy</keyword>
+        <keyword>ocy</keyword>
+        <keyword>Pcy</keyword>
+        <keyword>pcy</keyword>
+        <keyword>Rcy</keyword>
+        <keyword>rcy</keyword>
+        <keyword>Scy</keyword>
+        <keyword>scy</keyword>
+        <keyword>SHCHcy</keyword>
+        <keyword>shchcy</keyword>
+        <keyword>SHcy</keyword>
+        <keyword>shcy</keyword>
+        <keyword>SOFTcy</keyword>
+        <keyword>softcy</keyword>
+        <keyword>Tcy</keyword>
+        <keyword>tcy</keyword>
+        <keyword>TSHEcy</keyword>
+        <keyword>tshecy</keyword>
+        <keyword>TScy</keyword>
+        <keyword>tscy</keyword>
+        <keyword>Ucy</keyword>
+        <keyword>ucy</keyword>
+        <keyword>Vcy</keyword>
+        <keyword>vcy</keyword>
+        <keyword>YAcy</keyword>
+        <keyword>yacy</keyword>
+        <keyword>Ycy</keyword>
+        <keyword>ycy</keyword>
+        <keyword>YEcy</keyword>
+        <keyword>yecy</keyword>
+        <keyword>YIcy</keyword>
+        <keyword>yicy</keyword>
+        <keyword>YIumlcy</keyword>
+        <keyword>yiumlcy</keyword>
+        <keyword>YUcy</keyword>
+        <keyword>yucy</keyword>
+        <keyword>Zcy</keyword>
+        <keyword>zcy</keyword>
+        <keyword>ZHcy</keyword>
+        <keyword>zhcy</keyword>
+        <keyword>ZHcyua</keyword>
+        <keyword>zhcyua</keyword>
+    </context>
+
+    <!-- LDR -->
+    <context id="ldr" style-ref="record-first-field">
+        <match extended="true">
+         ^\=LDR.{26}
+        </match>
+    </context>
+
+    <!-- fixed-fields 006 and 008 -->
+    <context id="fixed-length-fields" style-ref="fxl">
+        <match extended="true">
+        (?(?=^\=FXL)(^.{24}$|^.{46}$))
+        </match>
+    </context>
+
+    <!-- Equal signal with no number-field -->
+    <context id="start-line-error" style-ref="error">
+        <match extended="true">
+        ((^\=\w{3,3})|^.{1,3}(?=\=))
+        </match>
+    </context>
+
+    <context id="marc" class="no-spell-check">
+        <include>
+            <context ref="local-notes"/>
+            <context ref="uris"/>
+            <context ref="marc-tags"/>
+            <context ref="marc-subfields"/>
+            <context ref="organization-code-source"/>
+            <context ref="escape-marc-maker-braker"/>
+            <context ref="fixed-length-fields"/>
+            <context ref="ldr"/>
+            <context ref="start-line-error"/>
+        </include>
+    </context>
+
+    </definitions>
+</language>

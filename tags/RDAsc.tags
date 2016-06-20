@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagList xmlns="http://gedit.sourceforge.net/some-location">
+
+<TagGroup xml:lang="es" sort="false" name="RDA: Características de sonido">
+<Tag name="::RDA 3.16.2. Tipo de grabación" xml:lang="es"><Begin>MARC:300$b|344$a|500$a</Begin></Tag>
+<Tag name="análogo" xml:lang="es"><Begin>análogo</Begin></Tag>
+<Tag name="digital" xml:lang="es"><Begin>digital</Begin></Tag>
+
+<Tag name="::RDA 3.16.3. Registrando el medio" xml:lang="es"><Begin>MARC:300$b|344$b|500$a</Begin></Tag>
+<Tag name="magnético" xml:lang="es"><Begin>magnético</Begin></Tag>
+<Tag name="magneto-óptico" xml:lang="es"><Begin>magneto-óptico</Begin></Tag>
+<Tag name="óptico" xml:lang="es"><Begin>óptico</Begin></Tag>
+
+<Tag name="::RDA 3.16.4. Velocidad de reproducción" xml:lang="es"><Begin>MARC:300$b|344$c$f|500$a</Begin></Tag>
+<Tag name="revoluciones por minuto" xml:lang="es"><Begin>rpm</Begin></Tag>
+<Tag name="metros por segundo" xml:lang="es"><Begin>m/s</Begin></Tag>
+<Tag name="centímetros por segundo" xml:lang="es"><Begin>cm/s</Begin></Tag>
+<Tag name="pulgadas por segundo" xml:lang="es"><Begin>pps</Begin></Tag>
+<Tag name="fotograms por segundo" xml:lang="es"><Begin>fps</Begin></Tag>
+
+<Tag name="::RDA 3.16.5. Características del surco" xml:lang="es"><Begin>MARC:300$b|344$d|500$a</Begin></Tag>
+<Tag name="surco grueso" xml:lang="es"><Begin>surco grueso</Begin></Tag>
+<Tag name="microsurco" xml:lang="es"><Begin>microsurco</Begin></Tag>
+<Tag name="fino" xml:lang="es"><Begin>fino</Begin></Tag>
+<Tag name="estándar" xml:lang="es"><Begin>estándar</Begin></Tag>
+
+<Tag name="::RDA 3.16.6-7. Configuración de banda sonora y cinta" xml:lang="es"><Begin>MARC:300$b|344$e$f|500$a</Begin></Tag>
+<Tag name="banda sonora central" xml:lang="es"><Begin>banda sonora central</Begin></Tag>
+<Tag name="banda sonora lateral" xml:lang="es"><Begin>banda sonora lateral</Begin></Tag>
+<Tag name="banda sonora magnética" xml:lang="es"><Begin>banda sonora magnética</Begin></Tag>
+<Tag name="bandas sonoras" xml:lang="es"><Begin>bandas sonoras</Begin></Tag>
+
+<Tag name="::RDA 3.16.8. Configuración de canales de reproducción" xml:lang="es"><Begin>MARC:300$b|344$g|500$a</Begin></Tag>
+<Tag name="mono" xml:lang="es"><Begin>mono</Begin></Tag>
+<Tag name="estéreo" xml:lang="es"><Begin>estéreo</Begin></Tag>
+<Tag name="cuadrafónico" xml:lang="es"><Begin>cuadrafónico</Begin></Tag>
+<Tag name="sonido global" xml:lang="es"><Begin>sonido global</Begin></Tag>
+
+<Tag name="::RDA 3.16.9. Características especiales de reproducción" xml:lang="es"><Begin>MARC:300$b|344$h|538$a</Begin></Tag>
+<Tag name="norma CCIR" xml:lang="es"><Begin>norma CCIR</Begin></Tag>
+<Tag name="código CX" xml:lang="es"><Begin>código CX</Begin></Tag>
+<Tag name="código dbx" xml:lang="es"><Begin>código dbx</Begin></Tag>
+<Tag name="Dolby" xml:lang="es"><Begin>Dolby</Begin></Tag>
+<Tag name="código Dolby A" xml:lang="es"><Begin>código Dolby A</Begin></Tag>
+<Tag name="código Dolby B" xml:lang="es"><Begin>código Dolby B</Begin></Tag>
+<Tag name="código Dolby C" xml:lang="es"><Begin>código Dolby C</Begin></Tag>
+<Tag name="LPCM" xml:lang="es"><Begin>LPCM</Begin></Tag>
+<Tag name="Norma NAB" xml:lang="es"><Begin>Norma NAB</Begin></Tag>
+</TagGroup>
+</TagList>

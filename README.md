@@ -9,20 +9,25 @@ An optional MARC Maker Editor for Linux environment. MARC Gedit is powered by Ge
 * GtkSourceView - shared libraries for the GTK+ syntax highlighting widget
 
 ## You need to install the following modules (debian environment):
+
 ```
 $ apt-get install libmarc-record-perl libmarc-file-marcmaker-perl zenity zenity-common gedit gedit-common gedit-plugins
 ```
+
 #### Running the application locally
+
 ```
 $ git clone https://github.com/hecaxmmx/MARCGedit.git
 $ cd MARCGedit
 $ cp snippets/. ~/.config/gedit/snippets
 $ cp tools/. ~/.config/gedit/tools
 $ sudo cp marc.lang /usr/share/gtksourceview-3.0/language-specs
+$ ./gsettings_gedit.sh
 ```
+
 > Note: If snippets and tools directories does not exist please create manually.
 
-#### Setting Gedit
+#### Setting Gedit (only if gsetting does not work properly)
 1. Open Gedit text editor normally
 2. Enable External Tools, goto Preferences -> Plugins -> External Tools
 3. Enable Snippets, goto Preferences -> Plugins -> Snippets
@@ -47,7 +52,7 @@ $ sudo cp marc.lang /usr/share/gtksourceview-3.0/language-specs
   * Change data for each position
 5. Convert MARC Maker to MARC
   * Go to Tools -> External Tools -> MARC Maker
-  
+
 #### SNIPPETS
 MARCGedit use the [Gedit snippets plugin](https://wiki.gnome.org/Apps/Gedit/Plugins/Snippets)
 The file **marc.xml** needs to be copied to *~/.config/gedit/snippets* directory.
@@ -55,8 +60,8 @@ Snippets allows you to introduce *MARC records or fixed fields* to the current t
 
 #### TAGS FILES (Deprecated)
 Tags plugin no more works in Gedit.
-The tags needs to be compresed in **".tags.gz"** format
-Once compresed, you can copy the gz files to one of this two directories:
+The tags needs to be compresed in **".tags.gz"** format. Once compresed, you can copy the gz files to one of this two directories:
+
 ```
 /usr/share/gedit/plugins/taglist
 or

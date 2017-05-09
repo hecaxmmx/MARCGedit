@@ -1,10 +1,11 @@
 #!/bin/sh
 # [Gedit Tool]
 # Name=Field 005 Data and Time
+# Shortcut=<Primary><Alt>d
 # Languages=marc
 # Applicability=all
-# Output=insert
 # Input=nothing
+# Output=insert
 # Save-files=nothing
 
  #
@@ -26,5 +27,5 @@
  # You should have received a copy of the GNU Lesser General Public License
  # along with MARCGedit. If not, see <http://www.gnu.org/licenses/>.
  #
-
+ 
 echo `date +%Y%m%d%H%M%S.0`

@@ -37,8 +37,7 @@ use MARC::File::MARCMaker;
 
 # Open up zenity dialog without UI::Dialog::Backend::Zenity
 # Using backticks instead
-# Althoug can use open(ZEN,"zenity --entry --title=' ... |") || die "Failed: $!\n";
-# exec(), and system() don't apply too.
+# Althoug can use open(ZEN,"zenity --entry --title=' ... |") || die "Failed: $!\n"; exec(), and system().
 
 # Global dialog error
 my @args_err_dialog = (
@@ -51,25 +50,32 @@ my $current_path = $ENV{'GEDIT_CURRENT_DOCUMENT_DIR'};
 # Launch error dialog if document is unsaved.
 # This dialog is avoided if Applicability: is set to untitled documents. By default set it to all documents.
 if (not defined $current_path){
-    push @args_err_dialog, '--text="The current document is new or unsaved. Please, save the document first.\nLikewise, this tool works with saved document not with the buffer of file.\nPlease save the document first to prevent data loss."';
+    push @args_err_dialog, '--text=The current document is new or unsaved. Please, save the document first.\nLikewise, this tool works with saved document not with the buffer of file.\nPlease save the document first to prevent data loss.';
     system(@args_err_dialog);
     exit;
 }
 
-my $zenity_dialog = `zenity --entry --title="File name" --text="Enter the name of the output without the file format extension.\nThis file will save it in the current document directory:\n $current_path"`;
+my $zenity_dialog = `zenity --file-selection --save --title="Save File"`;
 
-# Launching error dialog if no data provided
-if (($zenity_dialog =~ /^ *$|\//) or (not defined $zenity_dialog)){
-    push @args_err_dialog, '--text="This error is cuased by:\n1)You did not enter the file name\n2)You enter a slash \/\n2)Or you canceled the form"';
-    system(@args_err_dialog);
-    exit;
-} elsif ($? == 0) {
-
-    # Adding the extension and deleting new line character
+if ($? == 0) {
+    # Deleting new line character
     $zenity_dialog =~ tr/\n//d;
+    # Launching error dialog if whitespaces found
+    if (($zenity_dialog =~ /[ \f\t\v]+$/) or (not defined $zenity_dialog)) {
+        push @args_err_dialog, "--text=This error is caused because your file name contains only spaces, or, spaces at the end of the line";
+        system(@args_err_dialog);
+        exit;
+    }
+    # MARC file already exist
+    if ( -e $zenity_dialog ) {
+        system("zenity", "--question", "--text=The file already exist. Are you sure you wish to proceed?");
+        my $status = sprintf("%d", $? >> 8);
+        exit if $status == 1;
+    }
+    # Add the extension .mrc or avoid
     $zenity_dialog .= '.mrc' unless ($zenity_dialog =~ /(\.mrc$|\.MRC$)/);
 
-    # Indicating mrk and mrc files
+    # Declaring mrk and mrc files
     my $mrk_in = $ENV{'GEDIT_CURRENT_DOCUMENT_NAME'};
     my $mrc_out = $zenity_dialog;
 
@@ -92,26 +98,23 @@ if (($zenity_dialog =~ /^ *$|\//) or (not defined $zenity_dialog)){
             print $OUTMRC $marc;
         }
 
-        print "File saved in: \n" .
-              "$current_path\n" .
-              "'$rec_count' record(s) processed\n";
+        print "'$rec_count' record(s) processed\n";
 
         close $OUTMRC;
 
         # Info dialog, reporting the end of the process
         my @msg = (
-            'Processed file: ',
-            $mrk_in,
+            'Processed file: \n\t',
+            join ("/", $current_path, $mrk_in),
             '\n',
-            'Converted to MARC binary file:',
+            'Converted to MARC binary file: \n\t',
             $mrc_out,
-            '\n',
-            'File saved in: \n',
-            $current_path,
             '\n',
             $rec_count,
             'record(s) processed \n',
         );
         system("zenity", "--info", "--text=@msg");
-    } #if
-} #elsif
+        exit;
+    } #if $mrc_out
+} #if $?
+1;

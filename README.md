@@ -12,7 +12,7 @@ An optional MARC Maker Editor for Linux environment. MARC Gedit is powered by Ge
 ## SNIPPETS
 MARCGedit use the [Gedit snippets plugin](https://wiki.gnome.org/Apps/Gedit/Plugins/Snippets)
 The file **marc.xml** needs to be copied to *~/.config/gedit/snippets* directory.
-Snippets allow you to introduce *MARC records or fixed fields* to the current text.
+Snippets allows you to introduce *MARC records or fixed fields* to the current text.
 
 ## TAGS FILES (Deprecated)
 Tags plugin no more works in Gedit.
@@ -28,7 +28,7 @@ or
 The highlight syntax of MARCMaker is activated if you use **marc.lang** file. You need to copy this file to */usr/share/gtksourceview-3.0/language-specs* directory
 
 ## EXTERNAL TOOLS
-[External tools plugin](https://wiki.gnome.org/Apps/Gedit/Plugins/ExternalTools) allow to execute the tools created for MARCGedit listed below:
+[External tools plugin](https://wiki.gnome.org/Apps/Gedit/Plugins/ExternalTools) allows to execute the tools created for MARCGedit listed below:
 * MARC Maker -> convert MARCMaker records to MARC binary (ISO 2709)
 * Field 005 Date and Time -> generate date in format of Representation of Dates and Times (ISO 8601)
 
@@ -57,7 +57,7 @@ $ sudo cp marc.lang /usr/share/gtksourceview-3.0/language-specs
 6. Enable highlight line, goto Preferences -> View -> Highlight current line
 7. Choose View -> Highlight -> MARC (This is required)
 
-###### Setting Gedit
+###### Using MARCGedit
 1. Open Gedit
 2. Choose View -> Highlight -> MARC
 3. Insert a book record

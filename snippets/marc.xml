@@ -3,32 +3,33 @@
   <snippet>
     <description>Bib&gt;Book</description>
     <text><![CDATA[=LDR  00000nam a2200000 i 4500
-=001  BFMO
-=003  SV-SsUSB
+=001  Control Number
+=003  OCS
 =005  YYYYMMDDHHMMSS.F
 =008  YYMMDD?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\000\\0\\LNG\\d
-=040  \\\$aSV-SsUSB$bspa$cSV-SsUSB$erda
 =020  \\\$a
-=041  ?\\$a  $h  $b
-=082  04$a  $b  \$2
-=1xx  ?\\$a  \$9
-=240  10$a  $l
-=245  ??$a  $b  $c
-=246  ??$i  $a
+=040  \\\$aOCS$beng$erda$cOCS
+=041  ?\\$a $h $b
+=043  \\\$a
+=050  \4$a
+=082  04$a $b \$2
+=1xx  ?\\$a $d $eauthor.
+=240  10$a $l
+=245  ??$a $b $c
+=246  ??$i $a
 =250  \\\$a
-=264  \1$a   $b  $c
-=300  \\\$apáginas :$bilustraciones ;$ccm
-=336  \\\$atexto$btxt\$2rdacontent
-=337  \\\$asin mediación$bn\$2rdamedia
-=338  \\\$avolumen$bnc\$2rdacarrier
-=490  0\\$a  $v
-=500  \\\$aIncluye índice.
-=504  \\\$aIncluye referencias bibliográficas (páginas N-N) e índice.
+=264  \1$a $b $c
+=300  \\\$apages :$billustrations ;$ccm
+=336  \\\$atext$btxt\$2rdacontent
+=337  \\\$aunmediated$bn\$2rdamedia
+=338  \\\$avolume$bnc\$2rdacarrier
+=490  0\\$a $v
+=500  \\\$aInclude index.
+=504  \\\$aIncludes bibliographical references (pages ) and index.
 =505  0\\$a
-=650  \7$a  \$2embne\$9
-=700  1\\$a  $t  \$9
-=710  ?\\$a $b  \$9
-=942  \\\\\$2ddc$cBK
+=650  \0$a
+=700  1\\$a $t
+=710  ?\\$a $b
 $0]]></text>
     <tag>record</tag>
   </snippet>
@@ -43,45 +44,44 @@ $0]]></text>
     <description>Auth&gt;008 Term</description>
   </snippet>
   <snippet>
-    <text><![CDATA[=008  AAMMDDna\acannaabn\\\\\\\\\\\\\\\\\\\\\\a\ana\\\\\\\\\d]]></text>
+    <text><![CDATA[=008  YYMMDDna\acannaabn\\\\\\\\\\\\\\\\\\\\\\a\ana\\\\\\\\\d]]></text>
     <tag>fixed</tag>
     <description>Auth&gt;008 Corporate</description>
   </snippet>
   <snippet>
-    <text><![CDATA[=LDR  00000nam a2200000 i 4500
-=001  BFMO${1:INVENTARIO}
-=003  SV-SsUSB
+    <text><![CDATA[=LDR  00000nat a2200000 i 4500
+=001  Control Number
+=003  OCS
 =005  YYYYMMDDHHMMSS.F
 =006  m\\\\\\\\fq\\\\a\\\\\\\\\\\\\\\\
-=008  YYMMDDs${2:DAT1}\\\\\\\\es\\a\\\\\\f\\bm\\\\f000\\0\\spa\\d
-=040  \\\$aSV-SsUSB$bspa$cSV-SsUSB$erda
-=043  \\\$ances---
-=094  \\\$a $b
-=100  1\\$a \$9
+=008  YYMMDDsDAT1\\\\\\\\CNT\a\\\\\\f\\bm\\\\f000\\0\\eng\\d
+=040  \\\$aOCS$beng$erda$cOCS
+=043  \\\$an-us---
+=050  \4$a
+=100  1\\$a $d $eauthor.
 =245  1?$a $b $c
-=264  \0$aSan Miguel :$bUES, FMO,$c${2}.
-=300  \\\$ahojas :$bilustraciones ;$c28 cm +$e1 disco de computadora (4 3/4 plg.)
-=336  \\\$atexto$btxt\$2rdacontent
-=336  \\\\\$3material acompañante$aconjunto de datos para computadora$bcod\$2rdacontent
-=337  \\\$asin mediación$bn\$2rdamedia
-=337  \\\\\$3material acompañante$acomputadora$bc\$2rdamedia
-=338  \\\$avolumen$bnc\$2rdacarrier
-=338  \\\\\$3material acompañante$adisco de computadora$bcd\$2rdacarrier
-=502  \\\$b${3:Licenciado/Ingeniero/Arquitecto/Master/Doctor/Doctorado}$cUniversidad de El Salvador, Facultad Multidisciplinaria Oriental$d${2}.
-=504  \\\$aIncluye referencias bibliográficas (hojas N-N).
+=264  \0$a $b $c
+=300  \\\$a leaves, unnumbered leaves of plates :$bmaps, plans, photographs ;$c31 cm
+=336  \\\$atext$btxt\$2rdacontent
+=337  \\\$aunmediated$bn\$2rdamedia
+=338  \\\$avolume$bnc\$2rdacarrier
+=500  \\\$aOriginally presented as the author’s thesis under title: ...
+=500  \\\$aRevision of the author’s thesis
+=502  \\\$b${1:M.A./Ph.D/M.S./Ed.D./Honors}$cUniversity of ...$dDATE.
+=504  \\\$aIncludes bibliographical references (leaf )
 =520  \\\$a
+=610  20$a
+=650  \0$a
+=655  \7$aAcademic theses.\$2lcgft
 =700  1\\$a
-=700  1\\$a $easesor.
-=856  40$uhttp://opac.fmoues.edu.sv/infolib/tesis/${1}.pdf$yRecurso Electrónico (PDF)
-=856  40$uhttp://ri.ues.edu.sv/id/eprint/NUMERO$yRepositorio Institucional (UES)$qtext/html
-=942  \\\\\$2ddc$cTS
+=700  1\\$a $edegree supervisor.
 $0]]></text>
     <tag>record</tag>
     <description>Bib&gt;Thesis</description>
   </snippet>
   <snippet>
     <text><![CDATA[=LDR  00000nz  a2200000n  4500
-=003  SV-SsUSB
+=003  OCS
 =005  YYYYMMDDHHMMSS.F
 =008  YYMMDDin\\anznnbabn\\\\\\\\\\\\\\\\\\\\\\a\\ana\\\\\\\\\\d
 =024  7\\$a \$2lcsh
@@ -91,12 +91,10 @@ $0]]></text>
 =360  \\\$i $a
 =450  \\\$a
 =550  \\\$w $a
-=667  \\\$aRegistro para propósitos de validación.
-=670  \\\$aLCSH$b(${1:English term})
-=670  \\\$aRAMEAU$b()
+=667  \\\$aRecord generated for validation purposes.
+=670  \\\$aWork cat.:
 =680  \\\$i $a
-=750  \0$a${1}
-$0]]></text>
+=681  \\\$i $a]]></text>
     <tag>record</tag>
     <description>Auth&gt;Topical Term</description>
   </snippet>
@@ -267,13 +265,13 @@ $0]]></text>
   </snippet>
   <snippet>
     <text><![CDATA[=LDR  00000nas a2200000Ii 4500
-=001  BFMO
-=003  SV-SsUSB
+=001  Control Number
+=003  OCS
 =005  YYYYMMDDHHMMSS.F
 =008  YYMMDDcDAT19999CNT??\\?\\\\\\\\\\\\\\0\\\\\\\\0LNG\\d
 =010  \\\$a
 =020  \\\$a
-=040  \\\$aSV-SsUSB$bspa$cSV-SsUSB$erda
+=040  \\\$aOCS$beng$erda$cOCS
 =041  ?\\$a $h $b
 =050  ?\\$a $b
 =090  \\\$a $b
@@ -294,15 +292,15 @@ $0]]></text>
   </snippet>
   <snippet>
     <text><![CDATA[=LDR  00000nem a2200000Ii 4500
-=001  BFMO
-=003  SV-SsUSB
+=001  Control Number
+=003  OCS
 =005  YYYYMMDDHHMMSS.F
 =007  $a $b $d $e $f $g $h
 =008  YYMMDD?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\a\\\\\\\\\\0\\\\\\LNG\\d
 =010  \\\$a
 =020  \\\$a
 =034  ?\\$a
-=040  \\\$aSV-SsUSB$bspa$cSV-SsUSB$erda
+=040  \\\$aOCS$beng$erda$cOCS
 =041  ?\\$a
 =052  \\\$a $b
 =090  \\\$a $b
@@ -323,14 +321,14 @@ $0]]></text>
   </snippet>
   <snippet>
     <text><![CDATA[=LDR  00000njm a2200000Ii 4500
-=001  BFMO
-=003  SV-SsUSB
+=001  Control Number
+=003  OCS
 =005  YYYYMMDDHHMMSS.F
 =007  $a $b $e $f $g $h $l $n
 =008  YYMMDD?DAT1\\\\\\\\CNT\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\LNG\\d
 =010  \\\$a
 =028  ??$a $b
-=040  \\\$aSV-SsUSB$bspa$cSV-SsUSB$erda
+=040  \\\$aOCS$beng$erda$cOCS
 =041  ?\\$a $d $h $b $e $g
 =049  \\\$a
 =050  ?\\$a $b
@@ -352,13 +350,13 @@ $0]]></text>
   </snippet>
   <snippet>
     <text><![CDATA[=LDR  00000ncm a2200000Ii 4500
-=001  BFMO
-=003  SV-SsUSB
+=001  Control Number
+=003  OCS
 =005  YYYYMMDDHHMMSS.F
 =008  YYMMDD?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\LNG\\d
 =010  \\\$a
 =028  ??$a $b
-=040  \\\$aSV-SsUSB$bspa$cSV-SsUSB$erda
+=040  \\\$aOCS$beng$erda$cOCS
 =041  ?\\$a $d $h $b $e
 =049  \\\$a
 =050  ?\\$a $b

@@ -1,5 +1,4 @@
 # MARCGedit
-
 An optional MARC Maker Editor for Linux environment. MARC Gedit is powered by Gedit text editor.
 
 ## MARCGedit works with the following technology:
@@ -9,36 +8,11 @@ An optional MARC Maker Editor for Linux environment. MARC Gedit is powered by Ge
 * Zenity - display graphical dialog boxes from shell scripts
 * GtkSourceView - shared libraries for the GTK+ syntax highlighting widget
 
-## SNIPPETS
-MARCGedit use the [Gedit snippets plugin](https://wiki.gnome.org/Apps/Gedit/Plugins/Snippets)
-The file **marc.xml** needs to be copied to *~/.config/gedit/snippets* directory.
-Snippets allows you to introduce *MARC records or fixed fields* to the current text.
-
-## TAGS FILES (Deprecated)
-Tags plugin no more works in Gedit.
-The tags needs to be compresed in **"*.tags.gz"** format
-Once compresed, you can copy the gz files to one of this two directories:
-```
-/usr/share/gedit/plugins/taglist
-or
-~/.gnome2/gedit/taglist
-```
-
-## HIGHLIGHT MARCGedit
-The highlight syntax of MARCMaker is activated if you use **marc.lang** file. You need to copy this file to */usr/share/gtksourceview-3.0/language-specs* directory
-
-## EXTERNAL TOOLS
-[External tools plugin](https://wiki.gnome.org/Apps/Gedit/Plugins/ExternalTools) allows to execute the tools created for MARCGedit listed below:
-* MARC Maker -> convert MARCMaker records to MARC binary (ISO 2709)
-* Field 005 Date and Time -> generate date in format of Representation of Dates and Times (ISO 8601)
-
-To execute those tools you need to go to Tools -> External Tools
-
-###### You need to install the following modules (debian environment):
+## You need to install the following modules (debian environment):
 ```
 $ apt-get install libmarc-record-perl libmarc-file-marcmaker-perl zenity zenity-common gedit gedit-common gedit-plugins
 ```
-###### Running the application locally
+#### Running the application locally
 ```
 $ git clone https://github.com/hecaxmmx/MARCGedit.git
 $ cd MARCGedit
@@ -48,7 +22,7 @@ $ sudo cp marc.lang /usr/share/gtksourceview-3.0/language-specs
 ```
 > Note: If snippets and tools directories does not exist please create manually.
 
-###### Setting Gedit
+#### Setting Gedit
 1. Open Gedit text editor normally
 2. Enable External Tools, goto Preferences -> Plugins -> External Tools
 3. Enable Snippets, goto Preferences -> Plugins -> Snippets
@@ -57,7 +31,7 @@ $ sudo cp marc.lang /usr/share/gtksourceview-3.0/language-specs
 6. Enable highlight line, goto Preferences -> View -> Highlight current line
 7. Choose View -> Highlight -> MARC (This is required)
 
-###### Using MARCGedit
+## Using MARCGedit
 1. Open Gedit
 2. Choose View -> Highlight -> MARC
 3. Insert a book record
@@ -73,4 +47,28 @@ $ sudo cp marc.lang /usr/share/gtksourceview-3.0/language-specs
   * Change data for each position
 5. Convert MARC Maker to MARC
   * Go to Tools -> External Tools -> MARC Maker
+  
+#### SNIPPETS
+MARCGedit use the [Gedit snippets plugin](https://wiki.gnome.org/Apps/Gedit/Plugins/Snippets)
+The file **marc.xml** needs to be copied to *~/.config/gedit/snippets* directory.
+Snippets allows you to introduce *MARC records or fixed fields* to the current text.
 
+#### TAGS FILES (Deprecated)
+Tags plugin no more works in Gedit.
+The tags needs to be compresed in **".tags.gz"** format
+Once compresed, you can copy the gz files to one of this two directories:
+```
+/usr/share/gedit/plugins/taglist
+or
+~/.gnome2/gedit/taglist
+```
+
+#### HIGHLIGHT MARCGedit
+The highlight syntax of MARCMaker is activated if you use **marc.lang** file. You need to copy this file to */usr/share/gtksourceview-3.0/language-specs* directory
+
+#### EXTERNAL TOOLS
+[External tools plugin](https://wiki.gnome.org/Apps/Gedit/Plugins/ExternalTools) allows to execute the tools created for MARCGedit listed below:
+* MARC Maker -> convert MARCMaker records to MARC binary (ISO 2709)
+* Field 005 Date and Time -> generate date in format of Representation of Dates and Times (ISO 8601)
+
+To execute those tools you need to go to Tools -> External Tools

@@ -21,7 +21,7 @@ $ git clone https://github.com/hecaxmmx/MARCGedit.git
 $ cd MARCGedit
 $ cp snippets/. ~/.config/gedit/snippets
 $ cp tools/. ~/.config/gedit/tools
-$ sudo cp marc.lang /usr/share/gtksourceview-3.0/language-specs
+$ cp marc.lang ~/.local/share/gtksourceview-3.0/language-specs
 $ ./gsettings_gedit.sh
 ```
 
@@ -31,7 +31,7 @@ $ ./gsettings_gedit.sh
 1. Open Gedit text editor normally
 2. Enable External Tools, goto Preferences -> Plugins -> External Tools
 3. Enable Snippets, goto Preferences -> Plugins -> Snippets
-4. Enable Snippets, goto Preferences -> Plugins -> Draw spaces
+4. Enable draw spaces, goto Preferences -> Plugins -> Draw spaces
 5. Enable line number, goto Preferences -> View -> Display line numbers
 6. Enable highlight line, goto Preferences -> View -> Highlight current line
 7. Choose View -> Highlight -> MARC (This is required)
@@ -55,21 +55,15 @@ $ ./gsettings_gedit.sh
 
 #### SNIPPETS
 MARCGedit use the [Gedit snippets plugin](https://wiki.gnome.org/Apps/Gedit/Plugins/Snippets)
-The file **marc.xml** needs to be copied to *~/.config/gedit/snippets* directory.
+The file **marc.xml** needs to be copied to */usr/share/gedit/plugins/snippets* or *~/.config/gedit/snippets* directory.
 Snippets allows you to introduce *MARC records or fixed fields* to the current text.
 
 #### TAGS FILES (Deprecated)
 Tags plugin no more works in Gedit.
-The tags needs to be compresed in **".tags.gz"** format. Once compresed, you can copy the gz files to one of this two directories:
-
-```
-/usr/share/gedit/plugins/taglist
-or
-~/.gnome2/gedit/taglist
-```
+The tags needs to be compresed in **".tags.gz"** format. Once compresed, you can copy the gz files to one of this two directories: */usr/share/gedit/plugins/taglist* or *~/.gnome2/gedit/taglist*
 
 #### HIGHLIGHT MARCGedit
-The highlight syntax of MARCMaker is activated if you use **marc.lang** file. You need to copy this file to */usr/share/gtksourceview-3.0/language-specs* directory
+The highlight syntax of MARCMaker is activated if you use **marc.lang** file. You need to copy this file to */usr/share/gtksourceview-3.0/language-specs* or *~/.local/share/gtksourceview-3.0/language-specs* directory
 
 #### EXTERNAL TOOLS
 [External tools plugin](https://wiki.gnome.org/Apps/Gedit/Plugins/ExternalTools) allows to execute the tools created for MARCGedit listed below:

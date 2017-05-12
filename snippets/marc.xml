@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <snippets language="marc">
-  <snippet>
+  <snippet id="record-1">
     <description>Bib&gt;Book</description>
     <text><![CDATA[=LDR  00000nam a2200000 i 4500
 =001  Control Number
@@ -33,22 +33,7 @@
 $0]]></text>
     <tag>record</tag>
   </snippet>
-  <snippet>
-    <text><![CDATA[=LDR  00000nz  a2200000n  4500]]></text>
-    <tag>ldr</tag>
-    <description>Auth&gt;LDR</description>
-  </snippet>
-  <snippet>
-    <text><![CDATA[=008  YYMMDDin\\anznnbabn\\\\\\\\\\\\\\\\\\\\\\a\\ana\\\\\\\\\\d]]></text>
-    <tag>fixed</tag>
-    <description>Auth&gt;008 Term</description>
-  </snippet>
-  <snippet>
-    <text><![CDATA[=008  YYMMDDna\acannaabn\\\\\\\\\\\\\\\\\\\\\\a\ana\\\\\\\\\d]]></text>
-    <tag>fixed</tag>
-    <description>Auth&gt;008 Corporate</description>
-  </snippet>
-  <snippet>
+  <snippet id="record-2">
     <text><![CDATA[=LDR  00000nat a2200000 i 4500
 =001  Control Number
 =003  OCS
@@ -79,7 +64,7 @@ $0]]></text>
     <tag>record</tag>
     <description>Bib&gt;Thesis</description>
   </snippet>
-  <snippet>
+  <snippet id="record-3">
     <text><![CDATA[=LDR  00000nz  a2200000n  4500
 =003  OCS
 =005  YYYYMMDDHHMMSS.F
@@ -98,7 +83,135 @@ $0]]></text>
     <tag>record</tag>
     <description>Auth&gt;Topical Term</description>
   </snippet>
-  <snippet>
+  <snippet id="record-4">
+    <text><![CDATA[=LDR  00000nas a2200000Ii 4500
+=001  Control Number
+=003  OCS
+=005  YYYYMMDDHHMMSS.F
+=008  YYMMDDcDAT19999CNT??\\?\\\\\\\\\\\\\\0\\\\\\\\0LNG\\d
+=010  \\\$a
+=020  \\\$a
+=040  \\\$aOCS$beng$erda$cOCS
+=041  ?\\$a $h $b
+=050  ?\\$a $b
+=090  \\\$a $b
+=049  \\\$a
+=1xx  ?\\$a
+=2xx  ??$a
+=245  ??$a $b $c
+=246  ??$a
+=264  \1$a $b $c
+=300  \\\$a $b $c
+=362  ?\\$a
+=5xx  ?\\$a
+=6xx  ??$a
+=7xx  ??$a
+$0]]></text>
+    <tag>record</tag>
+    <description>Bib&gt;Continuing Resources</description>
+  </snippet>
+  <snippet id="record-5">
+    <text><![CDATA[=LDR  00000nem a2200000Ii 4500
+=001  Control Number
+=003  OCS
+=005  YYYYMMDDHHMMSS.F
+=007  $a $b $d $e $f $g $h
+=008  YYMMDD?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\a\\\\\\\\\\0\\\\\\LNG\\d
+=010  \\\$a
+=020  \\\$a
+=034  ?\\$a
+=040  \\\$aOCS$beng$erda$cOCS
+=041  ?\\$a
+=052  \\\$a $b
+=090  \\\$a $b
+=049  \\\$a
+=1xx  ?\\$a
+=245  ??$a $b $c
+=246  ??$a
+=255  \\\$a $b $c $d $e
+=264  \1$a $b $c
+=300  \\\$a $b $c
+=490  0\$a $v
+=5xx  ?\\$a
+=6xx  ??$a
+=7xx  ??$a
+$0]]></text>
+    <tag>record</tag>
+    <description>Bib&gt;Maps</description>
+  </snippet>
+  <snippet id="record-6">
+    <text><![CDATA[=LDR  00000njm a2200000Ii 4500
+=001  Control Number
+=003  OCS
+=005  YYYYMMDDHHMMSS.F
+=007  $a $b $e $f $g $h $l $n
+=008  YYMMDD?DAT1\\\\\\\\CNT\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\LNG\\d
+=010  \\\$a
+=028  ??$a $b
+=040  \\\$aOCS$beng$erda$cOCS
+=041  ?\\$a $d $h $b $e $g
+=049  \\\$a
+=050  ?\\$a $b
+=090  \\\$a $b
+=1xx  ?\\$a
+=240  ??$a $m $n
+=245  ??$a $b $c
+=246  ??$a
+=264  \1$a $b $c
+=300  \\\$a $b $c
+=306  \\\$a
+=490  0\$a $v
+=5xx  ?\\$a
+=6xx  ??$a
+=7xx  ??$a
+$0]]></text>
+    <tag>record</tag>
+    <description>Bib&gt;Sound Recording</description>
+  </snippet>
+  <snippet id="record-7">
+    <text><![CDATA[=LDR  00000ncm a2200000Ii 4500
+=001  Control Number
+=003  OCS
+=005  YYYYMMDDHHMMSS.F
+=008  YYMMDD?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\LNG\\d
+=010  \\\$a
+=028  ??$a $b
+=040  \\\$aOCS$beng$erda$cOCS
+=041  ?\\$a $d $h $b $e
+=049  \\\$a
+=050  ?\\$a $b
+=090  \\\$a $b
+=1xx  ?\\$a $d
+=240  ??$a $m $n
+=245  ??$a $b $c
+=246  ??$a
+=25x  \\\$a
+=264  \1$a $b $c
+=300  \\\$a $b $c
+=490  0\$a $v
+=5xx  ?\\$a
+=6xx  ??$a
+=7xx  ??$a
+$0]]></text>
+    <tag>record</tag>
+    <description>Bib&gt;Score</description>
+  </snippet>
+  <snippet id="ldr">
+    <text><![CDATA[=LDR  00000nz  a2200000n  4500]]></text>
+    <tag>ldr</tag>
+    <description>Auth&gt;LDR</description>
+  </snippet>
+  <snippet id="fixed-1">
+    <text><![CDATA[=008  YYMMDDin\\anznnbabn\\\\\\\\\\\\\\\\\\\\\\a\\ana\\\\\\\\\\d]]></text>
+    <tag>fixed</tag>
+    <description>Auth&gt;008 Term</description>
+  </snippet>
+  <snippet id="fixed-2">
+    <text><![CDATA[=008  YYMMDDna\acannaabn\\\\\\\\\\\\\\\\\\\\\\a\ana\\\\\\\\\d]]></text>
+    <tag>fixed</tag>
+    <description>Auth&gt;008 Corporate</description>
+  </snippet>
+  <snippet id="fixed-3">
     <text><![CDATA[Form 008 for Books...
 See http://oclc.org/bibformats/en/fixedfield.html for documentation:
 
@@ -132,7 +245,7 @@ $0
     <tag>fixed</tag>
     <description>Bib&gt;008 Book</description>
   </snippet>
-  <snippet>
+  <snippet id="fixed-4">
     <text><![CDATA[Form 008 for Continuing resources...
 See http://oclc.org/bibformats/en/fixedfield.html for documentation:
 
@@ -167,7 +280,7 @@ $0]]></text>
     <tag>fixed</tag>
     <description>Bib&gt;008 Continuing Resources</description>
   </snippet>
-  <snippet>
+  <snippet id="fixed-5">
     <text><![CDATA[Form 008 for Maps...
 See http://oclc.org/bibformats/en/fixedfield.html for documentation:
 
@@ -198,7 +311,7 @@ $0
     <tag>fixed</tag>
     <description>Bib&gt;008 Maps</description>
   </snippet>
-  <snippet>
+  <snippet id="fixed-6">
     <text><![CDATA[Form 008 for Computer files...
 See http://oclc.org/bibformats/en/fixedfield.html for documentation:
 
@@ -225,7 +338,7 @@ $0
     <tag>fixed</tag>
     <description>Bib&gt;008 Computer files</description>
   </snippet>
-  <snippet>
+  <snippet id="fixed-7">
     <text><![CDATA[Form 008 for Music...
 See http://oclc.org/bibformats/en/fixedfield.html for documentation:
 
@@ -262,118 +375,5 @@ TrAr(33): ${22:#} Default value for REC "n" and SCO "#"
 $0]]></text>
     <tag>fixed</tag>
     <description>Bib&gt;008 Music</description>
-  </snippet>
-  <snippet>
-    <text><![CDATA[=LDR  00000nas a2200000Ii 4500
-=001  Control Number
-=003  OCS
-=005  YYYYMMDDHHMMSS.F
-=008  YYMMDDcDAT19999CNT??\\?\\\\\\\\\\\\\\0\\\\\\\\0LNG\\d
-=010  \\\$a
-=020  \\\$a
-=040  \\\$aOCS$beng$erda$cOCS
-=041  ?\\$a $h $b
-=050  ?\\$a $b
-=090  \\\$a $b
-=049  \\\$a
-=1xx  ?\\$a
-=2xx  ??$a
-=245  ??$a $b $c
-=246  ??$a
-=264  \1$a $b $c
-=300  \\\$a $b $c
-=362  ?\\$a
-=5xx  ?\\$a
-=6xx  ??$a
-=7xx  ??$a
-$0]]></text>
-    <tag>record</tag>
-    <description>Bib&gt;Continuing Resources</description>
-  </snippet>
-  <snippet>
-    <text><![CDATA[=LDR  00000nem a2200000Ii 4500
-=001  Control Number
-=003  OCS
-=005  YYYYMMDDHHMMSS.F
-=007  $a $b $d $e $f $g $h
-=008  YYMMDD?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\a\\\\\\\\\\0\\\\\\LNG\\d
-=010  \\\$a
-=020  \\\$a
-=034  ?\\$a
-=040  \\\$aOCS$beng$erda$cOCS
-=041  ?\\$a
-=052  \\\$a $b
-=090  \\\$a $b
-=049  \\\$a
-=1xx  ?\\$a
-=245  ??$a $b $c
-=246  ??$a
-=255  \\\$a $b $c $d $e
-=264  \1$a $b $c
-=300  \\\$a $b $c
-=490  0\$a $v
-=5xx  ?\\$a
-=6xx  ??$a
-=7xx  ??$a
-$0]]></text>
-    <tag>record</tag>
-    <description>Bib&gt;Maps</description>
-  </snippet>
-  <snippet>
-    <text><![CDATA[=LDR  00000njm a2200000Ii 4500
-=001  Control Number
-=003  OCS
-=005  YYYYMMDDHHMMSS.F
-=007  $a $b $e $f $g $h $l $n
-=008  YYMMDD?DAT1\\\\\\\\CNT\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\LNG\\d
-=010  \\\$a
-=028  ??$a $b
-=040  \\\$aOCS$beng$erda$cOCS
-=041  ?\\$a $d $h $b $e $g
-=049  \\\$a
-=050  ?\\$a $b
-=090  \\\$a $b
-=1xx  ?\\$a
-=240  ??$a $m $n
-=245  ??$a $b $c
-=246  ??$a
-=264  \1$a $b $c
-=300  \\\$a $b $c
-=306  \\\$a
-=490  0\$a $v
-=5xx  ?\\$a
-=6xx  ??$a
-=7xx  ??$a
-$0]]></text>
-    <tag>record</tag>
-    <description>Bib&gt;Sound Recording</description>
-  </snippet>
-  <snippet>
-    <text><![CDATA[=LDR  00000ncm a2200000Ii 4500
-=001  Control Number
-=003  OCS
-=005  YYYYMMDDHHMMSS.F
-=008  YYMMDD?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\LNG\\d
-=010  \\\$a
-=028  ??$a $b
-=040  \\\$aOCS$beng$erda$cOCS
-=041  ?\\$a $d $h $b $e
-=049  \\\$a
-=050  ?\\$a $b
-=090  \\\$a $b
-=1xx  ?\\$a $d
-=240  ??$a $m $n
-=245  ??$a $b $c
-=246  ??$a
-=25x  \\\$a
-=264  \1$a $b $c
-=300  \\\$a $b $c
-=490  0\$a $v
-=5xx  ?\\$a
-=6xx  ??$a
-=7xx  ??$a
-$0]]></text>
-    <tag>record</tag>
-    <description>Bib&gt;Score</description>
   </snippet>
 </snippets>

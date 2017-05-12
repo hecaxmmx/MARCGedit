@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # [Gedit Tool]
 # Name=Field 005 Data and Time
 # Shortcut=<Primary><Alt>d
@@ -27,5 +27,6 @@
  # You should have received a copy of the GNU Lesser General Public License
  # along with MARCGedit. If not, see <http://www.gnu.org/licenses/>.
  #
- 
-echo `date +%Y%m%d%H%M%S.0`
+
+DATETIME=`date +%Y%m%d%H%M%S.%N`
+echo -n ${DATETIME:0:16}

@@ -50,25 +50,25 @@ my $current_path = $ENV{'GEDIT_CURRENT_DOCUMENT_DIR'};
 # Launch error dialog if document is unsaved.
 # This dialog is avoided if Applicability: is set to untitled documents. By default set it to all documents.
 if (not defined $current_path){
-    push @args_err_dialog, '--text=The current document is new or unsaved. Please, save the document first.\nLikewise, this tool works with saved document not with the buffer of file.\nPlease save the document first to prevent data loss.';
-    system(@args_err_dialog);
+    push @args_err_dialog, '--text="The current document is new or unsaved. Please, save the document first.\nLikewise, this tool works with saved document not with the buffer of file.\nPlease save the document first to prevent data loss."';
+    system("@args_err_dialog 2> /dev/null");
     exit;
 }
 
-my $zenity_dialog = `zenity --file-selection --save --title="Save File"`;
+my $zenity_dialog = `zenity --file-selection --save --title="Save File" 2> /dev/null`;
 
 if ($? == 0) {
     # Deleting new line character
     $zenity_dialog =~ tr/\n//d;
     # Launching error dialog if whitespaces found
     if (($zenity_dialog =~ /[ \f\t\v]+$/) or (not defined $zenity_dialog)) {
-        push @args_err_dialog, "--text=This error is caused because your file name contains only spaces, or, spaces at the end of the line";
-        system(@args_err_dialog);
+        push @args_err_dialog, '--text="This error is caused because your file name contains only spaces, or, spaces at the end of the line"';
+        system("@args_err_dialog 2> /dev/null");
         exit;
     }
     # MARC file already exist
     if ( -e $zenity_dialog ) {
-        system("zenity", "--question", "--text=The file already exist. Are you sure you wish to proceed?");
+        system('zenity --question --text="The file already exist. Are you sure you wish to proceed?" 2> /dev/null');
         my $status = sprintf("%d", $? >> 8);
         exit if $status == 1;
     }
@@ -113,7 +113,7 @@ if ($? == 0) {
             $rec_count,
             'record(s) processed \n',
         );
-        system("zenity", "--info", "--text=@msg");
+        system("zenity --info --text='@msg' 2> /dev/null");
         exit;
     } #if $mrc_out
 } #if $?

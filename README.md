@@ -17,18 +17,18 @@ $ apt-get install libmarc-record-perl libmarc-file-marcmaker-perl zenity zenity-
 #### Running the application locally
 
 ```
-\# Clone repository or download ZIP file
+# Clone repository or download ZIP file
 $ git clone https://github.com/hecaxmmx/MARCGedit.git
 $ unzip /MARCGedit-master.zip
 $ cd MARCGedit
 
-\# Install manually
+# Install manually
 $ cp snippets/. ~/.config/gedit/snippets
 $ cp tools/. ~/.config/gedit/tools
 $ cp marc.lang ~/.local/share/gtksourceview-3.0/language-specs
 $ ./gsettings_gedit.sh
 
-\# Or use the install script for local user
+# Or use the install script for local user
 $ bash install.sh
 ```
 

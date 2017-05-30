@@ -17,12 +17,19 @@ $ apt-get install libmarc-record-perl libmarc-file-marcmaker-perl zenity zenity-
 #### Running the application locally
 
 ```
+\# Clone repository or download ZIP file
 $ git clone https://github.com/hecaxmmx/MARCGedit.git
+$ unzip /MARCGedit-master.zip
 $ cd MARCGedit
+
+\# Install manually
 $ cp snippets/. ~/.config/gedit/snippets
 $ cp tools/. ~/.config/gedit/tools
 $ cp marc.lang ~/.local/share/gtksourceview-3.0/language-specs
 $ ./gsettings_gedit.sh
+
+\# Or use the install script for local user
+$ bash install.sh
 ```
 
 > Note: If snippets and tools directories does not exist please create manually.
@@ -67,7 +74,8 @@ The highlight syntax of MARCMaker is activated if you use **marc.lang** file. Yo
 
 #### EXTERNAL TOOLS
 [External tools plugin](https://wiki.gnome.org/Apps/Gedit/Plugins/ExternalTools) allows to execute the tools created for MARCGedit listed below:
-* MARC Maker -> convert MARCMaker records to MARC binary (ISO 2709)
-* Field 005 Date and Time -> generate date in format of Representation of Dates and Times (ISO 8601)
+* MARC Maker -> convert MARCMaker records to MARC binary (ISO 2709) \[Ctrl-Alt-M\]
+* Field 005 Date and Time -> generate date in format of Representation of Dates and Times (ISO 8601) \[Ctrl-Alt-D\]
+* Change case -> Changes the case of characters in the selection \[Ctrl-Alt-C\]
 
-To execute those tools you need to go to Tools -> External Tools
+To execute those tools you need to go to Tools -> External Tools or execute by shortcut key.

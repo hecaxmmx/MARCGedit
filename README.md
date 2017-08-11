@@ -1,17 +1,18 @@
 # MARCGedit
-An optional MARC Maker Editor for Linux environment. MARC Gedit is powered by Gedit text editor.
+An optional MARCMaker and MARCBreaker Editor for Linux environment. MARC Gedit is powered by Gedit text editor.
 
 ## MARCGedit works with the following technology:
 * Gedit - official text editor of the GNOME desktop environment
 * The MARC::* - series of modules create a simple object-oriented abstraction of MARC record handling.
 * MARC::File::MARCMaker - work with MARCMaker/MARCBreaker records
+* Class::Accesor - Perl module that automatically generates accessors
 * Zenity - display graphical dialog boxes from shell scripts
 * GtkSourceView - shared libraries for the GTK+ syntax highlighting widget
 
 ## You need to install the following modules (debian environment):
 
 ```
-$ apt-get install libmarc-record-perl libmarc-file-marcmaker-perl zenity zenity-common gedit gedit-common gedit-plugins
+$ apt-get install libmarc-record-perl libmarc-file-marcmaker-perl zenity zenity-common gedit gedit-common gedit-plugins libclass-accessor-perl
 ```
 
 #### Running the application locally
@@ -74,7 +75,8 @@ The highlight syntax of MARCMaker is activated if you use **marc.lang** file. Yo
 
 #### EXTERNAL TOOLS
 [External tools plugin](https://wiki.gnome.org/Apps/Gedit/Plugins/ExternalTools) allows to execute the tools created for MARCGedit listed below:
-* MARC Maker -> convert MARCMaker records to MARC binary (ISO 2709) \[Ctrl-Alt-M\]
+* MARCMaker -> convert MARCMaker records to MARC binary (ISO 2709) \[Ctrl-Alt-M\]
+* MARCBreaker -> convert MARC binary (ISO 2709) to MARCMaker in plain text \[Ctrl-Alt-B\]
 * Field 005 Date and Time -> generate date in format of Representation of Dates and Times (ISO 8601) \[Ctrl-Alt-D\]
 * Change case -> Changes the case of characters in the selection \[Ctrl-Alt-C\]
 

@@ -1,12 +1,12 @@
 #!/usr/bin/perl
 # [Gedit Tool]
-# Name=MARC Maker
 # Shortcut=<Primary><Alt>m
-# Languages=marc
-# Applicability=all
 # Output=output-panel
-# Input=nothing
 # Save-files=nothing
+# Name=MARC Maker
+# Applicability=all
+# Languages=marc
+# Input=nothing
 
  #
  # MARC_Maker.pl
@@ -34,6 +34,15 @@ use strict;
 use warnings;
 use MARC::Batch;
 use MARC::File::MARCMaker;
+
+# Change @INC from inside the script
+# <https://perlmaven.com/how-to-create-a-perl-module-for-code-reuse>
+use File::Basename qw(dirname);
+use Cwd  qw(abs_path);
+use lib dirname(dirname abs_path $0) . '/tools';
+
+use MARCGedit::MARCMnemonics;
+use MARCGedit::File::Temp;
 
 # Open up zenity dialog without UI::Dialog::Backend::Zenity
 # Using backticks instead
@@ -79,16 +88,35 @@ if ($? == 0) {
     my $mrk_in = $ENV{'GEDIT_CURRENT_DOCUMENT_NAME'};
     my $mrc_out = $zenity_dialog;
 
+    # Open MRK file and replace mnemonics to a temp file
+    open( my $text_to_replace, "<", $mrk_in ) or die "Can't open file '$mrk_in' $!";
+
+    # Add file to scalar
+    my $mrk_content = do { local $/; <$text_to_replace>; };
+
+    # Convert mnemonics to characters
+    my $mrk = mnemonics_to_utf8($mrk_content);
+
+    # Changing MARC-8 to UTF-8 in LDR position 09
+    if ( $mrk =~ m/=LDR  .{9} / ){
+        $mrk =~ s/=LDR  .{9} /=LDR  00000nam a/g;
+        print STDERR "NOTE: Some of your records are coded MARC-8 and were updated to UTF-8\n" .
+                     "      Although records in screen remain the same.\n";
+    }
+    # Create a temp file and write record(s)
+    my $tmp_mrk = MARCGedit::File::Temp->new( {suffix => '.dat', dir => '/tmp/'} );
+    $tmp_mrk->write( $mrk );
+
     # If $mrc_out is defined then process the batch to MARCMaker
     if (defined $mrc_out){
         print "Processing: '$mrk_in'\n" .
               "Converting to MARC binary file: '$mrc_out'\n";
 
         # initialize $batch_mrk as new MARC::Batch object
-        my $batch_mrk = MARC::Batch->new( 'MARCMaker', $mrk_in );
+        my $batch_mrk = MARC::Batch->new( 'MARCMaker', $MARCGedit::File::Temp::filename );
 
         # open mrc (ISO2709) format output file
-        open my $OUTMRC, ">$mrc_out" or die "Can not open the file $mrc_out, $!";
+        open(my $OUTMRC, ">", $mrc_out) or die "Can not open the file $mrc_out, $!";
 
         # Iterating through a batch file
         my $rec_count = 0;
@@ -101,6 +129,8 @@ if ($? == 0) {
         print "'$rec_count' record(s) processed\n";
 
         close $OUTMRC;
+        # unlink $tmp_file;
+        $tmp_mrk->remove();
 
         # Info dialog, reporting the end of the process
         my @msg = (

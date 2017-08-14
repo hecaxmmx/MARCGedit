@@ -147,8 +147,7 @@ sub breaker {
                 push @mrk_record, "";
             }
             foreach my $subfield (@asubfields) {
-                my $subfield_encoded;
-                $subfield_encoded = encode( "utf8", @$subfield[1] );
+                my $subfield_encoded = encode( "utf8", @$subfield[1] );
                 if ( $self->{mnemonic} == 1 ) {
                     my $mnemonic = utf8_to_mnemonics($subfield_encoded);
                     push @mrk_record, "\$@$subfield[0]$mnemonic";

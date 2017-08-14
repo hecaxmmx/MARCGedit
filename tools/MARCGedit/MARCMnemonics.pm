@@ -32,7 +32,6 @@ BEGIN {
       qw(mnemonics_to_utf8 utf8_to_mnemonics BadMnemonics_to_RightMnemonics BadMnemonics_to_RightUTF8);
 }
 
-use utf8;
 use MARCGedit::Mnemonic::Mnemonics qw(mnemonics_to_character);
 use MARCGedit::Mnemonic::Characters qw(character_to_mnemonics);
 use MARCGedit::Mnemonic::BadMnemonics qw(bad_to_right);

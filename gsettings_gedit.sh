@@ -13,4 +13,5 @@ gsettings set org.gnome.gedit.preferences.editor ensure-trailing-newline true
 gsettings set org.gnome.gedit.preferences.editor highlight-current-line true
 gsettings set org.gnome.gedit.preferences.editor syntax-highlighting true
 gsettings set org.gnome.gedit.preferences.ui side-panel-visible false
-gsettings set org.gnome.gedit.preferences.encodings auto-detected "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+gsettings set org.gnome.gedit.preferences.encodings candidate-encodings "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+

@@ -6,8 +6,12 @@
     <text><![CDATA[=LDR  00000nam a2200000 i 4500
 =001  Control Number
 =003  OCS
-=005  YYYYMMDDHHMMSS.F
-=008  YYMMDD?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\000\\0\\LNG\\d
+=005  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+=008  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\000\\0\\LNG\\d
 =020  \\\$a
 =040  \\\$aOCS$beng$erda$cOCS
 =041  ?\\$a $h $b
@@ -16,7 +20,7 @@
 =082  04$a $b \$2
 =1xx  ?\\$a $d $eauthor.
 =240  10$a $l
-=245  ??$a $b $c
+=245  1?$a $b $c
 =246  ??$i $a
 =250  \\\$a
 =264  \1$a $b $c
@@ -39,9 +43,13 @@ $0]]></text>
     <text><![CDATA[=LDR  00000ntm a2200000 i 4500
 =001  Control Number
 =003  OCS
-=005  YYYYMMDDHHMMSS.F
+=005  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
 =006  m\\\\\\\\fq\\\\a\\\\\\\\\\\\\\\\
-=008  YYMMDDsDAT1\\\\\\\\CNT\a\\\\\\f\\bm\\\\f000\\0\\eng\\d
+=008  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>sDAT1\\\\\\\\CNT\a\\\\\\f\\bm\\\\f000\\0\\eng\\d
 =040  \\\$aOCS$beng$erda$cOCS
 =043  \\\$an-us---
 =050  \4$a
@@ -51,7 +59,9 @@ $0]]></text>
 =300  \\\$a leaves, unnumbered leaves of plates :$bmaps, plans, photographs ;$c31 cm
 =336  \\\$atext$btxt\$2rdacontent
 =337  \\\$aunmediated$bn\$2rdamedia
+=337  \\\$acomputer$bc\$2rdamedia
 =338  \\\$avolume$bnc\$2rdacarrier
+=338  \\\$acomputer dis$bcd\$2rdacarrier
 =500  \\\$aOriginally presented as the author’s thesis under title: ...
 =500  \\\$aRevision of the author’s thesis
 =502  \\\$b${1:M.A./Ph.D/M.S./Ed.D./Honors}$cUniversity of ...$dDATE.
@@ -72,8 +82,12 @@ $0]]></text>
     <text><![CDATA[=LDR  00000nas a2200000Ii 4500
 =001  Control Number
 =003  OCS
-=005  YYYYMMDDHHMMSS.F
-=008  YYMMDDcDAT19999CNT??\\?\\\\\\\\\\\\\\0\\\\\\\\0LNG\\d
+=005  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+=008  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>cDAT19999CNT??\\?\\\\\\\\\\\\\\0\\\\\\\\0LNG\\d
 =010  \\\$a
 =020  \\\$a
 =040  \\\$aOCS$beng$erda$cOCS
@@ -108,9 +122,13 @@ $0]]></text>
     <text><![CDATA[=LDR  00000nem a2200000Ii 4500
 =001  Control Number
 =003  OCS
-=005  YYYYMMDDHHMMSS.F
+=005  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
 =007  $a $b $d $e $f $g $h
-=008  YYMMDD?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\a\\\\\\\\\\0\\\\\\LNG\\d
+=008  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\a\\\\\\\\\\0\\\\\\LNG\\d
 =010  \\\$a
 =020  \\\$a
 =034  ?\\$a
@@ -144,9 +162,13 @@ $0]]></text>
     <text><![CDATA[=LDR  00000njm a2200000Ii 4500
 =001  Control Number
 =003  OCS
-=005  YYYYMMDDHHMMSS.F
+=005  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
 =007  $a $b $e $f $g $h $l $n
-=008  YYMMDD?DAT1\\\\\\\\CNT\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\LNG\\d
+=008  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\LNG\\d
 =010  \\\$a
 =024  7\$a \$2gtin-14
 =028  ??$a $b
@@ -185,8 +207,12 @@ $0]]></text>
     <text><![CDATA[=LDR  00000ncm a2200000 i 4500
 =001  Control Number
 =003  OCS
-=005  YYYYMMDDHHMMSS.F
-=008  YYMMDD?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\LNG\\d
+=005  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+=008  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\LNG\\d
 =010  \\\$a
 =020  \\\$a
 =028  ??$a $b
@@ -375,21 +401,47 @@ See http://oclc.org/bibformats/en/fixedfield.html for documentation:
 Copy the LDR field for Computer files if you do not have defined any:
 =LDR  00000nmm a2200000Ii 4500
 
-All records options
-Srce(39): ${1:d}
-MRec(38): ${2:#}
-Lang(35-37): ${3:spa}
-Ctry(15-17): ${4:es#}
-DtSt(06): ${5:s}
-Dates(07-14): Date1 ${6:DAT1} Date2 ${7:DAT2}
---------------------------------------------------------------
-Audn(22): ${8:#}
-Form(23): ${9:#}
-GPub(28): ${10:#}
-File(26): ${11:u}
+Date entered on file (00-05): ${1:Computer-generated}
+Srce(39):    ${2:[#-National bibliographic agency,c-Cooperative cataloging program,d-Other,u-Unknown,|-No attempt to code]}
+MRec(38):    ${3:[#-Not modified,d-Dashed-on information omitted,o-Completely romanized/printed cards romanized,r-Completely romanized/printed cards in script,s-Shortened,u-Unknown,x-Missing characters,|-No attempt to code]}
+Lang(35-37): ${4:eng} $<[4]: import re
+if not re.match("^[a-z|#]*$", $4):
+    return "ERROR! Only letters a-z are and nubmer sign # allowed!"
+elif (len($4) == 1 or len($4) == 2 or len($4) == 4 or len($4) == 5 or len($4) == 6):
+    return "ERROR! Only 3 characters exactly are allowed!"
+>
+Ctry(15-17): ${5:xxu} $<[5]: import re
+if not re.match("^[a-z|#]*$", $5):
+    return "ERROR! Only letters a-z and nubmer sign # are allowed!"
+elif (len($5) == 1 or len($5) == 2 or len($5) == 4 or len($5) == 5 or len($5) == 6):
+    return "ERROR! Only 3 characters exactly are allowed!"
+>
+
+DtSt(06):    ${6:[b-No dates given; B.C. date involved,e-Detailed date,i-Inclusive dates of collection,k-Range of years of bulk of collection,m-Multiple dates,n-Dates unknown,q-Questionable date,r-Reprint/reissue date and original date,s-Single known date/probable date,t-Publication date and copyright date,|-No attempt to code]}
+Dates(07-14):
+    Date1: ${7:####} $<[7]: import re
+if not re.match("^[0-9|#|\||u]*$", $7):
+    return "ERROR! Only numbers 0-9, u character, vertical line | and nubmer sign # are allowed!"
+elif (len($7) == 1 or len($7) == 2 or len($7) == 3 or len($7) == 5 or len($7) == 6 or len($7) == 7):
+    return "ERROR! Only 4 characters exactly are allowed!"
+>
+    Date2: ${8:####} $<[8]: import re
+if not re.match("^[0-9|#|\||u]*$", $8):
+    return "ERROR! Only numbers 0-9, u character, vertical line | and nubmer sign # are allowed!"
+elif (len($8) == 1 or len($8) == 2 or len($8) == 3 or len($8) == 5 or len($8) == 6 or len($8) == 7):
+    return "ERROR! Only 4 characters exactly are allowed!"
+>
+____________________________________________________________________________________________
+
+Audn(22): ${9:[#-Unknown or not specified,a-Preschool,b-Primary,c-Pre-adolescent,d-Adolescent,e-Adult,f-Specialized,g-General,j-Juvenile,|-No attempt to code]}
+Form(23): ${10:[#-Unknown or not specified,o-Online,q-Direct electronic,|-No attempt to code]}
+GPub(28): ${11:[#-Not a government publication,a-Autonomous or semi-autonomous component,c-Multilocal,f-Federal/national,i-International intergovernmental,l-Local,m-Multistate,o-Government publication-level undetermined,s-State/provincial/territorial/dependent/etc.,u-Unknown if item is government publication,z-Other,|-No attempt to code]}
+File(26): ${12:[a-Numeric data,b-Computer program,c-Representational,d-Document,e-Bibliographic data,f-Font,g-Game,h-Sound,i-Interactive multimedia,j-Online system or service,m-Combination,u-Unknown,z-Other,|-No attempt to code]}
 --------------------------------------------------------------
 
-=008  YYMMDD${5}${6}${7}${4}####${8}${9}##${11}#${10}######${3}${2}${1}
+=008  $<[1]: import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>$<[6]: return $6[:1]>$<[7]: return $7[:4].replace('#', '\\')>$<[8]: return $8[:4].replace('#', '\\')>$<[5]: return $5[:3].replace('#', '\\')>
 $0
 ]]></text>
   </snippet>
@@ -459,5 +511,83 @@ $0]]></text>
     <tag>FXL008auth</tag>
     <description>FXL&gt;Auth&gt;008 Corporate</description>
     <text><![CDATA[=008  YYMMDDna\acannaabn\\\\\\\\\\\\\\\\\\\\\\a\ana\\\\\\\\\d]]></text>
+  </snippet>
+  <snippet>
+    <tag>rancor</tag>
+    <description>Rancor-&gt;Book</description>
+    <text><![CDATA[000      nam a22      i 4500
+001 Control Number
+003 OCS
+005 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+008 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>sDAT1    CNT           000 0 LNG d
+020 _ _ ‡a
+040 _ _ ‡aOCS‡beng‡erda‡cOCS
+041 ? _ ‡a ‡h ‡b
+043 _ _ ‡a
+050 _ 4 ‡a
+082 0 4 ‡a ‡b ‡2
+1xx ? _ ‡a ‡d ‡eauthor.
+240 1 0 ‡a ‡l
+245 ? ? ‡a ‡b ‡c
+246 ? ? ‡i ‡a
+250 _ _ ‡a
+264 _ _ ‡a ‡b ‡c
+300 _ _ ‡apages :‡billustrations ;‡ccm
+336 _ _ ‡atext‡btxt‡2rdacontent
+337 _ _ ‡aunmediated‡bn‡2rdamedia
+338 _ _ ‡avolume‡bnc‡2rdacarrier
+490 0 _ ‡a ‡v
+500 _ _ ‡aInclude index.
+504 _ _ ‡aIncludes bibliographical references (pages ) and index.
+505 0 _ ‡a
+650 _ 0 ‡a
+700 1 _ ‡a ‡t
+710 ? _ ‡a ‡b
+942 _ _ ‡2ddc‡cBK
+$0]]></text>
+  </snippet>
+  <snippet>
+    <description>Rancor-&gt;Thesis</description>
+    <text><![CDATA[000      ntm a22      i 4500
+001 Control Number
+003 OCS
+005 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+006 m    fq  a        
+008 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>sDAT1    CNT a   f bm  f000 0 eng d
+040 _ _ ‡aOCS‡beng‡erda‡cOCS
+043 _ _ ‡an-us---
+050 _ 4 ‡a
+100 1 _ ‡a ‡d ‡eauthor.
+245 1 ? ‡a ‡b ‡c
+264 _ 0 ‡a ‡b ‡c
+300 _ _ ‡a leaves, unnumbered leaves of plates :‡bmaps, plans, photographs ;‡c31 cm
+336 _ _ ‡atext‡btxt‡2rdacontent
+337 _ _ ‡aunmediated‡bn‡2rdamedia
+337 _ _ ‡acomputer‡bc‡2rdamedia
+338 _ _ ‡avolume‡bnc‡2rdacarrier
+338 _ _ ‡acomputer disc‡bcd‡2rdacarrier
+500 _ _ ‡aOriginally presented as the author’s thesis under title: ...
+500 _ _ ‡aRevision of the author’s thesis
+502 _ _ ‡bM.A./Ph.D/M.S./Ed.D./Honors‡cUniversity of ...‡dDATE.
+504 _ _ ‡aIncludes bibliographical references (leaf ) and abstract.
+520 _ _ ‡a
+533 _ _ ‡aPhotocopy.‡b ‡c ‡dDATE‡e
+539 _ _ ‡as‡bDATE‡dCtry‡en
+610 2 0 ‡a
+650 _ 0 ‡a
+655 _ 7 ‡aAcademic theses.‡2lcgft
+700 1 _ ‡a
+700 1 _ ‡a ‡edegree supervisor.
+942 _ _ ‡2ddc‡cBK
+$0]]></text>
+    <tag>rancor</tag>
   </snippet>
 </snippets>

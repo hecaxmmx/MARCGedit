@@ -1,5 +1,5 @@
 # MARCGedit
-An optional MARCMaker and MARCBreaker Editor for Linux environment. MARC Gedit is powered by Gedit text editor.
+An optional MARCMaker and MARCBreaker Editor for Linux environment (Debian). MARC Gedit is powered by Gedit text editor.
 
 ## MARCGedit works with the following technology:
 * Gedit - official text editor of the GNOME desktop environment
@@ -48,18 +48,27 @@ $ bash install.sh
 1. Open Gedit
 2. Choose View -> Highlight -> MARC
 3. Insert a book record
-  * Type the word "record" and press tab + space
+  * Type the word "bibrecords" and press tab + space
   * A modal will show up with all options
   * Select book
   * Test with another type of record
 4. Insert a fixed field
-  * Type "fixed" and press tab + space
+  * Type "FXL008" and press tab + space
   * A modal will show up with all options
-  * Select Bib>008 Book (fixed)
+  * Select Bib>008 Book (FXL008)
   * Press tab to go to next position
   * Change data for each position
 5. Convert MARC Maker to MARC
   * Go to Tools -> External Tools -> MARC Maker
+
+## Support for Koha Rancor Editor
+1. Open Gedit
+2. Choose View -> Highlight -> MARC
+3. Insert a book record
+  * Type the word "rancor" and press tab + space
+  * A modal will show up with all options
+  * Select Book or Thesis.
+
 
 #### SNIPPETS
 MARCGedit use the [Gedit snippets plugin](https://wiki.gnome.org/Apps/Gedit/Plugins/Snippets)

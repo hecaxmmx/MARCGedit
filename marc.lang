@@ -28,14 +28,16 @@
     </metadata>
 
     <styles>
-        <style id="comment"            _name="Comment"             map-to="def:comment"/>
-        <style id="error"              _name="Error"               map-to="def:error"/>
-        <style id="record-first-field" _name="Keyword"             map-to="def:keyword"/>
-        <style id="organization"       _name="Orgazination Code"   map-to="def:type"/>
-        <style id="escaped-character"  _name="Escaped Character"   map-to="def:special-char"/>
-        <style id="fields"             _name="MARC fields"         map-to="def:decimal"/>
-        <style id="subfields"          _name="MARC subfields"      map-to="def:base-n-integer"/>
-        <style id="fxl"    _name="Fixed length fields" map-to="def:preprocessor"/>
+        <style id="comment"               _name="Comment"             map-to="def:comment"/>
+        <style id="error"                 _name="Error"               map-to="def:error"/>
+        <style id="record-first-field"    _name="Keyword"             map-to="def:keyword"/>
+        <style id="organization"          _name="Orgazination Code"   map-to="def:type"/>
+        <style id="escaped-character"     _name="Escaped Character"   map-to="def:special-char"/>
+        <style id="fields"                _name="MARC fields"         map-to="def:decimal"/>
+        <style id="fieldsRancor"          _name="MARC fields"         map-to="def:type"/>
+        <style id="subfields"             _name="MARC subfields"      map-to="def:base-n-integer"/>
+        <style id="fxl"                   _name="Fixed length fields" map-to="def:preprocessor"/>
+        <style id="subfieldsDoubleDagger" _name="DoubleDagger"        map-to="def:type"/>
     </styles>
 
     <definitions>
@@ -64,10 +66,22 @@
         </match>
     </context>
 
+    <context id="marc-tags2" style-ref="fieldsRancor">
+        <match extended="true">
+        ^[0-9]{3,3}
+        </match>
+    </context>
+
     <!-- MARC subfields -->
     <context id="marc-subfields" style-ref="subfields">
         <match extended="true">
         \$[a-z0-9]
+        </match>
+    </context>
+
+    <context id="marc-subfields-double-dagger" style-ref="subfieldsDoubleDagger">
+        <match extended="true">
+        \‡[a-z0-9]
         </match>
     </context>
 
@@ -800,7 +814,9 @@
             <context ref="local-notes"/>
             <context ref="uris"/>
             <context ref="marc-tags"/>
+            <context ref="marc-tags2"/>
             <context ref="marc-subfields"/>
+            <context ref="marc-subfields-double-dagger"/>
             <context ref="organization-code-source"/>
             <context ref="escape-marc-maker-braker"/>
             <context ref="fixed-length-fields"/>

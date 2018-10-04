@@ -48,26 +48,31 @@ $ bash install.sh
 1. Open Gedit
 2. Choose View -> Highlight -> MARC
 3. Insert a book record
-  * Type the word "bibrecords" and press tab + space
-  * A modal will show up with all options
-  * Select book
+  * Type the word "bibrecords" and press tab button
+  * A popup will show up with all options
+  * Select Book
   * Test with another type of record
-4. Insert a fixed field
-  * Type "FXL008" and press tab + space
-  * A modal will show up with all options
-  * Select Bib>008 Book (FXL008)
-  * Press tab to go to next position
-  * Change data for each position
-5. Convert MARC Maker to MARC
+4. Insert new fixed field
+  * Type "builder008" and press tab button
+  * A popup will show up with all options
+  * Select Bib>008 Book (builder008)
+  * Press tab button to move between coding positions
+  * Change data for each position (data coded in OCLC format)
+5. Insert new leader
+  * Type "builderLDR" and press tab button
+  * A popu will show up with all options
+  * Select LDR>Book (builderLDR)
+  * Press tab button to move between coding positions
+6. Convert MARC Maker to MARC
   * Go to Tools -> External Tools -> MARC Maker
 
 ## Support for Koha Rancor Editor
 1. Open Gedit
 2. Choose View -> Highlight -> MARC
 3. Insert a book record
-  * Type the word "rancor" and press tab + space
-  * A modal will show up with all options
-  * Select Book or Thesis.
+  * Type the word "rancor" and press tab button
+  * A popup will show up with all options
+  * Select rancor->Book.
 
 
 #### SNIPPETS
@@ -88,5 +93,6 @@ The highlight syntax of MARCMaker is activated if you use **marc.lang** file. Yo
 * MARCBreaker -> convert MARC binary (ISO 2709) to MARCMaker in plain text \[Ctrl-Alt-B\]
 * Field 005 Date and Time -> generate date in format of Representation of Dates and Times (ISO 8601) \[Ctrl-Alt-D\]
 * Change case -> Changes the case of characters in the selection \[Ctrl-Alt-C\]
+* Insert Double Dagger -> Insert double dagger for Rancor records as subfield delimiter \[Shift+Ctrl+D\]
 
 To execute those tools you need to go to Tools -> External Tools or execute by shortcut key.

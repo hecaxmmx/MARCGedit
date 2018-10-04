@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <snippets language="marc">
-  <snippet id="record-1">
+  <snippet>
     <tag>bibrecords</tag>
     <description>Bib&gt;Book</description>
     <text><![CDATA[=LDR  00000nam a2200000 i 4500
-=001  Control Number
-=003  OCS
+=001  <control number>
+=003  <control number identifier>
 =005  $<import datetime
 now = datetime.datetime.now()
 return now.strftime("%Y%m%d%H%M%S.0")>
@@ -13,7 +13,7 @@ return now.strftime("%Y%m%d%H%M%S.0")>
 now = datetime.datetime.now()
 return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\000\\0\\LNG\\d
 =020  \\\$a
-=040  \\\$aOCS$beng$erda$cOCS
+=040  \\\$a[organization code]$beng$erda$c[organization code]
 =041  ?\\$a $h $b
 =043  \\\$a
 =050  \4$a
@@ -37,31 +37,28 @@ return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\000\\0\\LNG\
 =710  ?\\$a $b
 $0]]></text>
   </snippet>
-  <snippet id="record-2">
+  <snippet>
     <tag>bibrecords</tag>
-    <description>Bib&gt;Theses</description>
+    <description>Bib&gt;Dissertations</description>
     <text><![CDATA[=LDR  00000ntm a2200000 i 4500
-=001  Control Number
-=003  OCS
+=001  <control number>
+=003  <control number identifier>
 =005  $<import datetime
 now = datetime.datetime.now()
 return now.strftime("%Y%m%d%H%M%S.0")>
-=006  m\\\\\\\\fq\\\\a\\\\\\\\\\\\\\\\
 =008  $<import datetime
 now = datetime.datetime.now()
-return now.strftime("%y%m%d")>sDAT1\\\\\\\\CNT\a\\\\\\f\\bm\\\\f000\\0\\eng\\d
-=040  \\\$aOCS$beng$erda$cOCS
+return now.strftime("%y%m%d")>sDAT1\\\\\\\\CNTa\\\\\\\\\\bm\\\\\\000\\0\\eng\\d
+=040  \\\$a[organization code]$beng$erda$c[organization code]
 =043  \\\$an-us---
 =050  \4$a
 =100  1\\$a $d $eauthor.
 =245  1?$a $b $c
 =264  \0$a $b $c
-=300  \\\$a leaves, unnumbered leaves of plates :$bmaps, plans, photographs ;$c31 cm
+=300  \\\$a leaves, unnumbered leaves of plates :$billustrations, maps, plans, photographs ;$c31 cm
 =336  \\\$atext$btxt\$2rdacontent
 =337  \\\$aunmediated$bn\$2rdamedia
-=337  \\\$acomputer$bc\$2rdamedia
 =338  \\\$avolume$bnc\$2rdacarrier
-=338  \\\$acomputer dis$bcd\$2rdacarrier
 =500  \\\$aOriginally presented as the author’s thesis under title: ...
 =500  \\\$aRevision of the author’s thesis
 =502  \\\$b${1:M.A./Ph.D/M.S./Ed.D./Honors}$cUniversity of ...$dDATE.
@@ -76,12 +73,12 @@ return now.strftime("%y%m%d")>sDAT1\\\\\\\\CNT\a\\\\\\f\\bm\\\\f000\\0\\eng\\d
 =700  1\\$a $edegree supervisor.
 $0]]></text>
   </snippet>
-  <snippet id="record-3">
+  <snippet>
     <tag>bibrecords</tag>
     <description>Bib&gt;Continuing Resources</description>
-    <text><![CDATA[=LDR  00000nas a2200000Ii 4500
-=001  Control Number
-=003  OCS
+    <text><![CDATA[=LDR  00000nas a2200000 i 4500
+=001  <control number>
+=003  <control number identifier>
 =005  $<import datetime
 now = datetime.datetime.now()
 return now.strftime("%Y%m%d%H%M%S.0")>
@@ -90,14 +87,14 @@ now = datetime.datetime.now()
 return now.strftime("%y%m%d")>cDAT19999CNT??\\?\\\\\\\\\\\\\\0\\\\\\\\0LNG\\d
 =010  \\\$a
 =020  \\\$a
-=040  \\\$aOCS$beng$erda$cOCS
+=040  \\\$a[organization code]$beng$erda$c[organization code]
 =041  ?\\$a $h $b
 =050  ?\\$a $b
 =090  \\\$a $b
 =049  \\\$a
 =1xx  ?\\$a
-=2xx  ??$a
 =210  1\\$a
+=222  \0$a
 =245  ??$a $b $c
 =246  ??$a
 =264  \1$a $b $c
@@ -116,23 +113,23 @@ return now.strftime("%y%m%d")>cDAT19999CNT??\\?\\\\\\\\\\\\\\0\\\\\\\\0LNG\\d
 =780  00$t $w
 $0]]></text>
   </snippet>
-  <snippet id="record-4">
+  <snippet>
     <tag>bibrecords</tag>
     <description>Bib&gt;Maps</description>
-    <text><![CDATA[=LDR  00000nem a2200000Ii 4500
-=001  Control Number
-=003  OCS
+    <text><![CDATA[=LDR  00000nem a2200000 i 4500
+=001  <control number>
+=003  <control number identifier>
 =005  $<import datetime
 now = datetime.datetime.now()
 return now.strftime("%Y%m%d%H%M%S.0")>
-=007  $a $b $d $e $f $g $h
+=007  aj canzn
 =008  $<import datetime
 now = datetime.datetime.now()
 return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\a\\\\\\\\\\0\\\\\\LNG\\d
 =010  \\\$a
 =020  \\\$a
 =034  ?\\$a
-=040  \\\$aOCS$beng$erda$cOCS
+=040  \\\$a[organization code]$beng$erda$c[organization code]
 =041  ?\\$a
 =052  \\\$a $b
 =090  \\\$a $b
@@ -156,12 +153,12 @@ return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\a\\\\\\\\\\0\\\\\\LN
 =7xx  ??$a $ecartographer.
 $0]]></text>
   </snippet>
-  <snippet id="record-5">
+  <snippet>
     <tag>bibrecords</tag>
     <description>Bib&gt;Sound Recording</description>
-    <text><![CDATA[=LDR  00000njm a2200000Ii 4500
-=001  Control Number
-=003  OCS
+    <text><![CDATA[=LDR  00000njm a2200000 i 4500
+=001  <control number>
+=003  <control number identifier>
 =005  $<import datetime
 now = datetime.datetime.now()
 return now.strftime("%Y%m%d%H%M%S.0")>
@@ -173,7 +170,7 @@ return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\L
 =024  7\$a \$2gtin-14
 =028  ??$a $b
 =033  ??$a $b $c
-=040  \\\$aOCS$beng$erda$cOCS
+=040  \\\$a[organization code]$beng$erda$c[organization code]
 =041  ?\\$a $d $h $b $e $g
 =049  \\\$a
 =050  ?\\$a $b
@@ -201,22 +198,23 @@ return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\L
 =7xx  ??$a
 $0]]></text>
   </snippet>
-  <snippet id="record-6">
+  <snippet>
     <tag>bibrecords</tag>
     <description>Bib&gt;Score</description>
     <text><![CDATA[=LDR  00000ncm a2200000 i 4500
-=001  Control Number
-=003  OCS
+=001  <control number>
+=003  <control number identifier>
 =005  $<import datetime
 now = datetime.datetime.now()
 return now.strftime("%Y%m%d%H%M%S.0")>
+=007  sd fsngnnmmned
 =008  $<import datetime
 now = datetime.datetime.now()
 return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\LNG\\d
 =010  \\\$a
 =020  \\\$a
 =028  ??$a $b
-=040  \\\$aOCS$beng$erda$cOCS
+=040  \\\$a[organization code]$beng$erda$c[organization code]
 =041  ?\\$a $d $h $b $e
 =049  \\\$a
 =050  ?\\$a $b
@@ -225,7 +223,7 @@ return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\L
 =240  ??$a $m $n
 =245  ??$a $b $c
 =246  ??$a
-=25x  \\\$a
+=250  \\\$a
 =264  \1$a $b $c
 =300  \\\$a1 score ( pages) ;$c cm
 =300  \\\$a1 audio disc ( min., sec.) ;$c4 3/4 in.
@@ -235,9 +233,10 @@ return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\L
 =337  \\\$aaudio\$2rdamedia
 =338  \\\$avolume\$2rdacarrier
 =338  \\\$aaudio disc\$2rdacarrier
-=347  \\\$aaudio file$bCD audio\$2rda
-=348  \\\$ascore$apart\$2rda
-=348  \\\$astudy score\$2rda
+=347  \\\$aaudio file\$2rdaft
+=347  \\\$bCD audio
+=348  \\\$ascore$apart\$2rdafnm
+=348  \\\$astudy score\$2rdafnm
 =382  01$a $e $n $s \$2lcmpt
 =490  0\$a $v
 =5xx  ?\\$a
@@ -249,20 +248,55 @@ return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\L
 =7xx  ??$a
 $0]]></text>
   </snippet>
-  <snippet id="ldr-1">
-    <tag>bibLDR</tag>
-    <description>LDR&gt;BKS</description>
-    <text><![CDATA[=LDR  00000nam a2200000 i 4500]]></text>
+  <snippet>
+    <tag>builderLDR</tag>
+    <description>LDR&gt;Book</description>
+    <text><![CDATA[LDR builder > Books...
+See OCLC documentation:
+    https://www.oclc.org/bibformats/en/fixedfield/008summary.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bdleader.html
+____________________________________________________________________________________________
+
+Logical Record Length(00-04): ${1:Computer-generated}
+Rec stat(05):  ${2:[a-Increase in encoding level,c-Corrected or revised,d-Deleted,n-New,p-Increase in encoding level from prepublication]}
+Type(06):      ${3:[a-Language material,t-Manuscript language material]}
+BLvl(07):      ${4:[a-Monographic component part,c-Collection,d-Subunit,m-Monograph/Item]}
+Ctrl(08):      ${5:[#-No specified type,a-Archival]}
+ELvl(17):      ${6:[#-Full level,1-Full level; material not examined,2-Less-than-full level; material not examined,3-Abbreviated level,4-Core level,5-Partial (preliminary) level,7-Minimal level,8-Prepublication level,u-Unknown,z-Not applicable,I-Full-level input by OCLC participants,K-Minimal-level input by OCLC participants,L-Added from a batch process,M-Added from a batch process,J-Deleted record]}
+Desc(18):      ${7:[#-Non-ISBD,a-AACR 2,c-ISBD punctuation omitted,i-ISBD punctuation included,n-Non-ISBD punctuation omitted,u-Unknown]}
+____________________________________________________________________________________________
+
+=LDR  00000$<[2]: return $2[:1]>$<[3]: return $3[:1]>$<[4]: return $4[:1]>$<[5]: return $5[:1].replace('#', ' ')>a2200000$<[6]: return $6[:1].replace('#', ' ')>$<[7]: return $7[:1].replace('#', ' ')> 4500
+$0]]></text>
   </snippet>
-  <snippet id="ldr-2">
-    <tag>authLDR</tag>
-    <description>LDR&gt;Auth</description>
-    <text><![CDATA[=LDR  00000nz  a2200000n  4500]]></text>
+  <snippet>
+    <tag>builderLDR</tag>
+    <description>LDR&gt;Authorities</description>
+    <text><![CDATA[LDR builder > Authorities...
+See OCLC documentation:
+    https://www.oclc.org/support/services/worldcat/documentation/authorities/authformat.en.html#afsi-recformat-fixed-field
+LOC documentation:
+    http://www.loc.gov/marc/authority/adleader.html
+____________________________________________________________________________________________
+
+Logical Record Length(00-04): ${1:Computer-generated}
+Rec stat(05):   ${2:[a-Increase in encoding level,c-Corrected or revised,d-Deleted,n-New,o-Obsolete,s-Deleted; heading split into two or more headings,x-Deleted; heading replaced by another heading]}
+Type(06):       Default to "z"
+Enc lvl(17):    ${3:[n-Complete authority record,o-Incomplete authority record]}
+
+=LDR  00000$<[2]: return $2[:1]>z  a2200000$<[3]: return $3[:1]>  4500
+$0]]></text>
   </snippet>
-  <snippet id="fixed-1">
-    <tag>FXL008</tag>
+  <snippet>
+    <tag>builder008</tag>
     <description>FXL&gt;008 Book</description>
-    <text><![CDATA[Field 008 > Books...    See http://oclc.org/bibformats/en/fixedfield.html for documentation:
+    <text><![CDATA[008 Builder > Books...
+See OCLC documentation:
+    http://oclc.org/bibformats/en/fixedfield.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bd008.html
+    http://www.loc.gov/marc/bibliographic/bd008b.html
 ____________________________________________________________________________________________
 
 Date entered on file (00-05): ${1:Computer-generated}
@@ -270,7 +304,7 @@ Srce(39):    ${2:[#-National bibliographic agency,c-Cooperative cataloging progr
 MRec(38):    ${3:[#-Not modified,d-Dashed-on information omitted,o-Completely romanized/printed cards romanized,r-Completely romanized/printed cards in script,s-Shortened,u-Unknown,x-Missing characters,|-No attempt to code]}
 Lang(35-37): ${4:eng} $<[4]: import re
 if not re.match("^[a-z|#]*$", $4):
-    return "ERROR! Only letters a-z are and nubmer sign # allowed!"
+    return "ERROR! Only letters a-z and nubmer sign # are allowed!"
 elif (len($4) == 1 or len($4) == 2 or len($4) == 4 or len($4) == 5 or len($4) == 6):
     return "ERROR! Only 3 characters exactly are allowed!"
 >
@@ -322,91 +356,93 @@ ________________________________________________________________________________
 
 =008  $<[1]: import datetime
 now = datetime.datetime.now()
-return now.strftime("%y%m%d")>$<[6]: return $6[:1]>$<[7]: return $7[:4].replace('#', '\\')>$<[8]: return $8[:4].replace('#', '\\')>$<[5]: return $5[:3].replace('#', '\\')>$<[9]: return $9[:1].replace('#', '\\')>$<[10]: return $10[:1].replace('#', '\\')>$<[11]: return $11[:1].replace('#', '\\')>$<[12]: return $12[:1].replace('#', '\\')>$<[13]: return $13[:1].replace('#', '\\')>$<[14]: return $14[:1].replace('#', '\\')>$<[15]: return $15[:1].replace('#', '\\')>$<[16]: return $16[:1].replace('#', '\\')>$<[17]: return $17[:1].replace('#', '\\')>$<[18]: return $18[:1].replace('#', '\\')>$<[19]: return $19[:1].replace('#', '\\')>$<[20]: return $20[:1]>$<[21]: return $21[:1]>$<[22]: return $22[:1]>|$<[23]: return $23[:1].replace('#', '\\')>$<[24]: return $24[:1].replace('#', '\\')>$<[4]: return $4[:3].replace('#', '\\')>$<[3]: return $3[:1].replace('#', '\\')>$<[2]: return $2[:1].replace('#', '\\')>
-$0
-]]></text>
-  </snippet>
-  <snippet id="fixed-2">
-    <tag>FXL008</tag>
-    <description>FXL&gt;008 Continuing Resources</description>
-    <text><![CDATA[Form 008 for Continuing resources...
-See http://oclc.org/bibformats/en/fixedfield.html for documentation:
-
-Copy the LDR field for Continuing resources if you do not have defined any:
-=LDR  00000nas a2200000Ii 4500
-
---------------------------------------------------------------
-All records options
-Srce(39): ${1:d}
-MRec(38): ${2:#}
-Lang(35-37): ${3:eng}
-Ctry(15-17): ${4:xxu}
-DtSt(06): ${5:c}
-Dates(07-14): Date1 ${6:DAT1} Date2 ${7:DAT2}
---------------------------------------------------------------
-Freq(18): ${8:|}
-Regl(19): ${9:|}
-SrTp(21): ${10:#}
-Orig(22): ${11:#}
---------------------------------------------------------------
-Form(23): ${12:#}
-EntW(24): ${13:#}
-Cont(25-27): Pos(25) ${14:#} Pos(26) ${15:#} Pos(27) ${16:#}
-GPub(28): ${17:#}
-Conf(29): ${18:0}
-Alph(33): ${19:#}
-S/L(34): ${20:0}
---------------------------------------------------------------
-
-=008  YYMMDD${5}${6}${7}${4}${8}${9}#${10}${11}${12}${13}${14}${15}${16}${17}${18}###${19}${20}${3}${2}${1}
+return now.strftime("%y%m%d")>$<[6]: return $6[:1]>$<[7]: return $7[:4].replace('#', '\\')>$<[8]: return $8[:4].replace('#', '\\')>$<[5]: return $5[:3].replace('#', '\\')>$<[9]: return $9[:1].replace('#', '\\')>$<[10]: return $10[:1].replace('#', '\\')>$<[11]: return $11[:1].replace('#', '\\')>$<[12]: return $12[:1].replace('#', '\\')>$<[13]: return $13[:1].replace('#', '\\')>$<[14]: return $14[:1].replace('#', '\\')>$<[15]: return $15[:1].replace('#', '\\')>$<[16]: return $16[:1].replace('#', '\\')>$<[17]: return $17[:1].replace('#', '\\')>$<[18]: return $18[:1].replace('#', '\\')>$<[19]: return $19[:1].replace('#', '\\')>$<[20]: return $20[:1]>$<[21]: return $21[:1]>$<[22]: return $22[:1]>$<return "\\">$<[23]: return $23[:1].replace('#', '\\')>$<[24]: return $24[:1].replace('#', '\\')>$<[4]: return $4[:3].replace('#', '\\')>$<[3]: return $3[:1].replace('#', '\\')>$<[2]: return $2[:1].replace('#', '\\')>
 $0]]></text>
   </snippet>
-  <snippet id="fixed-3">
-    <tag>FXL008</tag>
-    <description>FXL&gt;008 Maps</description>
-    <text><![CDATA[Form 008 for Maps...
-See http://oclc.org/bibformats/en/fixedfield.html for documentation:
-
-Copy the LDR field for Maps if you do not have defined any:
-=LDR  00000nem a2200000Ii 4500
-
-All records options
-Srce(39): ${1:d}
-MRec(38): ${2:#}
-Lang(35-37): ${3:spa}
-Ctry(15-17): ${4:es#}
-DtSt(06): ${5:s}
-Dates(07-14): Date1 ${6:DAT1} Date2 ${7:DAT2}
---------------------------------------------------------------
-Relf(18-21): Pos18 ${8:#} Pos19 ${9:#} Pos20 ${10:#} Pos21 ${11:#}
-Proj(22-23): ${12:##}
-CrTp(25): ${13:a}
---------------------------------------------------------------
-GPub(28): ${14:#}
-Form(29): ${15:#}
-Indx(31): ${16:0}
-SpFm(33-34): Pos33 ${17:#} Pos 34 ${18:#}
---------------------------------------------------------------
-
-=008  YYMMDD${5}${6}${7}${4}${8}${9}${10}${11}${12}#${13}##${14}${15}#${16}#${17}${18}${3}${2}${1}
-$0
-]]></text>
-  </snippet>
-  <snippet id="fixed-4">
-    <tag>FXL008</tag>
-    <description>FXL&gt;008 Computer files</description>
-    <text><![CDATA[Form 008 for Computer files...
-See http://oclc.org/bibformats/en/fixedfield.html for documentation:
-
-Copy the LDR field for Computer files if you do not have defined any:
-=LDR  00000nmm a2200000Ii 4500
+  <snippet>
+    <tag>builder008</tag>
+    <description>FXL&gt;008 Continuing Resources</description>
+    <text><![CDATA[008 Builder > Continuing Resources...
+See OCLC documentation:
+    http://oclc.org/bibformats/en/fixedfield.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bd008.html
+    http://www.loc.gov/marc/bibliographic/bd008s.html
+____________________________________________________________________________________________
 
 Date entered on file (00-05): ${1:Computer-generated}
 Srce(39):    ${2:[#-National bibliographic agency,c-Cooperative cataloging program,d-Other,u-Unknown,|-No attempt to code]}
 MRec(38):    ${3:[#-Not modified,d-Dashed-on information omitted,o-Completely romanized/printed cards romanized,r-Completely romanized/printed cards in script,s-Shortened,u-Unknown,x-Missing characters,|-No attempt to code]}
 Lang(35-37): ${4:eng} $<[4]: import re
 if not re.match("^[a-z|#]*$", $4):
-    return "ERROR! Only letters a-z are and nubmer sign # allowed!"
+    return "ERROR! Only letters a-z and nubmer sign # are allowed!"
+elif (len($4) == 1 or len($4) == 2 or len($4) == 4 or len($4) == 5 or len($4) == 6):
+    return "ERROR! Only 3 characters exactly are allowed!"
+>
+Ctry(15-17): ${5:xxu} $<[5]: import re
+if not re.match("^[a-z|#]*$", $5):
+    return "ERROR! Only letters a-z and nubmer sign # are allowed!"
+elif (len($5) == 1 or len($5) == 2 or len($5) == 4 or len($5) == 5 or len($5) == 6):
+    return "ERROR! Only 3 characters exactly are allowed!"
+>
+
+DtSt(06):    ${6:[c-Continuing resource currently published,d-Continuing resource ceased publication,u-Continuing resource status unknown]}
+Dates(07-14):
+    Date1: ${7:####} $<[7]: import re
+if not re.match("^[0-9|#|\||u]*$", $7):
+    return "ERROR! Only numbers 0-9, u character, vertical line | and nubmer sign # are allowed!"
+elif (len($7) == 1 or len($7) == 2 or len($7) == 3 or len($7) == 5 or len($7) == 6 or len($7) == 7):
+    return "ERROR! Only 4 characters exactly are allowed!"
+>
+    Date2: ${8:####} $<[8]: import re
+if not re.match("^[0-9|#|\||u]*$", $8):
+    return "ERROR! Only numbers 0-9, u character, vertical line | and nubmer sign # are allowed!"
+elif (len($8) == 1 or len($8) == 2 or len($8) == 3 or len($8) == 5 or len($8) == 6 or len($8) == 7):
+    return "ERROR! Only 4 characters exactly are allowed!"
+>
+____________________________________________________________________________________________
+
+Freq(18): ${9:[#-No determinable frequency,a-Annual,b-Bimonthly,c-Semiweekly,d-Daily,e-Biweekly,f-Semiannual,g-Biennial,h-Triennial,i-Three times a week,j-Three times a month,k-Continuously updated,m-Monthly,q-Quarterly,s-Semimonthly,t-Three times a year,u-Unknown,w-Weekly,z-Other,|-No attempt to code]}
+Regl(19): ${10:[n-Normalized irregular,r-Regular,u-Unknown,x-Completely irregular,|-No attempt to code]}
+SrTp(21): ${11:[#-None of the following,d-Updating database,l-Updating loose-leaf,m-Monographic series,n-Newspaper,p-Periodical,w-Updating Web site,|-No attempt to code]}
+Orig(22): ${12:[#-None of the following,a-Microfilm,b-Microfiche,c-Microopaque,d-Large print,e-Newspaper format,f-Braille,o-Online,q-Direct electronic,s-Electronic,|-No attempt to code]}
+____________________________________________________________________________________________
+
+Form(23): ${13:[#-None of the following,a-Microfilm,b-Microfiche,c-Microopaque,d-Large print,f-Braille,o-Online,q-Direct electronic,r-Regular print reproduction,s-Electronic,|-No attempt to code]}
+EntW(24): ${14:[#-Not specified,a-Abstracts/summaries,b-Bibliographies,c-Catalogs,d-Dictionaries,e-Encyclopedias,f-Handbooks,g-Legal articles,h-Biography,i-Indexes,k-Discographies,l-Legislation,m-Theses,n-Surveys of literature in a subject area,o-Reviews,p-Programmed texts,q-Filmographies,r-Directories,s-Statistics,t-Technical reports,u-Standards/specifications,v-Legal cases and case notes,w-Law reports and digests,y-Yearbooks,z-Treaties,5-Calendars,6-Comics/graphic novels,|-No attempt to code]}
+Cont(25-27):
+    Pos 25: ${15:[#-Not specified,a-Abstracts/summaries,b-Bibliographies,c-Catalogs, d-Dictionaries, e-Encyclopedias,f-Handbooks,g-Legal articles,i-Indexes,j-Patent document,k-Discographies,l-Legislation,m-Theses,n-Surveys of literature in a subject area,o-Reviews,p-Programmed texts,q-Filmographies,r-Directories,s-Statistics,t-Technical reports,u-Standards/specifications,v-Legal cases and case notes,w-Law reports and digests,y-Yearbooks,z-Treaties,2-Offprints,5-Calendars,6-Comics/graphic novels,|-No attempt to code]}
+    Pos 26: ${16:[#-Not specified,a-Abstracts/summaries,b-Bibliographies,c-Catalogs, d-Dictionaries, e-Encyclopedias,f-Handbooks,g-Legal articles,i-Indexes,j-Patent document,k-Discographies,l-Legislation,m-Theses,n-Surveys of literature in a subject area,o-Reviews,p-Programmed texts,q-Filmographies,r-Directories,s-Statistics,t-Technical reports,u-Standards/specifications,v-Legal cases and case notes,w-Law reports and digests,y-Yearbooks,z-Treaties,2-Offprints,5-Calendars,6-Comics/graphic novels,|-No attempt to code]}
+    Pos 27: ${17:[#-Not specified,a-Abstracts/summaries,b-Bibliographies,c-Catalogs, d-Dictionaries, e-Encyclopedias,f-Handbooks,g-Legal articles,i-Indexes,j-Patent document,k-Discographies,l-Legislation,m-Theses,n-Surveys of literature in a subject area,o-Reviews,p-Programmed texts,q-Filmographies,r-Directories,s-Statistics,t-Technical reports,u-Standards/specifications,v-Legal cases and case notes,w-Law reports and digests,y-Yearbooks,z-Treaties,2-Offprints,5-Calendars,6-Comics/graphic novels,|-No attempt to code]}
+
+GPub(28): ${18:[#-Not a government publication,a-Autonomous or semi-autonomous component,c-Multilocal,f-Federal/national,i-International intergovernmental,l-Local,m-Multistate,o-Government publication-level undetermined,s-State/provincial/territorial/dependent/etc.,u-Unknown if item is government publication,z-Other,|-No attempt to code]}
+Conf(29): ${19:[0-Not a conference publication,1-Conference publication,|-No attempt to code]}
+Alph(33): ${20:[#-No alphabet or script given/No key title,a-Basic Roman,b-Extended Roman,c-Cyrillic,d-Japanese,e-Chinese,f-Arabic,g-Greek,h-Hebrew,i-Thai,j-Devanagari,k-Korean,l-Tamil,u-Unknown,z-Other,|-No attempt to code]}
+S/L(34): ${21:[0-Successive entry,1-Latest entry,2-Integrated entry,|-No attempt to code]}
+____________________________________________________________________________________________
+
+=008  $<[1]: import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>$<[6]: return $6[:1]>$<[7]: return $7[:4].replace('#', '\\')>$<[8]: return $8[:4].replace('#', '\\')>$<[5]: return $5[:3].replace('#', '\\')>$<[9]: return $9[:1].replace('#', '\\')>$<[10]: return $10[:1].replace('#', '\\')>$<return "\\">$<[11]: return $11[:1].replace('#', '\\')>$<[12]: return $12[:1].replace('#', '\\')>$<[13]: return $13[:1].replace('#', '\\')>$<[14]: return $14[:1].replace('#', '\\')>$<[1]: return $15[:1].replace('#', '\\')>$<[16]: return $16[:1].replace('#', '\\')>$<[17]: return $17[:1].replace('#', '\\')>$<[18]: return $18[:1].replace('#', '\\')>$<[19]: return $19[:1].replace('#', '\\')>$<return "\\\\\\">$<[20]: return $20[:1].replace('#', '\\')>$<[21]: return $21[:1].replace('#', '\\')>$<[4]: return $4[:3].replace('#', '\\')>$<[3]: return $3[:1].replace('#', '\\')>$<[2]: return $2[:1].replace('#', '\\')>
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>builder008</tag>
+    <description>FXL&gt;008 Maps</description>
+    <text><![CDATA[008 Builder > Maps...
+See OCLC documentation:
+    http://oclc.org/bibformats/en/fixedfield.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bd008.html
+    http://www.loc.gov/marc/bibliographic/bd008p.html
+____________________________________________________________________________________________
+
+Date entered on file (00-05): ${1:Computer-generated}
+Srce(39):    ${2:[#-National bibliographic agency,c-Cooperative cataloging program,d-Other,u-Unknown,|-No attempt to code]}
+MRec(38):    ${3:[#-Not modified,d-Dashed-on information omitted,o-Completely romanized/printed cards romanized,r-Completely romanized/printed cards in script,s-Shortened,u-Unknown,x-Missing characters,|-No attempt to code]}
+Lang(35-37): ${4:eng} $<[4]: import re
+if not re.match("^[a-z|#]*$", $4):
+    return "ERROR! Only letters a-z and nubmer sign # are allowed!"
 elif (len($4) == 1 or len($4) == 2 or len($4) == 4 or len($4) == 5 or len($4) == 6):
     return "ERROR! Only 3 characters exactly are allowed!"
 >
@@ -433,61 +469,163 @@ elif (len($8) == 1 or len($8) == 2 or len($8) == 3 or len($8) == 5 or len($8) ==
 >
 ____________________________________________________________________________________________
 
+Relf(18-21):
+    Pos18 ${9:[#-No relief shown,a-Contours,b-Shading,c-Gradient and bathymetric tints,d-Hachures,e-Bathymetry/soundings,f-Form lines,g-Spot heights,i-Pictorially,j-Land forms,k-Bathymetry/isolines,m-Rock drawings,z-Other,|-No attempt to code]}
+    Pos19 ${10:[#-No relief shown,a-Contours,b-Shading,c-Gradient and bathymetric tints,d-Hachures,e-Bathymetry/soundings,f-Form lines,g-Spot heights,i-Pictorially,j-Land forms,k-Bathymetry/isolines,m-Rock drawings,z-Other,|-No attempt to code]}
+    Pos20 ${11:[#-No relief shown,a-Contours,b-Shading,c-Gradient and bathymetric tints,d-Hachures,e-Bathymetry/soundings,f-Form lines,g-Spot heights,i-Pictorially,j-Land forms,k-Bathymetry/isolines,m-Rock drawings,z-Other,|-No attempt to code]}
+    Pos21 ${12:[#-No relief shown,a-Contours,b-Shading,c-Gradient and bathymetric tints,d-Hachures,e-Bathymetry/soundings,f-Form lines,g-Spot heights,i-Pictorially,j-Land forms,k-Bathymetry/isolines,m-Rock drawings,z-Other,|-No attempt to code]}
+
+Proj(22-23): ${13:[##-Projection not specified,aa-Aitoff,ab-Gnomic,ac-Lambert's azimuthal equal area,ad-Orthographic,ae-Azimuthal equidistant,af-Stereographic,ag-General vertical near-sided,am-Modified stereographic for Alaska,an-Chamberlin trimetric,ap-Polar stereographic,au-Azimuthal, specific type unknown,az-Azimuthal/other,ba-Gall,bb-Goode's homolographic,bc-Lambert's cylindrical equal area,bd-Mercator,be-Miller,bf-Mollweide,bg-Sinusoidal,bh-Transverse Mercator,bi-Gauss-Kruger,bj-Equirectangular,bk-Krovak,bl-Cassini-Soldner,bo-Oblique Mercator,br-Robinson,bs-Space oblique Mercator,bu-Cylindrical;specific type unknown,bz-Cylindrical;other,ca-Albers equal area,cb-Bonne,cc-Lambert's conformal conic,ce-Equidistant conic,cp-Polyconic,cu-Conic;specific type unknown,cz-Conic;other,da-Armadillo,db-Butterfly,dc-Eckert,dd-Goode's homolosine,de-Miller's bipolar oblique conformal conic,df-Van Der Grinten,dg-Dimaxion,dh-Cordiform,dl-Lambert conformal,zz-Other,||-No attempt to code]}
+CrTp(25): ${14:[a-Single map,b-Map series,c-Map serial,d-Globe,e-Atlas,f-Separate supplement to another work,g-Bound as part of another work,u-Unknown,z-Other,|-No attempt to code]}
+____________________________________________________________________________________________
+
+GPub(28): ${15:[#-Not a government publication,a-Autonomous or semi-autonomous component,c-Multilocal,f-Federal/national,i-International intergovernmental,l-Local,m-Multistate,o-Government publication-level undetermined,s-State/provincial/territorial/dependent/etc.,u-Unknown if item is government publication,z-Other,|-No attempt to code]}
+Form(29): ${16:[#-None of the following,a-Microfilm,b-Microfiche,c-Microopaque,d-Large print,f-Braille,o-Online,q-Direct electronic,r-Regular print reproduction,s-Electronic,|-No attempt to code]}
+Indx(31): ${17:[0-No index,1-Index present,|-No attempt to code]}
+SpFm(33-34):
+    Pos33 ${18:[#-No specified special format characteristics,e-Manuscript,j-Picture card/post card,k-Calendar,l-Puzzle,n-Game,o-Wall map,p-Playing cards,r-Loose-leaf,z-Other,|-No attempt to code]}
+    Pos34 ${19:[#-No specified special format characteristics,e-Manuscript,j-Picture card/post card,k-Calendar,l-Puzzle,n-Game,o-Wall map,p-Playing cards,r-Loose-leaf,z-Other,|-No attempt to code]}
+____________________________________________________________________________________________
+
+=008  $<[1]: import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>$<[6]: return $6[:1]>$<[7]: return $7[:4].replace('#', '\\')>$<[8]: return $8[:4].replace('#', '\\')>$<[5]: return $5[:3].replace('#', '\\')>$<[9]: return $9[:1].replace('#', '\\')>$<[10]: return $10[:1].replace('#', '\\')>$<[11]: return $11[:1].replace('#', '\\')>$<[12]: return $12[:1].replace('#', '\\')>$<[13]: return $13[:2].replace('#', '\\')>$<return "\\">$<[14]: return $14[:1].replace('#', '\\')>$<return "\\\\">$<[15]: return $15[:1].replace('#', '\\')>$<[16]: return $16[:1].replace('#', '\\')>$<return "\\">$<[17]: return $17[:1].replace('#', '\\')>$<return "\\">$<[18]: return $18[:1].replace('#', '\\')>$<[19]: return $19[:1].replace('#', '\\')>$<[4]: return $4[:3].replace('#', '\\')>$<[3]: return $3[:1].replace('#', '\\')>$<[2]: return $2[:1].replace('#', '\\')>
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>builder008</tag>
+    <description>FXL&gt;008 Computer Files</description>
+    <text><![CDATA[008 Builder > Computer Files...
+See OCLC documentation:
+    http://oclc.org/bibformats/en/fixedfield.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bd008.html
+    http://www.loc.gov/marc/bibliographic/bd008c.html
+____________________________________________________________________________________________
+
+Date entered on file (00-05): ${1:Computer-generated}
+Srce(39):    ${2:[#-National bibliographic agency,c-Cooperative cataloging program,d-Other,u-Unknown,|-No attempt to code]}
+MRec(38):    ${3:[#-Not modified,d-Dashed-on information omitted,o-Completely romanized/printed cards romanized,r-Completely romanized/printed cards in script,s-Shortened,u-Unknown,x-Missing characters,|-No attempt to code]}
+Lang(35-37): ${4:eng} $<[4]: import re
+if not re.match("^[a-z|#]*$", $4):
+    return "ERROR! Only letters a-z and nubmer sign # are allowed!"
+elif (len($4) == 1 or len($4) == 2 or len($4) == 4 or len($4) == 5 or len($4) == 6):
+    return "ERROR! Only 3 characters exactly are allowed!"
+>
+Ctry(15-17): ${5:xxu} $<[5]: import re
+if not re.match("^[a-z|#]*$", $5):
+    return "ERROR! Only letters a-z and nubmer sign # are allowed!"
+elif (len($5) == 1 or len($5) == 2 or len($5) == 4 or len($5) == 5 or len($5) == 6):
+    return "ERROR! Only 3 characters exactly are allowed!"
+>
+
+DtSt(06):    ${6:[b-No dates given; B.C. date involved,e-Detailed date,i-Inclusive dates of collection,k-Range of years of bulk of collection,m-Multiple dates,n-Dates unknown,p-Date of distribution/release/issue and production/recording session when different,q-Questionable date,r-Reprint/reissue date and original date,s-Single known date/probable date,t-Publication date and copyright date,|-No attempt to code]}
+Dates(07-14):
+    Date1: ${7:####} $<[7]: import re
+if not re.match("^[0-9|#|\||u]*$", $7):
+    return "ERROR! Only numbers 0-9, u character, vertical line | and nubmer sign # are allowed!"
+elif (len($7) == 1 or len($7) == 2 or len($7) == 3 or len($7) == 5 or len($7) == 6 or len($7) == 7):
+    return "ERROR! Only 4 characters exactly are allowed!"
+>
+    Date2: ${8:####} $<[8]: import re
+if not re.match("^[0-9|#|\||u]*$", $8):
+    return "ERROR! Only numbers 0-9, u character, vertical line | and nubmer sign # are allowed!"
+elif (len($8) == 1 or len($8) == 2 or len($8) == 3 or len($8) == 5 or len($8) == 6 or len($8) == 7):
+    return "ERROR! Only 4 characters exactly are allowed!"
+>
+____________________________________________________________________________________________
+
 Audn(22): ${9:[#-Unknown or not specified,a-Preschool,b-Primary,c-Pre-adolescent,d-Adolescent,e-Adult,f-Specialized,g-General,j-Juvenile,|-No attempt to code]}
 Form(23): ${10:[#-Unknown or not specified,o-Online,q-Direct electronic,|-No attempt to code]}
 GPub(28): ${11:[#-Not a government publication,a-Autonomous or semi-autonomous component,c-Multilocal,f-Federal/national,i-International intergovernmental,l-Local,m-Multistate,o-Government publication-level undetermined,s-State/provincial/territorial/dependent/etc.,u-Unknown if item is government publication,z-Other,|-No attempt to code]}
 File(26): ${12:[a-Numeric data,b-Computer program,c-Representational,d-Document,e-Bibliographic data,f-Font,g-Game,h-Sound,i-Interactive multimedia,j-Online system or service,m-Combination,u-Unknown,z-Other,|-No attempt to code]}
---------------------------------------------------------------
+____________________________________________________________________________________________
 
 =008  $<[1]: import datetime
 now = datetime.datetime.now()
-return now.strftime("%y%m%d")>$<[6]: return $6[:1]>$<[7]: return $7[:4].replace('#', '\\')>$<[8]: return $8[:4].replace('#', '\\')>$<[5]: return $5[:3].replace('#', '\\')>
-$0
-]]></text>
-  </snippet>
-  <snippet id="fixed-5">
-    <tag>FXL008</tag>
-    <description>FXL&gt;008 Music</description>
-    <text><![CDATA[Form 008 for Music...
-See http://oclc.org/bibformats/en/fixedfield.html for documentation:
-
-Copy the LDR field for Music if you do not have defined any:
-For Notated music (Score or SCO)
-=LDR  00000ncm a2200000Ii 4500
-For Manuscript notated music (Score or SCO)
-=LDR  00000ndm a2200000Ii 4500
-For Nonmusical sound recording (Sound Recording or REC)
-=LDR  00000nim a2200000Ii 4500
-For Musical sound recording (Sound Recording or REC)
-=LDR  00000njm a2200000Ii 4500
-
-All records options
-Srce(39): ${1:d}
-MRec(38): ${2:#}
-Lang(35-37): ${3:spa}
-Ctry(15-17): ${4:es#}
-DtSt(06): ${5:s}
-Dates(07-14): Date1 ${6:DAT1} Date2 ${7:DAT2}
---------------------------------------------------------------
-Comp(18-19): Pos18 ${8:u} Pos18 ${9:u}
-FMus(20): ${10:u} Default value for REC "n" and SCO "u"
-Part(21): ${11:#} Default value for REC "n" and SCO "#"
-Audn(22): ${12:#}
---------------------------------------------------------------
-Form(23): ${13:#}
-AccM(24-29): Pos24 ${14:#} Pos25 ${15:#} Pos26 ${16:#} Pos27 ${17:#} Pos28 ${18:#} Pos29 ${19:#}
-LTxt(30-31): Pos30 ${20:n} Pos31 ${21:#} Default value for REC "##" and SCO "n#"
-TrAr(33): ${22:#} Default value for REC "n" and SCO "#"
---------------------------------------------------------------
-
-=008  YYMMDD${5}${6}${7}${4}${8}${9}${10}${11}${12}${13}${14}${15}${16}${17}${18}${19}${20}${21}#${22}#${3}${2}${1}
+return now.strftime("%y%m%d")>$<[6]: return $6[:1]>$<[7]: return $7[:4].replace('#', '\\')>$<[8]: return $8[:4].replace('#', '\\')>$<[5]: return $5[:3].replace('#', '\\')>$<return "\\\\\\\\">$<[9]: return $9[:1].replace('#', '\\')>$<[10]: return $10[:1].replace('#', '\\')>$<return "\\\\">$<[12]: return $12[:1].replace('#', '\\')>$<return "\\">$<[11]: return $11[:1].replace('#', '\\')>$<return "\\\\\\\\\\\\">$<[4]: return $4[:3].replace('#', '\\')>$<[3]: return $3[:1].replace('#', '\\')>$<[2]: return $2[:1].replace('#', '\\')>
 $0]]></text>
   </snippet>
-  <snippet id="rec-auth-1">
+  <snippet>
+    <tag>builder008</tag>
+    <description>FXL&gt;008 Music</description>
+    <text><![CDATA[008 Builder > Music...
+See OCLC documentation:
+    http://oclc.org/bibformats/en/fixedfield.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bd008.html
+    http://www.loc.gov/marc/bibliographic/bd008m.html
+____________________________________________________________________________________________
+
+Date entered on file (00-05): ${1:Computer-generated}
+Srce(39):    ${2:[#-National bibliographic agency,c-Cooperative cataloging program,d-Other,u-Unknown,|-No attempt to code]}
+MRec(38):    ${3:[#-Not modified,d-Dashed-on information omitted,o-Completely romanized/printed cards romanized,r-Completely romanized/printed cards in script,s-Shortened,u-Unknown,x-Missing characters,|-No attempt to code]}
+Lang(35-37): ${4:eng} $<[4]: import re
+if not re.match("^[a-z|#]*$", $4):
+    return "ERROR! Only letters a-z and nubmer sign # are allowed!"
+elif (len($4) == 1 or len($4) == 2 or len($4) == 4 or len($4) == 5 or len($4) == 6):
+    return "ERROR! Only 3 characters exactly are allowed!"
+>
+Ctry(15-17): ${5:xxu} $<[5]: import re
+if not re.match("^[a-z|#]*$", $5):
+    return "ERROR! Only letters a-z and nubmer sign # are allowed!"
+elif (len($5) == 1 or len($5) == 2 or len($5) == 4 or len($5) == 5 or len($5) == 6):
+    return "ERROR! Only 3 characters exactly are allowed!"
+>
+
+DtSt(06):    ${6:[b-No dates given; B.C. date involved,e-Detailed date,i-Inclusive dates of collection,k-Range of years of bulk of collection,m-Multiple dates,n-Dates unknown,q-Questionable date,r-Reprint/reissue date and original date,s-Single known date/probable date,t-Publication date and copyright date,|-No attempt to code]}
+Dates(07-14):
+    Date1: ${7:####} $<[7]: import re
+if not re.match("^[0-9|#|\||u]*$", $7):
+    return "ERROR! Only numbers 0-9, u character, vertical line | and nubmer sign # are allowed!"
+elif (len($7) == 1 or len($7) == 2 or len($7) == 3 or len($7) == 5 or len($7) == 6 or len($7) == 7):
+    return "ERROR! Only 4 characters exactly are allowed!"
+>
+    Date2: ${8:####} $<[8]: import re
+if not re.match("^[0-9|#|\||u]*$", $8):
+    return "ERROR! Only numbers 0-9, u character, vertical line | and nubmer sign # are allowed!"
+elif (len($8) == 1 or len($8) == 2 or len($8) == 3 or len($8) == 5 or len($8) == 6 or len($8) == 7):
+    return "ERROR! Only 4 characters exactly are allowed!"
+>
+____________________________________________________________________________________________
+
+Comp(18-19): ${9:[an-Anthems,bd-Ballads,bg-Bluegrass music,bl-Blues,bt-Ballets,ca-Chaconnes,cb-Chants/Other religions,cc-Chant/Christian,cg-Concerti grossi,ch-Chorales,cl-Chorale preludes,cn-Canons and rounds,co-Concertos,cp-Chansons/polyphonic,cr-Carols,cs-Chance compositions,ct-Cantatas,cy-Country music,cz-Canzonas,df-Dance forms,dv-Divertimentos/serenades/cassations/divertissements/and notturni,fg-Fugues,fl-Flamenco,fm-Folk music,ft-Fantasias,gm-Gospel music,hy-Hymns,jz-Jazz,mc-Musical revues and comedies,md-Madrigals,mi-Minuets,mo-Motets,mp-Motion picture music,mr-Marches,ms-Masses,mu-Multiple forms,mz-Mazurkas,nc-Nocturnes,nn-Not applicable,op-Operas,or-Oratorios,ov-Overtures,pg-Program music,pm-Passion music,po-Polonaises,pp-Popular music,pr-Preludes,ps-Passacaglias,pt-Part-songs,pv-Pavans,rc-Rock music,rd-Rondos,rg-Ragtime music,ri-Ricercars,rp-Rhapsodies,rq-Requiems,sd-Square dance music,sg-Songs,sn-Sonatas,sp-Symphonic poems,st-Studies and exercises,su-Suites,sy-Symphonies,tc-Toccatas,tl-Teatro lirico,ts-Trio-sonatas,uu-Unknown,vi-Villancicos,vr-Variations,wz-Waltzes,za-Zarzuelas,zz-Other,||-No attempt to code]}
+FMus(20): ${10:[a-Full score,b-Miniature or study score,c-Accompaniment reduced for keyboard,d-Voice score with accompaniment omitted,e-Condensed score or piano-conductor score,g-Close score,h-Chorus score,i-Condensed score,j-Performer-conductor part,k-Vocal score,l-Score,m-Multiple score formats,n-Not applicable,p-Piano score,u-Unknown,z-Other,|-No attempt to code]}
+Part(21): ${11:[#-No parts in hand or not specified,d-Instrumental and vocal parts,e-Instrumental parts,f-Vocal parts,n-Not applicable,u-Unknown,|-No attempt to code]}
+Audn(22): ${12:[#-Unknown or not specified,a-Preschool,b-Primary,c-Pre-adolescent,d-Adolescent,e-Adult,f-Specialized,g-General,j-Juvenile,|-No attempt to code]}
+____________________________________________________________________________________________
+
+Form(23): ${13:[#-None of the following,a-Microfilm,b-Microfiche,c-Microopaque,d-Large print,f-Braille,o-Online,q-Direct electronic,r-Regular print reproduction,s-Electronic,|-No attempt to code]}
+AccM(24-29):
+    Pos24 ${14:[#-No accompanying matter,a-Discography,b-Bibliography,c-Thematic index,d-Libretto or text,e-Biography of composer or author,f-Biography of performer or history of ensemble,g-Technical and/or historical information on instruments,h-Technical information on music,i-Historical information,k-Ethnological information,r-Instructional materials,s-Music,z-Other,|-No attempt to code]}
+    Pos25 ${15:[#-No accompanying matter,a-Discography,b-Bibliography,c-Thematic index,d-Libretto or text,e-Biography of composer or author,f-Biography of performer or history of ensemble,g-Technical and/or historical information on instruments,h-Technical information on music,i-Historical information,k-Ethnological information,r-Instructional materials,s-Music,z-Other,|-No attempt to code]}
+    Pos26 ${16:[#-No accompanying matter,a-Discography,b-Bibliography,c-Thematic index,d-Libretto or text,e-Biography of composer or author,f-Biography of performer or history of ensemble,g-Technical and/or historical information on instruments,h-Technical information on music,i-Historical information,k-Ethnological information,r-Instructional materials,s-Music,z-Other,|-No attempt to code]}
+    Pos27 ${17:[#-No accompanying matter,a-Discography,b-Bibliography,c-Thematic index,d-Libretto or text,e-Biography of composer or author,f-Biography of performer or history of ensemble,g-Technical and/or historical information on instruments,h-Technical information on music,i-Historical information,k-Ethnological information,r-Instructional materials,s-Music,z-Other,|-No attempt to code]}
+    Pos28 ${18:[#-No accompanying matter,a-Discography,b-Bibliography,c-Thematic index,d-Libretto or text,e-Biography of composer or author,f-Biography of performer or history of ensemble,g-Technical and/or historical information on instruments,h-Technical information on music,i-Historical information,k-Ethnological information,r-Instructional materials,s-Music,z-Other,|-No attempt to code]}
+    Pos29 ${19:[#-No accompanying matter,a-Discography,b-Bibliography,c-Thematic index,d-Libretto or text,e-Biography of composer or author,f-Biography of performer or history of ensemble,g-Technical and/or historical information on instruments,h-Technical information on music,i-Historical information,k-Ethnological information,r-Instructional materials,s-Music,z-Other,|-No attempt to code]}
+
+LTxt(30-31):
+    Pos30 ${20:[#-Item is a music sound recording,a-Autobiography,b-Biography,c-Conference proceedings,d-Drama,e-Essays,f-Fiction,g-Reporting,h-History,i-Instruction,j-Language instruction,k-Comedy,l-Lectures/speeches,m-Memoirs,n-Not applicable,o-Folktales,p-Poetry,r-Rehearsals,s-Sounds,t-Interviews,z-Other,|-No attempt to code]}
+    Pos31 ${21:[#-Item is a music sound recording,a-Autobiography,b-Biography,c-Conference proceedings,d-Drama,e-Essays,f-Fiction,g-Reporting,h-History,i-Instruction,j-Language instruction,k-Comedy,l-Lectures/speeches,m-Memoirs,n-Not applicable,o-Folktales,p-Poetry,r-Rehearsals,s-Sounds,t-Interviews,z-Other,|-No attempt to code]}
+
+TrAr(33): ${22:[#-Not arrangement or transposition or not specified,a-Transposition,b-Arrangement,c-Both transposed and arranged,n-Not applicable,u-Unknown,|-No attempt to code]}
+____________________________________________________________________________________________
+
+=008  $<[1]: import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>$<[6]: return $6[:1]>$<[7]: return $7[:4].replace('#', '\\')>$<[8]: return $8[:4].replace('#', '\\')>$<[5]: return $5[:3].replace('#', '\\')>$<[9]: return $9[:2]>$<[10]: return $10[:1]>$<[11]: return $11[:1].replace('#', '\\')>$<[12]: return $12[:1].replace('#', '\\')>$<[13]: return $13[:1].replace('#', '\\')>$<[14]: return $14[:1].replace('#', '\\')>$<[15]: return $15[:1].replace('#', '\\')>$<[16]: return $16[:1].replace('#', '\\')>$<[17]: return $17[:1].replace('#', '\\')>$<[18]: return $18[:1].replace('#', '\\')>$<[19]: return $19[:1].replace('#', '\\')>$<[20]: return $20[:1].replace('#', '\\')>$<[21]: return $21[:1].replace('#', '\\')>$<return "\\">$<[22]: return $22[:1].replace('#', '\\')>$<return "\\">$<[4]: return $4[:3].replace('#', '\\')>$<[3]: return $3[:1].replace('#', '\\')>$<[2]: return $2[:1].replace('#', '\\')>
+$0]]></text>
+  </snippet>
+  <snippet>
     <text><![CDATA[=LDR  00000nz  a2200000n  4500
-=003  OCS
-=005  YYYYMMDDHHMMSS.F
-=008  YYMMDDin\\anznnbabn\\\\\\\\\\\\\\\\\\\\\\a\\ana\\\\\\\\\\d
+=001  <control number>
+=003  <control number identifier>
+=005  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+=008  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>in\\anznnbabn\\\\\\\\\\\\\\\\\\\\\\a\\ana\\\\\\\\\\d
 =024  7\\$a \$2lcsh
 =083  04$a \$221
 =150  \\\$a
@@ -498,26 +636,78 @@ $0]]></text>
 =667  \\\$aRecord generated for validation purposes.
 =670  \\\$aWork cat.:
 =680  \\\$i $a
-=681  \\\$i $a]]></text>
+=681  \\\$i $a
+$0]]></text>
     <tag>authrecords</tag>
     <description>Auth&gt;Topical Term</description>
   </snippet>
-  <snippet id="auth_fixed-1">
-    <tag>FXL008auth</tag>
-    <description>FXL&gt;Auth&gt;008 Term</description>
-    <text><![CDATA[=008  YYMMDDin\\anznnbabn\\\\\\\\\\\\\\\\\\\\\\a\\ana\\\\\\\\\\d]]></text>
+  <snippet>
+    <tag>builderLDR</tag>
+    <description>LDR&gt;Computer Files</description>
+    <text><![CDATA[LDR builder > Computer Files...
+See OCLC documentation:
+    https://www.oclc.org/bibformats/en/fixedfield/008summary.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bdleader.html
+____________________________________________________________________________________________
+
+Logical Record Length(00-04): ${1:Computer-generated}
+Rec stat(05):  ${2:[a-Increase in encoding level,c-Corrected or revised,d-Deleted,n-New,p-Increase in encoding level from prepublication]}
+Type(06):      ${3:[m-Computer file]}
+BLvl(07):      ${4:[a-Monographic component part,b-Serial component part,c-Collection,d-Subunit,i-Integrating resource,m-Monograph/Item,s-Serial]}
+Ctrl(08):      ${5:[#-No specified type,a-Archival]}
+ELvl(17):      ${6:[#-Full level,1-Full level; material not examined,2-Less-than-full level; material not examined,3-Abbreviated level,4-Core level,5-Partial (preliminary) level,7-Minimal level,8-Prepublication level,u-Unknown,z-Not applicable,I-Full-level input by OCLC participants,K-Minimal-level input by OCLC participants,L-Added from a batch process,M-Added from a batch process,J-Deleted record]}
+Desc(18):      ${7:[#-Non-ISBD,a-AACR 2,c-ISBD punctuation omitted,i-ISBD punctuation included,n-Non-ISBD punctuation omitted,u-Unknown]}
+____________________________________________________________________________________________
+
+=LDR  00000$<[2]: return $2[:1]>$<[3]: return $3[:1]>$<[4]: return $4[:1]>$<[5]: return $5[:1].replace('#', ' ')>a2200000$<[6]: return $6[:1].replace('#', ' ')>$<[7]: return $7[:1].replace('#', ' ')> 4500
+$0]]></text>
   </snippet>
-  <snippet id="auth_fixed-2">
-    <tag>FXL008auth</tag>
-    <description>FXL&gt;Auth&gt;008 Corporate</description>
-    <text><![CDATA[=008  YYMMDDna\acannaabn\\\\\\\\\\\\\\\\\\\\\\a\ana\\\\\\\\\d]]></text>
+  <snippet>
+    <tag>builder008</tag>
+    <description>FXL&gt;008 Authorities</description>
+    <text><![CDATA[008 Builder > Authorities...
+See OCLC documentation:
+    https://www.oclc.org/support/services/worldcat/documentation/authorities/authformat.en.html
+LOC documentation:
+    http://www.loc.gov/marc/authority/ad008.html
+____________________________________________________________________________________________
+
+Date entered on file (00-05): ${1:Computer-generated}
+
+Geo subd(06):             ${2:[#-Not subdivided geographically,d-Subdivided geographically-direct,i-Subdivided geographically-indirect,n-Not applicable,|-No attempt to code]}
+Roman(07):                ${3:[a-International standard,b-National standard,c-National library association standard,d-National library or bibliographic agency standard,e-Local standard,f-Standard of unknown origin,g-Conventional romanization or conventional form of name in language of cataloging agency,n-Not applicable,|-No attempt to code]}
+Language of catalog(08):  ${4:[#-No information provided,b-English and French,e-English only,f-French only,|-No attempt to code]}
+Auth/Ref(09):             ${5:[a-Established heading,b-Untraced reference,c-Traced reference,d-Subdivision,e-Node label,f-Established heading and subdivision,g-Reference and subdivision,|-No attempt to code]}
+Rules(10):                ${6:[a-Earlier rules,b-AACR 1,c-AACR 2,d-AACR 2 compatible heading,z-Other,n-Not applicable,|-No attempt to code]}
+Subj(11):                 ${7:[a-Library of Congress Subject Headings,b-LC subject headings for children's literature,c-Medical Subject Headings,d-National Agricultural Library subject authority file,k-Canadian Subject Headings,n-Not applicable,r-Art and Architecture Thesaurus,s-Sears List of Subject Heading,v-Répertoire de vedettes-matière,z-Other,|-No attempt to code]}
+Series(12):               ${8:[a-Monographic series,b-Multipart item,c-Series-like phrase,n-Not applicable,z-Other,|-No attempt to code]}
+Ser num(13):              ${9:[a-Numbered,b-Unnumbered,c-Numbering varies,n-Not applicable,|-No attempt to code]}
+Name use(14):             ${10:[a-Appropriate,b-Not appropriate,|-No attempt to code]}
+Subj use(15):             ${11:[a-Appropriate,b-Not appropriate,|-No attempt to code]}
+Ser use(16):              ${12:[a-Appropriate,b-Not appropriate,|-No attempt to code]}
+Subd type(17):            ${13:[a-Topical,b-Form,c-Chronological,d-Geographic,e-Language,n-Not applicable,|-No attempt to code]}
+Govt agn(28):             ${14:[#-Not a government agency,a-Autonomous or semi-autonomous component,c-Multilocal,f-Federal/national,i-International intergovernmental,l-Local,m-Multistate,o-Government agency-type undetermined,s-State, provincial, territorial, dependent, etc.,u-Unknown if heading is government agency,z-Other,|-No attempt to code]}
+Ref status(29):           ${15:[a-Tracings are consistent with the heading,b-Tracings are not necessarily consistent with the heading,n-Not applicable,|-No attempt to code]}
+Upd status(31):           ${16:[a-Record can be used,b-Record is being updated,|-No attempt to code]}
+Name(32):                 ${17:[a-Differentiated personal name,b-Undifferentiated personal name,n-Not applicable,|-No attempt to code]}
+Auth status(33):          ${18:[a-Fully established,b-Memorandum,c-Provisional,d-Preliminary,n-Not applicable,|-No attempt to code]}
+Mod rec(38):              ${19:[#-Not modified,s-Shortened,x-Missing characters,|-No attempt to code ]}
+Source(39):               ${20:[#-National bibliographic agency,c-Cooperative cataloging program,d-Other,u-Unknown,|-No attempt to code]}
+____________________________________________________________________________________________
+
+
+=008  $<[1]: import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>$<[2]: return $2[:1].replace('#', '\\')>$<[3]: return $3[:1]>$<[4]: return $4[:1].replace('#', '\\')>$<[5]: return $5[:1]>$<[6]: return $6[:1]>$<[7]: return $7[:1]>$<[8]: return $8[:1]>$<[9]: return $9[:1]>$<[10]: return $10[:1]>$<[11]: return $11[:1]>$<[12]: return $12[:1]>$<[13]: return $13[:1]>$<return "\\\\\\\\\\\\\\\\\\\\">$<[14]: return $14[:1].replace('#', '\\')>$<[15]: return $15[:1]>$<return "\\">$<[16]: return $16[:1]>$<[17]: return $17[:1]>$<[18]: return $18[:1]>$<return "\\\\\\\\">$<[19]: return $19[:1].replace('#', '\\')>$<[20]: return $20[:1].replace('#', '\\')>
+$0]]></text>
   </snippet>
   <snippet>
     <tag>rancor</tag>
     <description>Rancor-&gt;Book</description>
     <text><![CDATA[000      nam a22      i 4500
-001 Control Number
-003 OCS
+001 <control number>
+003 <control number identifier>
 005 $<import datetime
 now = datetime.datetime.now()
 return now.strftime("%Y%m%d%H%M%S.0")>
@@ -525,7 +715,7 @@ return now.strftime("%Y%m%d%H%M%S.0")>
 now = datetime.datetime.now()
 return now.strftime("%y%m%d")>sDAT1    CNT           000 0 LNG d
 020 _ _ ‡a
-040 _ _ ‡aOCS‡beng‡erda‡cOCS
+040 _ _ ‡a[organization code]‡beng‡erda‡c[organization code]
 041 ? _ ‡a ‡h ‡b
 043 _ _ ‡a
 050 _ 4 ‡a
@@ -551,32 +741,29 @@ return now.strftime("%y%m%d")>sDAT1    CNT           000 0 LNG d
 $0]]></text>
   </snippet>
   <snippet>
-    <description>Rancor-&gt;Thesis</description>
+    <description>Rancor-&gt;Dissertations</description>
     <text><![CDATA[000      ntm a22      i 4500
-001 Control Number
-003 OCS
+001 <control number>
+003 <control number identifier>
 005 $<import datetime
 now = datetime.datetime.now()
 return now.strftime("%Y%m%d%H%M%S.0")>
-006 m    fq  a        
 008 $<import datetime
 now = datetime.datetime.now()
-return now.strftime("%y%m%d")>sDAT1    CNT a   f bm  f000 0 eng d
-040 _ _ ‡aOCS‡beng‡erda‡cOCS
+return now.strftime("%y%m%d")>sDAT1    CNTa     bm   000 0 eng d
+040 _ _ ‡a[organization code]‡bspa‡erda‡c[organization code]
 043 _ _ ‡an-us---
 050 _ 4 ‡a
 100 1 _ ‡a ‡d ‡eauthor.
 245 1 ? ‡a ‡b ‡c
 264 _ 0 ‡a ‡b ‡c
-300 _ _ ‡a leaves, unnumbered leaves of plates :‡bmaps, plans, photographs ;‡c31 cm
+300 _ _ ‡a leaves, unnumbered leaves of plates :‡billustrations, maps, plans, photographs ;‡c31 cm
 336 _ _ ‡atext‡btxt‡2rdacontent
 337 _ _ ‡aunmediated‡bn‡2rdamedia
-337 _ _ ‡acomputer‡bc‡2rdamedia
 338 _ _ ‡avolume‡bnc‡2rdacarrier
-338 _ _ ‡acomputer disc‡bcd‡2rdacarrier
 500 _ _ ‡aOriginally presented as the author’s thesis under title: ...
 500 _ _ ‡aRevision of the author’s thesis
-502 _ _ ‡bM.A./Ph.D/M.S./Ed.D./Honors‡cUniversity of ...‡dDATE.
+502 _ _ ‡b${1:M.A./Ph.D/M.S./Ed.D./Honors}‡cUniversity of ...‡dDATE.
 504 _ _ ‡aIncludes bibliographical references (leaf ) and abstract.
 520 _ _ ‡a
 533 _ _ ‡aPhotocopy.‡b ‡c ‡dDATE‡e
@@ -586,8 +773,734 @@ return now.strftime("%y%m%d")>sDAT1    CNT a   f bm  f000 0 eng d
 655 _ 7 ‡aAcademic theses.‡2lcgft
 700 1 _ ‡a
 700 1 _ ‡a ‡edegree supervisor.
-942 _ _ ‡2ddc‡cBK
+942 _ _ ‡2ddc‡cDIS
 $0]]></text>
     <tag>rancor</tag>
+  </snippet>
+  <snippet>
+    <description>Rancor-&gt;Continuing Resources</description>
+    <tag>rancor</tag>
+    <text><![CDATA[000      nas a22      i 4500
+001 <control number>
+003 <control number identifier>
+005 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+008 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>cDAT19999CNT?? ?       0    0LNG d
+010 _ _ ‡a
+020 _ _ ‡a
+040 _ _ ‡a[organization code]‡beng‡erda‡c[organization code]
+041 ? _ ‡a ‡h ‡b
+050 ? _ ‡a ‡b
+090 _ _ ‡a ‡b
+049 _ _ ‡a
+1xx ? _ ‡a
+210 1 _ ‡a
+222 _ 0 ‡a
+245 ? ? ‡a ‡b ‡c
+246 ? ? ‡a
+264 _ 1 ‡a ‡b ‡c
+300 _ _ ‡a ‡b ‡c
+300 _ _ ‡avolumes ;‡ccm
+310 _ _ ‡a ‡b
+321 _ _ ‡a ‡b
+336 _ _ ‡atext‡btxt‡2rdacontent
+337 _ _ ‡aunmediated‡bn‡2rdamedia
+338 _ _ ‡avolume‡bnc‡2rdacarrier
+362 ? _ ‡a
+5xx ? _ ‡a
+588 _ _ ‡a
+6xx ? ? ‡a
+7xx ? ? ‡a
+780 0 0 ‡t ‡w
+942 _ _ ‡2ddc‡cCR
+$0]]></text>
+  </snippet>
+  <snippet>
+    <description>Rancor-&gt;Maps</description>
+    <tag>rancor</tag>
+    <text><![CDATA[000      nem a22      i 4500
+001 <control number>
+003 <control number identifier>
+005 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+007 aj canzn
+008 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>?DAT1    CNT       a     0   LNG d
+010 _ _ ‡a
+020 _ _ ‡a
+034 ? _ ‡a
+040 _ _ ‡a[organization code]‡beng‡erda‡c[organization code]
+041 ? _ ‡a
+052 _ _ ‡a ‡b
+090 _ _ ‡a ‡b
+049 _ _ ‡a
+1xx ? _ ‡a ‡ecartographer.
+245 ? ? ‡a ‡b ‡c
+246 ? ? ‡a
+255 _ _ ‡a ‡b ‡c ‡d ‡e
+264 _ 1 ‡a ‡b ‡c
+300 _ _ ‡amaps :‡bcolor ; ‡ccm
+336 _ _ ‡acartographic image‡2rdacontent
+337 _ _ ‡aunmediated‡2rdamedia
+338 _ _ ‡asheet‡2rdacarrier
+340 _ _ ‡dmanuscript
+490 0 _ ‡a ‡v
+5xx ? _ ‡a
+6xx ? ? ‡a
+655 _ 7 ‡aMaps.‡2lcgft
+655 _ 7 ‡aThematic maps.‡2lcgft
+655 _ 7 ‡aManuscript maps.‡2lcgft
+7xx ? ? ‡a ‡ecartographer.
+942 _ _ ‡2ddc‡cMP
+$0]]></text>
+  </snippet>
+  <snippet>
+    <description>Rancor-&gt;Score</description>
+    <tag>rancor</tag>
+    <text><![CDATA[000      ncm a22      i 4500
+001 <control number>
+003 <control number identifier>
+005 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+007 sd fsngnnmmned
+008 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>?DAT1    CNT            n    LNG d
+010 _ _ ‡a
+020 _ _ ‡a
+028 ? ? ‡a ‡b
+040 _ _ ‡a[organization code]‡beng‡erda‡c[organization code]
+041 ? _ ‡a ‡d ‡h ‡b ‡e
+049 _ _ ‡a
+050 ? _ ‡a ‡b
+090 _ _ ‡a ‡b
+1xx ? _ ‡a ‡d
+240 ? ? ‡a ‡m ‡n
+245 ? ? ‡a ‡b ‡c
+246 ? ? ‡a
+250 _ _ ‡a
+264 _ 1 ‡a ‡b ‡c
+300 _ _ ‡a1 score ( pages) ;‡c cm
+300 _ _ ‡a1 audio disc ( min., sec.) ;‡c4 3/4 in.
+336 _ _ ‡anotated music‡2rdacontent
+336 _ _ ‡aperformed music‡2rdacontent
+337 _ _ ‡aunmediated‡2rdamedia
+337 _ _ ‡aaudio‡2rdamedia
+338 _ _ ‡avolume‡2rdacarrier
+338 _ _ ‡aaudio disc‡2rdacarrier
+347 _ _ ‡aaudio file‡2rdaft
+347 _ _ ‡bCD audio
+348 _ _ ‡ascore‡apart‡2rdafnm
+348 _ _ ‡astudy score‡2rdafnm
+382 0 1 ‡a ‡e ‡n ‡s ‡2lcmpt
+490 0 _ ‡a ‡v
+5xx ? _ ‡a
+511 0 _ ‡a
+518 _ _ ‡o ‡p
+546 _ _ ‡a ‡b
+6xx _ _ ‡a
+655 _ 7 ‡aScores.‡2lcgft
+7xx ? ? ‡a
+942 _ _ ‡2ddc‡cMU
+$0]]></text>
+  </snippet>
+  <snippet>
+    <description>Rancor-&gt;Sound Recording</description>
+    <tag>rancor</tag>
+    <text><![CDATA[000      njm a22      i 4500
+001 <control number>
+003 <control number identifier>
+005 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+007 ‡a ‡b ‡e ‡f ‡g ‡h ‡l ‡n
+008 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>?DAT1    CNT  n              LNG d
+010 _ _ ‡a
+024 7 _ ‡a ‡2gtin-14
+028 ? ? ‡a ‡b
+033 ? ? ‡a ‡b ‡c
+040 _ _ ‡a[organization code]‡beng‡erda‡c[organization code]
+041 ? _ ‡a ‡d ‡h ‡b ‡e ‡g
+049 _ _ ‡a
+050 ? _ ‡a ‡b
+090 _ _ ‡a ‡b
+1xx ? _ ‡a
+240 ? ? ‡a ‡m ‡n
+245 ? ? ‡a ‡b ‡c
+246 ? ? ‡a
+264 _ 1 ‡a ‡b ‡c
+300 _ _ ‡a ‡b ‡c
+306 _ _ ‡a
+336 _ _ ‡aperformed music‡2rdacontent
+336 _ _ ‡aspoken word‡2rdacontent
+337 _ _ ‡aaudio‡2rdamedia
+338 _ _ ‡aaudio disc‡2‡rdacarrier
+344 _ _ ‡adigital‡boptical‡gmono‡2rda
+347 _ _ ‡aaudio file‡bCD audio‡2rda
+382 _ _ ‡b ‡n ‡a ‡e ‡2lcmpt
+490 0 _ ‡a ‡v
+5xx ? _ ‡a
+511 0 _ ‡a
+518 _ _ ‡o ‡d ‡p
+6xx ? ? ‡a
+655 _ 7 ‡a ‡2lcgft
+7xx ? ? ‡a
+942 _ _ ‡2ddc‡cMU
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>rancor</tag>
+    <description>Rancor-&gt;Computer Files</description>
+    <text><![CDATA[000      nmm a22      i 4500
+001 <control number>
+003 <control number identifier>
+005 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+007 co cgannnanaaa
+008 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>?DAT1    CNT     q  ?        LNG d
+024 1 _ ‡a
+028 5 0 ‡a ‡b
+040 _ _ ‡a[organization code]‡beng‡erda‡c[organization code]
+1xx 1 _ ‡a
+245 1 ? ‡a ‡b ‡c
+250 _ _ ‡a
+264 _ 1 ‡a ‡b ‡c
+264 _ 4 ‡c©
+300 _ _ ‡a computer disks :‡bsound, color ;‡c4 3/4 in.
+336 _ _ ‡atwo-dimensional moving image‡2rdacontent
+336 _ _ ‡acomputer program‡2rdacontent
+337 _ _ ‡acomputer‡2rdamedia
+338 _ _ ‡acomputer disc‡2rdacarrier
+344 _ _ ‡adigital‡2rdatr
+344 _ _ ‡boptical‡2rdarm
+344 _ _ ‡hDolby‡2rdaspc
+346 _ _ ‡bNTSC‡2rdabs
+380 _ _ ‡aVideo games
+538 _ _ ‡aSystem requirements:
+508 _ _ ‡aDeveloped by ...
+538 _ _ ‡aDisc characteristics: DVD-ROM.
+500 _ _ ‡aTitle from disc label.
+500 _ _ ‡aBooklet ( pages : illustrations ; cm) laid in container.
+520 _ _ ‡a
+521 _ _ ‡a
+521 8 _ ‡aESRB rating:
+655 _ 0 ‡aComputer adventure games.
+655 _ 0 ‡aComputer war games.
+655 _ 0 ‡aVideo games.
+710 2 _ ‡a
+753 _ _ ‡c
+942 _ _ ‡2ddc‡cCF
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>bibrecords</tag>
+    <description>Bib&gt;Computer Files</description>
+    <text><![CDATA[=LDR  00000nmm a2200000 i 4500
+=001  <control number>
+=003  <control number identifier>
+=005  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+=007  co cgannnanaaa
+=008  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\\\\\\\q\\\\?\\\\\\\\\\\\\\\\LNG\\d
+=024  1\$a
+=028  50$a $b
+=040  \\\$a[organization code]$beng$erda$c[organization code]
+=1xx  1\\$a
+=245  1?$a $b $c
+=250  \\\$a
+=264  \1$a $b $c
+=264  \4$c©
+=300  \\\$a computer disks :$bsound, color ;$c4 3/4 in.
+=336  \\\$atwo-dimensional moving image\$2rdacontent
+=336  \\\$acomputer program\$2rdacontent
+=337  \\\$acomputer\$2rdamedia
+=338  \\\$acomputer disc\$2rdacarrier
+=344  \\\$adigital\$2rdatr
+=344  \\\$boptical\$2rdarm
+=344  \\\$hDolby\$2rdaspc
+=346  \\\$bNTSC\$2rdabs
+=380  \\\$aVideo games
+=538  \\\$aSystem requirements:
+=508  \\\$aDeveloped by ...
+=538  \\\$aDisc characteristics: DVD-ROM.
+=500  \\\$aTitle from disc label.
+=500  \\\$aBooklet ( pages : illustrations ; cm) laid in container.
+=520  \\\$a
+=521  \\\$a
+=521  8\\$aESRB rating:
+=655  \0$aComputer adventure games.
+=655  \0$aComputer war games.
+=655  \0$aVideo games.
+=710  2\\$a
+=753  \\\$c
+=942  \\\$2ddc$cCF
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>bibrecords</tag>
+    <description>Bib&gt;Visual Materials</description>
+    <text><![CDATA[=LDR       ngm a22      i 4500
+=001  <control number>
+=003  <control number identifier>
+=005  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+=007  vd cvaizq
+=008  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT---\\\\\\\\\\\\\\\\\\\\\\\\vlLNG d
+=024  1\\$a
+=028  42$a $b
+=040  \\\$a[organization code]$beng$erda$c[organization code]
+=041  1\\$a $h
+=046  \\\$k
+=130  0\\$a $l
+=245  10$a $b $c
+=246  30$a
+=257  \\\$a \$2naf
+=264  \1$a $b $c
+=264  \4$c©
+=300  \\\$a videodisc ( min.) :$bsound, color ;$c4 3/4 in.
+=336  \\\$atwo-dimensional moving image\$2rdacontent
+=337  \\\$avideo\$2rdamedia
+=338  \\\$avideodisc\$2rdacarrier
+=344  \\\$adigital\$2rdatr
+=344  \\\$boptical\$2rdarm
+=344  \\\$gsurround\$2rdacpc
+=344  \\\$hDolby\$2rdaspc
+=346  \\\$bNTSC\$2rdabs
+=347  \\\$avideo file\$2rdaft
+=347  \\\$bDVD video
+=347  \\\$eall regions\$2rdare
+=380  \\\$aMotion picture.
+=546  \\\$a
+=538  \\\$aDisc characteristics: Recorded DVD.
+=518  \\\$a
+=508  \\\$a
+=500  \\\$aWide screen 1.78:1.
+=500  \\\$aFull screen 1.33:1.
+=511  \\\$a
+=520  \\\$a
+=6xx  \0$a
+=655  \7$a \$2lcgft
+=700  1\\$a $d $e
+=700  1\\$a $d $efilm director,$escreenwriter.
+=700  1\\$a $d $eactor.
+=710  2\\$a $eproduction company.
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>rancor</tag>
+    <description>Rancor-&gt;Visual Materials</description>
+    <text><![CDATA[000      ngm a22      i 4500
+001 <control number>
+003 <control number identifier>
+005 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+007 vd cvaizq
+008 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>?DAT1    CNT---            vlLNG d
+024 1 _ ‡a
+028 4 2 ‡a ‡b
+040 _ _ ‡a[organization code]‡beng‡erda‡c[organization code]
+041 1 _ ‡a ‡h
+046 _ _ ‡k
+130 0 _ ‡a ‡l
+245 1 0 ‡a ‡b ‡c
+246 3 0 ‡a
+257 _ _ ‡a ‡2naf
+264 _ 1 ‡a ‡b ‡c
+264 _ 4 ‡c©
+300 _ _ ‡a videodisc ( min.) :‡bsound, color ;‡c4 3/4 in.
+336 _ _ ‡atwo-dimensional moving image‡2rdacontent
+337 _ _ ‡avideo‡2rdamedia
+338 _ _ ‡avideodisc‡2rdacarrier
+344 _ _ ‡adigital‡2rdatr
+344 _ _ ‡boptical‡2rdarm
+344 _ _ ‡gsurround‡2rdacpc
+344 _ _ ‡hDolby‡2rdaspc
+346 _ _ ‡bNTSC‡2rdabs
+347 _ _ ‡avideo file‡2rdaft
+347 _ _ ‡bDVD video
+347 _ _ ‡eall regions‡2rdare
+380 _ _ ‡aMotion picture.
+546 _ _ ‡a
+538 _ _ ‡aDisc characteristics: Recorded DVD.
+518 _ _ ‡a
+508 _ _ ‡a
+500 _ _ ‡aWide screen 1.78:1.
+500 _ _ ‡aFull screen 1.33:1.
+511 0 _ ‡a
+520 _ _ ‡a
+6xx _ 0 ‡a
+655 _ 7 ‡a ‡2lcgft
+700 1 _ ‡a ‡d ‡e
+700 1 _ ‡a ‡d ‡efilm director,‡escreenwriter.
+700 1 _ ‡a ‡d ‡eactor.
+710 2 _ ‡a ‡eproduction company.
+942 _ _ ‡2ddc‡cVM
+$0]]></text>
+  </snippet>
+  <snippet>
+    <text><![CDATA[=LDR  00000npc a2200000 i 4500
+=001  <control number>
+=003  <control number identifier>
+=005  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+=008  $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>?DAT1\\\\\\\\CNT\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\LNG\\d
+=040  \\\$a[organization code]$beng$erda$c[organization code]
+=041  ?\\$a $h $b
+=043  \\\$a
+=050  \4$a
+=082  04$a $b \$2
+=1xx  ?\\$a $d $ecollector.
+=240  10$a $l
+=245  1?$a $k $f $g
+=246  ??$i $a
+=250  \\\$a
+=264  \0$c
+=300  \\\$a5 boxes (3 linear ft.)
+=300  \\\\\$3correspondence$a3$fboxes
+=336  \\\$atext$btxt\$2rdacontent
+=337  \\\$aunmediated$bn\$2rdamedia
+=338  \\\$asheet$bnc\$2rdacarrier
+=351  \\\$aOrganized in: ...
+=506  \\\\\$3Correspondence of ...$arestricted
+=5xx  \\\$a
+=520  \\\$a $b
+=524  \\\$a
+=530  \\\\\$3 $a $b $c $d
+=540  \\\$a
+=541  \\\$c $a $d $e
+=544  1\\$d $a
+=546  \\\\\$3Correspondence$a
+=555  0\\$a $c
+=561  \\\$a
+=650  \0$a
+=655  \7$a \$2ftamc
+=700  1\\$a $t
+=7xx  ??$a
+=852  \\\$a
+$0]]></text>
+    <description>Bib&gt;Mixed Materials</description>
+    <tag>bibrecords</tag>
+  </snippet>
+  <snippet>
+    <tag>rancor</tag>
+    <description>Rancor-&gt;Mixed Materials</description>
+    <text><![CDATA[000 00000npc a2200000 i 4500
+001 <control number>
+003 <control number identifier>
+005 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%Y%m%d%H%M%S.0")>
+008 $<import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>?DAT1    CNT                 LNG d
+040 _ _ ‡a[organization code]‡beng‡erda‡c[organization code]
+041 ? _ ‡a ‡h ‡b
+043 _ _ ‡a
+050 _ 4 ‡a
+082 0 4 ‡a ‡b ‡2
+1xx ? _ ‡a ‡d ‡ecollector.
+240 1 0 ‡a ‡l
+245 1 ? ‡a ‡k ‡f ‡g
+246 ? ? ‡i ‡a
+250 _ _ ‡a
+264 _ 0 ‡c
+300 _ _ ‡a5 boxes (3 linear ft.)
+300 _ _ ‡3correspondence‡a3‡fboxes
+336 _ _ ‡atext‡btxt‡2rdacontent
+337 _ _ ‡aunmediated‡bn‡2rdamedia
+338 _ _ ‡asheet‡bnc‡2rdacarrier
+351 _ _ ‡aOrganized in: ...
+506 _ _ ‡3Correspondence of ...‡arestricted
+5xx _ _ ‡a
+520 _ _ ‡a ‡b
+524 _ _ ‡a
+530 _ _ ‡3 ‡a ‡b ‡c ‡d
+540 _ _ ‡a
+541 _ _ ‡c ‡a ‡d ‡e
+544 1 _ ‡d ‡a
+546 _ _ ‡3Correspondence‡a
+555 0 _ ‡a ‡c
+561 _ _ ‡a
+650 _ 0 ‡a
+655 _ 7 ‡a ‡2ftamc
+700 1 _ ‡a ‡t
+7xx ? ? ‡a
+852 _ _ ‡a
+942 _ _ ‡2ddc‡cMX
+$0]]></text>
+  </snippet>
+  <snippet>
+    <description>FXL&gt;008 Visual Materials</description>
+    <text><![CDATA[008 Builder > Visual Materials...
+See OCLC documentation:
+    http://oclc.org/bibformats/en/fixedfield.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bd008.html
+    http://www.loc.gov/marc/bibliographic/bd008v.html
+____________________________________________________________________________________________
+
+Date entered on file (00-05): ${1:Computer-generated}
+Srce(39):    ${2:[#-National bibliographic agency,c-Cooperative cataloging program,d-Other,u-Unknown,|-No attempt to code]}
+MRec(38):    ${3:[#-Not modified,d-Dashed-on information omitted,o-Completely romanized/printed cards romanized,r-Completely romanized/printed cards in script,s-Shortened,u-Unknown,x-Missing characters,|-No attempt to code]}
+Lang(35-37): ${4:eng} $<[4]: import re
+if not re.match("^[a-z|#]*$", $4):
+    return "ERROR! Only letters a-z and nubmer sign # are allowed!"
+elif (len($4) == 1 or len($4) == 2 or len($4) == 4 or len($4) == 5 or len($4) == 6):
+    return "ERROR! Only 3 characters exactly are allowed!"
+>
+Ctry(15-17): ${5:xxu} $<[5]: import re
+if not re.match("^[a-z|#]*$", $5):
+    return "ERROR! Only letters a-z and nubmer sign # are allowed!"
+elif (len($5) == 1 or len($5) == 2 or len($5) == 4 or len($5) == 5 or len($5) == 6):
+    return "ERROR! Only 3 characters exactly are allowed!"
+>
+
+DtSt(06):    ${6:[b-No dates given; B.C. date involved,e-Detailed date,i-Inclusive dates of collection,k-Range of years of bulk of collection,m-Multiple dates,n-Dates unknown,p-Date of distribution/release/issue and production/recording session when different,q-Questionable date,r-Reprint/reissue date and original date,s-Single known date/probable date,t-Publication date and copyright date,|-No attempt to code]}
+Dates(07-14):
+    Date1: ${7:####} $<[7]: import re
+if not re.match("^[0-9|#|\||u]*$", $7):
+    return "ERROR! Only numbers 0-9, u character, vertical line | and nubmer sign # are allowed!"
+elif (len($7) == 1 or len($7) == 2 or len($7) == 3 or len($7) == 5 or len($7) == 6 or len($7) == 7):
+    return "ERROR! Only 4 characters exactly are allowed!"
+>
+    Date2: ${8:####} $<[8]: import re
+if not re.match("^[0-9|#|\||u]*$", $8):
+    return "ERROR! Only numbers 0-9, u character, vertical line | and nubmer sign # are allowed!"
+elif (len($8) == 1 or len($8) == 2 or len($8) == 3 or len($8) == 5 or len($8) == 6 or len($8) == 7):
+    return "ERROR! Only 4 characters exactly are allowed!"
+>
+____________________________________________________________________________________________
+
+Time(18-20): ${9:---} $<[9]: import re
+if not re.match("^[0-9|\-\-\-|nnn|\|\|\|]*$", $9):
+    return "ERROR! Only numbers 000-999, three dashes ---, nnn characters and, vertical lines ||| are allowed!"
+elif (len($9) == 1 or len($9) == 2 or len($9) == 4 or len($9) == 5 or len($9) == 6):
+    return "ERROR! Only 3 characters exactly are allowed!"
+>
+
+Audn(22): ${10:[#-Unknown or not specified,a-Preschool,b-Primary,c-Pre-adolescent,d-Adolescent,e-Adult,f-Specialized,g-General,j-Juvenile,|-No attempt to code]}
+GPub(28): ${11:[#-Not a government publication,a-Autonomous or semi-autonomous component,c-Multilocal,f-Federal/national,i-International intergovernmental,l-Local,m-Multistate,o-Government publication-level undetermined,s-State/provincial/territorial/dependent/etc.,u-Unknown if item is government publication,z-Other,|-No attempt to code]}
+Form(29): ${12:[#-None of the following,a-Microfilm,b-Microfiche,c-Microopaque,d-Large print,f-Braille,o-Online,q-Direct electronic,r-Regular print reproduction,s-Electronic,|-No attempt to code]}
+TMat(33): ${13:[a-Art original,b-Kit,c-Art reproduction,d-Diorama,f-Filmstrip,g-Game,i-Picture,k-Graphic,l-Technical drawing,m-Motion picture,n-Chart,o-Flash card,p-Microscope slide,q-Model,r-Realia,s-Slide,t-Transparency,v-Videorecording,w-Toy,z-Other,|-No attempt to code]}
+Tech(34): ${14:[a-Animation,c-Animation and live action,l-Live action,n-Not applicable,u-Unknown,z-Other,|-No attempt to code]}
+____________________________________________________________________________________________
+
+=008  $<[1]: import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>$<[6]: return $6[:1]>$<[7]: return $7[:4].replace('#', '\\')>$<[8]: return $8[:4].replace('#', '\\')>$<[5]: return $5[:3].replace('#', '\\')>$<[9]: return $9[:3].replace('#', '\\')>$<return "\\">$<[10]: return $10[:1].replace('#', '\\')>$<return "\\\\\\\\\\">$<[11]: return $11[:1].replace('#', '\\')>$<[12]: return $12[:1].replace('#', '\\')>$<return "\\\\\\">$<[13]: return $13[:1].replace('#', '\\')>$<[14]: return $14[:1].replace('#', '\\')>$<[4]: return $4[:3].replace('#', '\\')>$<[3]: return $3[:1].replace('#', '\\')>$<[2]: return $2[:1].replace('#', '\\')>
+$0]]></text>
+    <tag>builder008</tag>
+  </snippet>
+  <snippet>
+    <description>FXL&gt;008 Mixed Materials</description>
+    <text><![CDATA[008 Builder > Mixed Materials...
+See OCLC documentation:
+    http://oclc.org/bibformats/en/fixedfield.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bd008.html
+    http://www.loc.gov/marc/bibliographic/bd008x.html
+____________________________________________________________________________________________
+
+Date entered on file (00-05): ${1:Computer-generated}
+Srce(39):    ${2:[#-National bibliographic agency,c-Cooperative cataloging program,d-Other,u-Unknown,|-No attempt to code]}
+MRec(38):    ${3:[#-Not modified,d-Dashed-on information omitted,o-Completely romanized/printed cards romanized,r-Completely romanized/printed cards in script,s-Shortened,u-Unknown,x-Missing characters,|-No attempt to code]}
+Lang(35-37): ${4:eng} $<[4]: import re
+if not re.match("^[a-z|#]*$", $4):
+    return "ERROR! Only letters a-z and nubmer sign # are allowed!"
+elif (len($4) == 1 or len($4) == 2 or len($4) == 4 or len($4) == 5 or len($4) == 6):
+    return "ERROR! Only 3 characters exactly are allowed!"
+>
+Ctry(15-17): ${5:xxu} $<[5]: import re
+if not re.match("^[a-z|#]*$", $5):
+    return "ERROR! Only letters a-z and nubmer sign # are allowed!"
+elif (len($5) == 1 or len($5) == 2 or len($5) == 4 or len($5) == 5 or len($5) == 6):
+    return "ERROR! Only 3 characters exactly are allowed!"
+>
+
+DtSt(06):    ${6:[b-No dates given; B.C. date involved,e-Detailed date,i-Inclusive dates of collection,k-Range of years of bulk of collection,m-Multiple dates,n-Dates unknown,q-Questionable date,r-Reprint/reissue date and original date,s-Single known date/probable date,t-Publication date and copyright date,|-No attempt to code]}
+Dates(07-14):
+    Date1: ${7:####} $<[7]: import re
+if not re.match("^[0-9|#|\||u]*$", $7):
+    return "ERROR! Only numbers 0-9, u character, vertical line | and nubmer sign # are allowed!"
+elif (len($7) == 1 or len($7) == 2 or len($7) == 3 or len($7) == 5 or len($7) == 6 or len($7) == 7):
+    return "ERROR! Only 4 characters exactly are allowed!"
+>
+    Date2: ${8:####} $<[8]: import re
+if not re.match("^[0-9|#|\||u]*$", $8):
+    return "ERROR! Only numbers 0-9, u character, vertical line | and nubmer sign # are allowed!"
+elif (len($8) == 1 or len($8) == 2 or len($8) == 3 or len($8) == 5 or len($8) == 6 or len($8) == 7):
+    return "ERROR! Only 4 characters exactly are allowed!"
+>
+____________________________________________________________________________________________
+
+Form(23): ${9:[#-None of the following,a-Microfilm,b-Microfiche,c-Microopaque,d-Large print,f-Braille,o-Online,q-Direct electronic,r-Regular print reproduction,s-Electronic,|-No attempt to code]}
+____________________________________________________________________________________________
+
+=008  $<[1]: import datetime
+now = datetime.datetime.now()
+return now.strftime("%y%m%d")>$<[6]: return $6[:1]>$<[7]: return $7[:4].replace('#', '\\')>$<[8]: return $8[:4].replace('#', '\\')>$<[5]: return $5[:3].replace('#', '\\')>$<return "\\\\\\\\\\">$<[9]: return $9[:1].replace('#', '\\')>$<return "\\\\\\\\\\\\\\\\\\\\\\">$<[4]: return $4[:3].replace('#', '\\')>$<[3]: return $3[:1].replace('#', '\\')>$<[2]: return $2[:1].replace('#', '\\')>
+$0]]></text>
+    <tag>builder008</tag>
+  </snippet>
+  <snippet>
+    <text><![CDATA[LDR builder > Continuing Resources...
+See OCLC documentation:
+    https://www.oclc.org/bibformats/en/fixedfield/008summary.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bdleader.html
+____________________________________________________________________________________________
+
+Logical Record Length(00-04): ${1:Computer-generated}
+Rec stat(05):  ${2:[a-Increase in encoding level,c-Corrected or revised,d-Deleted,n-New,p-Increase in encoding level from prepublication]}
+Type(06):      ${3:[a-Language material]}
+BLvl(07):      ${4:[b-Serial component part,i-Integrating resource,s-Serial]}
+Ctrl(08):      ${5:[#-No specified type,a-Archival]}
+ELvl(17):      ${6:[#-Full level,1-Full level; material not examined,2-Less-than-full level; material not examined,3-Abbreviated level,4-Core level,5-Partial (preliminary) level,7-Minimal level,8-Prepublication level,u-Unknown,z-Not applicable,I-Full-level input by OCLC participants,K-Minimal-level input by OCLC participants,L-Added from a batch process,M-Added from a batch process,J-Deleted record]}
+Desc(18):      ${7:[#-Non-ISBD,a-AACR 2,c-ISBD punctuation omitted,i-ISBD punctuation included,n-Non-ISBD punctuation omitted,u-Unknown]}
+____________________________________________________________________________________________
+
+=LDR  00000$<[2]: return $2[:1]>$<[3]: return $3[:1]>$<[4]: return $4[:1]>$<[5]: return $5[:1].replace('#', ' ')>a2200000$<[6]: return $6[:1].replace('#', ' ')>$<[7]: return $7[:1].replace('#', ' ')> 4500
+$0]]></text>
+    <tag>builderLDR</tag>
+    <description>LDR&gt;Continuing Resources</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[LDR builder > Maps...
+See OCLC documentation:
+    https://www.oclc.org/bibformats/en/fixedfield/008summary.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bdleader.html
+____________________________________________________________________________________________
+
+Logical Record Length(00-04): ${1:Computer-generated}
+Rec stat(05):  ${2:[a-Increase in encoding level,c-Corrected or revised,d-Deleted,n-New,p-Increase in encoding level from prepublication]}
+Type(06):      ${3:[e-Cartographic material,f-Manuscript cartographic material]}
+BLvl(07):      ${4:[a-Monographic component part,b-Serial component part,c-Collection,d-Subunit,i-Integrating resource,m-Monograph/Item,s-Serial]}    $< manuscript_selected = $3[:1]
+if manuscript_selected == 'f':
+    return """HEADS-UP! If you have chosen option 'f' from Type(06) popup list,
+                                                 you can only code options 'a', 'c','d', and 'm' from BLvl(07) popup list""" >
+Ctrl(08):      ${5:[#-No specified type,a-Archival]}
+ELvl(17):      ${6:[#-Full level,1-Full level; material not examined,2-Less-than-full level; material not examined,3-Abbreviated level,4-Core level,5-Partial (preliminary) level,7-Minimal level,8-Prepublication level,u-Unknown,z-Not applicable,I-Full-level input by OCLC participants,K-Minimal-level input by OCLC participants,L-Added from a batch process,M-Added from a batch process,J-Deleted record]}
+Desc(18):      ${7:[#-Non-ISBD,a-AACR 2,c-ISBD punctuation omitted,i-ISBD punctuation included,n-Non-ISBD punctuation omitted,u-Unknown]}
+____________________________________________________________________________________________
+
+=LDR  00000$<[2]: return $2[:1]>$<[3]: return $3[:1]>$<[4]: return $4[:1]>$<[5]: return $5[:1].replace('#', ' ')>a2200000$<[6]: return $6[:1].replace('#', ' ')>$<[7]: return $7[:1].replace('#', ' ')> 4500
+$0]]></text>
+    <tag>builderLDR</tag>
+    <description>LDR&gt;Maps</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[LDR builder > Mixed Materials...
+See OCLC documentation:
+    https://www.oclc.org/bibformats/en/fixedfield/008summary.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bdleader.html
+____________________________________________________________________________________________
+
+Logical Record Length(00-04): ${1:Computer-generated}
+Rec stat(05):  ${2:[a-Increase in encoding level,c-Corrected or revised,d-Deleted,n-New,p-Increase in encoding level from prepublication]}
+Type(06):      ${3:[p-Mixed materials]}
+BLvl(07):      ${4:[c-Collection,d-Subunit]}
+Ctrl(08):      ${5:[#-No specified type,a-Archival]}
+ELvl(17):      ${6:[#-Full level,1-Full level; material not examined,2-Less-than-full level; material not examined,3-Abbreviated level,4-Core level,5-Partial (preliminary) level,7-Minimal level,8-Prepublication level,u-Unknown,z-Not applicable,I-Full-level input by OCLC participants,K-Minimal-level input by OCLC participants,L-Added from a batch process,M-Added from a batch process,J-Deleted record]}
+Desc(18):      ${7:[#-Non-ISBD,a-AACR 2,c-ISBD punctuation omitted,i-ISBD punctuation included,n-Non-ISBD punctuation omitted,u-Unknown]}
+____________________________________________________________________________________________
+
+=LDR  00000$<[2]: return $2[:1]>$<[3]: return $3[:1]>$<[4]: return $4[:1]>$<[5]: return $5[:1].replace('#', ' ')>a2200000$<[6]: return $6[:1].replace('#', ' ')>$<[7]: return $7[:1].replace('#', ' ')> 4500
+$0]]></text>
+    <tag>builderLDR</tag>
+    <description>LDR&gt;Mixed Materials</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[LDR builder > Scores...
+See OCLC documentation:
+    https://www.oclc.org/bibformats/en/fixedfield/008summary.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bdleader.html
+____________________________________________________________________________________________
+
+Logical Record Length(00-04): ${1:Computer-generated}
+Rec stat(05):  ${2:[a-Increase in encoding level,c-Corrected or revised,d-Deleted,n-New,p-Increase in encoding level from prepublication]}
+Type(06):      ${3:[c-Notated music,d-Manuscript notated music]}
+BLvl(07):      ${4:[a-Monographic component part,b-Serial component part,c-Collection,d-Subunit,i-Integrating resource,m-Monograph/Item,s-Serial]}    $< manuscript_selected = $3[:1]
+if manuscript_selected == 'd':
+    return """HEADS-UP! If you have chosen option 'd' from Type(06) popup list,
+                                                 you can only code options 'a', 'c','d', and 'm' from BLvl(07) popup list""" >
+Ctrl(08):      ${5:[#-No specified type,a-Archival]}
+ELvl(17):      ${6:[#-Full level,1-Full level; material not examined,2-Less-than-full level; material not examined,3-Abbreviated level,4-Core level,5-Partial (preliminary) level,7-Minimal level,8-Prepublication level,u-Unknown,z-Not applicable,I-Full-level input by OCLC participants,K-Minimal-level input by OCLC participants,L-Added from a batch process,M-Added from a batch process,J-Deleted record]}
+Desc(18):      ${7:[#-Non-ISBD,a-AACR 2,c-ISBD punctuation omitted,i-ISBD punctuation included,n-Non-ISBD punctuation omitted,u-Unknown]}
+____________________________________________________________________________________________
+
+=LDR  00000$<[2]: return $2[:1]>$<[3]: return $3[:1]>$<[4]: return $4[:1]>$<[5]: return $5[:1].replace('#', ' ')>a2200000$<[6]: return $6[:1].replace('#', ' ')>$<[7]: return $7[:1].replace('#', ' ')> 4500
+$0]]></text>
+    <tag>builderLDR</tag>
+    <description>LDR&gt;Scores</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[LDR builder > Sound Recording...
+See OCLC documentation:
+    https://www.oclc.org/bibformats/en/fixedfield/008summary.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bdleader.html
+____________________________________________________________________________________________
+
+Logical Record Length(00-04): ${1:Computer-generated}
+Rec stat(05):  ${2:[a-Increase in encoding level,c-Corrected or revised,d-Deleted,n-New,p-Increase in encoding level from prepublication]}
+Type(06):      ${3:[i-Nonmusical sound recording,j-Musical sound recording]}
+BLvl(07):      ${4:[a-Monographic component part,b-Serial component part,c-Collection,d-Subunit,i-Integrating resource,m-Monograph/Item,s-Serial]}
+Ctrl(08):      ${5:[#-No specified type,a-Archival]}
+ELvl(17):      ${6:[#-Full level,1-Full level; material not examined,2-Less-than-full level; material not examined,3-Abbreviated level,4-Core level,5-Partial (preliminary) level,7-Minimal level,8-Prepublication level,u-Unknown,z-Not applicable,I-Full-level input by OCLC participants,K-Minimal-level input by OCLC participants,L-Added from a batch process,M-Added from a batch process,J-Deleted record]}
+Desc(18):      ${7:[#-Non-ISBD,a-AACR 2,c-ISBD punctuation omitted,i-ISBD punctuation included,n-Non-ISBD punctuation omitted,u-Unknown]}
+____________________________________________________________________________________________
+
+=LDR  00000$<[2]: return $2[:1]>$<[3]: return $3[:1]>$<[4]: return $4[:1]>$<[5]: return $5[:1].replace('#', ' ')>a2200000$<[6]: return $6[:1].replace('#', ' ')>$<[7]: return $7[:1].replace('#', ' ')> 4500
+$0]]></text>
+    <tag>buildLDR</tag>
+    <description>LDR&gt;Sound Recording</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[LDR builder > Visual Materials...
+See OCLC documentation:
+    https://www.oclc.org/bibformats/en/fixedfield/008summary.html
+LOC documentation:
+    http://www.loc.gov/marc/bibliographic/bdleader.html
+____________________________________________________________________________________________
+
+Logical Record Length(00-04): ${1:Computer-generated}
+Rec stat(05):  ${2:[a-Increase in encoding level,c-Corrected or revised,d-Deleted,n-New,p-Increase in encoding level from prepublication]}
+Type(06):      ${3:[g-Projected medium,k-Two-dimensional nonprojectable graphic,r-Three-dimensional artifact or naturally occurring object,o-Kit]}
+BLvl(07):      ${4:[a-Monographic component part,b-Serial component part,c-Collection,d-Subunit,i-Integrating resource,m-Monograph/Item,s-Serial]}
+Ctrl(08):      ${5:[#-No specified type,a-Archival]}
+ELvl(17):      ${6:[#-Full level,1-Full level; material not examined,2-Less-than-full level; material not examined,3-Abbreviated level,4-Core level,5-Partial (preliminary) level,7-Minimal level,8-Prepublication level,u-Unknown,z-Not applicable,I-Full-level input by OCLC participants,K-Minimal-level input by OCLC participants,L-Added from a batch process,M-Added from a batch process,J-Deleted record]}
+Desc(18):      ${7:[#-Non-ISBD,a-AACR 2,c-ISBD punctuation omitted,i-ISBD punctuation included,n-Non-ISBD punctuation omitted,u-Unknown]}
+____________________________________________________________________________________________
+
+=LDR  00000$<[2]: return $2[:1]>$<[3]: return $3[:1]>$<[4]: return $4[:1]>$<[5]: return $5[:1].replace('#', ' ')>a2200000$<[6]: return $6[:1].replace('#', ' ')>$<[7]: return $7[:1].replace('#', ' ')> 4500
+$0]]></text>
+    <tag>builderLDR</tag>
+    <description>LDR&gt;Visual Materials</description>
   </snippet>
 </snippets>

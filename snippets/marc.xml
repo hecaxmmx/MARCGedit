@@ -1158,7 +1158,7 @@ return now.strftime("%y%m%d")>?DAT1    CNT---            vlLNG d
 $0]]></text>
   </snippet>
   <snippet>
-    <text><![CDATA[=LDR  00000npc a2200000 i 4500
+    <text><![CDATA[=LDR  00000npcaa2200000 i 4500
 =001  <control number>
 =003  <control number identifier>
 =005  $<import datetime
@@ -1207,7 +1207,7 @@ $0]]></text>
   <snippet>
     <tag>rancor</tag>
     <description>Rancor-&gt;Mixed Materials</description>
-    <text><![CDATA[000 00000npc a2200000 i 4500
+    <text><![CDATA[000      npcaa22      i 4500
 001 <control number>
 003 <control number identifier>
 005 $<import datetime
